@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.</string>
+	<key>id</key>
+	<integer>657</integer>
+	<key>move</key>
+	<string>Throat Chop</string>
+	<key>power</key>
+	<integer>80</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Dark</string>
+	<key>z-effect</key>
+	<string>160 Power</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Prism Armor</string>
+	<key>ability2</key>
+	<string>Prism Armor</string>
+	<key>abilityH</key>
+	<string>Prism Armor</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>799</integer>
+	</array>
+	<key>attack</key>
+	<integer>107</integer>
+	<key>class</key>
+	<string>Prism Pokémon</string>
+	<key>defense</key>
+	<integer>101</integer>
+	<key>dex1</key>
+	<string>Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.</string>
+	<key>dex2</key>
+	<string>Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Necrozma</string>
+	<key>height</key>
+	<string>7'10</string>
+	<key>hp</key>
+	<integer>97</integer>
+	<key>id</key>
+	<integer>799</integer>
+	<key>ndex</key>
+	<integer>800</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>127</integer>
+	<key>spdefense</key>
+	<integer>89</integer>
+	<key>species</key>
+	<string>Necrozma</string>
+	<key>speed</key>
+	<integer>79</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>507.1 lbs.</string>
+</dict>
+</plist>

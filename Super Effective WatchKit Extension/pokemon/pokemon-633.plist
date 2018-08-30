@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Hustle</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>633</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Hostile Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Dragon</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>321</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>320</integer>
+		<integer>321</integer>
+	</array>
+	<key>forme</key>
+	<string>Zweilous</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>72</integer>
+	<key>id</key>
+	<integer>633</integer>
+	<key>ndex</key>
+	<integer>634</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Deino</string>
+	<key>preEvolution</key>
+	<integer>320</integer>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Zweilous</string>
+	<key>speed</key>
+	<integer>58</integer>
+	<key>total</key>
+	<integer>420</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Dragon</string>
+	<key>weight</key>
+	<string>110.2 lbs.</string>
+</dict>
+</plist>

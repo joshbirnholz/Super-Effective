@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>95%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.</string>
+	<key>id</key>
+	<integer>557</integer>
+	<key>move</key>
+	<string>V-create</string>
+	<key>power</key>
+	<integer>180</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fire</string>
+	<key>z-effect</key>
+	<string>220 Power</string>
+</dict>
+</plist>

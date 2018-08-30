@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Honey Gather</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Hustle</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>414</integer>
+	</array>
+	<key>attack</key>
+	<integer>30</integer>
+	<key>class</key>
+	<string>Tiny Bee Pokémon</string>
+	<key>defense</key>
+	<integer>42</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>211</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>211</integer>
+	</array>
+	<key>forme</key>
+	<string>Combee</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>30</integer>
+	<key>id</key>
+	<integer>414</integer>
+	<key>ndex</key>
+	<integer>415</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>30</integer>
+	<key>spdefense</key>
+	<integer>42</integer>
+	<key>species</key>
+	<string>Combee</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>244</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>12.1 lbs.</string>
+</dict>
+</plist>

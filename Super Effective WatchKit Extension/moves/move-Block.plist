@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user blocks the target’s way with arms spread wide to prevent escape.</string>
+	<key>id</key>
+	<integer>335</integer>
+	<key>move</key>
+	<string>Block</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Normal</string>
+	<key>z-effect</key>
+	<string>Defense ↑</string>
+</dict>
+</plist>

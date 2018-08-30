@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Big Pecks</string>
+	<key>abilityH</key>
+	<string>Hydration</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>580</integer>
+	</array>
+	<key>attack</key>
+	<integer>87</integer>
+	<key>class</key>
+	<string>White Bird Pokémon</string>
+	<key>defense</key>
+	<integer>63</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Flying</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>292</integer>
+	</array>
+	<key>forme</key>
+	<string>Swanna</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>580</integer>
+	<key>ndex</key>
+	<integer>581</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Ducklett</string>
+	<key>preEvolution</key>
+	<integer>292</integer>
+	<key>spattack</key>
+	<integer>87</integer>
+	<key>spdefense</key>
+	<integer>63</integer>
+	<key>species</key>
+	<string>Swanna</string>
+	<key>speed</key>
+	<integer>98</integer>
+	<key>total</key>
+	<integer>473</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>53.4 lbs.</string>
+</dict>
+</plist>

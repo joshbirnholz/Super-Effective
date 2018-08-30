@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Corrosion</string>
+	<key>ability2</key>
+	<string>Corrosion</string>
+	<key>abilityH</key>
+	<string>Oblivious</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>757</integer>
+		<integer>1025</integer>
+	</array>
+	<key>attack</key>
+	<integer>64</integer>
+	<key>class</key>
+	<string>Toxic Lizard Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.</string>
+	<key>dex2</key>
+	<string>Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>380</integer>
+	</array>
+	<key>forme</key>
+	<string>Salazzle</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>68</integer>
+	<key>id</key>
+	<integer>757</integer>
+	<key>ndex</key>
+	<integer>758</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Sandalit</string>
+	<key>preEvolution</key>
+	<integer>380</integer>
+	<key>spattack</key>
+	<integer>111</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Salazzle</string>
+	<key>speed</key>
+	<integer>117</integer>
+	<key>total</key>
+	<integer>480</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string>Fire</string>
+	<key>weight</key>
+	<string>48.9 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Bulletproof</string>
+	<key>ability2</key>
+	<string>Soundproof</string>
+	<key>abilityH</key>
+	<string>Overcoat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>781</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Scaly Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.</string>
+	<key>dex2</key>
+	<string>They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.</string>
+	<key>egg-group1</key>
+	<string>Dragon</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>409</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>409</integer>
+		<integer>410</integer>
+	</array>
+	<key>forme</key>
+	<string>Jangmo-o</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>45</integer>
+	<key>id</key>
+	<integer>781</integer>
+	<key>ndex</key>
+	<integer>782</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Jangmo-o</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>65.5 lbs.</string>
+</dict>
+</plist>

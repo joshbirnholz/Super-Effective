@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>#N/A</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force. The power varies, depending on the original move.</string>
+	<key>id</key>
+	<integer>625</integer>
+	<key>move</key>
+	<string>Acid Downpour</string>
+	<key>power</key>
+	<string>—</string>
+	<key>pp</key>
+	<integer>1</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Poison</string>
+	<key>z-effect</key>
+	<string>~Type: Poison</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Swift Swim</string>
+	<key>ability2</key>
+	<string>Hydration</string>
+	<key>abilityH</key>
+	<string>Water Absorb</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>534</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Tadpole Pokémon</string>
+	<key>defense</key>
+	<integer>40</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>269</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>269</integer>
+		<integer>270</integer>
+	</array>
+	<key>forme</key>
+	<string>Tympole</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>534</integer>
+	<key>ndex</key>
+	<integer>535</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>40</integer>
+	<key>species</key>
+	<string>Tympole</string>
+	<key>speed</key>
+	<integer>64</integer>
+	<key>total</key>
+	<integer>294</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>9.9 lbs.</string>
+</dict>
+</plist>

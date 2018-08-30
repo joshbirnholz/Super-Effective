@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Emergency Exit</string>
+	<key>ability2</key>
+	<string>Emergency Exit</string>
+	<key>abilityH</key>
+	<string>Emergency Exit</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>767</integer>
+	</array>
+	<key>attack</key>
+	<integer>125</integer>
+	<key>class</key>
+	<string>Hard Scale Pokémon</string>
+	<key>defense</key>
+	<integer>140</integer>
+	<key>dex1</key>
+	<string>With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.</string>
+	<key>dex2</key>
+	<string>It battles skillfully with its six arms, but spends most of its time peacefully meditating in caves deep beneath the sea.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>406</integer>
+	</array>
+	<key>forme</key>
+	<string>Golisopod</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>767</integer>
+	<key>ndex</key>
+	<integer>768</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Wimpod</string>
+	<key>preEvolution</key>
+	<integer>406</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Golisopod</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>530</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Water</string>
+	<key>weight</key>
+	<string>238.1 lbs.</string>
+</dict>
+</plist>

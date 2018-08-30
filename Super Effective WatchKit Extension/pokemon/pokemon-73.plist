@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Rock Head</string>
+	<key>ability2</key>
+	<string>Sturdy</string>
+	<key>abilityH</key>
+	<string>Sand Veil</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>73</integer>
+		<integer>827</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Rock Pokémon</string>
+	<key>defense</key>
+	<integer>100</integer>
+	<key>dex1</key>
+	<string>Its round body makes it easy to pick up, but it is hard and heavy. It’s dangerous to play with them as if they were snowballs.</string>
+	<key>dex2</key>
+	<string>There are plenty of them to be found along any road. A scholar with too much free time once counted a hundred of them along a single route.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>46</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>46</integer>
+		<integer>47</integer>
+		<integer>413</integer>
+		<integer>414</integer>
+	</array>
+	<key>forme</key>
+	<string>Geodude</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>40</integer>
+	<key>id</key>
+	<integer>73</integer>
+	<key>ndex</key>
+	<integer>74</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>30</integer>
+	<key>spdefense</key>
+	<integer>30</integer>
+	<key>species</key>
+	<string>Geodude</string>
+	<key>speed</key>
+	<integer>20</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>44.1 lbs.</string>
+</dict>
+</plist>

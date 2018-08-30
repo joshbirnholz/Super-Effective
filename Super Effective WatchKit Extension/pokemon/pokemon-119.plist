@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Illuminate</string>
+	<key>ability2</key>
+	<string>Natural Cure</string>
+	<key>abilityH</key>
+	<string>Analytic</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>119</integer>
+	</array>
+	<key>attack</key>
+	<integer>45</integer>
+	<key>class</key>
+	<string>Star Shape Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string>Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies.</string>
+	<key>dex2</key>
+	<string>This Pokémon gets nibbled on by Lumineon and others. Thanks to its red core, it regenerates fast, so it’s unconcerned by their snack attacks.</string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>69</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>69</integer>
+	</array>
+	<key>forme</key>
+	<string>Staryu</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>30</integer>
+	<key>id</key>
+	<integer>119</integer>
+	<key>ndex</key>
+	<integer>120</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>55</integer>
+	<key>species</key>
+	<string>Staryu</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>340</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>76.1 lbs.</string>
+</dict>
+</plist>

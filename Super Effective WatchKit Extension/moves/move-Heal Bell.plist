@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user makes a soothing bell chime to heal the status conditions of all the party Pokémon.</string>
+	<key>id</key>
+	<integer>215</integer>
+	<key>move</key>
+	<string>Heal Bell</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Normal</string>
+	<key>z-effect</key>
+	<string>Restores user's HP 100%</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user creates a bizarre area in which slower Pokémon get to move first for five turns.</string>
+	<key>id</key>
+	<integer>433</integer>
+	<key>move</key>
+	<string>Trick Room</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>-7</integer>
+	<key>type</key>
+	<string>Psychic</string>
+	<key>z-effect</key>
+	<string>Accuracy ↑</string>
+</dict>
+</plist>

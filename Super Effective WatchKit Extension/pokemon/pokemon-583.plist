@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Ice Body</string>
+	<key>ability2</key>
+	<string>Snow Warning</string>
+	<key>abilityH</key>
+	<string>Weak Armor</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>583</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Snowstorm Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string>Each of its two heads has a brain, and when they are in agreement, it attacks its enemies by exhaling a violent blizzard.</string>
+	<key>dex2</key>
+	<string>Even if it loses one of its heads, it can live relatively problem-free. It makes snow clouds inside its body.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>293</integer>
+		<integer>294</integer>
+	</array>
+	<key>forme</key>
+	<string>Vanilluxe</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>71</integer>
+	<key>id</key>
+	<integer>583</integer>
+	<key>ndex</key>
+	<integer>584</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Vanillish</string>
+	<key>preEvolution</key>
+	<integer>294</integer>
+	<key>spattack</key>
+	<integer>110</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Vanilluxe</string>
+	<key>speed</key>
+	<integer>79</integer>
+	<key>total</key>
+	<integer>535</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>126.8 lbs.</string>
+</dict>
+</plist>

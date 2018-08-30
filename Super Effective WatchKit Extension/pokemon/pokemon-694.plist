@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Dry Skin</string>
+	<key>ability2</key>
+	<string>Sand Veil</string>
+	<key>abilityH</key>
+	<string>Solar Power</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>694</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Generator Pokémon</string>
+	<key>defense</key>
+	<integer>52</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>363</integer>
+	</array>
+	<key>forme</key>
+	<string>Heliolisk</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>62</integer>
+	<key>id</key>
+	<integer>694</integer>
+	<key>ndex</key>
+	<integer>695</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Helioptile</string>
+	<key>preEvolution</key>
+	<integer>363</integer>
+	<key>spattack</key>
+	<integer>109</integer>
+	<key>spdefense</key>
+	<integer>94</integer>
+	<key>species</key>
+	<string>Heliolisk</string>
+	<key>speed</key>
+	<integer>109</integer>
+	<key>total</key>
+	<integer>481</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string>Normal</string>
+	<key>weight</key>
+	<string>46.3 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Inner Focus</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Multiscale</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>148</integer>
+	</array>
+	<key>attack</key>
+	<integer>134</integer>
+	<key>class</key>
+	<string>Dragon Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>This Pokémon saved a shipwrecked man, taking him to a remote island—a paradise occupied solely by Dragonite.</string>
+	<key>dex2</key>
+	<string>Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it’s satisfied.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>81</integer>
+		<integer>82</integer>
+	</array>
+	<key>forme</key>
+	<string>Dragonite</string>
+	<key>height</key>
+	<string>7'03</string>
+	<key>hp</key>
+	<integer>91</integer>
+	<key>id</key>
+	<integer>148</integer>
+	<key>ndex</key>
+	<integer>149</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string>Dragonair</string>
+	<key>preEvolution</key>
+	<integer>82</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Dragonite</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>463.0 lbs.</string>
+</dict>
+</plist>

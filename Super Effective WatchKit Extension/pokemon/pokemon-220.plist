@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Oblivious</string>
+	<key>ability2</key>
+	<string>Snow Cloak</string>
+	<key>abilityH</key>
+	<string>Thick Fat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>220</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Swine Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>241</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>118</integer>
+		<integer>241</integer>
+	</array>
+	<key>forme</key>
+	<string>Piloswine</string>
+	<key>height</key>
+	<string>3'07</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>220</integer>
+	<key>ndex</key>
+	<integer>221</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Swinub</string>
+	<key>preEvolution</key>
+	<integer>118</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Piloswine</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>450</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>123.0 lbs.</string>
+</dict>
+</plist>

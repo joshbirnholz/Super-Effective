@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Immunity</string>
+	<key>ability2</key>
+	<string>Thick Fat</string>
+	<key>abilityH</key>
+	<string>Gluttony</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>142</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Sleeping Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>Its stomach is said to be incomparably strong. Even Muk’s poison is nothing more than a hint of spice on Snorlax’s tongue.</string>
+	<key>dex2</key>
+	<string>It eats nearly 900 pounds of food every day. It starts nodding off while eating—and continues to eat even while it’s asleep.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>80</integer>
+	</array>
+	<key>forme</key>
+	<string>Snorlax</string>
+	<key>height</key>
+	<string>6'11</string>
+	<key>hp</key>
+	<integer>160</integer>
+	<key>id</key>
+	<integer>142</integer>
+	<key>ndex</key>
+	<integer>143</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Munchlax</string>
+	<key>preEvolution</key>
+	<integer>80</integer>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>110</integer>
+	<key>species</key>
+	<string>Snorlax</string>
+	<key>speed</key>
+	<integer>30</integer>
+	<key>total</key>
+	<integer>540</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>1014.1 lbs.</string>
+</dict>
+</plist>

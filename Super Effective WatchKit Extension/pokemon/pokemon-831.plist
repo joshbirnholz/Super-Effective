@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Poison Touch</string>
+	<key>ability2</key>
+	<string>Gluttony</string>
+	<key>abilityH</key>
+	<string>Power of Alchemy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>831</integer>
+		<integer>87</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Sludge Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.</string>
+	<key>dex2</key>
+	<string>The crystals on Grimer’s body are lumps of toxins. If one falls off, lethal poisons leak out.</string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>415</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>415</integer>
+		<integer>53</integer>
+	</array>
+	<key>forme</key>
+	<string>Grimer (Alola Form)</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>831</integer>
+	<key>ndex</key>
+	<integer>88</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Grimer</string>
+	<key>speed</key>
+	<integer>25</integer>
+	<key>total</key>
+	<integer>325</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string>Dark</string>
+	<key>weight</key>
+	<string>92.6 lbs.</string>
+</dict>
+</plist>

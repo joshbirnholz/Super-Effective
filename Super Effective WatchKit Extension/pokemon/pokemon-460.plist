@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Pressure</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Pickpocket</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>460</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Sharp Claw Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.</string>
+	<key>dex2</key>
+	<string>They dwell in cold places. This Pokémon’s main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>232</integer>
+	</array>
+	<key>forme</key>
+	<string>Weavile</string>
+	<key>height</key>
+	<string>3'07</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>460</integer>
+	<key>ndex</key>
+	<integer>461</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Sneasel</string>
+	<key>preEvolution</key>
+	<integer>232</integer>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Weavile</string>
+	<key>speed</key>
+	<integer>125</integer>
+	<key>total</key>
+	<integer>510</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>75.0 lbs.</string>
+</dict>
+</plist>

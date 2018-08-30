@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forme</key>
+	<string>Lucario (Mega Lucario)</string>
+	<key>moves</key>
+	<array>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Aura Sphere</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Laser Focus</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Foresight</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Quick Attack</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Detect</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Metal Claw</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L6</string>
+			<key>name</key>
+			<string>Counter</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L11</string>
+			<key>name</key>
+			<string>Feint</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L15</string>
+			<key>name</key>
+			<string>Power-Up Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L19</string>
+			<key>name</key>
+			<string>Swords Dance</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L24</string>
+			<key>name</key>
+			<string>Metal Sound</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L29</string>
+			<key>name</key>
+			<string>Bone Rush</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L33</string>
+			<key>name</key>
+			<string>Quick Guard</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L37</string>
+			<key>name</key>
+			<string>Me First</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L42</string>
+			<key>name</key>
+			<string>Work Up</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L47</string>
+			<key>name</key>
+			<string>Calm Mind</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L51</string>
+			<key>name</key>
+			<string>Heal Pulse</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L55</string>
+			<key>name</key>
+			<string>Close Combat</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L60</string>
+			<key>name</key>
+			<string>Dragon Pulse</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L65</string>
+			<key>name</key>
+			<string>Extreme Speed</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM01</string>
+			<key>name</key>
+			<string>Work Up</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM04</string>
+			<key>name</key>
+			<string>Calm Mind</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM05</string>
+			<key>name</key>
+			<string>Roar</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM06</string>
+			<key>name</key>
+			<string>Toxic</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM08</string>
+			<key>name</key>
+			<string>Bulk Up</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM10</string>
+			<key>name</key>
+			<string>Hidden Power</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM11</string>
+			<key>name</key>
+			<string>Sunny Day</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM15</string>
+			<key>name</key>
+			<string>Hyper Beam</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM17</string>
+			<key>name</key>
+			<string>Protect</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM18</string>
+			<key>name</key>
+			<string>Rain Dance</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM21</string>
+			<key>name</key>
+			<string>Frustration</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM26</string>
+			<key>name</key>
+			<string>Earthquake</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM27</string>
+			<key>name</key>
+			<string>Return</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM29</string>
+			<key>name</key>
+			<string>Psychic</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM30</string>
+			<key>name</key>
+			<string>Shadow Ball</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM31</string>
+			<key>name</key>
+			<string>Brick Break</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM32</string>
+			<key>name</key>
+			<string>Double Team</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM39</string>
+			<key>name</key>
+			<string>Rock Tomb</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM42</string>
+			<key>name</key>
+			<string>Facade</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM44</string>
+			<key>name</key>
+			<string>Rest</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM45</string>
+			<key>name</key>
+			<string>Attract</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM47</string>
+			<key>name</key>
+			<string>Low Sweep</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM48</string>
+			<key>name</key>
+			<string>Round</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM52</string>
+			<key>name</key>
+			<string>Focus Blast</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM56</string>
+			<key>name</key>
+			<string>Fling</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM65</string>
+			<key>name</key>
+			<string>Shadow Claw</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM66</string>
+			<key>name</key>
+			<string>Payback</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM68</string>
+			<key>name</key>
+			<string>Giga Impact</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM71</string>
+			<key>name</key>
+			<string>Stone Edge</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM75</string>
+			<key>name</key>
+			<string>Swords Dance</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM78</string>
+			<key>name</key>
+			<string>Bulldoze</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM80</string>
+			<key>name</key>
+			<string>Rock Slide</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM84</string>
+			<key>name</key>
+			<string>Poison Jab</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM87</string>
+			<key>name</key>
+			<string>Swagger</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM88</string>
+			<key>name</key>
+			<string>Sleep Talk</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM90</string>
+			<key>name</key>
+			<string>Substitute</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM91</string>
+			<key>name</key>
+			<string>Flash Cannon</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM97</string>
+			<key>name</key>
+			<string>Dark Pulse</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM100</string>
+			<key>name</key>
+			<string>Confide</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Cross Chop</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Detect</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Bite</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Mind Reader</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Sky Uppercut</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>High Jump Kick</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Agility</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Vacuum Wave</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Crunch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Low Kick</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Iron Defense</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Blaze Kick</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Bullet Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Follow Me</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Circle Throw</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Dual Chop</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Low Kick</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Thunder Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Ice Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Magnet Rise</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Iron Defense</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Zen Headbutt</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Dragon Pulse</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Iron Tail</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Snore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Role Play</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Drain Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Focus Punch</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Water Pulse</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Helping Hand</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Endure</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Force Palm</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Copycat</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Screech</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Reversal</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Nasty Plot</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Final Gambit</string>
+		</dict>
+	</array>
+	<key>ndex</key>
+	<string>448</string>
+	<key>species</key>
+	<string>Lucario</string>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forme</key>
+	<string>Kricketot</string>
+	<key>moves</key>
+	<array>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Growl</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Bide</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L6</string>
+			<key>name</key>
+			<string>Struggle Bug</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L16</string>
+			<key>name</key>
+			<string>Bug Bite</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Bug Bite</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Uproar</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Snore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Endeavor</string>
+		</dict>
+	</array>
+	<key>ndex</key>
+	<string>401</string>
+	<key>species</key>
+	<string>Kricketot</string>
+</dict>
+</plist>

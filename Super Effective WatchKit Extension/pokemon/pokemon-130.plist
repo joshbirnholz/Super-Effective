@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Absorb</string>
+	<key>ability2</key>
+	<string>Shell Armor</string>
+	<key>abilityH</key>
+	<string>Hydration</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>130</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Transport Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Its high intelligence enables it to comprehend human speech. When it’s in a good mood, it sings in its beautiful voice.</string>
+	<key>dex2</key>
+	<string>These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Water 1</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Lapras</string>
+	<key>height</key>
+	<string>8'02</string>
+	<key>hp</key>
+	<integer>130</integer>
+	<key>id</key>
+	<integer>130</integer>
+	<key>ndex</key>
+	<integer>131</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Lapras</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>535</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>485.0 lbs.</string>
+</dict>
+</plist>

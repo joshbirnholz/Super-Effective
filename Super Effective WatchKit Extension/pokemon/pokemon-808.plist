@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Gluttony</string>
+	<key>ability2</key>
+	<string>Hustle</string>
+	<key>abilityH</key>
+	<string>Thick Fat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>808</integer>
+		<integer>18</integer>
+	</array>
+	<key>attack</key>
+	<integer>56</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>35</integer>
+	<key>dex1</key>
+	<string>With its incisors, it gnaws through doors and infiltrates people’s homes. Then, with a twitch of its whiskers, it steals whatever food it finds.</string>
+	<key>dex2</key>
+	<string>When the sun goes down, it becomes active. It runs around town on a chase for good food for the boss of its nest—Raticate.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>375</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>375</integer>
+		<integer>12</integer>
+	</array>
+	<key>forme</key>
+	<string>Rattata (Alola Form)</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>30</integer>
+	<key>id</key>
+	<integer>808</integer>
+	<key>ndex</key>
+	<integer>19</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>25</integer>
+	<key>spdefense</key>
+	<integer>35</integer>
+	<key>species</key>
+	<string>Rattata</string>
+	<key>speed</key>
+	<integer>72</integer>
+	<key>total</key>
+	<integer>253</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Normal</string>
+	<key>weight</key>
+	<string>8.4 lbs.</string>
+</dict>
+</plist>

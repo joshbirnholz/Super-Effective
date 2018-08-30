@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Download</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>957</integer>
+		<integer>648</integer>
+		<integer>955</integer>
+		<integer>956</integer>
+		<integer>958</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Paleozoic Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Genesect (Chill Drive)</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>71</integer>
+	<key>id</key>
+	<integer>957</integer>
+	<key>ndex</key>
+	<integer>649</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>120</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Genesect</string>
+	<key>speed</key>
+	<integer>99</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>181.9 lbs.</string>
+</dict>
+</plist>

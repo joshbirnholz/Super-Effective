@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Tough Claws</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>839</integer>
+		<integer>141</integer>
+	</array>
+	<key>attack</key>
+	<integer>135</integer>
+	<key>class</key>
+	<string>Fossil Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string>Part of its body has become stone. Some scholars claim that this is Aerodactyl’s true appearance.</string>
+	<key>dex2</key>
+	<string>When it Mega Evolves, it becomes more vicious than ever before. Some say that’s because its excess of power is causing it pain.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Aerodactyl (Mega Aerodactyl)</string>
+	<key>height</key>
+	<string>6'11</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>839</integer>
+	<key>ndex</key>
+	<integer>142</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Aerodactyl</string>
+	<key>speed</key>
+	<integer>150</integer>
+	<key>total</key>
+	<integer>615</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>174.2 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Illuminate</string>
+	<key>ability2</key>
+	<string>Swarm</string>
+	<key>abilityH</key>
+	<string>Prankster</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>312</integer>
+	</array>
+	<key>attack</key>
+	<integer>73</integer>
+	<key>class</key>
+	<string>Firefly Pokémon</string>
+	<key>defense</key>
+	<integer>75</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Human-Like</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Volbeat</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>312</integer>
+	<key>ndex</key>
+	<integer>313</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>47</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Volbeat</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>430</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>39.0 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Rock Head</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Sheer Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>370</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Rock Head Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>Its belief that it will be able to fly one day is apparently the influence of information carried in its genes.</string>
+	<key>dex2</key>
+	<string>With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.</string>
+	<key>egg-group1</key>
+	<string>Dragon</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>186</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>186</integer>
+		<integer>187</integer>
+	</array>
+	<key>forme</key>
+	<string>Bagon</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>45</integer>
+	<key>id</key>
+	<integer>370</integer>
+	<key>ndex</key>
+	<integer>371</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>30</integer>
+	<key>species</key>
+	<string>Bagon</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>92.8 lbs.</string>
+</dict>
+</plist>

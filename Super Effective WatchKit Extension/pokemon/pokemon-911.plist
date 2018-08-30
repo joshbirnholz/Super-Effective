@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sand Force</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>911</integer>
+		<integer>444</integer>
+	</array>
+	<key>attack</key>
+	<integer>170</integer>
+	<key>class</key>
+	<string>Mach Pokémon</string>
+	<key>defense</key>
+	<integer>115</integer>
+	<key>dex1</key>
+	<string>Excess energy melted its arms and wings, transforming them into giant scythes.</string>
+	<key>dex2</key>
+	<string>Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Garchomp (Mega Garchomp)</string>
+	<key>height</key>
+	<string>6'03</string>
+	<key>hp</key>
+	<integer>108</integer>
+	<key>id</key>
+	<integer>911</integer>
+	<key>ndex</key>
+	<integer>445</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Gabite</string>
+	<key>spattack</key>
+	<integer>120</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Garchomp</string>
+	<key>speed</key>
+	<integer>92</integer>
+	<key>total</key>
+	<integer>700</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>209.4 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Levitate</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>428</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Magical Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>It appears as if from nowhere—muttering incantations, placing curses, and giving people terrifying visions.</string>
+	<key>dex2</key>
+	<string>Mismagius have been known to cast spells to make people fall in love, so some people search for this Pokémon as if their life depended on it.</string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>218</integer>
+		<integer>219</integer>
+	</array>
+	<key>forme</key>
+	<string>Mismagius</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>428</integer>
+	<key>ndex</key>
+	<integer>429</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Misdreavus</string>
+	<key>preEvolution</key>
+	<integer>219</integer>
+	<key>spattack</key>
+	<integer>105</integer>
+	<key>spdefense</key>
+	<integer>105</integer>
+	<key>species</key>
+	<string>Mismagius</string>
+	<key>speed</key>
+	<integer>105</integer>
+	<key>total</key>
+	<integer>495</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>9.7 lbs.</string>
+</dict>
+</plist>

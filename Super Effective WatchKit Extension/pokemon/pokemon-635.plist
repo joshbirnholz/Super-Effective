@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flame Body</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Swarm</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>635</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Torch Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>322</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>322</integer>
+	</array>
+	<key>forme</key>
+	<string>Larvesta</string>
+	<key>height</key>
+	<string>3'07</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>635</integer>
+	<key>ndex</key>
+	<integer>636</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>55</integer>
+	<key>species</key>
+	<string>Larvesta</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>360</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Fire</string>
+	<key>weight</key>
+	<string>63.5 lbs.</string>
+</dict>
+</plist>

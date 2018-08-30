@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Snow Cloak</string>
+	<key>ability2</key>
+	<string>Snow Cloak</string>
+	<key>abilityH</key>
+	<string>Slush Rush</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>818</integer>
+		<integer>26</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>90</integer>
+	<key>dex1</key>
+	<string>It lives on snowy mountains. Its steel shell is very hard—so much so, it can’t roll its body up into a ball.</string>
+	<key>dex2</key>
+	<string>An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>385</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>385</integer>
+		<integer>17</integer>
+	</array>
+	<key>forme</key>
+	<string>Sandshrew (Alola Form)</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>818</integer>
+	<key>ndex</key>
+	<integer>27</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>10</integer>
+	<key>spdefense</key>
+	<integer>35</integer>
+	<key>species</key>
+	<string>Sandshrew</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>88.2 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Shield Dust</string>
+	<key>ability2</key>
+	<string>Compound Eyes</string>
+	<key>abilityH</key>
+	<string>Friend Guard</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>972</integer>
+		<integer>665</integer>
+		<integer>961</integer>
+		<integer>962</integer>
+		<integer>963</integer>
+		<integer>964</integer>
+		<integer>965</integer>
+		<integer>966</integer>
+		<integer>967</integer>
+		<integer>968</integer>
+		<integer>969</integer>
+		<integer>970</integer>
+		<integer>971</integer>
+		<integer>973</integer>
+		<integer>974</integer>
+		<integer>975</integer>
+		<integer>976</integer>
+		<integer>977</integer>
+		<integer>978</integer>
+		<integer>979</integer>
+	</array>
+	<key>attack</key>
+	<integer>52</integer>
+	<key>class</key>
+	<string>Scale Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Vivillon (River Pattern)</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>972</integer>
+	<key>ndex</key>
+	<integer>666</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Spewpa</string>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Vivillon</string>
+	<key>speed</key>
+	<integer>89</integer>
+	<key>total</key>
+	<integer>411</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>37.5 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Static</string>
+	<key>ability2</key>
+	<string>Static</string>
+	<key>abilityH</key>
+	<string>Lightning Rod</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>811</integer>
+		<integer>24</integer>
+		<integer>812</integer>
+		<integer>813</integer>
+		<integer>814</integer>
+		<integer>815</integer>
+		<integer>816</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>40</integer>
+	<key>dex1</key>
+	<string>This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.</string>
+	<key>dex2</key>
+	<string>This Pikachu is wearing its Trainer’s cap. Since the cap’s not the right size, the fit is a bit loose.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>16</integer>
+		<integer>417</integer>
+	</array>
+	<key>forme</key>
+	<string>Pikachu (Original Cap)</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>35</integer>
+	<key>id</key>
+	<integer>811</integer>
+	<key>ndex</key>
+	<integer>25</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Pikachu</string>
+	<key>speed</key>
+	<integer>90</integer>
+	<key>total</key>
+	<integer>320</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>13.2 lbs.</string>
+</dict>
+</plist>

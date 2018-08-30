@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Thick Fat</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>802</integer>
+		<integer>2</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Seed Pokémon</string>
+	<key>defense</key>
+	<integer>123</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Grass</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Venusaur (Mega Venusaur)</string>
+	<key>height</key>
+	<string>7'10</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>802</integer>
+	<key>ndex</key>
+	<integer>3</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Ivysaur</string>
+	<key>spattack</key>
+	<integer>122</integer>
+	<key>spdefense</key>
+	<integer>120</integer>
+	<key>species</key>
+	<string>Venusaur</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>625</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string>Poison</string>
+	<key>weight</key>
+	<string>342.8 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Pressure</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Inner Focus</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>244</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Aurora Pokémon</string>
+	<key>defense</key>
+	<integer>115</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Suicune</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>244</integer>
+	<key>ndex</key>
+	<integer>245</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>115</integer>
+	<key>species</key>
+	<string>Suicune</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>580</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>412.3 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Torrent</string>
+	<key>ability2</key>
+	<string>Torrent</string>
+	<key>abilityH</key>
+	<string>Liquid Voice</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>728</integer>
+	</array>
+	<key>attack</key>
+	<integer>69</integer>
+	<key>class</key>
+	<string>Pop Star Pokémon</string>
+	<key>defense</key>
+	<integer>69</integer>
+	<key>dex1</key>
+	<string>A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.</string>
+	<key>dex2</key>
+	<string>It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>394</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>393</integer>
+		<integer>394</integer>
+	</array>
+	<key>forme</key>
+	<string>Brionne</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>728</integer>
+	<key>ndex</key>
+	<integer>729</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Popplio</string>
+	<key>preEvolution</key>
+	<integer>393</integer>
+	<key>spattack</key>
+	<integer>91</integer>
+	<key>spdefense</key>
+	<integer>81</integer>
+	<key>species</key>
+	<string>Brionne</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>420</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>38.6 lbs.</string>
+</dict>
+</plist>

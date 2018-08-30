@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Inner Focus</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Infiltrator</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>168</integer>
+	</array>
+	<key>attack</key>
+	<integer>90</integer>
+	<key>class</key>
+	<string>Bat Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Both its legs became wings, and as a result, it can’t move well on the ground. All it can do is crawl around.</string>
+	<key>dex2</key>
+	<string>Silent and swift in its four-winged flight, it bites down on its prey before they realize what’s happening. In a heartbeat, it drains their blood.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>27</integer>
+		<integer>93</integer>
+	</array>
+	<key>forme</key>
+	<string>Crobat</string>
+	<key>height</key>
+	<string>5'11</string>
+	<key>hp</key>
+	<integer>85</integer>
+	<key>id</key>
+	<integer>168</integer>
+	<key>ndex</key>
+	<integer>169</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Golbat</string>
+	<key>preEvolution</key>
+	<integer>93</integer>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Crobat</string>
+	<key>speed</key>
+	<integer>130</integer>
+	<key>total</key>
+	<integer>535</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>165.3 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user howls loudly to raise its spirit, which raises its Attack stat.</string>
+	<key>id</key>
+	<integer>336</integer>
+	<key>move</key>
+	<string>Howl</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>40</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Normal</string>
+	<key>z-effect</key>
+	<string>Attack ↑</string>
+</dict>
+</plist>

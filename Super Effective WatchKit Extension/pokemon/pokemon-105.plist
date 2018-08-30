@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Limber</string>
+	<key>ability2</key>
+	<string>Reckless</string>
+	<key>abilityH</key>
+	<string>Unburden</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>105</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Kicking Pokémon</string>
+	<key>defense</key>
+	<integer>53</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>125</integer>
+		<integer>62</integer>
+		<integer>63</integer>
+	</array>
+	<key>forme</key>
+	<string>Hitmonlee</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>105</integer>
+	<key>ndex</key>
+	<integer>106</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string>Tyrogue</string>
+	<key>preEvolution</key>
+	<integer>62</integer>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>110</integer>
+	<key>species</key>
+	<string>Hitmonlee</string>
+	<key>speed</key>
+	<integer>87</integer>
+	<key>total</key>
+	<integer>455</integer>
+	<key>type1</key>
+	<string>Fighting</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>109.8 lbs.</string>
+</dict>
+</plist>

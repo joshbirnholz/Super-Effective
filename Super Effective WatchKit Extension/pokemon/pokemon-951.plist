@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Turboblaze</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>951</integer>
+		<integer>645</integer>
+		<integer>952</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Boundary Pokémon</string>
+	<key>defense</key>
+	<integer>90</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Kyurem (White Kyurem)</string>
+	<key>height</key>
+	<string>11'10</string>
+	<key>hp</key>
+	<integer>125</integer>
+	<key>id</key>
+	<integer>951</integer>
+	<key>ndex</key>
+	<integer>646</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>170</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Kyurem</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>700</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>716.5 lbs.</string>
+</dict>
+</plist>

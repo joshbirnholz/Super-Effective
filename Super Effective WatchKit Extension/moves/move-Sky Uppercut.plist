@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>90%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user attacks the target with an uppercut thrown skyward with force.</string>
+	<key>id</key>
+	<integer>327</integer>
+	<key>move</key>
+	<string>Sky Uppercut</string>
+	<key>power</key>
+	<integer>85</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fighting</string>
+	<key>z-effect</key>
+	<string>160 Power</string>
+</dict>
+</plist>

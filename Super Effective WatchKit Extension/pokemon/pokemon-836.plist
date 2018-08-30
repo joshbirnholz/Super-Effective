@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Parental Bond</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>836</integer>
+		<integer>114</integer>
+	</array>
+	<key>attack</key>
+	<integer>125</integer>
+	<key>class</key>
+	<string>Parent Pokémon</string>
+	<key>defense</key>
+	<integer>100</integer>
+	<key>dex1</key>
+	<string>Mega Kangaskhan’s strength derives from the mother’s happiness about her child’s growth. Watching it grow up keeps her spirits high.</string>
+	<key>dex2</key>
+	<string>Thanks to Mega Evolution, its child grows. But as the child is good only at fighting and nothing else, its mother feels uneasy about its future.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Kangaskhan (Mega Kangaskhan)</string>
+	<key>height</key>
+	<string>7'03</string>
+	<key>hp</key>
+	<integer>105</integer>
+	<key>id</key>
+	<integer>836</integer>
+	<key>ndex</key>
+	<integer>115</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Kangaskhan</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>590</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>220.5 lbs.</string>
+</dict>
+</plist>

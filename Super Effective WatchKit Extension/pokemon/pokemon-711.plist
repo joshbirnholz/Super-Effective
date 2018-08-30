@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Own Tempo</string>
+	<key>ability2</key>
+	<string>Ice Body</string>
+	<key>abilityH</key>
+	<string>Sturdy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>711</integer>
+	</array>
+	<key>attack</key>
+	<integer>69</integer>
+	<key>class</key>
+	<string>Ice Chunk Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>362</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>362</integer>
+	</array>
+	<key>forme</key>
+	<string>Bergmite</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>711</integer>
+	<key>ndex</key>
+	<integer>712</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>32</integer>
+	<key>spdefense</key>
+	<integer>35</integer>
+	<key>species</key>
+	<string>Bergmite</string>
+	<key>speed</key>
+	<integer>28</integer>
+	<key>total</key>
+	<integer>304</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>219.4 lbs.</string>
+</dict>
+</plist>

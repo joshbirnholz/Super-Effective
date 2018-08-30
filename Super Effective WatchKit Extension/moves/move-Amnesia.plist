@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user temporarily empties its mind to forget its concerns. This sharply raises the user’s Sp. Def stat.</string>
+	<key>id</key>
+	<integer>133</integer>
+	<key>move</key>
+	<string>Amnesia</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Psychic</string>
+	<key>z-effect</key>
+	<string>Reset user's stats</string>
+</dict>
+</plist>

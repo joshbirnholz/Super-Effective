@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forme</key>
+	<string>Combee</string>
+	<key>moves</key>
+	<array>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Sweet Scent</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Gust</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L13</string>
+			<key>name</key>
+			<string>Bug Bite</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L29</string>
+			<key>name</key>
+			<string>Bug Buzz</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Bug Bite</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Snore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Tailwind</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Endeavor</string>
+		</dict>
+	</array>
+	<key>ndex</key>
+	<string>415</string>
+	<key>species</key>
+	<string>Combee</string>
+</dict>
+</plist>

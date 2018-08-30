@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forme</key>
+	<string>Foongus</string>
+	<key>moves</key>
+	<array>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Absorb</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L6</string>
+			<key>name</key>
+			<string>Growth</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L8</string>
+			<key>name</key>
+			<string>Astonish</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L12</string>
+			<key>name</key>
+			<string>Bide</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L15</string>
+			<key>name</key>
+			<string>Mega Drain</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L18</string>
+			<key>name</key>
+			<string>Ingrain</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L20</string>
+			<key>name</key>
+			<string>Feint Attack</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L24</string>
+			<key>name</key>
+			<string>Sweet Scent</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L28</string>
+			<key>name</key>
+			<string>Giga Drain</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L32</string>
+			<key>name</key>
+			<string>Toxic</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L35</string>
+			<key>name</key>
+			<string>Synthesis</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L39</string>
+			<key>name</key>
+			<string>Clear Smog</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L43</string>
+			<key>name</key>
+			<string>Solar Beam</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L45</string>
+			<key>name</key>
+			<string>Rage Powder</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>L50</string>
+			<key>name</key>
+			<string>Spore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM06</string>
+			<key>name</key>
+			<string>Toxic</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM09</string>
+			<key>name</key>
+			<string>Venoshock</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM10</string>
+			<key>name</key>
+			<string>Hidden Power</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM11</string>
+			<key>name</key>
+			<string>Sunny Day</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM17</string>
+			<key>name</key>
+			<string>Protect</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM18</string>
+			<key>name</key>
+			<string>Rain Dance</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM21</string>
+			<key>name</key>
+			<string>Frustration</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM22</string>
+			<key>name</key>
+			<string>Solar Beam</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM27</string>
+			<key>name</key>
+			<string>Return</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM32</string>
+			<key>name</key>
+			<string>Double Team</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM36</string>
+			<key>name</key>
+			<string>Sludge Bomb</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM42</string>
+			<key>name</key>
+			<string>Facade</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM44</string>
+			<key>name</key>
+			<string>Rest</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM45</string>
+			<key>name</key>
+			<string>Attract</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM48</string>
+			<key>name</key>
+			<string>Round</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM53</string>
+			<key>name</key>
+			<string>Energy Ball</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM66</string>
+			<key>name</key>
+			<string>Payback</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM86</string>
+			<key>name</key>
+			<string>Grass Knot</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM87</string>
+			<key>name</key>
+			<string>Swagger</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM88</string>
+			<key>name</key>
+			<string>Sleep Talk</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM90</string>
+			<key>name</key>
+			<string>Substitute</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM96</string>
+			<key>name</key>
+			<string>Nature Power</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>TM100</string>
+			<key>name</key>
+			<string>Confide</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Gastro Acid</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Growth</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Poison Powder</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Stun Spore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Rollout</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Defense Curl</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Endure</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Egg</string>
+			<key>name</key>
+			<string>Body Slam</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Seed Bomb</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Foul Play</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Snore</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Synthesis</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Giga Drain</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Gastro Acid</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>Worry Seed</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>ORAS</string>
+			<key>name</key>
+			<string>After You</string>
+		</dict>
+	</array>
+	<key>ndex</key>
+	<string>590</string>
+	<key>species</key>
+	<string>Foongus</string>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Levitate</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>342</integer>
+	</array>
+	<key>attack</key>
+	<integer>40</integer>
+	<key>class</key>
+	<string>Clay Doll Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>175</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>175</integer>
+	</array>
+	<key>forme</key>
+	<string>Baltoy</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>40</integer>
+	<key>id</key>
+	<integer>342</integer>
+	<key>ndex</key>
+	<integer>343</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Baltoy</string>
+	<key>speed</key>
+	<integer>55</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>47.4 lbs.</string>
+</dict>
+</plist>

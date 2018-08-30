@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>70%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</string>
+	<key>id</key>
+	<integer>59</integer>
+	<key>move</key>
+	<string>Blizzard</string>
+	<key>power</key>
+	<integer>110</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ice</string>
+	<key>z-effect</key>
+	<string>185 Power</string>
+</dict>
+</plist>

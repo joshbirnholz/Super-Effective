@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Static</string>
+	<key>ability2</key>
+	<string>Static</string>
+	<key>abilityH</key>
+	<string>Lightning Rod</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>25</integer>
+		<integer>817</integer>
+	</array>
+	<key>attack</key>
+	<integer>90</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string>It unleashes electric shocks that can reach 100,000 volts. When agitated, it can knock out even an Indian elephant.</string>
+	<key>dex2</key>
+	<string>It becomes aggressive when it has electricity stored up. At such times, even its Trainer has to take care to avoid being attacked.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>15</integer>
+		<integer>16</integer>
+		<integer>417</integer>
+	</array>
+	<key>forme</key>
+	<string>Raichu</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>25</integer>
+	<key>ndex</key>
+	<integer>26</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Pikachu</string>
+	<key>preEvolution</key>
+	<integer>16</integer>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Raichu</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>485</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>66.1 lbs.</string>
+</dict>
+</plist>

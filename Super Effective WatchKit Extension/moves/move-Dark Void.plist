@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>50%</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</string>
+	<key>id</key>
+	<integer>464</integer>
+	<key>move</key>
+	<string>Dark Void</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Dark</string>
+	<key>z-effect</key>
+	<string>Reset user's stats</string>
+</dict>
+</plist>

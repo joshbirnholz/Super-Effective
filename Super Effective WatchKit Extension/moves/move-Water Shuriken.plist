@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user hits the target with throwing stars two to five times in a row. This move always goes first.</string>
+	<key>id</key>
+	<integer>594</integer>
+	<key>move</key>
+	<string>Water Shuriken</string>
+	<key>power</key>
+	<integer>15</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>1</integer>
+	<key>type</key>
+	<string>Water</string>
+	<key>z-effect</key>
+	<string>100 Power</string>
+</dict>
+</plist>

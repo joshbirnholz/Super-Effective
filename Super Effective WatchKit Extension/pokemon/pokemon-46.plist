@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Effect Spore</string>
+	<key>ability2</key>
+	<string>Dry Skin</string>
+	<key>abilityH</key>
+	<string>Damp</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>46</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Mushroom Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>The large mushroom on its back controls it. It often fights over territory with Shiinotic.</string>
+	<key>dex2</key>
+	<string>It scatters toxic spores from its mushroom cap. Once harvested, these spores can be steeped and boiled down to prepare herbal medicines.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Grass</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>30</integer>
+	</array>
+	<key>forme</key>
+	<string>Parasect</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>46</integer>
+	<key>ndex</key>
+	<integer>47</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Paras</string>
+	<key>preEvolution</key>
+	<integer>30</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Parasect</string>
+	<key>speed</key>
+	<integer>30</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Grass</string>
+	<key>weight</key>
+	<string>65.0 lbs.</string>
+</dict>
+</plist>

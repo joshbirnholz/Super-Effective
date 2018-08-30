@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Full Metal Body</string>
+	<key>ability2</key>
+	<string>Full Metal Body</string>
+	<key>abilityH</key>
+	<string>Full Metal Body</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>790</integer>
+	</array>
+	<key>attack</key>
+	<integer>137</integer>
+	<key>class</key>
+	<string>Sunne Pokémon</string>
+	<key>defense</key>
+	<integer>107</integer>
+	<key>dex1</key>
+	<string>It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.</string>
+	<key>dex2</key>
+	<string>This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>381</integer>
+		<integer>382</integer>
+		<integer>383</integer>
+	</array>
+	<key>forme</key>
+	<string>Solgaleo</string>
+	<key>height</key>
+	<string>11'02</string>
+	<key>hp</key>
+	<integer>137</integer>
+	<key>id</key>
+	<integer>790</integer>
+	<key>ndex</key>
+	<integer>791</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Cosmoem</string>
+	<key>preEvolution</key>
+	<integer>382</integer>
+	<key>spattack</key>
+	<integer>113</integer>
+	<key>spdefense</key>
+	<integer>89</integer>
+	<key>species</key>
+	<string>Solgaleo</string>
+	<key>speed</key>
+	<integer>97</integer>
+	<key>total</key>
+	<integer>680</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>507.1 lbs.</string>
+</dict>
+</plist>

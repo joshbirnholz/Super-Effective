@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Illuminate</string>
+	<key>ability2</key>
+	<string>Natural Cure</string>
+	<key>abilityH</key>
+	<string>Analytic</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>120</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Mysterious Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string>Its shining core is thought to receive and transmit enigmatic signals. It has been known to cause headaches in those who approach it.</string>
+	<key>dex2</key>
+	<string>Its unusual body shape, reminiscent of abstract art, led local people to spread rumors that this Pokémon may be an invader from outer space.</string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>69</integer>
+	</array>
+	<key>forme</key>
+	<string>Starmie</string>
+	<key>height</key>
+	<string>3'07</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>120</integer>
+	<key>ndex</key>
+	<integer>121</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Staryu</string>
+	<key>preEvolution</key>
+	<integer>69</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Starmie</string>
+	<key>speed</key>
+	<integer>115</integer>
+	<key>total</key>
+	<integer>520</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>176.4 lbs.</string>
+</dict>
+</plist>

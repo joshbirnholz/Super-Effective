@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>85%</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>An earsplitting screech harshly lowers the target’s Defense stat.</string>
+	<key>id</key>
+	<integer>103</integer>
+	<key>move</key>
+	<string>Screech</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>40</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Normal</string>
+	<key>z-effect</key>
+	<string>Attack ↑</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.</string>
+	<key>id</key>
+	<integer>394</integer>
+	<key>move</key>
+	<string>Flare Blitz</string>
+	<key>power</key>
+	<integer>120</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fire</string>
+	<key>z-effect</key>
+	<string>190 Power</string>
+</dict>
+</plist>

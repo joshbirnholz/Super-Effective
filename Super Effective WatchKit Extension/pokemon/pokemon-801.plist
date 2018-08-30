@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Technician</string>
+	<key>ability2</key>
+	<string>Technician</string>
+	<key>abilityH</key>
+	<string>Technician</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>801</integer>
+	</array>
+	<key>attack</key>
+	<integer>125</integer>
+	<key>class</key>
+	<string>Gloomdweller Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.</string>
+	<key>dex2</key>
+	<string>It lurks in the shadows of others, copying their movements and powers. This Pokémon is craven and cowering.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Marshadow</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>90</integer>
+	<key>id</key>
+	<integer>801</integer>
+	<key>ndex</key>
+	<integer>802</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Marshadow</string>
+	<key>speed</key>
+	<integer>125</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Fighting</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>48.9 lbs.</string>
+</dict>
+</plist>

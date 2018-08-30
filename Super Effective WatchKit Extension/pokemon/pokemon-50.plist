@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sand Veil</string>
+	<key>ability2</key>
+	<string>Arena Trap</string>
+	<key>abilityH</key>
+	<string>Sand Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>50</integer>
+		<integer>823</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Mole Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>This set of triplets moves cooperatively. It’s the power of teamwork that enables this Pokémon to dig to a depth of 60 miles.</string>
+	<key>dex2</key>
+	<string>Despite the closeness between this Pokémon and farmers and other people, no one has ever seen the parts of it concealed underground.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>32</integer>
+		<integer>411</integer>
+	</array>
+	<key>forme</key>
+	<string>Dugtrio</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>35</integer>
+	<key>id</key>
+	<integer>50</integer>
+	<key>ndex</key>
+	<integer>51</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Diglett</string>
+	<key>preEvolution</key>
+	<integer>32</integer>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Dugtrio</string>
+	<key>speed</key>
+	<integer>120</integer>
+	<key>total</key>
+	<integer>425</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>73.4 lbs.</string>
+</dict>
+</plist>

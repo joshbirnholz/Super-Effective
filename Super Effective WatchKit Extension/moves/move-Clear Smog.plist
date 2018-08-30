@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user attacks by throwing a clump of special mud. All stat changes are returned to normal.</string>
+	<key>id</key>
+	<integer>499</integer>
+	<key>move</key>
+	<string>Clear Smog</string>
+	<key>power</key>
+	<integer>50</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Poison</string>
+	<key>z-effect</key>
+	<string>100 Power</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.</string>
+	<key>id</key>
+	<integer>279</integer>
+	<key>move</key>
+	<string>Revenge</string>
+	<key>power</key>
+	<integer>60</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>-4</integer>
+	<key>type</key>
+	<string>Fighting</string>
+	<key>z-effect</key>
+	<string>120 Power</string>
+</dict>
+</plist>

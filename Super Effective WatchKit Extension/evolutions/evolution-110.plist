@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>evolution ID</key>
+	<integer>110</integer>
+	<key>evolved species ID</key>
+	<integer>198</integer>
+	<key>held item</key>
+	<string>a King’s Rock</string>
+	<key>original species ID</key>
+	<integer>78</integer>
+	<key>trigger</key>
+	<string>trade</string>
+</dict>
+</plist>

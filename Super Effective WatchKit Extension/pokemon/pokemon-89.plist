@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Shell Armor</string>
+	<key>ability2</key>
+	<string>Skill Link</string>
+	<key>abilityH</key>
+	<string>Overcoat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>89</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Bivalve Pokémon</string>
+	<key>defense</key>
+	<integer>100</integer>
+	<key>dex1</key>
+	<string>The hardness of its shell surpasses the hardness of a diamond. In days gone by, people used the shells to make shields.</string>
+	<key>dex2</key>
+	<string>This Pokémon’s tongue is always hanging out. It uses its tongue with great dexterity to dig up sand from the seabed in its search for food.</string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>54</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>54</integer>
+	</array>
+	<key>forme</key>
+	<string>Shellder</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>30</integer>
+	<key>id</key>
+	<integer>89</integer>
+	<key>ndex</key>
+	<integer>90</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>25</integer>
+	<key>species</key>
+	<string>Shellder</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>305</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>8.8 lbs.</string>
+</dict>
+</plist>

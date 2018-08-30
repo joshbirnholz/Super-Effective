@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Wimp Out</string>
+	<key>ability2</key>
+	<string>Wimp Out</string>
+	<key>abilityH</key>
+	<string>Wimp Out</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>766</integer>
+	</array>
+	<key>attack</key>
+	<integer>35</integer>
+	<key>class</key>
+	<string>Turn Tail Pokémon</string>
+	<key>defense</key>
+	<integer>40</integer>
+	<key>dex1</key>
+	<string>This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.</string>
+	<key>dex2</key>
+	<string>Its habitat varies from beaches to seabeds. A natural scavenger, it will gleefully chow down on anything edible, no matter how rotten.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>406</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>406</integer>
+	</array>
+	<key>forme</key>
+	<string>Wimpod</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>25</integer>
+	<key>id</key>
+	<integer>766</integer>
+	<key>ndex</key>
+	<integer>767</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>20</integer>
+	<key>spdefense</key>
+	<integer>30</integer>
+	<key>species</key>
+	<string>Wimpod</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>230</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Water</string>
+	<key>weight</key>
+	<string>26.5 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>70%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The target is attacked with a discharge of filthy gases. This may also poison the target.</string>
+	<key>id</key>
+	<integer>123</integer>
+	<key>move</key>
+	<string>Smog</string>
+	<key>power</key>
+	<integer>30</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Poison</string>
+	<key>z-effect</key>
+	<string>100 Power</string>
+</dict>
+</plist>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Magnet Pull</string>
+	<key>ability2</key>
+	<string>Sturdy</string>
+	<key>abilityH</key>
+	<string>Galvanize</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>828</integer>
+		<integer>74</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Rock Pokémon</string>
+	<key>defense</key>
+	<integer>115</integer>
+	<key>dex1</key>
+	<string>Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.</string>
+	<key>dex2</key>
+	<string>They eat rocks and often get into a scrap over them. The shock of Graveler smashing together causes a flash of light and a booming noise.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>414</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>413</integer>
+		<integer>414</integer>
+		<integer>46</integer>
+		<integer>47</integer>
+	</array>
+	<key>forme</key>
+	<string>Graveler (Alola Form)</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>828</integer>
+	<key>ndex</key>
+	<integer>75</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Geodude (Alola Form)</string>
+	<key>preEvolution</key>
+	<integer>413</integer>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Graveler</string>
+	<key>speed</key>
+	<integer>35</integer>
+	<key>total</key>
+	<integer>390</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Electric</string>
+	<key>weight</key>
+	<string>242.5 lbs.</string>
+</dict>
+</plist>

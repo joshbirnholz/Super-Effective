@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Snow Cloak</string>
+	<key>ability2</key>
+	<string>Slush Rush</string>
+	<key>abilityH</key>
+	<string>Rattled</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>612</integer>
+	</array>
+	<key>attack</key>
+	<integer>70</integer>
+	<key>class</key>
+	<string>Chill Pokémon</string>
+	<key>defense</key>
+	<integer>40</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>313</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>313</integer>
+	</array>
+	<key>forme</key>
+	<string>Cubchoo</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>612</integer>
+	<key>ndex</key>
+	<integer>613</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>40</integer>
+	<key>species</key>
+	<string>Cubchoo</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>305</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>18.7 lbs.</string>
+</dict>
+</plist>

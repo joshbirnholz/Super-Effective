@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Snow Warning</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>913</integer>
+		<integer>459</integer>
+	</array>
+	<key>attack</key>
+	<integer>132</integer>
+	<key>class</key>
+	<string>Frost Tree Pokémon</string>
+	<key>defense</key>
+	<integer>105</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Grass</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Abomasnow (Mega Abomasnow)</string>
+	<key>height</key>
+	<string>8'10</string>
+	<key>hp</key>
+	<integer>90</integer>
+	<key>id</key>
+	<integer>913</integer>
+	<key>ndex</key>
+	<integer>460</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Snover</string>
+	<key>spattack</key>
+	<integer>132</integer>
+	<key>spdefense</key>
+	<integer>105</integer>
+	<key>species</key>
+	<string>Abomasnow</string>
+	<key>speed</key>
+	<integer>30</integer>
+	<key>total</key>
+	<integer>594</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>407.9 lbs.</string>
+</dict>
+</plist>

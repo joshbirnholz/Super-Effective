@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Plus</string>
+	<key>ability2</key>
+	<string>Minus</string>
+	<key>abilityH</key>
+	<string>Clear Body</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>599</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Gear Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>305</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>304</integer>
+		<integer>305</integer>
+	</array>
+	<key>forme</key>
+	<string>Klang</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>599</integer>
+	<key>ndex</key>
+	<integer>600</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Klink</string>
+	<key>preEvolution</key>
+	<integer>304</integer>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Klang</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>440</integer>
+	<key>type1</key>
+	<string>Steel</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>112.4 lbs.</string>
+</dict>
+</plist>

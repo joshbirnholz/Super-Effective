@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Poison Point</string>
+	<key>ability2</key>
+	<string>Rivalry</string>
+	<key>abilityH</key>
+	<string>Hustle</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>29</integer>
+	</array>
+	<key>attack</key>
+	<integer>62</integer>
+	<key>class</key>
+	<string>Poison Pin Pokémon</string>
+	<key>defense</key>
+	<integer>67</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>19</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>18</integer>
+		<integer>19</integer>
+	</array>
+	<key>forme</key>
+	<string>Nidorina</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>29</integer>
+	<key>ndex</key>
+	<integer>30</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Nidoran♀</string>
+	<key>preEvolution</key>
+	<integer>18</integer>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>55</integer>
+	<key>species</key>
+	<string>Nidorina</string>
+	<key>speed</key>
+	<integer>56</integer>
+	<key>total</key>
+	<integer>365</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>44.1 lbs.</string>
+</dict>
+</plist>

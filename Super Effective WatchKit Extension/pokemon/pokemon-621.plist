@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Iron Fist</string>
+	<key>ability2</key>
+	<string>Klutz</string>
+	<key>abilityH</key>
+	<string>No Guard</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>621</integer>
+	</array>
+	<key>attack</key>
+	<integer>74</integer>
+	<key>class</key>
+	<string>Automaton Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>316</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>316</integer>
+	</array>
+	<key>forme</key>
+	<string>Golett</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>59</integer>
+	<key>id</key>
+	<integer>621</integer>
+	<key>ndex</key>
+	<integer>622</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Golett</string>
+	<key>speed</key>
+	<integer>35</integer>
+	<key>total</key>
+	<integer>303</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>202.8 lbs.</string>
+</dict>
+</plist>

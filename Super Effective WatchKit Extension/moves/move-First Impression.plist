@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>Although this move has great power, it only works the first turn the user is in battle.</string>
+	<key>id</key>
+	<integer>642</integer>
+	<key>move</key>
+	<string>First Impression</string>
+	<key>power</key>
+	<integer>90</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>2</integer>
+	<key>type</key>
+	<string>Bug</string>
+	<key>z-effect</key>
+	<string>175 Power</string>
+</dict>
+</plist>

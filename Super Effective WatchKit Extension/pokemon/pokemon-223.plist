@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Suction Cups</string>
+	<key>ability2</key>
+	<string>Sniper</string>
+	<key>abilityH</key>
+	<string>Moody</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>223</integer>
+	</array>
+	<key>attack</key>
+	<integer>105</integer>
+	<key>class</key>
+	<string>Jet Pokémon</string>
+	<key>defense</key>
+	<integer>75</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Water 2</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>119</integer>
+	</array>
+	<key>forme</key>
+	<string>Octillery</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>223</integer>
+	<key>ndex</key>
+	<integer>224</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Remoraid</string>
+	<key>preEvolution</key>
+	<integer>119</integer>
+	<key>spattack</key>
+	<integer>105</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Octillery</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>480</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>62.8 lbs.</string>
+</dict>
+</plist>

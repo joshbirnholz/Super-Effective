@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Insomnia</string>
+	<key>ability2</key>
+	<string>Forewarn</string>
+	<key>abilityH</key>
+	<string>Inner Focus</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>96</integer>
+	</array>
+	<key>attack</key>
+	<integer>73</integer>
+	<key>class</key>
+	<string>Hypnosis Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>While it is an extremely dangerous Pokémon, people who are in need of a good, sound sleep call it their savior.</string>
+	<key>dex2</key>
+	<string>As a matter of course, it makes anyone it meets fall asleep and has a taste of their dreams. Anyone having a good dream, it carries off.</string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>57</integer>
+	</array>
+	<key>forme</key>
+	<string>Hypno</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>85</integer>
+	<key>id</key>
+	<integer>96</integer>
+	<key>ndex</key>
+	<integer>97</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Drowzee</string>
+	<key>preEvolution</key>
+	<integer>57</integer>
+	<key>spattack</key>
+	<integer>73</integer>
+	<key>spdefense</key>
+	<integer>115</integer>
+	<key>species</key>
+	<string>Hypno</string>
+	<key>speed</key>
+	<integer>67</integer>
+	<key>total</key>
+	<integer>483</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>166.7 lbs.</string>
+</dict>
+</plist>

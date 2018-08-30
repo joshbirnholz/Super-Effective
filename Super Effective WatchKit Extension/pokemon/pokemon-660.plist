@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Big Pecks</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Gale Wings</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>660</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Tiny Robin Pokémon</string>
+	<key>defense</key>
+	<integer>43</integer>
+	<key>dex1</key>
+	<string>This amiable Pokémon is easy to train. But when battle is joined, it shows its ferocious side.</string>
+	<key>dex2</key>
+	<string>When it’s excited, its temperature can double, spiking hormone production in its body.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>325</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>325</integer>
+		<integer>327</integer>
+	</array>
+	<key>forme</key>
+	<string>Fletchling</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>45</integer>
+	<key>id</key>
+	<integer>660</integer>
+	<key>ndex</key>
+	<integer>661</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>38</integer>
+	<key>species</key>
+	<string>Fletchling</string>
+	<key>speed</key>
+	<integer>62</integer>
+	<key>total</key>
+	<integer>278</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>3.7 lbs.</string>
+</dict>
+</plist>

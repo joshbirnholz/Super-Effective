@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>#N/A</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>Deep-seated grudges summoned by the user’s Z-Power trap the target. The power varies, depending on the original move.</string>
+	<key>id</key>
+	<integer>629</integer>
+	<key>move</key>
+	<string>Never-Ending Nightmare</string>
+	<key>power</key>
+	<string>—</string>
+	<key>pp</key>
+	<integer>1</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ghost</string>
+	<key>z-effect</key>
+	<string>~Type: Ghost</string>
+</dict>
+</plist>

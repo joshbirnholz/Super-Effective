@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Marvel Scale</string>
+	<key>ability2</key>
+	<string>Competitive</string>
+	<key>abilityH</key>
+	<string>Cute Charm</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>349</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Tender Pokémon</string>
+	<key>defense</key>
+	<integer>79</integer>
+	<key>dex1</key>
+	<string>Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.</string>
+	<key>dex2</key>
+	<string>It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people’s minds and hearts.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>323</integer>
+	</array>
+	<key>forme</key>
+	<string>Milotic</string>
+	<key>height</key>
+	<string>20'04</string>
+	<key>hp</key>
+	<integer>95</integer>
+	<key>id</key>
+	<integer>349</integer>
+	<key>ndex</key>
+	<integer>350</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Feebas</string>
+	<key>preEvolution</key>
+	<integer>323</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>125</integer>
+	<key>species</key>
+	<string>Milotic</string>
+	<key>speed</key>
+	<integer>81</integer>
+	<key>total</key>
+	<integer>540</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>357.1 lbs.</string>
+</dict>
+</plist>

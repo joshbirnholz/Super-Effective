@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Insomnia</string>
+	<key>ability2</key>
+	<string>Super Luck</string>
+	<key>abilityH</key>
+	<string>Prankster</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>197</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Darkness Pokémon</string>
+	<key>defense</key>
+	<integer>42</integer>
+	<key>dex1</key>
+	<string>They awaken at dusk and take wing in the twilight, leading to the expression, “Get home before the Murkrow fly.”</string>
+	<key>dex2</key>
+	<string>Seen as a symbol of bad luck, it’s generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it’s close to.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>220</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>220</integer>
+	</array>
+	<key>forme</key>
+	<string>Murkrow</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>197</integer>
+	<key>ndex</key>
+	<integer>198</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>42</integer>
+	<key>species</key>
+	<string>Murkrow</string>
+	<key>speed</key>
+	<integer>91</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>4.6 lbs.</string>
+</dict>
+</plist>

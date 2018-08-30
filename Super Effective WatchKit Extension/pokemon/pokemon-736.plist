@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Battery</string>
+	<key>ability2</key>
+	<string>Battery</string>
+	<key>abilityH</key>
+	<string>Battery</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>736</integer>
+	</array>
+	<key>attack</key>
+	<integer>82</integer>
+	<key>class</key>
+	<string>Battery Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>Its body is capable of storing electricity. On camping trips, people are grateful to have one around.</string>
+	<key>dex2</key>
+	<string>From the food it digests, it generates electricity, and it stores this energy in its electric sac.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>387</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>418</integer>
+		<integer>387</integer>
+	</array>
+	<key>forme</key>
+	<string>Charjabug</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>57</integer>
+	<key>id</key>
+	<integer>736</integer>
+	<key>ndex</key>
+	<integer>737</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Grubbin</string>
+	<key>preEvolution</key>
+	<integer>418</integer>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Charjabug</string>
+	<key>speed</key>
+	<integer>36</integer>
+	<key>total</key>
+	<integer>400</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Electric</string>
+	<key>weight</key>
+	<string>23.1 lbs.</string>
+</dict>
+</plist>

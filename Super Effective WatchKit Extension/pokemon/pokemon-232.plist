@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Trace</string>
+	<key>ability2</key>
+	<string>Download</string>
+	<key>abilityH</key>
+	<string>Analytic</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>232</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Virtual Pokémon</string>
+	<key>defense</key>
+	<integer>90</integer>
+	<key>dex1</key>
+	<string>For the purposes of planetary development, Porygon was updated with the most cutting-edge technology available.</string>
+	<key>dex2</key>
+	<string>Porygon was updated to a new version in readiness for planetary development. But that dream remains unrealized as yet.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>242</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>124</integer>
+		<integer>242</integer>
+	</array>
+	<key>forme</key>
+	<string>Porygon2</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>85</integer>
+	<key>id</key>
+	<integer>232</integer>
+	<key>ndex</key>
+	<integer>233</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Porygon</string>
+	<key>preEvolution</key>
+	<integer>124</integer>
+	<key>spattack</key>
+	<integer>105</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Porygon2</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>515</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>71.6 lbs.</string>
+</dict>
+</plist>

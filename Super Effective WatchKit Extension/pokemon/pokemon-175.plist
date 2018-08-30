@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Hustle</string>
+	<key>ability2</key>
+	<string>Serene Grace</string>
+	<key>abilityH</key>
+	<string>Super Luck</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>175</integer>
+	</array>
+	<key>attack</key>
+	<integer>40</integer>
+	<key>class</key>
+	<string>Happiness Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>238</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>95</integer>
+		<integer>238</integer>
+	</array>
+	<key>forme</key>
+	<string>Togetic</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>175</integer>
+	<key>ndex</key>
+	<integer>176</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Togepi</string>
+	<key>preEvolution</key>
+	<integer>95</integer>
+	<key>spattack</key>
+	<integer>80</integer>
+	<key>spdefense</key>
+	<integer>105</integer>
+	<key>species</key>
+	<string>Togetic</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Fairy</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>7.1 lbs.</string>
+</dict>
+</plist>

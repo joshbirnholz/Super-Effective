@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Insomnia</string>
+	<key>ability2</key>
+	<string>Keen Eye</string>
+	<key>abilityH</key>
+	<string>Tinted Lens</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>163</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Owl Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>90</integer>
+	</array>
+	<key>forme</key>
+	<string>Noctowl</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>163</integer>
+	<key>ndex</key>
+	<integer>164</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Hoothoot</string>
+	<key>preEvolution</key>
+	<integer>90</integer>
+	<key>spattack</key>
+	<integer>86</integer>
+	<key>spdefense</key>
+	<integer>96</integer>
+	<key>species</key>
+	<string>Noctowl</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>452</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>89.9 lbs.</string>
+</dict>
+</plist>

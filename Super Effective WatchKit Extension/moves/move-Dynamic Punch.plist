@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>50%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user punches the target with full, concentrated power. This confuses the target if it hits.</string>
+	<key>id</key>
+	<integer>223</integer>
+	<key>move</key>
+	<string>Dynamic Punch</string>
+	<key>power</key>
+	<integer>100</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fighting</string>
+	<key>z-effect</key>
+	<string>180 Power</string>
+</dict>
+</plist>

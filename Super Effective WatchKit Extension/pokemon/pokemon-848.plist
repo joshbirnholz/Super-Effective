@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Levitate</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>848</integer>
+		<integer>200</integer>
+		<integer>843</integer>
+		<integer>844</integer>
+		<integer>845</integer>
+		<integer>846</integer>
+		<integer>847</integer>
+		<integer>849</integer>
+		<integer>850</integer>
+		<integer>851</integer>
+		<integer>852</integer>
+		<integer>853</integer>
+		<integer>854</integer>
+		<integer>855</integer>
+		<integer>856</integer>
+		<integer>857</integer>
+		<integer>858</integer>
+		<integer>859</integer>
+		<integer>860</integer>
+		<integer>861</integer>
+		<integer>862</integer>
+		<integer>863</integer>
+		<integer>864</integer>
+		<integer>865</integer>
+		<integer>866</integer>
+		<integer>867</integer>
+		<integer>868</integer>
+		<integer>869</integer>
+	</array>
+	<key>attack</key>
+	<integer>72</integer>
+	<key>class</key>
+	<string>Symbol Pokémon</string>
+	<key>defense</key>
+	<integer>48</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Unown (Unown G)</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>48</integer>
+	<key>id</key>
+	<integer>848</integer>
+	<key>ndex</key>
+	<integer>201</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>72</integer>
+	<key>spdefense</key>
+	<integer>48</integer>
+	<key>species</key>
+	<string>Unown</string>
+	<key>speed</key>
+	<integer>48</integer>
+	<key>total</key>
+	<integer>336</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>11.0 lbs.</string>
+</dict>
+</plist>

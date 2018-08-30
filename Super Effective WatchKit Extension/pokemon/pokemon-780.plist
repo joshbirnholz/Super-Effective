@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Steelworker</string>
+	<key>ability2</key>
+	<string>Steelworker</string>
+	<key>abilityH</key>
+	<string>Steelworker</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>780</integer>
+	</array>
+	<key>attack</key>
+	<integer>131</integer>
+	<key>class</key>
+	<string>Sea Creeper Pokémon</string>
+	<key>defense</key>
+	<integer>100</integer>
+	<key>dex1</key>
+	<string>Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.</string>
+	<key>dex2</key>
+	<string>The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Dhelmise</string>
+	<key>height</key>
+	<string>12'10</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>780</integer>
+	<key>ndex</key>
+	<integer>781</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>86</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Dhelmise</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>517</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string>Grass</string>
+	<key>weight</key>
+	<string>463.0 lbs.</string>
+</dict>
+</plist>

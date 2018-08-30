@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Wonder Skin</string>
+	<key>ability2</key>
+	<string>Magic Guard</string>
+	<key>abilityH</key>
+	<string>Tinted Lens</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>560</integer>
+	</array>
+	<key>attack</key>
+	<integer>58</integer>
+	<key>class</key>
+	<string>Avianoid Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Sigilyph</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>72</integer>
+	<key>id</key>
+	<integer>560</integer>
+	<key>ndex</key>
+	<integer>561</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>103</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Sigilyph</string>
+	<key>speed</key>
+	<integer>97</integer>
+	<key>total</key>
+	<integer>490</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>30.9 lbs.</string>
+</dict>
+</plist>

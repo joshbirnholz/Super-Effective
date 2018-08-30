@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>90%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.</string>
+	<key>id</key>
+	<integer>647</integer>
+	<key>move</key>
+	<string>Ice Hammer</string>
+	<key>power</key>
+	<integer>100</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ice</string>
+	<key>z-effect</key>
+	<string>180 Power</string>
+</dict>
+</plist>

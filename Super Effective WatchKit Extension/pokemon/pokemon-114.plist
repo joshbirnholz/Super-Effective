@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Early Bird</string>
+	<key>ability2</key>
+	<string>Scrappy</string>
+	<key>abilityH</key>
+	<string>Inner Focus</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>114</integer>
+		<integer>836</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Parent Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Kangaskhan’s maternal love is so deep that it will brave death to protect its offspring.</string>
+	<key>dex2</key>
+	<string>The child in its pouch leaves home after roughly three years. That is the only time the mother is heard to cry wildly.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Kangaskhan</string>
+	<key>height</key>
+	<string>7'03</string>
+	<key>hp</key>
+	<integer>105</integer>
+	<key>id</key>
+	<integer>114</integer>
+	<key>ndex</key>
+	<integer>115</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Kangaskhan</string>
+	<key>speed</key>
+	<integer>90</integer>
+	<key>total</key>
+	<integer>490</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>176.4 lbs.</string>
+</dict>
+</plist>

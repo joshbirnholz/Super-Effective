@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Honey Gather</string>
+	<key>ability2</key>
+	<string>Shield Dust</string>
+	<key>abilityH</key>
+	<string>Sweet Veil</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>742</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Bee Fly Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.</string>
+	<key>dex2</key>
+	<string>Some of Ribombee’s pollen puffs are highly nutritious. They are sometimes sold as supplements.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>397</integer>
+	</array>
+	<key>forme</key>
+	<string>Ribombee</string>
+	<key>height</key>
+	<string>0'08</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>742</integer>
+	<key>ndex</key>
+	<integer>743</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Cutiefly</string>
+	<key>preEvolution</key>
+	<integer>397</integer>
+	<key>spattack</key>
+	<integer>95</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Ribombee</string>
+	<key>speed</key>
+	<integer>124</integer>
+	<key>total</key>
+	<integer>464</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>1.1 lbs.</string>
+</dict>
+</plist>

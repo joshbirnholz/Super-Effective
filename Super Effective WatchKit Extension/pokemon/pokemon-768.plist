@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Compaction</string>
+	<key>ability2</key>
+	<string>Water Compaction</string>
+	<key>abilityH</key>
+	<string>Sand Veil</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>768</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Sand Heap Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.</string>
+	<key>dex2</key>
+	<string>It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.</string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>407</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>407</integer>
+	</array>
+	<key>forme</key>
+	<string>Sandygast</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>768</integer>
+	<key>ndex</key>
+	<integer>769</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Sandygast</string>
+	<key>speed</key>
+	<integer>15</integer>
+	<key>total</key>
+	<integer>320</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>154.3 lbs.</string>
+</dict>
+</plist>

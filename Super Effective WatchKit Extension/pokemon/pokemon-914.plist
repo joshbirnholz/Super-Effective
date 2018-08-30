@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Inner Focus</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>914</integer>
+		<integer>474</integer>
+	</array>
+	<key>attack</key>
+	<integer>165</integer>
+	<key>class</key>
+	<string>Blade Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Gallade (Mega Gallade)</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>68</integer>
+	<key>id</key>
+	<integer>914</integer>
+	<key>ndex</key>
+	<integer>475</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string>Kirlia</string>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>115</integer>
+	<key>species</key>
+	<string>Gallade</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>618</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Fighting</string>
+	<key>weight</key>
+	<string>124.3 lbs.</string>
+</dict>
+</plist>

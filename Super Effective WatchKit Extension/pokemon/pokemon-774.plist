@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Comatose</string>
+	<key>ability2</key>
+	<string>Comatose</string>
+	<key>abilityH</key>
+	<string>Comatose</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>774</integer>
+	</array>
+	<key>attack</key>
+	<integer>115</integer>
+	<key>class</key>
+	<string>Drowsing Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.</string>
+	<key>dex2</key>
+	<string>The log it holds was given to it by its parents at birth. It has also been known to cling to the arm of a friendly Trainer.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Komala</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>774</integer>
+	<key>ndex</key>
+	<integer>775</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>75</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Komala</string>
+	<key>speed</key>
+	<integer>65</integer>
+	<key>total</key>
+	<integer>480</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>43.9 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Magma Armor</string>
+	<key>ability2</key>
+	<string>Solid Rock</string>
+	<key>abilityH</key>
+	<string>Anger Point</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>322</integer>
+		<integer>885</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Eruption Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>167</integer>
+	</array>
+	<key>forme</key>
+	<string>Camerupt</string>
+	<key>height</key>
+	<string>6'03</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>322</integer>
+	<key>ndex</key>
+	<integer>323</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Numel</string>
+	<key>preEvolution</key>
+	<integer>167</integer>
+	<key>spattack</key>
+	<integer>105</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Camerupt</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>460</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>485.0 lbs.</string>
+</dict>
+</plist>

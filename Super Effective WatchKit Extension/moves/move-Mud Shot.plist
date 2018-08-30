@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>95%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</string>
+	<key>id</key>
+	<integer>341</integer>
+	<key>move</key>
+	<string>Mud Shot</string>
+	<key>power</key>
+	<integer>55</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ground</string>
+	<key>z-effect</key>
+	<string>100 Power</string>
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sand Veil</string>
+	<key>ability2</key>
+	<string>Arena Trap</string>
+	<key>abilityH</key>
+	<string>Sand Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>49</integer>
+		<integer>822</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Mole Pokémon</string>
+	<key>defense</key>
+	<integer>25</integer>
+	<key>dex1</key>
+	<string>It chews on plant roots underground. Farmers whose vegetables are vulnerable find it can be quite a pest.</string>
+	<key>dex2</key>
+	<string>Many farmers cherish and nurture Diglett because its droppings enrich the soil it lives in.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>32</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>32</integer>
+		<integer>411</integer>
+	</array>
+	<key>forme</key>
+	<string>Diglett</string>
+	<key>height</key>
+	<string>0'08</string>
+	<key>hp</key>
+	<integer>10</integer>
+	<key>id</key>
+	<integer>49</integer>
+	<key>ndex</key>
+	<integer>50</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Diglett</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>265</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>1.8 lbs.</string>
+</dict>
+</plist>

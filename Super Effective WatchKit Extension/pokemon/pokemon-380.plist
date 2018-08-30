@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Levitate</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>380</integer>
+		<integer>896</integer>
+	</array>
+	<key>attack</key>
+	<integer>90</integer>
+	<key>class</key>
+	<string>Eon Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Latios</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>380</integer>
+	<key>ndex</key>
+	<integer>381</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>110</integer>
+	<key>species</key>
+	<string>Latios</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>132.3 lbs.</string>
+</dict>
+</plist>

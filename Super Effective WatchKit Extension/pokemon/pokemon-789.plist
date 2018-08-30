@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sturdy</string>
+	<key>ability2</key>
+	<string>Sturdy</string>
+	<key>abilityH</key>
+	<string>Sturdy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>789</integer>
+	</array>
+	<key>attack</key>
+	<integer>29</integer>
+	<key>class</key>
+	<string>Protostar Pokémon</string>
+	<key>defense</key>
+	<integer>131</integer>
+	<key>dex1</key>
+	<string>Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.</string>
+	<key>dex2</key>
+	<string>There’s something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>382</integer>
+		<integer>383</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>381</integer>
+		<integer>382</integer>
+		<integer>383</integer>
+	</array>
+	<key>forme</key>
+	<string>Cosmoem</string>
+	<key>height</key>
+	<string>0'04</string>
+	<key>hp</key>
+	<integer>43</integer>
+	<key>id</key>
+	<integer>789</integer>
+	<key>ndex</key>
+	<integer>790</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Cosmog</string>
+	<key>preEvolution</key>
+	<integer>381</integer>
+	<key>spattack</key>
+	<integer>29</integer>
+	<key>spdefense</key>
+	<integer>131</integer>
+	<key>species</key>
+	<string>Cosmoem</string>
+	<key>speed</key>
+	<integer>37</integer>
+	<key>total</key>
+	<integer>400</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>2204.4 lbs.</string>
+</dict>
+</plist>

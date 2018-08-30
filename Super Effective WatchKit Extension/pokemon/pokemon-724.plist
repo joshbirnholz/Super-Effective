@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Blaze</string>
+	<key>ability2</key>
+	<string>Blaze</string>
+	<key>abilityH</key>
+	<string>Intimidate</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>724</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Fire Cat Pokémon</string>
+	<key>defense</key>
+	<integer>40</integer>
+	<key>dex1</key>
+	<string>While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.</string>
+	<key>dex2</key>
+	<string>It doesn’t allow its emotions to be easily seen. Earning its trust takes time. It prefers solitude.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>391</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>391</integer>
+		<integer>392</integer>
+	</array>
+	<key>forme</key>
+	<string>Litten</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>45</integer>
+	<key>id</key>
+	<integer>724</integer>
+	<key>ndex</key>
+	<integer>725</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>40</integer>
+	<key>species</key>
+	<string>Litten</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>320</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>9.5 lbs.</string>
+</dict>
+</plist>

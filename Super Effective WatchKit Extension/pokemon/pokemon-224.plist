@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Vital Spirit</string>
+	<key>ability2</key>
+	<string>Hustle</string>
+	<key>abilityH</key>
+	<string>Insomnia</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>224</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Delivery Pokémon</string>
+	<key>defense</key>
+	<integer>45</integer>
+	<key>dex1</key>
+	<string>Although it naturally prefers colder locales, Delibird in Alola seem able to withstand the heat to a certain extent.</string>
+	<key>dex2</key>
+	<string>It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Delibird</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>45</integer>
+	<key>id</key>
+	<integer>224</integer>
+	<key>ndex</key>
+	<integer>225</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Delibird</string>
+	<key>speed</key>
+	<integer>75</integer>
+	<key>total</key>
+	<integer>330</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>35.3 lbs.</string>
+</dict>
+</plist>

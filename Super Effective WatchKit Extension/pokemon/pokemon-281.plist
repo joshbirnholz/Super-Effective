@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Synchronize</string>
+	<key>ability2</key>
+	<string>Trace</string>
+	<key>abilityH</key>
+	<string>Telepathy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>281</integer>
+		<integer>878</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Embrace Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>147</integer>
+		<integer>148</integer>
+		<integer>243</integer>
+	</array>
+	<key>forme</key>
+	<string>Gardevoir</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>68</integer>
+	<key>id</key>
+	<integer>281</integer>
+	<key>ndex</key>
+	<integer>282</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Kirlia</string>
+	<key>preEvolution</key>
+	<integer>148</integer>
+	<key>spattack</key>
+	<integer>125</integer>
+	<key>spdefense</key>
+	<integer>115</integer>
+	<key>species</key>
+	<string>Gardevoir</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>518</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>106.7 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Surge Surfer</string>
+	<key>ability2</key>
+	<string>Surge Surfer</string>
+	<key>abilityH</key>
+	<string>Surge Surfer</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>817</integer>
+		<integer>25</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.</string>
+	<key>dex2</key>
+	<string>It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>15</integer>
+		<integer>16</integer>
+		<integer>417</integer>
+	</array>
+	<key>forme</key>
+	<string>Raichu (Alola Form)</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>817</integer>
+	<key>ndex</key>
+	<integer>26</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Pikachu</string>
+	<key>preEvolution</key>
+	<integer>417</integer>
+	<key>spattack</key>
+	<integer>95</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Raichu</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>485</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>46.3 lbs.</string>
+</dict>
+</plist>

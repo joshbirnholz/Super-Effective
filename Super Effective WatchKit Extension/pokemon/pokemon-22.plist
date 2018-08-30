@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Intimidate</string>
+	<key>ability2</key>
+	<string>Shed Skin</string>
+	<key>abilityH</key>
+	<string>Unnerve</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>22</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Snake Pokémon</string>
+	<key>defense</key>
+	<integer>44</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>14</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>14</integer>
+	</array>
+	<key>forme</key>
+	<string>Ekans</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>35</integer>
+	<key>id</key>
+	<integer>22</integer>
+	<key>ndex</key>
+	<integer>23</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>54</integer>
+	<key>species</key>
+	<string>Ekans</string>
+	<key>speed</key>
+	<integer>55</integer>
+	<key>total</key>
+	<integer>288</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>15.2 lbs.</string>
+</dict>
+</plist>

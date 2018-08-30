@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.</string>
+	<key>id</key>
+	<integer>450</integer>
+	<key>move</key>
+	<string>Bug Bite</string>
+	<key>power</key>
+	<integer>60</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Bug</string>
+	<key>z-effect</key>
+	<string>120 Power</string>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Torrent</string>
+	<key>ability2</key>
+	<string>Torrent</string>
+	<key>abilityH</key>
+	<string>Protean</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>657</integer>
+		<integer>960</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Ninja Pokémon</string>
+	<key>defense</key>
+	<integer>67</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>334</integer>
+		<integer>335</integer>
+	</array>
+	<key>forme</key>
+	<string>Greninja</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>72</integer>
+	<key>id</key>
+	<integer>657</integer>
+	<key>ndex</key>
+	<integer>658</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Frogadier</string>
+	<key>preEvolution</key>
+	<integer>335</integer>
+	<key>spattack</key>
+	<integer>103</integer>
+	<key>spdefense</key>
+	<integer>71</integer>
+	<key>species</key>
+	<string>Greninja</string>
+	<key>speed</key>
+	<integer>122</integer>
+	<key>total</key>
+	<integer>530</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Dark</string>
+	<key>weight</key>
+	<string>88.2 lbs.</string>
+</dict>
+</plist>

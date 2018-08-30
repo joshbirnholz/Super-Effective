@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.</string>
+	<key>id</key>
+	<integer>614</integer>
+	<key>move</key>
+	<string>Thousand Arrows</string>
+	<key>power</key>
+	<integer>90</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ground</string>
+	<key>z-effect</key>
+	<string>180 Power</string>
+</dict>
+</plist>

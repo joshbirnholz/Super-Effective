@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Stall</string>
+	<key>abilityH</key>
+	<string>Prankster</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>301</integer>
+		<integer>879</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Darkness Pokémon</string>
+	<key>defense</key>
+	<integer>75</integer>
+	<key>dex1</key>
+	<string>It’s a fiend for gemstones, so it stalks Carbink. Unfortunately, Gabite almost always grabs them first.</string>
+	<key>dex2</key>
+	<string>This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it’s believed that Sableye will steal people’s spirits away.</string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Sableye</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>301</integer>
+	<key>ndex</key>
+	<integer>302</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Sableye</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>380</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>24.3 lbs.</string>
+</dict>
+</plist>

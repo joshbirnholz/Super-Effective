@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Thick Fat</string>
+	<key>ability2</key>
+	<string>Huge Power</string>
+	<key>abilityH</key>
+	<string>Sap Sipper</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>183</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Aqua Rabbit Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>100</integer>
+		<integer>101</integer>
+	</array>
+	<key>forme</key>
+	<string>Azumarill</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>183</integer>
+	<key>ndex</key>
+	<integer>184</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Marill</string>
+	<key>preEvolution</key>
+	<integer>101</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Azumarill</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>420</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>62.8 lbs.</string>
+</dict>
+</plist>

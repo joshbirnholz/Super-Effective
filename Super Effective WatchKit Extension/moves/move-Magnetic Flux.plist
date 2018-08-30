@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.</string>
+	<key>id</key>
+	<integer>602</integer>
+	<key>move</key>
+	<string>Magnetic Flux</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Electric</string>
+	<key>z-effect</key>
+	<string>Special Defense ↑</string>
+</dict>
+</plist>

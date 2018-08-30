@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Beast Boost</string>
+	<key>ability2</key>
+	<string>Beast Boost</string>
+	<key>abilityH</key>
+	<string>Beast Boost</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>794</integer>
+	</array>
+	<key>attack</key>
+	<integer>137</integer>
+	<key>class</key>
+	<string>Lissome Pokémon</string>
+	<key>defense</key>
+	<integer>37</integer>
+	<key>dex1</key>
+	<string>One of the dangerous Ultra Beasts, it has been spotted running across the land at terrific speeds.</string>
+	<key>dex2</key>
+	<string>One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Pheromosa</string>
+	<key>height</key>
+	<string>5'11</string>
+	<key>hp</key>
+	<integer>71</integer>
+	<key>id</key>
+	<integer>794</integer>
+	<key>ndex</key>
+	<integer>795</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>137</integer>
+	<key>spdefense</key>
+	<integer>37</integer>
+	<key>species</key>
+	<string>Pheromosa</string>
+	<key>speed</key>
+	<integer>151</integer>
+	<key>total</key>
+	<integer>570</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Fighting</string>
+	<key>weight</key>
+	<string>55.1 lbs.</string>
+</dict>
+</plist>

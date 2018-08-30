@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.</string>
+	<key>id</key>
+	<integer>667</integer>
+	<key>move</key>
+	<string>Purify</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Poison</string>
+	<key>z-effect</key>
+	<string>All stats ↑</string>
+</dict>
+</plist>

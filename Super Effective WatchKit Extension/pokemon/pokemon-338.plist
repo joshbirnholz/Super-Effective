@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Oblivious</string>
+	<key>ability2</key>
+	<string>Anticipation</string>
+	<key>abilityH</key>
+	<string>Hydration</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>338</integer>
+	</array>
+	<key>attack</key>
+	<integer>48</integer>
+	<key>class</key>
+	<string>Whiskers Pokémon</string>
+	<key>defense</key>
+	<integer>43</integer>
+	<key>dex1</key>
+	<string>Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey’s location.</string>
+	<key>dex2</key>
+	<string>Its slippery body is hard to grasp, so much so that there are festivals where people compete to see how many they can catch barehanded.</string>
+	<key>egg-group1</key>
+	<string>Water 2</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>173</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>173</integer>
+	</array>
+	<key>forme</key>
+	<string>Barboach</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>338</integer>
+	<key>ndex</key>
+	<integer>339</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>46</integer>
+	<key>spdefense</key>
+	<integer>41</integer>
+	<key>species</key>
+	<string>Barboach</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>288</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>4.2 lbs.</string>
+</dict>
+</plist>

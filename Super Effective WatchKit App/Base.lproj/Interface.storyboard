@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Pokédex-->
+        <scene sceneID="OrB-LT-46N">
+            <objects>
+                <controller title="Pokédex" id="jF1-op-cXy" customClass="SortInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" radius="0.0" id="4UH-07-KBf">
+                            <items>
+                                <button width="0.69999999999999996" height="1" alignment="left" title="Browse by Generation" id="Lj4-sM-nJL">
+                                    <connections>
+                                        <action selector="browseButtonPressed" destination="jF1-op-cXy" id="AgV-qA-d63"/>
+                                    </connections>
+                                </button>
+                                <picker width="0.29999999999999999" height="1" alignment="left" indicatorMode="shownWhileFocused" id="vnl-gb-H6q">
+                                    <connections>
+                                        <action selector="generationPickerSelected:" destination="jF1-op-cXy" id="nCm-xa-K4U"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <button alignment="center" verticalAlignment="bottom" id="Jjg-P3-ovJ">
+                            <group key="contentGroup" width="1" height="0.5" alignment="left" id="KaV-01-2e0">
+                                <items>
+                                    <imageView width="0.80000000000000004" height="0.80000000000000004" alignment="center" verticalAlignment="center" image="Search Icon" contentMode="scaleAspectFit" id="nU4-Gt-KEQ">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </items>
+                                <color key="backgroundColor" red="0.13330727815628052" green="0.13326257467269897" blue="0.13767445087432861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </group>
+                            <connections>
+                                <action selector="searchButtonPressed" destination="jF1-op-cXy" id="moH-KF-9nR"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="generationPicker" destination="vnl-gb-H6q" id="hm8-ce-5sf"/>
+                        <segue destination="Hyn-HG-9fE" kind="relationship" relationship="nextPage" id="olP-rV-PfS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="241" y="-401"/>
+        </scene>
+        <!--Type Chart-->
+        <scene sceneID="Qx6-e4-5VS">
+            <objects>
+                <controller title="Type Chart" id="Hyn-HG-9fE" customClass="TypeCheckerInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="MaU-Gm-43b">
+                            <items>
+                                <label alignment="left" text="Defending Type" id="FmB-X3-DWv">
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                                <group width="1" alignment="left" layout="vertical" id="RET-X1-kj8">
+                                    <items>
+                                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="ano-h3-XlW">
+                                            <items>
+                                                <label alignment="left" text="TYPE 1" id="d0j-vI-w21">
+                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                </label>
+                                                <picker height="30" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="GXO-9v-8x0">
+                                                    <connections>
+                                                        <action selector="type1PickerValueChanged:" destination="Hyn-HG-9fE" id="q4U-2Z-fMm"/>
+                                                    </connections>
+                                                </picker>
+                                            </items>
+                                        </group>
+                                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="OAl-3Z-bbo">
+                                            <items>
+                                                <label alignment="left" text="TYPE 2" id="TPq-jT-WqE">
+                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                </label>
+                                                <picker height="30" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="Ufz-Od-Lig">
+                                                    <connections>
+                                                        <action selector="type2PickerValueChanged:" destination="Hyn-HG-9fE" id="fzw-dX-boD"/>
+                                                    </connections>
+                                                </picker>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <button width="1" height="34" alignment="left" title="Check" id="Pws-SE-Acw">
+                            <connections>
+                                <segue destination="0MX-0m-9G8" kind="modal" identifier="TypeMatchupSegue" id="zzb-AY-fdI"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="checkButton" destination="Pws-SE-Acw" id="d8A-ga-hyF"/>
+                        <outlet property="type1Picker" destination="GXO-9v-8x0" id="1G6-Q7-RH0"/>
+                        <outlet property="type2Picker" destination="Ufz-Od-Lig" id="cew-pP-kqL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="553" y="-401"/>
+        </scene>
+        <!--PokedexList-->
+        <scene sceneID="bPi-dE-e6G">
+            <objects>
+                <controller identifier="PokedexList" alwaysBounce="YES" id="v8h-cc-csv" customClass="PokémonListInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Idv-WO-dXP">
+                            <items>
+                                <tableRow identifier="PokemonListRow" id="wlK-Ow-cyF" customClass="PokémonListRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="wje-aO-IxY">
+                                        <items>
+                                            <group width="0.28999999999999998" alignment="left" verticalAlignment="center" id="qa3-er-GA0">
+                                                <items>
+                                                    <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="893-Ex-0x6"/>
+                                                </items>
+                                            </group>
+                                            <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="Vav-mw-yo9">
+                                                <items>
+                                                    <label alignment="left" text="Crabominable" minimumScaleFactor="0.80000000000000004" id="TEk-Q2-Wxe">
+                                                        <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                    </label>
+                                                    <label alignment="left" verticalAlignment="bottom" text="#006" numberOfLines="0" id="EkS-Cz-DoN">
+                                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <edgeInsets key="margins" left="2" right="2" top="4" bottom="4"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="icon" destination="893-Ex-0x6" id="TsO-Nr-wJe"/>
+                                        <outlet property="nameLabel" destination="TEk-Q2-Wxe" id="w5U-q8-fgb"/>
+                                        <outlet property="numberLabel" destination="EkS-Cz-DoN" id="PpW-LF-S6J"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="FRW-Et-JA8">
+                        <items>
+                            <menuItem title="Sort by No." image="123Button" id="el8-Kw-4Gk">
+                                <connections>
+                                    <action selector="sortByNumberButtonPressed" destination="v8h-cc-csv" id="pCg-3E-EAf"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Sort by Name" image="ABCButton" id="uU5-jS-Y6H">
+                                <connections>
+                                    <action selector="sortByNameButtonPressed" destination="v8h-cc-csv" id="mlh-Do-Ysj"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="pokemonListTable" destination="Idv-WO-dXP" id="4Af-Ob-1z3"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="230" y="-26"/>
+        </scene>
+        <!--PokemonDetail-->
+        <scene sceneID="HZ2-fh-OET">
+            <objects>
+                <controller identifier="PokemonDetail" alwaysBounce="YES" id="Ytu-ap-tMR" customClass="PokémonDetailInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Super Effective" id="rG7-2E-GQk">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="2LJ-IV-POQ">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="BXx-ez-5gT">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="qx2-qM-PZm" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="zOM-cE-C6o">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="vC8-v6-ZLc">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="2x" textAlignment="center" id="g2q-xe-RlK"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="g2q-xe-RlK" id="zB2-6h-ChQ"/>
+                                        <outlet property="typeButton" destination="vC8-v6-ZLc" id="Adh-ea-3Sf"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="Not Very Effective" id="rBp-fC-UWz">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="M6E-7I-IvH">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="Oto-Jb-P57">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="44v-hh-HtK" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="ahm-IT-m0t">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="DLF-OV-eC4">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="½x" textAlignment="center" id="9Eu-5K-Lwp"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="9Eu-5K-Lwp" id="whe-m6-jft"/>
+                                        <outlet property="typeButton" destination="DLF-OV-eC4" id="Koa-VX-pEl"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="No Effect" id="BcK-N3-vW1">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="NYs-bu-TbQ">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="iCS-Jk-1vi">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="m47-ae-kzW" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="0iC-vK-SbH">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="y6f-vj-Eta">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="0x" textAlignment="center" id="eMc-ii-5Sv"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="eMc-ii-5Sv" id="aIg-YR-IvD"/>
+                                        <outlet property="typeButton" destination="y6f-vj-Eta" id="V1C-jv-nyt"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="noEffectNoneLabel" destination="NYs-bu-TbQ" id="Kac-sA-HEx"/>
+                        <outlet property="noEffectTable" destination="iCS-Jk-1vi" id="Jg6-9U-9xw"/>
+                        <outlet property="notVeryEffectiveNoneLabel" destination="M6E-7I-IvH" id="sPU-0A-Efj"/>
+                        <outlet property="notVeryEffectiveTable" destination="Oto-Jb-P57" id="Gyk-Oe-waf"/>
+                        <outlet property="superEffectiveNoneLabel" destination="2LJ-IV-POQ" id="OtH-Fh-aDe"/>
+                        <outlet property="superEffectiveTable" destination="BXx-ez-5gT" id="fiX-lL-cnz"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="730" y="-48"/>
+        </scene>
+        <!--Abilities-->
+        <scene sceneID="G6Y-7Z-nTe">
+            <objects>
+                <controller identifier="Abilities" id="lhi-nK-w5G" customClass="AbilitiesInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="ABILITIES" numberOfLines="0" id="fep-Mj-qF8">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <button width="1" alignment="left" title="Static" id="SNa-UD-JfU">
+                            <connections>
+                                <action selector="ability1ButtonPressed" destination="lhi-nK-w5G" id="caQ-Bc-iag"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Static" id="yah-zR-csm">
+                            <connections>
+                                <action selector="ability2Pressed" destination="lhi-nK-w5G" id="lIZ-Ru-jUe"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="HIDDEN ABILITY" numberOfLines="0" id="N1b-SD-OQF">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <button width="1" alignment="left" title="Lightning Rod" id="xsT-XG-ccb">
+                            <connections>
+                                <action selector="hiddenAbilityPressed" destination="lhi-nK-w5G" id="lgE-1f-TuC"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="ability1Button" destination="SNa-UD-JfU" id="cst-bf-id2"/>
+                        <outlet property="ability2Label" destination="yah-zR-csm" id="XQY-3y-OpD"/>
+                        <outlet property="hiddenAbilityButton" destination="xsT-XG-ccb" id="gb2-uW-wMP"/>
+                        <outlet property="hiddenAbilityLabel" destination="N1b-SD-OQF" id="Wmi-fz-SNA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1234" y="-51"/>
+        </scene>
+        <!--MoreInfo-->
+        <scene sceneID="hyP-nG-psn">
+            <objects>
+                <controller identifier="MoreInfo" id="EJy-J0-rSO" customClass="MoreInfoInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Origin Form" numberOfLines="0" id="T2d-kI-kae">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <group width="1" alignment="left" id="dK7-6C-BiN">
+                            <items>
+                                <imageView width="0.25" alignment="left" verticalAlignment="center" image="740" contentMode="center" id="Foq-yf-0zo"/>
+                                <group alignment="left" verticalAlignment="center" layout="vertical" spacing="2" id="rzf-y2-9ry">
+                                    <items>
+                                        <button width="1" height="25" alignment="left" title="FIGHTING" enabled="NO" id="fSk-eb-w6P">
+                                            <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                        </button>
+                                        <button width="1" height="25" alignment="left" title="ICE" enabled="NO" id="5uq-gH-hNC">
+                                            <color key="backgroundColor" red="0.59731602669999995" green="0.84655809400000004" blue="0.84509909149999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Gas Pokémon" numberOfLines="0" id="Pit-mN-JVW">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <group width="1" alignment="left" id="1AZ-PU-ZGU">
+                            <items>
+                                <group width="0.5" alignment="center" layout="vertical" spacing="0.0" id="Ocf-af-CE8">
+                                    <items>
+                                        <label alignment="center" text="HEIGHT" textAlignment="center" id="iZ1-V7-er4">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label alignment="center" text="5'03&quot;" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="DRx-wt-X9d"/>
+                                    </items>
+                                </group>
+                                <group width="0.5" alignment="center" layout="vertical" spacing="0.0" id="nbe-7S-QzK">
+                                    <items>
+                                        <label alignment="center" text="WEIGHT" textAlignment="center" id="AJW-GL-xk8">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label alignment="center" text="120 lbs." textAlignment="center" minimumScaleFactor="0.69999999999999996" id="RXA-mP-KM3"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <label alignment="center" hidden="YES" text="Genderless" textAlignment="center" id="iDG-1X-c2K"/>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="re0-ba-96L">
+                            <items>
+                                <group width="1" height="5" alignment="left" radius="5" spacing="0.0" id="ck2-sf-HYd">
+                                    <items>
+                                        <imageView width="0.5" height="1" alignment="left" image="female" id="Eob-al-1ch"/>
+                                        <imageView width="0.5" height="1" alignment="left" image="male" id="Mvg-cP-DdL"/>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="HRd-ZD-2si">
+                                    <items>
+                                        <label alignment="left" text="12.5%" id="iNf-QT-vRX"/>
+                                        <label alignment="right" text="87.5%" textAlignment="left" id="oOi-ex-4Ah"/>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="fgv-dK-41d">
+                                    <items>
+                                        <label alignment="left" text="Female" id="eEx-d1-PbF">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label alignment="right" text="Male" textAlignment="left" id="4DF-ao-w1h">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <label alignment="left" text="When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact." numberOfLines="0" id="UZq-Dj-2Qi">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" type="italicSystem" pointSize="15"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="dexEntryLabel" destination="UZq-Dj-2Qi" id="Oj7-E4-Qml"/>
+                        <outlet property="formLabel" destination="T2d-kI-kae" id="He7-tc-PD2"/>
+                        <outlet property="genderGroup" destination="re0-ba-96L" id="wCq-SI-dJs"/>
+                        <outlet property="genderlessLabel" destination="iDG-1X-c2K" id="2dx-xj-EV0"/>
+                        <outlet property="heightLabel" destination="DRx-wt-X9d" id="UYj-lQ-t4L"/>
+                        <outlet property="icon" destination="Foq-yf-0zo" id="H7A-1C-eXA"/>
+                        <outlet property="percentFemaleImage" destination="Eob-al-1ch" id="cJJ-u2-mJB"/>
+                        <outlet property="percentFemaleLabel" destination="iNf-QT-vRX" id="aO0-wO-pCZ"/>
+                        <outlet property="percentMaleImage" destination="Mvg-cP-DdL" id="jfh-kc-Ozk"/>
+                        <outlet property="percentMaleLabel" destination="oOi-ex-4Ah" id="5Mu-wD-48Z"/>
+                        <outlet property="speciesLabel" destination="Pit-mN-JVW" id="Htx-CG-SuZ"/>
+                        <outlet property="type1button" destination="fSk-eb-w6P" id="4b2-dl-rCB"/>
+                        <outlet property="type2button" destination="5uq-gH-hNC" id="yRL-m5-vQx"/>
+                        <outlet property="weightLabel" destination="RXA-mP-KM3" id="K0X-Ab-tIh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="478" y="55"/>
+        </scene>
+        <!--Moveset-->
+        <scene sceneID="BJo-xX-Evg">
+            <objects>
+                <controller identifier="Moveset" id="g7e-RQ-3fO" customClass="MovesetInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="MOVES" id="G0j-E3-T3A">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <table alignment="left" id="h0e-DB-aQy">
+                            <items>
+                                <tableRow identifier="MovesetRow" id="edw-f0-XYl" customClass="MovesetRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" spacing="0.0" id="3gC-ac-6Lw">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="START" id="ubo-Ch-JT7">
+                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                            </label>
+                                            <label alignment="left" verticalAlignment="center" text="Ancientpowder" minimumScaleFactor="0.80000000000000004" id="HEe-gB-xyd"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="methodLabel" destination="ubo-Ch-JT7" id="h2b-u6-Zty"/>
+                                        <outlet property="moveNameLabel" destination="HEe-gB-xyd" id="VM2-VM-6Fa"/>
+                                        <segue destination="yyu-Dp-wsm" kind="modal" id="U1H-wJ-4N0"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="movesetTable" destination="h0e-DB-aQy" id="G70-4c-cAo"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="963" y="-58"/>
+        </scene>
+        <!--MoveDetail-->
+        <scene sceneID="Q5k-AW-iTv">
+            <objects>
+                <controller identifier="MoveDetail" id="yyu-Dp-wsm" customClass="MoveDetailInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="ZZw-5z-hgT">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="TYPE" textAlignment="left" id="Thq-RY-66M">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <button width="0.69999999999999996" height="25" alignment="right" verticalAlignment="center" title="WATER" enabled="NO" id="QLI-oc-Pjs">
+                                    <color key="backgroundColor" red="0.40615680813789368" green="0.56640619039535522" blue="0.93934172391891479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="HlL-SW-p39">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="CATEGORY" textAlignment="left" minimumScaleFactor="0.90000000000000002" id="Wl7-gs-yEu">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <button alignment="right" verticalAlignment="center" enabled="NO" id="iTc-k3-BSc">
+                                    <group key="contentGroup" width="0.40000000000000002" height="25" alignment="left" id="NGc-QK-vax">
+                                        <items>
+                                            <imageView width="1" height="0.80000000000000004" alignment="center" verticalAlignment="center" image="Special" contentMode="scaleAspectFit" id="2Xt-hZ-ojT"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.21678647398948669" green="0.49794071912765503" blue="0.94062584638595581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" spacing="0.0" id="UIR-ia-raw">
+                            <items>
+                                <label alignment="left" text="POWER" textAlignment="center" id="BcR-mA-frL">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" text="90" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="vmi-xb-e91"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" spacing="0.0" id="yas-kz-T9c">
+                            <items>
+                                <label alignment="left" text="ACCURACY" textAlignment="center" id="hSF-w9-DCZ">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" text="100%" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="aJp-VY-DZc"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" spacing="0.0" id="YS7-8s-pc6">
+                            <items>
+                                <label alignment="left" text="PP" textAlignment="center" id="bmh-pk-uTd">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" text="15" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="7yV-Nd-Yj1"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="12" id="fvO-5G-nM5">
+                            <items>
+                                <label alignment="left" text="The user attacks everything around it by swamping its surroundings with a giant wave." numberOfLines="0" id="k8v-5M-3Za"/>
+                                <group width="1" alignment="left" layout="vertical" spacing="0.0" id="K4s-HK-zpY">
+                                    <items>
+                                        <label alignment="left" text="Z-MOVE EFFECT" textAlignment="center" id="saI-6P-lvk">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                        <label alignment="left" text="175 Power" numberOfLines="0" id="ipT-xC-9Hw"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="OK" id="wIR-bv-lfa">
+                            <connections>
+                                <action selector="okButtonPressed" destination="yyu-Dp-wsm" id="BRw-WF-AYy"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="accuracyLabel" destination="aJp-VY-DZc" id="Fhh-rP-9L9"/>
+                        <outlet property="categoryButton" destination="NGc-QK-vax" id="aEW-TB-TeP"/>
+                        <outlet property="categoryImage" destination="2Xt-hZ-ojT" id="vVl-yW-cwE"/>
+                        <outlet property="descriptionLabel" destination="k8v-5M-3Za" id="orL-rD-2qg"/>
+                        <outlet property="powerLabel" destination="vmi-xb-e91" id="WjR-sl-SQ7"/>
+                        <outlet property="ppLabel" destination="7yV-Nd-Yj1" id="5mA-oG-A19"/>
+                        <outlet property="typeButton" destination="QLI-oc-Pjs" id="qgT-t9-zdH"/>
+                        <outlet property="zmoveEffectLabel" destination="ipT-xC-9Hw" id="eNf-I0-IA8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="963" y="404"/>
+        </scene>
+        <!--BaseStats-->
+        <scene sceneID="b55-we-eGA">
+            <objects>
+                <controller identifier="BaseStats" id="qmL-1T-ELg" customClass="BaseStatsInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="left" verticalAlignment="center" contentMode="scaleAspectFit" id="zEi-pa-Lgy"/>
+                        <label alignment="center" verticalAlignment="bottom" text="Base Stat Total: 600" textAlignment="left" id="01h-k5-fBO">
+                            <color key="textColor" red="0.2719702423" green="0.65749156480000004" blue="0.42939490079999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="statsChartImage" destination="zEi-pa-Lgy" id="LE9-vb-4NY"/>
+                        <outlet property="totalStatsLabel" destination="01h-k5-fBO" id="EKN-3h-npe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1442" y="-58"/>
+        </scene>
+        <!--Evo-->
+        <scene sceneID="DMq-8e-EB8">
+            <objects>
+                <controller identifier="Evo" id="yWq-3m-FWb" customClass="EvolutionAndFormsInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="4Or-rL-IAG">
+                            <items>
+                                <label alignment="left" text="EVOLUTION" textAlignment="left" id="VLd-wL-ZKL">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                                <label alignment="center" hidden="YES" text="This Pokémon does not evolve." textAlignment="center" numberOfLines="0" id="uNO-C5-6xq"/>
+                                <table alignment="left" id="VIM-ex-bHv">
+                                    <items>
+                                        <tableRow identifier="EvolutionRow" selectable="NO" id="Uib-w2-G6L" customClass="EvolutionRowController" customModule="Super_Effective_WatchKit_Extension">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="lpm-ZD-0Kc">
+                                                <items>
+                                                    <separator alignment="left" hidden="YES" id="1GT-rE-fC0"/>
+                                                    <group width="1" alignment="left" layout="vertical" spacing="0.0" id="5OX-1d-ale">
+                                                        <items>
+                                                            <button alignment="center" id="Hdv-5m-FHb">
+                                                                <group key="contentGroup" width="1" alignment="left" id="7kf-AY-Awj">
+                                                                    <items>
+                                                                        <group width="0.28999999999999998" alignment="left" verticalAlignment="center" id="cVM-76-wkV">
+                                                                            <items>
+                                                                                <imageView alignment="center" verticalAlignment="center" image="759" contentMode="center" id="UmV-62-4ct"/>
+                                                                            </items>
+                                                                        </group>
+                                                                        <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="Oth-Iz-v6v">
+                                                                            <items>
+                                                                                <label alignment="left" verticalAlignment="center" text="Stufful" minimumScaleFactor="0.69999999999999996" id="9US-pt-EBR">
+                                                                                    <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                                                </label>
+                                                                                <label alignment="left" verticalAlignment="bottom" text="Red Flower" numberOfLines="0" id="6C4-8v-WTv">
+                                                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                                                </label>
+                                                                            </items>
+                                                                        </group>
+                                                                    </items>
+                                                                    <color key="backgroundColor" red="0.1333145797252655" green="0.13334441184997559" blue="0.13331037759780884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="4"/>
+                                                                </group>
+                                                                <connections>
+                                                                    <action selector="souceButtonPressed" destination="Uib-w2-G6L" id="7YS-2u-dah"/>
+                                                                </connections>
+                                                            </button>
+                                                            <label alignment="center" text="using a Fire Stone" textAlignment="center" numberOfLines="0" id="Rst-YH-icf">
+                                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                            </label>
+                                                            <label alignment="center" text="↓" textAlignment="center" id="vQH-9Q-Cuh"/>
+                                                            <button alignment="center" id="yBz-4p-Moa">
+                                                                <group key="contentGroup" width="1" alignment="left" id="6c1-V4-C0x">
+                                                                    <items>
+                                                                        <group width="0.28999999999999998" alignment="left" verticalAlignment="center" id="6JW-33-rfB">
+                                                                            <items>
+                                                                                <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="iwM-0P-TZj"/>
+                                                                            </items>
+                                                                        </group>
+                                                                        <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="3DW-9R-zWo">
+                                                                            <items>
+                                                                                <label alignment="left" verticalAlignment="center" text="Crabominable" minimumScaleFactor="0.69999999999999996" id="Y55-Gt-QPs">
+                                                                                    <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                                                </label>
+                                                                                <label alignment="left" verticalAlignment="bottom" text="Complete" numberOfLines="0" id="I5f-2W-f3G">
+                                                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                                                </label>
+                                                                            </items>
+                                                                        </group>
+                                                                    </items>
+                                                                    <color key="backgroundColor" red="0.1333145797252655" green="0.13334441184997559" blue="0.13331037759780884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="4"/>
+                                                                </group>
+                                                                <connections>
+                                                                    <action selector="evolvedButtonPressed" destination="Uib-w2-G6L" id="nsU-wK-RtT"/>
+                                                                </connections>
+                                                            </button>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <connections>
+                                                <outlet property="evolvedButton" destination="yBz-4p-Moa" id="pXJ-Dn-DuQ"/>
+                                                <outlet property="evolvedForm" destination="I5f-2W-f3G" id="xrJ-Zt-KdE"/>
+                                                <outlet property="evolvedIcon" destination="iwM-0P-TZj" id="GLX-hk-Nw8"/>
+                                                <outlet property="evolvedNameLabel" destination="Y55-Gt-QPs" id="0a3-e9-HOr"/>
+                                                <outlet property="methodLabel" destination="Rst-YH-icf" id="ClI-cB-npx"/>
+                                                <outlet property="separator" destination="1GT-rE-fC0" id="xON-Yr-g4k"/>
+                                                <outlet property="souceName" destination="9US-pt-EBR" id="xv7-pk-ra9"/>
+                                                <outlet property="sourceButton" destination="Hdv-5m-FHb" id="eTI-uq-j7B"/>
+                                                <outlet property="sourceForm" destination="6C4-8v-WTv" id="Wvt-au-Jfb"/>
+                                                <outlet property="sourceIcon" destination="UmV-62-4ct" id="C1T-gv-7og"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="C6u-jl-cup">
+                            <items>
+                                <label alignment="left" text="FORMS" textAlignment="left" id="I3Q-a3-MKH">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                                <table alignment="left" id="6Zk-WL-rLk">
+                                    <items>
+                                        <tableRow identifier="PokemonFormRow" id="eBP-jC-g91" customClass="PokémonListRowController" customModule="Super_Effective_WatchKit_Extension">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" id="KUl-A2-Vjx">
+                                                <items>
+                                                    <group width="0.28999999999999998" alignment="left" verticalAlignment="center" id="geo-6Z-vC9">
+                                                        <items>
+                                                            <imageView alignment="center" verticalAlignment="center" image="740" contentMode="center" id="wJW-nq-c47"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="ad2-s9-EBS">
+                                                        <items>
+                                                            <label alignment="left" text="Crabominable" minimumScaleFactor="0.80000000000000004" id="dTC-mp-6v2">
+                                                                <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                            </label>
+                                                            <label alignment="left" verticalAlignment="bottom" text="Origin Forme" numberOfLines="0" id="maz-nq-OXu">
+                                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="4"/>
+                                            </group>
+                                            <connections>
+                                                <outlet property="icon" destination="wJW-nq-c47" id="8kp-AO-Idt"/>
+                                                <outlet property="nameLabel" destination="dTC-mp-6v2" id="rnO-n7-QGJ"/>
+                                                <outlet property="numberLabel" destination="maz-nq-OXu" id="5kv-EP-eED"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="evolutionsHeaderLabel" destination="VLd-wL-ZKL" id="D3X-Eh-AkF"/>
+                        <outlet property="evolutionsTable" destination="VIM-ex-bHv" id="RVW-aL-8DN"/>
+                        <outlet property="formsHeaderLabel" destination="I3Q-a3-MKH" id="oRM-0l-sZZ"/>
+                        <outlet property="formsListTable" destination="6Zk-WL-rLk" id="Oxs-6U-29q"/>
+                        <outlet property="noEvolutionsLabel" destination="uNO-C5-6xq" id="6xw-BV-wNG"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1655" y="75"/>
+        </scene>
+        <!--TypeMatchup-->
+        <scene sceneID="ZOI-GT-Dl5">
+            <objects>
+                <controller identifier="TypeMatchup" alwaysBounce="YES" id="0MX-0m-9G8" customClass="TypeEffectivenessInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Super Effective" id="WI9-hT-nvl">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="Aey-YO-Hbg">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="dqo-EU-Pvs">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="iU6-6O-yvd" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="DZU-aU-gY2">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="xlv-9p-VF6">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="2x" textAlignment="center" id="KNk-a3-E8c"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="KNk-a3-E8c" id="Mjh-r1-giU"/>
+                                        <outlet property="typeButton" destination="xlv-9p-VF6" id="j1W-Pg-VMA"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="Not Very Effective" id="Iao-TC-CGg">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="Gi7-yM-njp">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="bx8-6K-tYa">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="dbx-cR-57i" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="H0k-xw-Tda">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="VPF-gj-g70">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="½x" textAlignment="center" id="gnA-tM-nQm"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="gnA-tM-nQm" id="gLO-OP-Dkf"/>
+                                        <outlet property="typeButton" destination="VPF-gj-g70" id="5bz-Jg-Hla"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="No Effect" id="Xlz-FK-eUA">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="21d-LC-hkV">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <table alignment="left" id="NWm-Zr-EwG">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="tVP-Za-vZf" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="5RN-mR-h5Y">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="VjO-Vz-rzi">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="0x" textAlignment="center" id="DLI-Lu-qcf"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="DLI-Lu-qcf" id="ws4-r4-lOU"/>
+                                        <outlet property="typeButton" destination="VjO-Vz-rzi" id="hDb-GY-tFi"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="Normal Effect" id="VQH-a4-Afw">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <table alignment="left" id="xMf-Bx-dOl">
+                            <items>
+                                <tableRow identifier="TypeRow" selectable="NO" id="rjI-06-6bH" customClass="TypeRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="LEl-Nm-YAb">
+                                        <items>
+                                            <button width="0.80000000000000004" height="25" alignment="left" title="ELECTRIC" enabled="NO" id="eW0-fY-25i">
+                                                <color key="backgroundColor" red="0.75164777039999997" green="0.18976104260000001" blue="0.15625426170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </button>
+                                            <label width="0.20000000000000001" alignment="right" verticalAlignment="center" text="1x" textAlignment="center" id="YDP-fU-nZc"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="8" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="effectivenessLabel" destination="YDP-fU-nZc" id="hH5-G6-Ghu"/>
+                                        <outlet property="typeButton" destination="eW0-fY-25i" id="ust-D9-0jR"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="center" hidden="YES" text="None" textAlignment="center" id="ueH-CS-4Sf">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="noEffectNoneLabel" destination="21d-LC-hkV" id="phi-i7-rfK"/>
+                        <outlet property="noEffectTable" destination="NWm-Zr-EwG" id="dhH-Kf-qtw"/>
+                        <outlet property="normalEffectiveNoneLabel" destination="ueH-CS-4Sf" id="Hxv-ZC-mLc"/>
+                        <outlet property="normalEffectiveTable" destination="xMf-Bx-dOl" id="EhO-OX-jLQ"/>
+                        <outlet property="notVeryEffectiveNoneLabel" destination="Gi7-yM-njp" id="0OV-TI-ADQ"/>
+                        <outlet property="notVeryEffectiveTable" destination="bx8-6K-tYa" id="ezx-vg-FmG"/>
+                        <outlet property="superEffectiveNoneLabel" destination="Aey-YO-Hbg" id="TGN-TU-oUe"/>
+                        <outlet property="superEffectiveTable" destination="dqo-EU-Pvs" id="ul5-SJ-khb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="794" y="-401"/>
+        </scene>
+    </scenes>
+</document>

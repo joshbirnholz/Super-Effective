@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flower Veil</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Symbiosis</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>668</integer>
+		<integer>980</integer>
+		<integer>981</integer>
+		<integer>982</integer>
+		<integer>983</integer>
+	</array>
+	<key>attack</key>
+	<integer>38</integer>
+	<key>class</key>
+	<string>Single Bloom Pokémon</string>
+	<key>defense</key>
+	<integer>39</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Fairy</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>346</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>346</integer>
+		<integer>351</integer>
+		<integer>347</integer>
+		<integer>352</integer>
+		<integer>348</integer>
+		<integer>353</integer>
+		<integer>349</integer>
+		<integer>354</integer>
+		<integer>350</integer>
+		<integer>355</integer>
+	</array>
+	<key>forme</key>
+	<string>Flabébé (Red Flower)</string>
+	<key>height</key>
+	<string>0'04</string>
+	<key>hp</key>
+	<integer>44</integer>
+	<key>id</key>
+	<integer>668</integer>
+	<key>ndex</key>
+	<integer>669</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>61</integer>
+	<key>spdefense</key>
+	<integer>79</integer>
+	<key>species</key>
+	<string>Flabébé</string>
+	<key>speed</key>
+	<integer>42</integer>
+	<key>total</key>
+	<integer>303</integer>
+	<key>type1</key>
+	<string>Fairy</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>0.2 lbs.</string>
+</dict>
+</plist>

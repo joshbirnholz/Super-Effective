@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Trace</string>
+	<key>ability2</key>
+	<string>Download</string>
+	<key>abilityH</key>
+	<string>Analytic</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>136</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Virtual Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.</string>
+	<key>dex2</key>
+	<string>It can convert its body into digital data, which enables it to enter cyberspace.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>124</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>124</integer>
+		<integer>242</integer>
+	</array>
+	<key>forme</key>
+	<string>Porygon</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>136</integer>
+	<key>ndex</key>
+	<integer>137</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Porygon</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>395</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>80.5 lbs.</string>
+</dict>
+</plist>

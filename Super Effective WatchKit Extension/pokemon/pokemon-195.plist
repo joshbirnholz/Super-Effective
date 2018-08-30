@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Synchronize</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Magic Bounce</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>195</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Sun Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>It can instantaneously sense its opponent’s movements by feeling air currents with its fine fur.</string>
+	<key>dex2</key>
+	<string>It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>108</integer>
+		<integer>109</integer>
+		<integer>370</integer>
+		<integer>372</integer>
+		<integer>373</integer>
+		<integer>75</integer>
+		<integer>76</integer>
+		<integer>77</integer>
+	</array>
+	<key>forme</key>
+	<string>Espeon</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>195</integer>
+	<key>ndex</key>
+	<integer>196</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Eevee</string>
+	<key>preEvolution</key>
+	<integer>108</integer>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Espeon</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>525</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>58.4 lbs.</string>
+</dict>
+</plist>

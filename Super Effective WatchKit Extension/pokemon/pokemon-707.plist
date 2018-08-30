@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Natural Cure</string>
+	<key>ability2</key>
+	<string>Frisk</string>
+	<key>abilityH</key>
+	<string>Harvest</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>707</integer>
+	</array>
+	<key>attack</key>
+	<integer>70</integer>
+	<key>class</key>
+	<string>Stump Pokémon</string>
+	<key>defense</key>
+	<integer>48</integer>
+	<key>dex1</key>
+	<string>These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.</string>
+	<key>dex2</key>
+	<string>According to legend, medicine to cure any illness can be made by plucking the green leaves on its head, brewing them, and boiling down the liquid.</string>
+	<key>egg-group1</key>
+	<string>Grass</string>
+	<key>egg-group2</key>
+	<string>Amorphous</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>326</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>326</integer>
+	</array>
+	<key>forme</key>
+	<string>Phantump</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>43</integer>
+	<key>id</key>
+	<integer>707</integer>
+	<key>ndex</key>
+	<integer>708</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Phantump</string>
+	<key>speed</key>
+	<integer>38</integer>
+	<key>total</key>
+	<integer>309</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string>Grass</string>
+	<key>weight</key>
+	<string>15.4 lbs.</string>
+</dict>
+</plist>

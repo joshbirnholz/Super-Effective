@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Swift Swim</string>
+	<key>ability2</key>
+	<string>Battle Armor</string>
+	<key>abilityH</key>
+	<string>Weak Armor</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>140</integer>
+	</array>
+	<key>attack</key>
+	<integer>115</integer>
+	<key>class</key>
+	<string>Shellfish Pokémon</string>
+	<key>defense</key>
+	<integer>105</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>79</integer>
+	</array>
+	<key>forme</key>
+	<string>Kabutops</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>140</integer>
+	<key>ndex</key>
+	<integer>141</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Kabuto</string>
+	<key>preEvolution</key>
+	<integer>79</integer>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Kabutops</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>495</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Water</string>
+	<key>weight</key>
+	<string>89.3 lbs.</string>
+</dict>
+</plist>

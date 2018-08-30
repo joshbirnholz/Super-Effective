@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Suction Cups</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Storm Drain</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>344</integer>
+	</array>
+	<key>attack</key>
+	<integer>41</integer>
+	<key>class</key>
+	<string>Sea Lily Pokémon</string>
+	<key>defense</key>
+	<integer>77</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>176</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>176</integer>
+	</array>
+	<key>forme</key>
+	<string>Lileep</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>66</integer>
+	<key>id</key>
+	<integer>344</integer>
+	<key>ndex</key>
+	<integer>345</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>61</integer>
+	<key>spdefense</key>
+	<integer>87</integer>
+	<key>species</key>
+	<string>Lileep</string>
+	<key>speed</key>
+	<integer>23</integer>
+	<key>total</key>
+	<integer>355</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Grass</string>
+	<key>weight</key>
+	<string>52.5 lbs.</string>
+</dict>
+</plist>

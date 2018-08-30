@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.</string>
+	<key>id</key>
+	<integer>46</integer>
+	<key>move</key>
+	<string>Roar</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>-6</integer>
+	<key>type</key>
+	<string>Normal</string>
+	<key>z-effect</key>
+	<string>Defense ↑</string>
+</dict>
+</plist>

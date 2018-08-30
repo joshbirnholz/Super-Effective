@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Trace</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>826</integer>
+		<integer>64</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Psi Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>As a result of Mega Evolution, its power has been entirely converted into psychic energy, and it has lost all strength in its muscles.</string>
+	<key>dex2</key>
+	<string>Its hidden psychic power has been unleashed. A glance at someone gives it knowledge of the course of that person’s life, from birth to death.</string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Alakazam (Mega Alakazam)</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>826</integer>
+	<key>ndex</key>
+	<integer>65</integer>
+	<key>percent-female</key>
+	<real>0.25</real>
+	<key>percent-male</key>
+	<real>0.75</real>
+	<key>pre-evolution</key>
+	<string>Kadabra</string>
+	<key>spattack</key>
+	<integer>175</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Alakazam</string>
+	<key>speed</key>
+	<integer>150</integer>
+	<key>total</key>
+	<integer>590</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>105.8 lbs.</string>
+</dict>
+</plist>

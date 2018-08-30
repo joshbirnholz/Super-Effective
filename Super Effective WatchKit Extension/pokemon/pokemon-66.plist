@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Guts</string>
+	<key>ability2</key>
+	<string>No Guard</string>
+	<key>abilityH</key>
+	<string>Steadfast</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>66</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Superpower Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>As a result of its continual workouts, it has developed tremendous power. It uses that power to help people with their work.</string>
+	<key>dex2</key>
+	<string>It willingly assists with hard labor because it knows the work is good training for its muscles.</string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>42</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>41</integer>
+		<integer>42</integer>
+	</array>
+	<key>forme</key>
+	<string>Machoke</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>66</integer>
+	<key>ndex</key>
+	<integer>67</integer>
+	<key>percent-female</key>
+	<real>0.25</real>
+	<key>percent-male</key>
+	<real>0.75</real>
+	<key>pre-evolution</key>
+	<string>Machop</string>
+	<key>preEvolution</key>
+	<integer>41</integer>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Machoke</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Fighting</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>155.4 lbs.</string>
+</dict>
+</plist>

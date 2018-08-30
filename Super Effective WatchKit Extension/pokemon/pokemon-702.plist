@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Clear Body</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Sturdy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>702</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Jewel Pokémon</string>
+	<key>defense</key>
+	<integer>150</integer>
+	<key>dex1</key>
+	<string>Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.</string>
+	<key>dex2</key>
+	<string>Although this Pokémon is not especially rare, its glittering, jewel-draped body draws attention from people.</string>
+	<key>egg-group1</key>
+	<string>Fairy</string>
+	<key>egg-group2</key>
+	<string>Mineral</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Carbink</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>702</integer>
+	<key>ndex</key>
+	<integer>703</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>150</integer>
+	<key>species</key>
+	<string>Carbink</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>500</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>12.6 lbs.</string>
+</dict>
+</plist>

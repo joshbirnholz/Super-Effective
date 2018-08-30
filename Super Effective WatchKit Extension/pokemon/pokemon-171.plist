@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Static</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Lightning Rod</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>171</integer>
+	</array>
+	<key>attack</key>
+	<integer>40</integer>
+	<key>class</key>
+	<string>Tiny Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>15</integer>
+	<key>dex1</key>
+	<string>It is not yet skilled at controlling electricity. If you take your eyes off it, it may shock itself.</string>
+	<key>dex2</key>
+	<string>Despite this Pokémon’s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>15</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>15</integer>
+		<integer>16</integer>
+		<integer>417</integer>
+	</array>
+	<key>forme</key>
+	<string>Pichu</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>20</integer>
+	<key>id</key>
+	<integer>171</integer>
+	<key>ndex</key>
+	<integer>172</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>35</integer>
+	<key>species</key>
+	<string>Pichu</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>205</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>4.4 lbs.</string>
+</dict>
+</plist>

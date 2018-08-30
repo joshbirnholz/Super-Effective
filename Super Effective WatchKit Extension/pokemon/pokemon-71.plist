@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Clear Body</string>
+	<key>ability2</key>
+	<string>Liquid Ooze</string>
+	<key>abilityH</key>
+	<string>Rain Dish</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>71</integer>
+	</array>
+	<key>attack</key>
+	<integer>40</integer>
+	<key>class</key>
+	<string>Jellyfish Pokémon</string>
+	<key>defense</key>
+	<integer>35</integer>
+	<key>dex1</key>
+	<string>They can be found lying dehydrated on beaches, but they are often still alive. When soaked in water, they will revive.</string>
+	<key>dex2</key>
+	<string>It drifts in shallow seas, such as the areas near beaches. If you get bitten or stabbed by its toxic tentacles, rush to the hospital.</string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>45</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>45</integer>
+	</array>
+	<key>forme</key>
+	<string>Tentacool</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>40</integer>
+	<key>id</key>
+	<integer>71</integer>
+	<key>ndex</key>
+	<integer>72</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Tentacool</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>335</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Poison</string>
+	<key>weight</key>
+	<string>100.3 lbs.</string>
+</dict>
+</plist>

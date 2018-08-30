@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.</string>
+	<key>id</key>
+	<integer>197</integer>
+	<key>move</key>
+	<string>Detect</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>4</integer>
+	<key>type</key>
+	<string>Fighting</string>
+	<key>z-effect</key>
+	<string>Evasiveness ↑</string>
+</dict>
+</plist>

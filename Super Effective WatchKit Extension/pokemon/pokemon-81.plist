@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Magnet Pull</string>
+	<key>ability2</key>
+	<string>Sturdy</string>
+	<key>abilityH</key>
+	<string>Analytic</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>81</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Magnet Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>When three Magnemite link together, their brains also become one. They do not become three times more intelligent.</string>
+	<key>dex2</key>
+	<string>It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>371</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>50</integer>
+		<integer>371</integer>
+	</array>
+	<key>forme</key>
+	<string>Magneton</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>81</integer>
+	<key>ndex</key>
+	<integer>82</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Magnemite</string>
+	<key>preEvolution</key>
+	<integer>50</integer>
+	<key>spattack</key>
+	<integer>120</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Magneton</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>465</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>132.3 lbs.</string>
+</dict>
+</plist>

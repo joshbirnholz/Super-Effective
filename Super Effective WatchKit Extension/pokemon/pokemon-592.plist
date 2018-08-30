@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Absorb</string>
+	<key>ability2</key>
+	<string>Cursed Body</string>
+	<key>abilityH</key>
+	<string>Damp</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>592</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Floating Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>301</integer>
+	</array>
+	<key>forme</key>
+	<string>Jellicent</string>
+	<key>height</key>
+	<string>7'03</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>592</integer>
+	<key>ndex</key>
+	<integer>593</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Frillish</string>
+	<key>preEvolution</key>
+	<integer>301</integer>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>105</integer>
+	<key>species</key>
+	<string>Jellicent</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>480</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>297.6 lbs.</string>
+</dict>
+</plist>

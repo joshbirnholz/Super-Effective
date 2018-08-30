@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Fluffy</string>
+	<key>ability2</key>
+	<string>Klutz</string>
+	<key>abilityH</key>
+	<string>Cute Charm</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>758</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Flailing Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.</string>
+	<key>dex2</key>
+	<string>A touch from anyone except a known friend sends it into a surging frenzy. It’s an incredibly dangerous Pokémon.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>403</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>403</integer>
+	</array>
+	<key>forme</key>
+	<string>Stufful</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>758</integer>
+	<key>ndex</key>
+	<integer>759</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Stufful</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>340</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Fighting</string>
+	<key>weight</key>
+	<string>15.0 lbs.</string>
+</dict>
+</plist>

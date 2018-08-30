@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Iron Barbs</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Anticipation</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>597</integer>
+	</array>
+	<key>attack</key>
+	<integer>94</integer>
+	<key>class</key>
+	<string>Thorn Pod Pokémon</string>
+	<key>defense</key>
+	<integer>131</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Grass</string>
+	<key>egg-group2</key>
+	<string>Mineral</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>303</integer>
+	</array>
+	<key>forme</key>
+	<string>Ferrothorn</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>74</integer>
+	<key>id</key>
+	<integer>597</integer>
+	<key>ndex</key>
+	<integer>598</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Ferroseed</string>
+	<key>preEvolution</key>
+	<integer>303</integer>
+	<key>spattack</key>
+	<integer>54</integer>
+	<key>spdefense</key>
+	<integer>116</integer>
+	<key>species</key>
+	<string>Ferrothorn</string>
+	<key>speed</key>
+	<integer>20</integer>
+	<key>total</key>
+	<integer>489</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>242.5 lbs.</string>
+</dict>
+</plist>

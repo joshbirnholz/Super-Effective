@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flash Fire</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Flame Body</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>484</integer>
+	</array>
+	<key>attack</key>
+	<integer>90</integer>
+	<key>class</key>
+	<string>Lava Dome Pokémon</string>
+	<key>defense</key>
+	<integer>106</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Heatran</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>91</integer>
+	<key>id</key>
+	<integer>484</integer>
+	<key>ndex</key>
+	<integer>485</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>106</integer>
+	<key>species</key>
+	<string>Heatran</string>
+	<key>speed</key>
+	<integer>77</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>948.0 lbs.</string>
+</dict>
+</plist>

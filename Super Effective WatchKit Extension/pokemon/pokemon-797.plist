@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Beast Boost</string>
+	<key>ability2</key>
+	<string>Beast Boost</string>
+	<key>abilityH</key>
+	<string>Beast Boost</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>797</integer>
+	</array>
+	<key>attack</key>
+	<integer>181</integer>
+	<key>class</key>
+	<string>Drawn Sword Pokémon</string>
+	<key>defense</key>
+	<integer>131</integer>
+	<key>dex1</key>
+	<string>This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.</string>
+	<key>dex2</key>
+	<string>One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Kartana</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>59</integer>
+	<key>id</key>
+	<integer>797</integer>
+	<key>ndex</key>
+	<integer>798</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>59</integer>
+	<key>spdefense</key>
+	<integer>31</integer>
+	<key>species</key>
+	<string>Kartana</string>
+	<key>speed</key>
+	<integer>109</integer>
+	<key>total</key>
+	<integer>570</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>0.2 lbs.</string>
+</dict>
+</plist>

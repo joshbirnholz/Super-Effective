@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Strong Jaw</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>884</integer>
+		<integer>318</integer>
+	</array>
+	<key>attack</key>
+	<integer>140</integer>
+	<key>class</key>
+	<string>Brutal Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>The spines sprouting from its head are transformed fangs. If they’re injured or broken off, the spines will regenerate countless times.</string>
+	<key>dex2</key>
+	<string>As a consequence of Mega Evolution, its combative instincts exploded. The yellow marks it bears are scars from a long history of battles.</string>
+	<key>egg-group1</key>
+	<string>Water 2</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Sharpedo (Mega Sharpedo)</string>
+	<key>height</key>
+	<string>8'02</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>884</integer>
+	<key>ndex</key>
+	<integer>319</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Carvanha</string>
+	<key>spattack</key>
+	<integer>110</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Sharpedo</string>
+	<key>speed</key>
+	<integer>105</integer>
+	<key>total</key>
+	<integer>560</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Dark</string>
+	<key>weight</key>
+	<string>287.3 lbs.</string>
+</dict>
+</plist>

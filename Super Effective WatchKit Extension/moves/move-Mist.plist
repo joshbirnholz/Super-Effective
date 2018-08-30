@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.</string>
+	<key>id</key>
+	<integer>54</integer>
+	<key>move</key>
+	<string>Mist</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>30</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ice</string>
+	<key>z-effect</key>
+	<string>Restores user's HP 100%</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>95%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>1</integer>
+	<key>description</key>
+	<string>The user tears the target along with the space around it. Critical hits land more easily.</string>
+	<key>id</key>
+	<integer>460</integer>
+	<key>move</key>
+	<string>Spacial Rend</string>
+	<key>power</key>
+	<integer>100</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Dragon</string>
+	<key>z-effect</key>
+	<string>180 Power</string>
+</dict>
+</plist>

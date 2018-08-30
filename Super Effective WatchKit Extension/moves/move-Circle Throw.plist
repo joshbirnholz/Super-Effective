@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>90%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.</string>
+	<key>id</key>
+	<integer>509</integer>
+	<key>move</key>
+	<string>Circle Throw</string>
+	<key>power</key>
+	<integer>60</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>-6</integer>
+	<key>type</key>
+	<string>Fighting</string>
+	<key>z-effect</key>
+	<string>120 Power</string>
+</dict>
+</plist>

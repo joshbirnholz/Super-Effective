@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sturdy</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Soundproof</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>408</integer>
+	</array>
+	<key>attack</key>
+	<integer>165</integer>
+	<key>class</key>
+	<string>Head Butt Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string>The result of repeated headbutts is a skull grown thick and hard. However, its brain has shrunk in size compared with Cranidos’s.</string>
+	<key>dex2</key>
+	<string>Records exist of a revived fossil that evolved into Rampardos. It proceeded to escape and then destroy a skyscraper with a headbutt.</string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>203</integer>
+	</array>
+	<key>forme</key>
+	<string>Rampardos</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>97</integer>
+	<key>id</key>
+	<integer>408</integer>
+	<key>ndex</key>
+	<integer>409</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Cranidos</string>
+	<key>preEvolution</key>
+	<integer>203</integer>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Rampardos</string>
+	<key>speed</key>
+	<integer>58</integer>
+	<key>total</key>
+	<integer>495</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>226.0 lbs.</string>
+</dict>
+</plist>

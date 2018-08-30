@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Sheer Force</string>
+	<key>abilityH</key>
+	<string>Defiant</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>627</integer>
+	</array>
+	<key>attack</key>
+	<integer>123</integer>
+	<key>class</key>
+	<string>Valiant Pokémon</string>
+	<key>defense</key>
+	<integer>75</integer>
+	<key>dex1</key>
+	<string>With its brave disposition, it fears nothing—not even death. Ancient Alolan people respected it, referring to it as “the hero of the sky.”</string>
+	<key>dex2</key>
+	<string>It’s thought that people disturbed their habitats in the past, so Braviary banded together to fight back.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>318</integer>
+	</array>
+	<key>forme</key>
+	<string>Braviary</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>627</integer>
+	<key>ndex</key>
+	<integer>628</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string>Rufflet</string>
+	<key>preEvolution</key>
+	<integer>318</integer>
+	<key>spattack</key>
+	<integer>57</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Braviary</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>510</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>90.4 lbs.</string>
+</dict>
+</plist>

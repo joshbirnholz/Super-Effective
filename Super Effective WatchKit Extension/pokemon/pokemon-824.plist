@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Pickup</string>
+	<key>ability2</key>
+	<string>Technician</string>
+	<key>abilityH</key>
+	<string>Rattled</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>824</integer>
+		<integer>51</integer>
+	</array>
+	<key>attack</key>
+	<integer>35</integer>
+	<key>class</key>
+	<string>Scratch Cat Pokémon</string>
+	<key>defense</key>
+	<integer>35</integer>
+	<key>dex1</key>
+	<string>This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They’re prideful and crafty.</string>
+	<key>dex2</key>
+	<string>When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>412</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>412</integer>
+		<integer>33</integer>
+	</array>
+	<key>forme</key>
+	<string>Meowth (Alola Form)</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>40</integer>
+	<key>id</key>
+	<integer>824</integer>
+	<key>ndex</key>
+	<integer>52</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>50</integer>
+	<key>spdefense</key>
+	<integer>40</integer>
+	<key>species</key>
+	<string>Meowth</string>
+	<key>speed</key>
+	<integer>90</integer>
+	<key>total</key>
+	<integer>290</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>9.3 lbs.</string>
+</dict>
+</plist>

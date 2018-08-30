@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Damp</string>
+	<key>ability2</key>
+	<string>Cloud Nine</string>
+	<key>abilityH</key>
+	<string>Swift Swim</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>53</integer>
+	</array>
+	<key>attack</key>
+	<integer>52</integer>
+	<key>class</key>
+	<string>Duck Pokémon</string>
+	<key>defense</key>
+	<integer>48</integer>
+	<key>dex1</key>
+	<string>As a result of headaches so fierce they cause it to cry, it sometimes uses psychokinesis without meaning to.</string>
+	<key>dex2</key>
+	<string>This Pokémon is troubled by constant headaches. The more pain it’s in, the more powerful its psychokinesis becomes.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>34</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>34</integer>
+	</array>
+	<key>forme</key>
+	<string>Psyduck</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>53</integer>
+	<key>ndex</key>
+	<integer>54</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Psyduck</string>
+	<key>speed</key>
+	<integer>55</integer>
+	<key>total</key>
+	<integer>320</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>43.2 lbs.</string>
+</dict>
+</plist>

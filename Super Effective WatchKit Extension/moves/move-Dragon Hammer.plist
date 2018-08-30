@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user uses its body like a hammer to attack the target and inflict damage.</string>
+	<key>id</key>
+	<integer>674</integer>
+	<key>move</key>
+	<string>Dragon Hammer</string>
+	<key>power</key>
+	<integer>90</integer>
+	<key>pp</key>
+	<integer>15</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Dragon</string>
+	<key>z-effect</key>
+	<string>175 Power</string>
+</dict>
+</plist>

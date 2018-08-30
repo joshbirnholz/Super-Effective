@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Forecast</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>888</integer>
+		<integer>350</integer>
+		<integer>887</integer>
+		<integer>889</integer>
+	</array>
+	<key>attack</key>
+	<integer>70</integer>
+	<key>class</key>
+	<string>Weather Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.</string>
+	<key>dex2</key>
+	<string>This is Castform’s form during a downpour of rain. Its body retains moisture and gets slippery.</string>
+	<key>egg-group1</key>
+	<string>Fairy</string>
+	<key>egg-group2</key>
+	<string>Amorphous</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Castform (Rainy Form)</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>888</integer>
+	<key>ndex</key>
+	<integer>351</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Castform</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>420</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>1.8 lbs.</string>
+</dict>
+</plist>

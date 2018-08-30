@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Oblivious</string>
+	<key>ability2</key>
+	<string>Forewarn</string>
+	<key>abilityH</key>
+	<string>Dry Skin</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>123</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Human Shape Pokémon</string>
+	<key>defense</key>
+	<integer>35</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>71</integer>
+	</array>
+	<key>forme</key>
+	<string>Jynx</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>123</integer>
+	<key>ndex</key>
+	<integer>124</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Smoochum</string>
+	<key>preEvolution</key>
+	<integer>71</integer>
+	<key>spattack</key>
+	<integer>115</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Jynx</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>455</integer>
+	<key>type1</key>
+	<string>Ice</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>89.5 lbs.</string>
+</dict>
+</plist>

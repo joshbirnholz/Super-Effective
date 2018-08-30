@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Clear Body</string>
+	<key>ability2</key>
+	<string>Liquid Ooze</string>
+	<key>abilityH</key>
+	<string>Rain Dish</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>72</integer>
+	</array>
+	<key>attack</key>
+	<integer>70</integer>
+	<key>class</key>
+	<string>Jellyfish Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>Normally, it has 80 poisonous tentacles. The longer one has been alive, the fewer tentacles it will have.</string>
+	<key>dex2</key>
+	<string>Although these Pokémon are rare, when a large outbreak of them occurs, all fish Pokémon disappear from the surrounding sea.</string>
+	<key>egg-group1</key>
+	<string>Water 3</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>45</integer>
+	</array>
+	<key>forme</key>
+	<string>Tentacruel</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>72</integer>
+	<key>ndex</key>
+	<integer>73</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Tentacool</string>
+	<key>preEvolution</key>
+	<integer>45</integer>
+	<key>spattack</key>
+	<integer>80</integer>
+	<key>spdefense</key>
+	<integer>120</integer>
+	<key>species</key>
+	<string>Tentacruel</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>515</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Poison</string>
+	<key>weight</key>
+	<string>121.3 lbs.</string>
+</dict>
+</plist>

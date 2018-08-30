@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Battle Armor</string>
+	<key>ability2</key>
+	<string>Battle Armor</string>
+	<key>abilityH</key>
+	<string>Battle Armor</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>771</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Synthetic Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.</string>
+	<key>dex2</key>
+	<string>Due to the danger that this synthetic Pokémon may go on a rampage, it wears a control mask to restrain its power.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>408</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>408</integer>
+	</array>
+	<key>forme</key>
+	<string>Type: Null</string>
+	<key>height</key>
+	<string>6'03</string>
+	<key>hp</key>
+	<integer>95</integer>
+	<key>id</key>
+	<integer>771</integer>
+	<key>ndex</key>
+	<integer>772</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>95</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Type: Null</string>
+	<key>speed</key>
+	<integer>59</integer>
+	<key>total</key>
+	<integer>534</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>265.7 lbs.</string>
+</dict>
+</plist>

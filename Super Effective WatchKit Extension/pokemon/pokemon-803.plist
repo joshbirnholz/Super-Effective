@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Tough Claws</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>803</integer>
+		<integer>5</integer>
+		<integer>804</integer>
+	</array>
+	<key>attack</key>
+	<integer>130</integer>
+	<key>class</key>
+	<string>Flame Pokémon</string>
+	<key>defense</key>
+	<integer>111</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Charizard (Mega Charizard X)</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>78</integer>
+	<key>id</key>
+	<integer>803</integer>
+	<key>ndex</key>
+	<integer>6</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Charmeleon</string>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Charizard</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>634</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string>Dragon</string>
+	<key>weight</key>
+	<string>243.6 lbs.</string>
+</dict>
+</plist>

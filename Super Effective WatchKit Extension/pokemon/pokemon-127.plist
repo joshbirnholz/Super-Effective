@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Intimidate</string>
+	<key>ability2</key>
+	<string>Anger Point</string>
+	<key>abilityH</key>
+	<string>Sheer Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>127</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Wild Bull Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>Historically, people in areas all over the world have ridden Tauros, but the practice is said to have started in Alola.</string>
+	<key>dex2</key>
+	<string>Although it’s known to be a fierce Pokémon, Tauros in the Alola region are said to possess a measure of calmness.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Tauros</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>127</integer>
+	<key>ndex</key>
+	<integer>128</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Tauros</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>490</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>194.9 lbs.</string>
+</dict>
+</plist>

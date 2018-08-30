@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Magician</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>719</integer>
+		<integer>1016</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Mischief Pokémon</string>
+	<key>defense</key>
+	<integer>60</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Hoopa (Hoopa Confined)</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>719</integer>
+	<key>ndex</key>
+	<integer>720</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>150</integer>
+	<key>spdefense</key>
+	<integer>130</integer>
+	<key>species</key>
+	<string>Hoopa</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>19.8 lbs.</string>
+</dict>
+</plist>

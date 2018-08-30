@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Regenerator</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>948</integer>
+		<integer>640</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Cyclone Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Tornadus (Therian Forme)</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>79</integer>
+	<key>id</key>
+	<integer>948</integer>
+	<key>ndex</key>
+	<integer>641</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>110</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Tornadus</string>
+	<key>speed</key>
+	<integer>121</integer>
+	<key>total</key>
+	<integer>580</integer>
+	<key>type1</key>
+	<string>Flying</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>138.9 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flower Veil</string>
+	<key>ability2</key>
+	<string>Triage</string>
+	<key>abilityH</key>
+	<string>Natural Cure</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>763</integer>
+	</array>
+	<key>attack</key>
+	<integer>52</integer>
+	<key>class</key>
+	<string>Posy Picker Pokémon</string>
+	<key>defense</key>
+	<integer>90</integer>
+	<key>dex1</key>
+	<string>It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.</string>
+	<key>dex2</key>
+	<string>Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people.</string>
+	<key>egg-group1</key>
+	<string>Grass</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Comfey</string>
+	<key>height</key>
+	<string>0'04</string>
+	<key>hp</key>
+	<integer>51</integer>
+	<key>id</key>
+	<integer>763</integer>
+	<key>ndex</key>
+	<integer>764</integer>
+	<key>percent-female</key>
+	<real>0.75</real>
+	<key>percent-male</key>
+	<real>0.25</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>82</integer>
+	<key>spdefense</key>
+	<integer>110</integer>
+	<key>species</key>
+	<string>Comfey</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>485</integer>
+	<key>type1</key>
+	<string>Fairy</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>0.7 lbs.</string>
+</dict>
+</plist>

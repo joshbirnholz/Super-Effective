@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Absorb</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>720</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Steam Pokémon</string>
+	<key>defense</key>
+	<integer>120</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Volcanion</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>720</integer>
+	<key>ndex</key>
+	<integer>721</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Volcanion</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string>Water</string>
+	<key>weight</key>
+	<string>429.9 lbs.</string>
+</dict>
+</plist>

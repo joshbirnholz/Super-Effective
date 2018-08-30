@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Absorb</string>
+	<key>ability2</key>
+	<string>Damp</string>
+	<key>abilityH</key>
+	<string>Drizzle</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>185</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Frog Pokémon</string>
+	<key>defense</key>
+	<integer>75</integer>
+	<key>dex1</key>
+	<string>They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.</string>
+	<key>dex2</key>
+	<string>It’s the leader of Poliwag and Poliwhirl. When Politoed roars, they all cower in fear.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>37</integer>
+		<integer>103</integer>
+		<integer>38</integer>
+	</array>
+	<key>forme</key>
+	<string>Politoed</string>
+	<key>height</key>
+	<string>3'07</string>
+	<key>hp</key>
+	<integer>90</integer>
+	<key>id</key>
+	<integer>185</integer>
+	<key>ndex</key>
+	<integer>186</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Poliwhirl</string>
+	<key>preEvolution</key>
+	<integer>103</integer>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Politoed</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>500</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>74.7 lbs.</string>
+</dict>
+</plist>

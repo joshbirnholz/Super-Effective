@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Insomnia</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>841</integer>
+		<integer>149</integer>
+		<integer>840</integer>
+	</array>
+	<key>attack</key>
+	<integer>150</integer>
+	<key>class</key>
+	<string>Genetic Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Mewtwo (Mega Mewtwo Y)</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>106</integer>
+	<key>id</key>
+	<integer>841</integer>
+	<key>ndex</key>
+	<integer>150</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>194</integer>
+	<key>spdefense</key>
+	<integer>120</integer>
+	<key>species</key>
+	<string>Mewtwo</string>
+	<key>speed</key>
+	<integer>140</integer>
+	<key>total</key>
+	<integer>780</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>72.8 lbs.</string>
+</dict>
+</plist>

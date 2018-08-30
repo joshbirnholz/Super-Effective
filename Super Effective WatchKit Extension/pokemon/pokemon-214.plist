@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Inner Focus</string>
+	<key>ability2</key>
+	<string>Keen Eye</string>
+	<key>abilityH</key>
+	<string>Pickpocket</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>214</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Sharp Claw Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string>It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.</string>
+	<key>dex2</key>
+	<string>It uses its claws to poke holes in eggs so it can slurp out the insides. Breeders consider it a scourge and will drive it away or eradicate it.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>232</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>232</integer>
+	</array>
+	<key>forme</key>
+	<string>Sneasel</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>214</integer>
+	<key>ndex</key>
+	<integer>215</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Sneasel</string>
+	<key>speed</key>
+	<integer>115</integer>
+	<key>total</key>
+	<integer>430</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>61.7 lbs.</string>
+</dict>
+</plist>

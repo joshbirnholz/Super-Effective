@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.</string>
+	<key>id</key>
+	<integer>651</integer>
+	<key>move</key>
+	<string>Solar Blade</string>
+	<key>power</key>
+	<integer>125</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Grass</string>
+	<key>z-effect</key>
+	<string>190 Power</string>
+</dict>
+</plist>

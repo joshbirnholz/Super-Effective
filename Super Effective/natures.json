@@ -1,0 +1,202 @@
+[
+  {
+    "nature": "Adamant",
+    "attack": 1.1,
+    "defense": 1,
+    "spattack": 0.9,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Bashful",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Bold",
+    "attack": 0.9,
+    "defense": 1.1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Brave",
+    "attack": 1.1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 0.9
+  },
+  {
+    "nature": "Calm",
+    "attack": 0.9,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1.1,
+    "speed": 1
+  },
+  {
+    "nature": "Careful",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 0.9,
+    "spdefense": 1.1,
+    "speed": 1
+  },
+  {
+    "nature": "Docile",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Gentle",
+    "attack": 1,
+    "defense": 0.9,
+    "spattack": 1,
+    "spdefense": 1.1,
+    "speed": 1
+  },
+  {
+    "nature": "Hardy",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Hasty",
+    "attack": 1,
+    "defense": 0.9,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1.1
+  },
+  {
+    "nature": "Impish",
+    "attack": 1,
+    "defense": 1.1,
+    "spattack": 0.9,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Jolly",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 0.9,
+    "spdefense": 1,
+    "speed": 1.1
+  },
+  {
+    "nature": "Lax",
+    "attack": 1,
+    "defense": 1.1,
+    "spattack": 1,
+    "spdefense": 0.9,
+    "speed": 1
+  },
+  {
+    "nature": "Lonely",
+    "attack": 1.1,
+    "defense": 0.9,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Mild",
+    "attack": 1,
+    "defense": 0.9,
+    "spattack": 1.1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Modest",
+    "attack": 0.9,
+    "defense": 1,
+    "spattack": 1.1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Naive",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 0.9,
+    "speed": 1.1
+  },
+  {
+    "nature": "Naughty",
+    "attack": 1.1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 0.9,
+    "speed": 1
+  },
+  {
+    "nature": "Quiet",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1.1,
+    "spdefense": 1,
+    "speed": 0.9
+  },
+  {
+    "nature": "Quirky",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Rash",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1.1,
+    "spdefense": 0.9,
+    "speed": 1
+  },
+  {
+    "nature": "Relaxed",
+    "attack": 1,
+    "defense": 1.1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 0.9
+  },
+  {
+    "nature": "Sassy",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1.1,
+    "speed": 0.9
+  },
+  {
+    "nature": "Serious",
+    "attack": 1,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1
+  },
+  {
+    "nature": "Timid",
+    "attack": 0.9,
+    "defense": 1,
+    "spattack": 1,
+    "spdefense": 1,
+    "speed": 1.1
+  }
+]

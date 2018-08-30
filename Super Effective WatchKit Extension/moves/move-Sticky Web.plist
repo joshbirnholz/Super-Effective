@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.</string>
+	<key>id</key>
+	<integer>564</integer>
+	<key>move</key>
+	<string>Sticky Web</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Bug</string>
+	<key>z-effect</key>
+	<string>Speed ↑</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+PODS:
+  - NKWatchChart (0.1.0)
+  - SwiftyJSON (3.1.0)
+
+DEPENDENCIES:
+  - NKWatchChart
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  NKWatchChart: 03dbc42f7ee7ce78368801c0e9e6d903f54cdf23
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+
+PODFILE CHECKSUM: b92c412635c5eb0234b039b96d6709aee5326d83
+
+COCOAPODS: 1.1.1

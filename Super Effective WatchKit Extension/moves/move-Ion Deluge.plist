@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.</string>
+	<key>id</key>
+	<integer>569</integer>
+	<key>move</key>
+	<string>Ion Deluge</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>25</integer>
+	<key>priority</key>
+	<integer>1</integer>
+	<key>type</key>
+	<string>Electric</string>
+	<key>z-effect</key>
+	<string>Special Attack ↑</string>
+</dict>
+</plist>

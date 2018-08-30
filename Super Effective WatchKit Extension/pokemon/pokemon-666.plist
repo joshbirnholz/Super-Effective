@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Rivalry</string>
+	<key>ability2</key>
+	<string>Unnerve</string>
+	<key>abilityH</key>
+	<string>Moxie</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>666</integer>
+	</array>
+	<key>attack</key>
+	<integer>50</integer>
+	<key>class</key>
+	<string>Lion Cub Pokémon</string>
+	<key>defense</key>
+	<integer>58</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>364</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>364</integer>
+	</array>
+	<key>forme</key>
+	<string>Litleo</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>62</integer>
+	<key>id</key>
+	<integer>666</integer>
+	<key>ndex</key>
+	<integer>667</integer>
+	<key>percent-female</key>
+	<real>0.25</real>
+	<key>percent-male</key>
+	<real>0.75</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>73</integer>
+	<key>spdefense</key>
+	<integer>54</integer>
+	<key>species</key>
+	<string>Litleo</string>
+	<key>speed</key>
+	<integer>72</integer>
+	<key>total</key>
+	<integer>369</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string>Normal</string>
+	<key>weight</key>
+	<string>29.8 lbs.</string>
+</dict>
+</plist>

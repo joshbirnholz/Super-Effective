@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Poison Point</string>
+	<key>ability2</key>
+	<string>Rivalry</string>
+	<key>abilityH</key>
+	<string>Sheer Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>33</integer>
+	</array>
+	<key>attack</key>
+	<integer>102</integer>
+	<key>class</key>
+	<string>Drill Pokémon</string>
+	<key>defense</key>
+	<integer>77</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>20</integer>
+		<integer>21</integer>
+	</array>
+	<key>forme</key>
+	<string>Nidoking</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>81</integer>
+	<key>id</key>
+	<integer>33</integer>
+	<key>ndex</key>
+	<integer>34</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string>Nidorino</string>
+	<key>preEvolution</key>
+	<integer>21</integer>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Nidoking</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>505</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>136.7 lbs.</string>
+</dict>
+</plist>

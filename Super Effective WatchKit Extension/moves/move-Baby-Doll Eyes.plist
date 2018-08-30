@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.</string>
+	<key>id</key>
+	<integer>608</integer>
+	<key>move</key>
+	<string>Baby-Doll Eyes</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>30</integer>
+	<key>priority</key>
+	<integer>1</integer>
+	<key>type</key>
+	<string>Fairy</string>
+	<key>z-effect</key>
+	<string>Defense ↑</string>
+</dict>
+</plist>

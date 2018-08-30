@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Dazzling</string>
+	<key>ability2</key>
+	<string>Strong Jaw</string>
+	<key>abilityH</key>
+	<string>Wonder Skin</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>778</integer>
+	</array>
+	<key>attack</key>
+	<integer>105</integer>
+	<key>class</key>
+	<string>Gnash Teeth Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string>When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.</string>
+	<key>dex2</key>
+	<string>It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder’s shell is no match for it.</string>
+	<key>egg-group1</key>
+	<string>Water 2</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Bruxish</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>68</integer>
+	<key>id</key>
+	<integer>778</integer>
+	<key>ndex</key>
+	<integer>779</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>70</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Bruxish</string>
+	<key>speed</key>
+	<integer>92</integer>
+	<key>total</key>
+	<integer>475</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>41.9 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Refrigerate</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Snow Warning</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>698</integer>
+	</array>
+	<key>attack</key>
+	<integer>77</integer>
+	<key>class</key>
+	<string>Tundra Pokémon</string>
+	<key>defense</key>
+	<integer>72</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>361</integer>
+	</array>
+	<key>forme</key>
+	<string>Aurorus</string>
+	<key>height</key>
+	<string>8'10</string>
+	<key>hp</key>
+	<integer>123</integer>
+	<key>id</key>
+	<integer>698</integer>
+	<key>ndex</key>
+	<integer>699</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Amaura</string>
+	<key>preEvolution</key>
+	<integer>361</integer>
+	<key>spattack</key>
+	<integer>99</integer>
+	<key>spdefense</key>
+	<integer>92</integer>
+	<key>species</key>
+	<string>Aurorus</string>
+	<key>speed</key>
+	<integer>58</integer>
+	<key>total</key>
+	<integer>521</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Ice</string>
+	<key>weight</key>
+	<string>496.0 lbs.</string>
+</dict>
+</plist>

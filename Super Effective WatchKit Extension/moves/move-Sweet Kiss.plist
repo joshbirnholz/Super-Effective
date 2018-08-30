@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>75%</string>
+	<key>category</key>
+	<string>Status</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user kisses the target with a sweet, angelic cuteness that causes confusion.</string>
+	<key>id</key>
+	<integer>186</integer>
+	<key>move</key>
+	<string>Sweet Kiss</string>
+	<key>power</key>
+	<integer>0</integer>
+	<key>pp</key>
+	<integer>10</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fairy</string>
+	<key>z-effect</key>
+	<string>Special Attack ↑</string>
+</dict>
+</plist>

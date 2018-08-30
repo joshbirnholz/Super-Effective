@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flame Body</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Vital Spirit</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>125</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Spitfire Pokémon</string>
+	<key>defense</key>
+	<integer>57</integer>
+	<key>dex1</key>
+	<string>When it’s tired, it leaps into the mouth of a volcano and soaks its body in magma to ease its weariness. Its body burns at 2,192 degrees F.</string>
+	<key>dex2</key>
+	<string>When angered, it spouts brilliant fire from all over its body. It doesn’t calm down until its opponent has burned to ash.</string>
+	<key>egg-group1</key>
+	<string>Human-Like</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>237</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>73</integer>
+		<integer>237</integer>
+	</array>
+	<key>forme</key>
+	<string>Magmar</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>125</integer>
+	<key>ndex</key>
+	<integer>126</integer>
+	<key>percent-female</key>
+	<real>0.25</real>
+	<key>percent-male</key>
+	<real>0.75</real>
+	<key>pre-evolution</key>
+	<string>Magby</string>
+	<key>preEvolution</key>
+	<integer>73</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Magmar</string>
+	<key>speed</key>
+	<integer>93</integer>
+	<key>total</key>
+	<integer>495</integer>
+	<key>type1</key>
+	<string>Fire</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>98.1 lbs.</string>
+</dict>
+</plist>

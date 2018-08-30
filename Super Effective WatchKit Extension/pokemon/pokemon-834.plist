@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Frisk</string>
+	<key>ability2</key>
+	<string>Frisk</string>
+	<key>abilityH</key>
+	<string>Harvest</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>834</integer>
+		<integer>102</integer>
+	</array>
+	<key>attack</key>
+	<integer>105</integer>
+	<key>class</key>
+	<string>Coconut Pokémon</string>
+	<key>defense</key>
+	<integer>85</integer>
+	<key>dex1</key>
+	<string>Alola is the best environment for this Pokémon. Local people take pride in its appearance, saying this is how Exeggutor ought to look.</string>
+	<key>dex2</key>
+	<string>As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.</string>
+	<key>egg-group1</key>
+	<string>Grass</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>416</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>416</integer>
+		<integer>60</integer>
+	</array>
+	<key>forme</key>
+	<string>Exeggutor (Alola Form)</string>
+	<key>height</key>
+	<string>35'09</string>
+	<key>hp</key>
+	<integer>95</integer>
+	<key>id</key>
+	<integer>834</integer>
+	<key>ndex</key>
+	<integer>103</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Exeggcute</string>
+	<key>spattack</key>
+	<integer>125</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Exeggutor</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>530</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string>Dragon</string>
+	<key>weight</key>
+	<string>916.2 lbs.</string>
+</dict>
+</plist>

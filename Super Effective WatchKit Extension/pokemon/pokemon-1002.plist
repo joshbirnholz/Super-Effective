@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Infiltrator</string>
+	<key>abilityH</key>
+	<string>Competitive</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>1002</integer>
+		<integer>677</integer>
+	</array>
+	<key>attack</key>
+	<integer>48</integer>
+	<key>class</key>
+	<string>Constraint Pokémon</string>
+	<key>defense</key>
+	<integer>76</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>368</integer>
+		<integer>369</integer>
+	</array>
+	<key>forme</key>
+	<string>Meowstic (Female)</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>74</integer>
+	<key>id</key>
+	<integer>1002</integer>
+	<key>ndex</key>
+	<integer>678</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Espurr</string>
+	<key>preEvolution</key>
+	<integer>369</integer>
+	<key>spattack</key>
+	<integer>83</integer>
+	<key>spdefense</key>
+	<integer>81</integer>
+	<key>species</key>
+	<string>Meowstic</string>
+	<key>speed</key>
+	<integer>104</integer>
+	<key>total</key>
+	<integer>466</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>18.7 lbs.</string>
+</dict>
+</plist>

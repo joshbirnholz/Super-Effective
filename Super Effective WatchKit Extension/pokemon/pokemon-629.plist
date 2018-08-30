@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Big Pecks</string>
+	<key>ability2</key>
+	<string>Overcoat</string>
+	<key>abilityH</key>
+	<string>Weak Armor</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>629</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Bone Vulture Pokémon</string>
+	<key>defense</key>
+	<integer>105</integer>
+	<key>dex1</key>
+	<string>They adorn themselves beautifully with bones. This is supposedly an effort to attract males, but no male Mandibuzz have ever been found.</string>
+	<key>dex2</key>
+	<string>It circles in the sky, keeping a keen eye out for Pokémon in a weakened state. Its choicest food is Cubone.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>319</integer>
+	</array>
+	<key>forme</key>
+	<string>Mandibuzz</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>110</integer>
+	<key>id</key>
+	<integer>629</integer>
+	<key>ndex</key>
+	<integer>630</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Vullaby</string>
+	<key>preEvolution</key>
+	<integer>319</integer>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>95</integer>
+	<key>species</key>
+	<string>Mandibuzz</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>510</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>87.1 lbs.</string>
+</dict>
+</plist>

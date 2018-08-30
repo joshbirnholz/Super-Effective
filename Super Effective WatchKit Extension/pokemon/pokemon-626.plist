@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Sheer Force</string>
+	<key>abilityH</key>
+	<string>Hustle</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>626</integer>
+	</array>
+	<key>attack</key>
+	<integer>83</integer>
+	<key>class</key>
+	<string>Eaglet Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>They pick fights indiscriminately. They grow stronger and more powerful each time they faint or are injured.</string>
+	<key>dex2</key>
+	<string>With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>318</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>318</integer>
+	</array>
+	<key>forme</key>
+	<string>Rufflet</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>626</integer>
+	<key>ndex</key>
+	<integer>627</integer>
+	<key>percent-female</key>
+	<integer>0</integer>
+	<key>percent-male</key>
+	<integer>1</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>37</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Rufflet</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>350</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>23.1 lbs.</string>
+</dict>
+</plist>

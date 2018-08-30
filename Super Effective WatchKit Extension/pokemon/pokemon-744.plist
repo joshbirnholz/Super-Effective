@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Keen Eye</string>
+	<key>ability2</key>
+	<string>Sand Rush</string>
+	<key>abilityH</key>
+	<string>Steadfast</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>744</integer>
+		<integer>1022</integer>
+	</array>
+	<key>attack</key>
+	<integer>115</integer>
+	<key>class</key>
+	<string>Wolf Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.</string>
+	<key>dex2</key>
+	<string>When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>378</integer>
+		<integer>379</integer>
+	</array>
+	<key>forme</key>
+	<string>Lycanroc (Midday Form)</string>
+	<key>height</key>
+	<string>2'07</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>744</integer>
+	<key>ndex</key>
+	<integer>745</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Rockruff</string>
+	<key>preEvolution</key>
+	<integer>378</integer>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Lycanroc</string>
+	<key>speed</key>
+	<integer>112</integer>
+	<key>total</key>
+	<integer>487</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>55.1 lbs.</string>
+</dict>
+</plist>

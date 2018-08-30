@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>evolution ID</key>
+	<integer>300</integer>
+	<key>evolved species ID</key>
+	<integer>590</integer>
+	<key>minimum level</key>
+	<integer>39</integer>
+	<key>original species ID</key>
+	<integer>589</integer>
+	<key>trigger</key>
+	<string>level up</string>
+</dict>
+</plist>

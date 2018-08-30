@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Defeatist</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>566</integer>
+	</array>
+	<key>attack</key>
+	<integer>140</integer>
+	<key>class</key>
+	<string>First Bird Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>Although apparently able to fly, they tended to run along the ground, averaging speeds of roughly 25 mph.</string>
+	<key>dex2</key>
+	<string>They hunted in flocks. When one Archeops had the prey cornered, another would swoop on it.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>284</integer>
+	</array>
+	<key>forme</key>
+	<string>Archeops</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>566</integer>
+	<key>ndex</key>
+	<integer>567</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Archen</string>
+	<key>preEvolution</key>
+	<integer>284</integer>
+	<key>spattack</key>
+	<integer>112</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Archeops</string>
+	<key>speed</key>
+	<integer>110</integer>
+	<key>total</key>
+	<integer>567</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>70.5 lbs.</string>
+</dict>
+</plist>

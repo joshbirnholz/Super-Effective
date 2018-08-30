@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Flash Fire</string>
+	<key>ability2</key>
+	<string>Flame Body</string>
+	<key>abilityH</key>
+	<string>Infiltrator</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>606</integer>
+	</array>
+	<key>attack</key>
+	<integer>30</integer>
+	<key>class</key>
+	<string>Candle Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>309</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>309</integer>
+		<integer>310</integer>
+	</array>
+	<key>forme</key>
+	<string>Litwick</string>
+	<key>height</key>
+	<string>1'00</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>606</integer>
+	<key>ndex</key>
+	<integer>607</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>65</integer>
+	<key>spdefense</key>
+	<integer>55</integer>
+	<key>species</key>
+	<string>Litwick</string>
+	<key>speed</key>
+	<integer>20</integer>
+	<key>total</key>
+	<integer>275</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string>Fire</string>
+	<key>weight</key>
+	<string>6.8 lbs.</string>
+</dict>
+</plist>

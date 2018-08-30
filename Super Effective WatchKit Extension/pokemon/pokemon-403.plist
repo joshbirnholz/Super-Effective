@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Rivalry</string>
+	<key>ability2</key>
+	<string>Intimidate</string>
+	<key>abilityH</key>
+	<string>Guts</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>403</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Spark Pokémon</string>
+	<key>defense</key>
+	<integer>49</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>201</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>200</integer>
+		<integer>201</integer>
+	</array>
+	<key>forme</key>
+	<string>Luxio</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>403</integer>
+	<key>ndex</key>
+	<integer>404</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Shinx</string>
+	<key>preEvolution</key>
+	<integer>200</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>49</integer>
+	<key>species</key>
+	<string>Luxio</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>363</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>67.2 lbs.</string>
+</dict>
+</plist>

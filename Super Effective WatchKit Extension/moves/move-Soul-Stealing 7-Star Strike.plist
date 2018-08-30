@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>After obtaining Z-Power, the user, Marshadow, punches and kicks the target consecutively with full force.</string>
+	<key>id</key>
+	<integer>681</integer>
+	<key>move</key>
+	<string>Soul-Stealing 7-Star Strike</string>
+	<key>power</key>
+	<integer>195</integer>
+	<key>pp</key>
+	<integer>1</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Ghost</string>
+	<key>z-effect</key>
+	<string>~Spectral Thief</string>
+</dict>
+</plist>

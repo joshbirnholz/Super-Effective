@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>2</integer>
+	<key>description</key>
+	<string>The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. Critical hits land more easily.</string>
+	<key>id</key>
+	<integer>701</integer>
+	<key>move</key>
+	<string>10,000,000 Volt Thunderbolt</string>
+	<key>power</key>
+	<integer>195</integer>
+	<key>pp</key>
+	<integer>1</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Electric</string>
+	<key>z-effect</key>
+	<string>~Thunderbolt</string>
+</dict>
+</plist>

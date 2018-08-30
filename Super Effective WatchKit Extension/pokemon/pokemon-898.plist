@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Desolate Land</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>898</integer>
+		<integer>382</integer>
+	</array>
+	<key>attack</key>
+	<integer>180</integer>
+	<key>class</key>
+	<string>Continent Pokémon</string>
+	<key>defense</key>
+	<integer>160</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Groudon (Primal Reversion)</string>
+	<key>height</key>
+	<string>16'05</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>898</integer>
+	<key>ndex</key>
+	<integer>383</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>150</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Groudon</string>
+	<key>speed</key>
+	<integer>90</integer>
+	<key>total</key>
+	<integer>770</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string>Fire</string>
+	<key>weight</key>
+	<string>2204.0 lbs.</string>
+</dict>
+</plist>

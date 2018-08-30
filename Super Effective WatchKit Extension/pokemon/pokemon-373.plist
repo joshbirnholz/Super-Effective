@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Clear Body</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Light Metal</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>373</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Iron Ball Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>Its cells are all magnets. It uses magnetism to communicate with others of its kind.</string>
+	<key>dex2</key>
+	<string>With magnetic traction, it pulls its opponents in close. When they’re in range, it slashes them with its rear claws.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>188</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>188</integer>
+		<integer>189</integer>
+	</array>
+	<key>forme</key>
+	<string>Beldum</string>
+	<key>height</key>
+	<string>2'00</string>
+	<key>hp</key>
+	<integer>40</integer>
+	<key>id</key>
+	<integer>373</integer>
+	<key>ndex</key>
+	<integer>374</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Beldum</string>
+	<key>speed</key>
+	<integer>30</integer>
+	<key>total</key>
+	<integer>300</integer>
+	<key>type1</key>
+	<string>Steel</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>209.9 lbs.</string>
+</dict>
+</plist>

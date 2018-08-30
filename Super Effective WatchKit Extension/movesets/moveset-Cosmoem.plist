@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forme</key>
+	<string>Cosmoem</string>
+	<key>moves</key>
+	<array>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Cosmic Power</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Start</string>
+			<key>name</key>
+			<string>Teleport</string>
+		</dict>
+		<dict>
+			<key>method</key>
+			<string>Prev</string>
+			<key>name</key>
+			<string>Splash</string>
+		</dict>
+	</array>
+	<key>ndex</key>
+	<string>790</string>
+	<key>species</key>
+	<string>Cosmoem</string>
+</dict>
+</plist>

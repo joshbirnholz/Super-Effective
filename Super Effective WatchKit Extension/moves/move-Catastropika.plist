@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>—</string>
+	<key>category</key>
+	<string>Physical</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user, Pikachu, surrounds itself with the maximum amount of electricity using its Z-Power and pounces on its target with full force.</string>
+	<key>id</key>
+	<integer>640</integer>
+	<key>move</key>
+	<string>Catastropika</string>
+	<key>power</key>
+	<integer>210</integer>
+	<key>pp</key>
+	<integer>1</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Electric</string>
+	<key>z-effect</key>
+	<string>~Volt Tackle</string>
+</dict>
+</plist>

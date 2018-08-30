@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Intimidate</string>
+	<key>ability2</key>
+	<string>Sand Rush</string>
+	<key>abilityH</key>
+	<string>Scrappy</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>506</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Loyal Dog Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string>Its dense black fur grows continuously. The high cost of keeping its hard fur properly groomed makes this a troublesome Pokémon to train.</string>
+	<key>dex2</key>
+	<string>This Pokémon obeys its master’s orders faithfully. However, it refuses to listen to anything said by a person it doesn’t respect.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>254</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>253</integer>
+		<integer>254</integer>
+	</array>
+	<key>forme</key>
+	<string>Herdier</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>65</integer>
+	<key>id</key>
+	<integer>506</integer>
+	<key>ndex</key>
+	<integer>507</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Lillipup</string>
+	<key>preEvolution</key>
+	<integer>253</integer>
+	<key>spattack</key>
+	<integer>35</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Herdier</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>370</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>32.4 lbs.</string>
+</dict>
+</plist>

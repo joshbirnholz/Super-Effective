@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Thick Fat</string>
+	<key>ability2</key>
+	<string>Scrappy</string>
+	<key>abilityH</key>
+	<string>Sap Sipper</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>240</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Milk Cow Pokémon</string>
+	<key>defense</key>
+	<integer>105</integer>
+	<key>dex1</key>
+	<string>Its milk is high in calories and packed with nutrients. Therefore, if you drink too much of it, you may wind up with a body like Miltank’s.</string>
+	<key>dex2</key>
+	<string>Most people raise it for its milk, but it’s quite tough and strong, so it’s also well suited for battle.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Miltank</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>95</integer>
+	<key>id</key>
+	<integer>240</integer>
+	<key>ndex</key>
+	<integer>241</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>70</integer>
+	<key>species</key>
+	<string>Miltank</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>490</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>166.4 lbs.</string>
+</dict>
+</plist>

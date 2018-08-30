@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Lightning Rod</string>
+	<key>ability2</key>
+	<string>Rock Head</string>
+	<key>abilityH</key>
+	<string>Reckless</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>110</integer>
+	</array>
+	<key>attack</key>
+	<integer>85</integer>
+	<key>class</key>
+	<string>Spikes Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>65</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>65</integer>
+		<integer>234</integer>
+	</array>
+	<key>forme</key>
+	<string>Rhyhorn</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>110</integer>
+	<key>ndex</key>
+	<integer>111</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>30</integer>
+	<key>spdefense</key>
+	<integer>30</integer>
+	<key>species</key>
+	<string>Rhyhorn</string>
+	<key>speed</key>
+	<integer>25</integer>
+	<key>total</key>
+	<integer>345</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string>Rock</string>
+	<key>weight</key>
+	<string>253.5 lbs.</string>
+</dict>
+</plist>

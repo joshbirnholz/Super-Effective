@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Synchronize</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Inner Focus</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>196</integer>
+	</array>
+	<key>attack</key>
+	<integer>65</integer>
+	<key>class</key>
+	<string>Moonlight Pokémon</string>
+	<key>defense</key>
+	<integer>110</integer>
+	<key>dex1</key>
+	<string>When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes.</string>
+	<key>dex2</key>
+	<string>With its black fur, it blends into the darkness. It bides its time, and when prey appears, this Pokémon goes for its throat, and then eats it.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>108</integer>
+		<integer>109</integer>
+		<integer>370</integer>
+		<integer>372</integer>
+		<integer>373</integer>
+		<integer>75</integer>
+		<integer>76</integer>
+		<integer>77</integer>
+	</array>
+	<key>forme</key>
+	<string>Umbreon</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>95</integer>
+	<key>id</key>
+	<integer>196</integer>
+	<key>ndex</key>
+	<integer>197</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Eevee</string>
+	<key>preEvolution</key>
+	<integer>109</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>130</integer>
+	<key>species</key>
+	<string>Umbreon</string>
+	<key>speed</key>
+	<integer>65</integer>
+	<key>total</key>
+	<integer>525</integer>
+	<key>type1</key>
+	<string>Dark</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>59.5 lbs.</string>
+</dict>
+</plist>

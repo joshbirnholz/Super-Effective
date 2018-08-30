@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Soul-Heart</string>
+	<key>ability2</key>
+	<string>Soul-Heart</string>
+	<key>abilityH</key>
+	<string>Soul-Heart</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>1060</integer>
+		<integer>800</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Artificial Pokémon</string>
+	<key>defense</key>
+	<integer>115</integer>
+	<key>dex1</key>
+	<string>This beautiful form reflects Magearna’s appearance when first presented to a king’s daughter 500 years ago.</string>
+	<key>dex2</key>
+	<string>This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king’s daughter.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Magearna (Original Color)</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>1060</integer>
+	<key>ndex</key>
+	<integer>801</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>130</integer>
+	<key>spdefense</key>
+	<integer>115</integer>
+	<key>species</key>
+	<string>Magearna</string>
+	<key>speed</key>
+	<integer>65</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Steel</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>177.5 lbs.</string>
+</dict>
+</plist>

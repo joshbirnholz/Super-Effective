@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Damp</string>
+	<key>ability2</key>
+	<string>Cloud Nine</string>
+	<key>abilityH</key>
+	<string>Swift Swim</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>54</integer>
+	</array>
+	<key>attack</key>
+	<integer>82</integer>
+	<key>class</key>
+	<string>Duck Pokémon</string>
+	<key>defense</key>
+	<integer>78</integer>
+	<key>dex1</key>
+	<string>It is said that the red part of its forehead grants supernatural powers to those who possess one, so it was over-hunted in the past.</string>
+	<key>dex2</key>
+	<string>It swims along the banks of lakes and catches fish Pokémon. It takes them to the shore and quietly eats them up.</string>
+	<key>egg-group1</key>
+	<string>Water 1</string>
+	<key>egg-group2</key>
+	<string>Field</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>34</integer>
+	</array>
+	<key>forme</key>
+	<string>Golduck</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>54</integer>
+	<key>ndex</key>
+	<integer>55</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Psyduck</string>
+	<key>preEvolution</key>
+	<integer>34</integer>
+	<key>spattack</key>
+	<integer>95</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Golduck</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>500</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>168.9 lbs.</string>
+</dict>
+</plist>

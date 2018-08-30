@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sturdy</string>
+	<key>ability2</key>
+	<string>Magnet Pull</string>
+	<key>abilityH</key>
+	<string>Sand Force</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>475</integer>
+	</array>
+	<key>attack</key>
+	<integer>55</integer>
+	<key>class</key>
+	<string>Compass Pokémon</string>
+	<key>defense</key>
+	<integer>145</integer>
+	<key>dex1</key>
+	<string>It radiates such a powerful magnetic field that nearby electrical appliances become unusable.</string>
+	<key>dex2</key>
+	<string>The main body controls three mobile units called Mini-Noses, which it maneuvers to catch prey.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>374</integer>
+	</array>
+	<key>forme</key>
+	<string>Probopass</string>
+	<key>height</key>
+	<string>4'07</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>475</integer>
+	<key>ndex</key>
+	<integer>476</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Nosepass</string>
+	<key>preEvolution</key>
+	<integer>374</integer>
+	<key>spattack</key>
+	<integer>75</integer>
+	<key>spdefense</key>
+	<integer>150</integer>
+	<key>species</key>
+	<string>Probopass</string>
+	<key>speed</key>
+	<integer>40</integer>
+	<key>total</key>
+	<integer>525</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Steel</string>
+	<key>weight</key>
+	<string>749.6 lbs.</string>
+</dict>
+</plist>

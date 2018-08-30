@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.</string>
+	<key>id</key>
+	<integer>545</integer>
+	<key>move</key>
+	<string>Searing Shot</string>
+	<key>power</key>
+	<integer>100</integer>
+	<key>pp</key>
+	<integer>5</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Fire</string>
+	<key>z-effect</key>
+	<string>180 Power</string>
+</dict>
+</plist>

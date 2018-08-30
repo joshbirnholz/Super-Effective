@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Water Compaction</string>
+	<key>ability2</key>
+	<string>Water Compaction</string>
+	<key>abilityH</key>
+	<string>Sand Veil</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>769</integer>
+	</array>
+	<key>attack</key>
+	<integer>75</integer>
+	<key>class</key>
+	<string>Sand Castle Pokémon</string>
+	<key>defense</key>
+	<integer>110</integer>
+	<key>dex1</key>
+	<string>Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.</string>
+	<key>dex2</key>
+	<string>Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.</string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>407</integer>
+	</array>
+	<key>forme</key>
+	<string>Palossand</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>85</integer>
+	<key>id</key>
+	<integer>769</integer>
+	<key>ndex</key>
+	<integer>770</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Sandygast</string>
+	<key>preEvolution</key>
+	<integer>407</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Palossand</string>
+	<key>speed</key>
+	<integer>35</integer>
+	<key>total</key>
+	<integer>480</integer>
+	<key>type1</key>
+	<string>Ghost</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>551.2 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Inner Focus</string>
+	<key>ability2</key>
+	<string>Early Bird</string>
+	<key>abilityH</key>
+	<string>Sap Sipper</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>202</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Long Neck Pokémon</string>
+	<key>defense</key>
+	<integer>65</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Girafarig</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>202</integer>
+	<key>ndex</key>
+	<integer>203</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>90</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Girafarig</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>455</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Psychic</string>
+	<key>weight</key>
+	<string>91.5 lbs.</string>
+</dict>
+</plist>

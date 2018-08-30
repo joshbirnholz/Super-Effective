@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Defeatist</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>565</integer>
+	</array>
+	<key>attack</key>
+	<integer>112</integer>
+	<key>class</key>
+	<string>First Bird Pokémon</string>
+	<key>defense</key>
+	<integer>45</integer>
+	<key>dex1</key>
+	<string>It is the ancestor of all bird Pokémon. Archen itself could not actually fly but moved by hopping from treetop to treetop.</string>
+	<key>dex2</key>
+	<string>To all appearances flightless, it was able to glide down from tall treetops to snag its prey.</string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>284</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>284</integer>
+	</array>
+	<key>forme</key>
+	<string>Archen</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>55</integer>
+	<key>id</key>
+	<integer>565</integer>
+	<key>ndex</key>
+	<integer>566</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>74</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Archen</string>
+	<key>speed</key>
+	<integer>70</integer>
+	<key>total</key>
+	<integer>401</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>20.9 lbs.</string>
+</dict>
+</plist>

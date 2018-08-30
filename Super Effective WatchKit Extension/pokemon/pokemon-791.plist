@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Shadow Shield</string>
+	<key>ability2</key>
+	<string>Shadow Shield</string>
+	<key>abilityH</key>
+	<string>Shadow Shield</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>791</integer>
+	</array>
+	<key>attack</key>
+	<integer>113</integer>
+	<key>class</key>
+	<string>Moone Pokémon</string>
+	<key>defense</key>
+	<integer>89</integer>
+	<key>dex1</key>
+	<string>It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.</string>
+	<key>dex2</key>
+	<string>Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>381</integer>
+		<integer>382</integer>
+		<integer>383</integer>
+	</array>
+	<key>forme</key>
+	<string>Lunala</string>
+	<key>height</key>
+	<string>13'01</string>
+	<key>hp</key>
+	<integer>137</integer>
+	<key>id</key>
+	<integer>791</integer>
+	<key>ndex</key>
+	<integer>792</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string>Cosmoem</string>
+	<key>preEvolution</key>
+	<integer>383</integer>
+	<key>spattack</key>
+	<integer>137</integer>
+	<key>spdefense</key>
+	<integer>107</integer>
+	<key>species</key>
+	<string>Lunala</string>
+	<key>speed</key>
+	<integer>97</integer>
+	<key>total</key>
+	<integer>680</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>264.6 lbs.</string>
+</dict>
+</plist>

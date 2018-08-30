@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Run Away</string>
+	<key>ability2</key>
+	<string>Pickup</string>
+	<key>abilityH</key>
+	<string>Volt Absorb</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>416</integer>
+	</array>
+	<key>attack</key>
+	<integer>45</integer>
+	<key>class</key>
+	<string>EleSquirrel Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string>Fairy</string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Pachirisu</string>
+	<key>height</key>
+	<string>1'04</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>416</integer>
+	<key>ndex</key>
+	<integer>417</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>90</integer>
+	<key>species</key>
+	<string>Pachirisu</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Electric</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>8.6 lbs.</string>
+</dict>
+</plist>

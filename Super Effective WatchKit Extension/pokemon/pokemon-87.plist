@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Stench</string>
+	<key>ability2</key>
+	<string>Sticky Hold</string>
+	<key>abilityH</key>
+	<string>Poison Touch</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>87</integer>
+		<integer>831</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Sludge Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string>Its main source of food is the slimy industrial waste of factories. This Pokémon’s numbers have been decreasing in recent years.</string>
+	<key>dex2</key>
+	<string>It was born from sludge transformed by exposure to X-rays from the moon. When its internal load of germs decreases, it dies.</string>
+	<key>egg-group1</key>
+	<string>Amorphous</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>53</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>53</integer>
+		<integer>415</integer>
+	</array>
+	<key>forme</key>
+	<string>Grimer</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>87</integer>
+	<key>ndex</key>
+	<integer>88</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Grimer</string>
+	<key>speed</key>
+	<integer>25</integer>
+	<key>total</key>
+	<integer>325</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>66.1 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Swarm</string>
+	<key>ability2</key>
+	<string>Technician</string>
+	<key>abilityH</key>
+	<string>Steadfast</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>122</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Mantis Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string>It confuses its prey with its quick, ninja-like movements. Then, in an instant, it cleaves them with its scythes.</string>
+	<key>dex2</key>
+	<string>While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>115</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>115</integer>
+	</array>
+	<key>forme</key>
+	<string>Scyther</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>122</integer>
+	<key>ndex</key>
+	<integer>123</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Scyther</string>
+	<key>speed</key>
+	<integer>105</integer>
+	<key>total</key>
+	<integer>500</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>123.5 lbs.</string>
+</dict>
+</plist>

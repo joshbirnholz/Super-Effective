@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Magnet Pull</string>
+	<key>ability2</key>
+	<string>Sturdy</string>
+	<key>abilityH</key>
+	<string>Galvanize</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>829</integer>
+		<integer>75</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Megaton Pokémon</string>
+	<key>defense</key>
+	<integer>130</integer>
+	<key>dex1</key>
+	<string>It fires rocks charged with electricity. Even if the rock isn’t fired that accurately, just grazing an opponent will cause numbness and fainting.</string>
+	<key>dex2</key>
+	<string>Because it can’t fire boulders at a rapid pace, it’s been known to seize nearby Geodude and fire them from its back.</string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>413</integer>
+		<integer>414</integer>
+		<integer>46</integer>
+		<integer>47</integer>
+	</array>
+	<key>forme</key>
+	<string>Golem (Alola Form)</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>80</integer>
+	<key>id</key>
+	<integer>829</integer>
+	<key>ndex</key>
+	<integer>76</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Graveler (Alola Form)</string>
+	<key>preEvolution</key>
+	<integer>414</integer>
+	<key>spattack</key>
+	<integer>55</integer>
+	<key>spdefense</key>
+	<integer>65</integer>
+	<key>species</key>
+	<string>Golem</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>495</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Electric</string>
+	<key>weight</key>
+	<string>696.7 lbs.</string>
+</dict>
+</plist>

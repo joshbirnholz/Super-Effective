@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Bulletproof</string>
+	<key>ability2</key>
+	<string>Soundproof</string>
+	<key>abilityH</key>
+	<string>Overcoat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>783</integer>
+		<integer>1059</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Scaly Pokémon</string>
+	<key>defense</key>
+	<integer>125</integer>
+	<key>dex1</key>
+	<string>When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.</string>
+	<key>dex2</key>
+	<string>Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.</string>
+	<key>egg-group1</key>
+	<string>Dragon</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>409</integer>
+		<integer>410</integer>
+	</array>
+	<key>forme</key>
+	<string>Kommo-o</string>
+	<key>height</key>
+	<string>5'03</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>783</integer>
+	<key>ndex</key>
+	<integer>784</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Hakamo-o</string>
+	<key>preEvolution</key>
+	<integer>410</integer>
+	<key>spattack</key>
+	<integer>100</integer>
+	<key>spdefense</key>
+	<integer>105</integer>
+	<key>species</key>
+	<string>Kommo-o</string>
+	<key>speed</key>
+	<integer>85</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Dragon</string>
+	<key>type2</key>
+	<string>Fighting</string>
+	<key>weight</key>
+	<string>172.4 lbs.</string>
+</dict>
+</plist>

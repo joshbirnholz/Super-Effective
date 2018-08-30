@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>evolution ID</key>
+	<integer>108</integer>
+	<key>evolved species ID</key>
+	<integer>195</integer>
+	<key>minimum happiness</key>
+	<integer>220</integer>
+	<key>original species ID</key>
+	<integer>132</integer>
+	<key>time of day</key>
+	<string>day</string>
+	<key>trigger</key>
+	<string>Item</string>
+</dict>
+</plist>

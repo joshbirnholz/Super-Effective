@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Unaware</string>
+	<key>ability2</key>
+	<string>Unaware</string>
+	<key>abilityH</key>
+	<string>Unaware</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>788</integer>
+	</array>
+	<key>attack</key>
+	<integer>29</integer>
+	<key>class</key>
+	<string>Nebula Pokémon</string>
+	<key>defense</key>
+	<integer>31</integer>
+	<key>dex1</key>
+	<string>Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.</string>
+	<key>dex2</key>
+	<string>In ages past, it was called the child of the stars. It’s said to be a Pokémon from another world, but no specific details are known.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>381</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>381</integer>
+		<integer>382</integer>
+		<integer>383</integer>
+	</array>
+	<key>forme</key>
+	<string>Cosmog</string>
+	<key>height</key>
+	<string>0'08</string>
+	<key>hp</key>
+	<integer>43</integer>
+	<key>id</key>
+	<integer>788</integer>
+	<key>ndex</key>
+	<integer>789</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>29</integer>
+	<key>spdefense</key>
+	<integer>31</integer>
+	<key>species</key>
+	<string>Cosmog</string>
+	<key>speed</key>
+	<integer>37</integer>
+	<key>total</key>
+	<integer>200</integer>
+	<key>type1</key>
+	<string>Psychic</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>0.2 lbs.</string>
+</dict>
+</plist>

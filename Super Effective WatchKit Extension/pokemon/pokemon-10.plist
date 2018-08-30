@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Shed Skin</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>10</integer>
+	</array>
+	<key>attack</key>
+	<integer>20</integer>
+	<key>class</key>
+	<string>Cocoon Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string>Its shell is filled with its soft innards. It doesn’t move much because of the risk it might carelessly spill its innards out.</string>
+	<key>dex2</key>
+	<string>Its shell is hard, but it’s still just a bug shell. It’s been known to break, so intense battles with it should be avoided.</string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>7</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>6</integer>
+		<integer>7</integer>
+	</array>
+	<key>forme</key>
+	<string>Metapod</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>10</integer>
+	<key>ndex</key>
+	<integer>11</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Caterpie</string>
+	<key>preEvolution</key>
+	<integer>6</integer>
+	<key>spattack</key>
+	<integer>25</integer>
+	<key>spdefense</key>
+	<integer>25</integer>
+	<key>species</key>
+	<string>Metapod</string>
+	<key>speed</key>
+	<integer>30</integer>
+	<key>total</key>
+	<integer>205</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>21.8 lbs.</string>
+</dict>
+</plist>

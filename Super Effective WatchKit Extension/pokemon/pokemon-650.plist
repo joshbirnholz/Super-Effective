@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Overgrow</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Bulletproof</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>650</integer>
+	</array>
+	<key>attack</key>
+	<integer>78</integer>
+	<key>class</key>
+	<string>Spiny Armor Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>333</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>331</integer>
+		<integer>333</integer>
+	</array>
+	<key>forme</key>
+	<string>Quilladin</string>
+	<key>height</key>
+	<string>2'04</string>
+	<key>hp</key>
+	<integer>61</integer>
+	<key>id</key>
+	<integer>650</integer>
+	<key>ndex</key>
+	<integer>651</integer>
+	<key>percent-female</key>
+	<real>0.125</real>
+	<key>percent-male</key>
+	<real>0.875</real>
+	<key>pre-evolution</key>
+	<string>Chespin</string>
+	<key>preEvolution</key>
+	<integer>331</integer>
+	<key>spattack</key>
+	<integer>56</integer>
+	<key>spdefense</key>
+	<integer>58</integer>
+	<key>species</key>
+	<string>Quilladin</string>
+	<key>speed</key>
+	<integer>57</integer>
+	<key>total</key>
+	<integer>405</integer>
+	<key>type1</key>
+	<string>Grass</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>63.9 lbs.</string>
+</dict>
+</plist>

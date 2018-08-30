@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sand Stream</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Unnerve</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>247</integer>
+		<integer>874</integer>
+	</array>
+	<key>attack</key>
+	<integer>134</integer>
+	<key>class</key>
+	<string>Armor Pokémon</string>
+	<key>defense</key>
+	<integer>110</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Monster</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>127</integer>
+		<integer>128</integer>
+	</array>
+	<key>forme</key>
+	<string>Tyranitar</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>247</integer>
+	<key>ndex</key>
+	<integer>248</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Pupitar</string>
+	<key>preEvolution</key>
+	<integer>128</integer>
+	<key>spattack</key>
+	<integer>95</integer>
+	<key>spdefense</key>
+	<integer>100</integer>
+	<key>species</key>
+	<string>Tyranitar</string>
+	<key>speed</key>
+	<integer>61</integer>
+	<key>total</key>
+	<integer>600</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Dark</string>
+	<key>weight</key>
+	<string>445.3 lbs.</string>
+</dict>
+</plist>

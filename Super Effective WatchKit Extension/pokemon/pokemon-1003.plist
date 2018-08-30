@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Stance Change</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>1003</integer>
+		<integer>680</integer>
+	</array>
+	<key>attack</key>
+	<integer>150</integer>
+	<key>class</key>
+	<string>Royal Sword Pokémon</string>
+	<key>defense</key>
+	<integer>50</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Mineral</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Aegislash (Blade Forme)</string>
+	<key>height</key>
+	<string>5'07</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>1003</integer>
+	<key>ndex</key>
+	<integer>681</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Doublade</string>
+	<key>spattack</key>
+	<integer>150</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Aegislash</string>
+	<key>speed</key>
+	<integer>60</integer>
+	<key>total</key>
+	<integer>520</integer>
+	<key>type1</key>
+	<string>Steel</string>
+	<key>type2</key>
+	<string>Ghost</string>
+	<key>weight</key>
+	<string>116.8 lbs.</string>
+</dict>
+</plist>

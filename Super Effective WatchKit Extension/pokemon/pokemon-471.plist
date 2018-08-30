@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Hyper Cutter</string>
+	<key>ability2</key>
+	<string>Sand Veil</string>
+	<key>abilityH</key>
+	<string>Poison Heal</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>471</integer>
+	</array>
+	<key>attack</key>
+	<integer>95</integer>
+	<key>class</key>
+	<string>Fang Scorpion Pokémon</string>
+	<key>defense</key>
+	<integer>125</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>240</integer>
+	</array>
+	<key>forme</key>
+	<string>Gliscor</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>471</integer>
+	<key>ndex</key>
+	<integer>472</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Gligar</string>
+	<key>preEvolution</key>
+	<integer>240</integer>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Gliscor</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>510</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>93.7 lbs.</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Beast Boost</string>
+	<key>ability2</key>
+	<string>Beast Boost</string>
+	<key>abilityH</key>
+	<string>Beast Boost</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>792</integer>
+	</array>
+	<key>attack</key>
+	<integer>53</integer>
+	<key>class</key>
+	<string>Parasite Pokémon</string>
+	<key>defense</key>
+	<integer>47</integer>
+	<key>dex1</key>
+	<string>One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.</string>
+	<key>dex2</key>
+	<string>One of the Ultra Beasts. It’s unclear whether or not this Pokémon is sentient, but sometimes it can be observed behaving like a young girl.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Nihilego</string>
+	<key>height</key>
+	<string>3'11</string>
+	<key>hp</key>
+	<integer>109</integer>
+	<key>id</key>
+	<integer>792</integer>
+	<key>ndex</key>
+	<integer>793</integer>
+	<key>percent-female</key>
+	<string></string>
+	<key>percent-male</key>
+	<string></string>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>127</integer>
+	<key>spdefense</key>
+	<integer>131</integer>
+	<key>species</key>
+	<string>Nihilego</string>
+	<key>speed</key>
+	<integer>103</integer>
+	<key>total</key>
+	<integer>570</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string>Poison</string>
+	<key>weight</key>
+	<string>122.4 lbs.</string>
+</dict>
+</plist>

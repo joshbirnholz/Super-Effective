@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>No Guard</string>
+	<key>ability2</key>
+	<string>No Guard</string>
+	<key>abilityH</key>
+	<string>No Guard</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>807</integer>
+		<integer>17</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Bird Pokémon</string>
+	<key>defense</key>
+	<integer>80</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Pidgeot (Mega Pidgeot)</string>
+	<key>height</key>
+	<string>7'03</string>
+	<key>hp</key>
+	<integer>83</integer>
+	<key>id</key>
+	<integer>807</integer>
+	<key>ndex</key>
+	<integer>18</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Pidgeotto</string>
+	<key>spattack</key>
+	<integer>135</integer>
+	<key>spdefense</key>
+	<integer>80</integer>
+	<key>species</key>
+	<string>Pidgeot</string>
+	<key>speed</key>
+	<integer>121</integer>
+	<key>total</key>
+	<integer>579</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>111.3 lbs.</string>
+</dict>
+</plist>

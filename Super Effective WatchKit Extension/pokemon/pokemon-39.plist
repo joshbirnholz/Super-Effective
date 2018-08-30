@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Cute Charm</string>
+	<key>ability2</key>
+	<string>Competitive</string>
+	<key>abilityH</key>
+	<string>Frisk</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>39</integer>
+	</array>
+	<key>attack</key>
+	<integer>70</integer>
+	<key>class</key>
+	<string>Balloon Pokémon</string>
+	<key>defense</key>
+	<integer>45</integer>
+	<key>dex1</key>
+	<string>It sheds its fine fur when the seasons change. The fur is gathered and spun into a luxurious yarn.</string>
+	<key>dex2</key>
+	<string>As it inhales, it expands...and expands...and expands. Wigglytuff compete to see which one can inflate itself the most.</string>
+	<key>egg-group1</key>
+	<string>Fairy</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>25</integer>
+		<integer>26</integer>
+	</array>
+	<key>forme</key>
+	<string>Wigglytuff</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>140</integer>
+	<key>id</key>
+	<integer>39</integer>
+	<key>ndex</key>
+	<integer>40</integer>
+	<key>percent-female</key>
+	<real>0.75</real>
+	<key>percent-male</key>
+	<real>0.25</real>
+	<key>pre-evolution</key>
+	<string>Jigglypuff</string>
+	<key>preEvolution</key>
+	<integer>26</integer>
+	<key>spattack</key>
+	<integer>85</integer>
+	<key>spdefense</key>
+	<integer>50</integer>
+	<key>species</key>
+	<string>Wigglytuff</string>
+	<key>speed</key>
+	<integer>45</integer>
+	<key>total</key>
+	<integer>435</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>26.5 lbs.</string>
+</dict>
+</plist>

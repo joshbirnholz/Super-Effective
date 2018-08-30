@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Run Away</string>
+	<key>ability2</key>
+	<string>Early Bird</string>
+	<key>abilityH</key>
+	<string>Tangled Feet</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>84</integer>
+	</array>
+	<key>attack</key>
+	<integer>110</integer>
+	<key>class</key>
+	<string>Triple Bird Pokémon</string>
+	<key>defense</key>
+	<integer>70</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Flying</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>51</integer>
+	</array>
+	<key>forme</key>
+	<string>Dodrio</string>
+	<key>height</key>
+	<string>5'11</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>84</integer>
+	<key>ndex</key>
+	<integer>85</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Doduo</string>
+	<key>preEvolution</key>
+	<integer>51</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Dodrio</string>
+	<key>speed</key>
+	<integer>100</integer>
+	<key>total</key>
+	<integer>460</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>187.8 lbs.</string>
+</dict>
+</plist>

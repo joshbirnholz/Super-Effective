@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Swift Swim</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Rattled</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>128</integer>
+	</array>
+	<key>attack</key>
+	<integer>10</integer>
+	<key>class</key>
+	<string>Fish Pokémon</string>
+	<key>defense</key>
+	<integer>55</integer>
+	<key>dex1</key>
+	<string>Although weak and helpless, this Pokémon is incredibly fertile. They exist in such multitudes, you’ll soon grow tired of seeing them.</string>
+	<key>dex2</key>
+	<string>Its reckless leaps make it easy pickings for predators. On the bright side, many Pokémon enjoy longer life spans, thanks to Magikarp.</string>
+	<key>egg-group1</key>
+	<string>Water 2</string>
+	<key>egg-group2</key>
+	<string>Dragon</string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>74</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>74</integer>
+	</array>
+	<key>forme</key>
+	<string>Magikarp</string>
+	<key>height</key>
+	<string>2'11</string>
+	<key>hp</key>
+	<integer>20</integer>
+	<key>id</key>
+	<integer>128</integer>
+	<key>ndex</key>
+	<integer>129</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>15</integer>
+	<key>spdefense</key>
+	<integer>20</integer>
+	<key>species</key>
+	<string>Magikarp</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>200</integer>
+	<key>type1</key>
+	<string>Water</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>22.0 lbs.</string>
+</dict>
+</plist>

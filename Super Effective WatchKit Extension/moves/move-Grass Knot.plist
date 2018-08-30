@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accuracy</key>
+	<string>100%</string>
+	<key>category</key>
+	<string>Special</string>
+	<key>crit</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.</string>
+	<key>id</key>
+	<integer>447</integer>
+	<key>move</key>
+	<string>Grass Knot</string>
+	<key>power</key>
+	<string>—</string>
+	<key>pp</key>
+	<integer>20</integer>
+	<key>priority</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Grass</string>
+	<key>z-effect</key>
+	<string>160 Power</string>
+</dict>
+</plist>

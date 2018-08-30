@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Receiver</string>
+	<key>ability2</key>
+	<string>Receiver</string>
+	<key>abilityH</key>
+	<string>Defiant</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>765</integer>
+	</array>
+	<key>attack</key>
+	<integer>120</integer>
+	<key>class</key>
+	<string>Teamwork Pokémon</string>
+	<key>defense</key>
+	<integer>90</integer>
+	<key>dex1</key>
+	<string>They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.</string>
+	<key>dex2</key>
+	<string>They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Passimian</string>
+	<key>height</key>
+	<string>6'07</string>
+	<key>hp</key>
+	<integer>100</integer>
+	<key>id</key>
+	<integer>765</integer>
+	<key>ndex</key>
+	<integer>766</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>40</integer>
+	<key>spdefense</key>
+	<integer>60</integer>
+	<key>species</key>
+	<string>Passimian</string>
+	<key>speed</key>
+	<integer>80</integer>
+	<key>total</key>
+	<integer>490</integer>
+	<key>type1</key>
+	<string>Fighting</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>182.5 lbs.</string>
+</dict>
+</plist>

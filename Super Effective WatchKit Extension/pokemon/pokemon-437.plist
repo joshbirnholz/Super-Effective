@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sturdy</string>
+	<key>ability2</key>
+	<string>Rock Head</string>
+	<key>abilityH</key>
+	<string>Rattled</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>437</integer>
+	</array>
+	<key>attack</key>
+	<integer>80</integer>
+	<key>class</key>
+	<string>Bonsai Pokémon</string>
+	<key>defense</key>
+	<integer>95</integer>
+	<key>dex1</key>
+	<string>It does not deal well with water, so it lives in dry locales. Since its surroundings tend to lack greenery, it stands out noticeably.</string>
+	<key>dex2</key>
+	<string>From its eyes, it can expel excess moisture from its body. This liquid is similar in composition to human sweat.</string>
+	<key>egg-group1</key>
+	<string>Undiscovered</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionIDs</key>
+	<array>
+		<integer>102</integer>
+	</array>
+	<key>evolutionTree</key>
+	<array>
+		<integer>102</integer>
+	</array>
+	<key>forme</key>
+	<string>Bonsly</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>50</integer>
+	<key>id</key>
+	<integer>437</integer>
+	<key>ndex</key>
+	<integer>438</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>10</integer>
+	<key>spdefense</key>
+	<integer>45</integer>
+	<key>species</key>
+	<string>Bonsly</string>
+	<key>speed</key>
+	<integer>10</integer>
+	<key>total</key>
+	<integer>290</integer>
+	<key>type1</key>
+	<string>Rock</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>33.1 lbs.</string>
+</dict>
+</plist>

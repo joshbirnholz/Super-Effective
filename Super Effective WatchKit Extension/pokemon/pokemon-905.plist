@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Anticipation</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Overcoat</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>905</integer>
+		<integer>412</integer>
+		<integer>906</integer>
+	</array>
+	<key>attack</key>
+	<integer>79</integer>
+	<key>class</key>
+	<string>Bagworm Pokémon</string>
+	<key>defense</key>
+	<integer>105</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>206</integer>
+		<integer>205</integer>
+		<integer>208</integer>
+		<integer>207</integer>
+		<integer>209</integer>
+		<integer>210</integer>
+	</array>
+	<key>forme</key>
+	<string>Wormadam (Sandy Cloak)</string>
+	<key>height</key>
+	<string>1'08</string>
+	<key>hp</key>
+	<integer>60</integer>
+	<key>id</key>
+	<integer>905</integer>
+	<key>ndex</key>
+	<integer>413</integer>
+	<key>percent-female</key>
+	<integer>1</integer>
+	<key>percent-male</key>
+	<integer>0</integer>
+	<key>pre-evolution</key>
+	<string>Burmy</string>
+	<key>preEvolution</key>
+	<integer>206</integer>
+	<key>spattack</key>
+	<integer>59</integer>
+	<key>spdefense</key>
+	<integer>85</integer>
+	<key>species</key>
+	<string>Wormadam</string>
+	<key>speed</key>
+	<integer>36</integer>
+	<key>total</key>
+	<integer>424</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Ground</string>
+	<key>weight</key>
+	<string>14.3 lbs.</string>
+</dict>
+</plist>

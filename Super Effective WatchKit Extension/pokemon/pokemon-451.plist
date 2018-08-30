@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Battle Armor</string>
+	<key>ability2</key>
+	<string>Sniper</string>
+	<key>abilityH</key>
+	<string>Keen Eye</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>451</integer>
+	</array>
+	<key>attack</key>
+	<integer>90</integer>
+	<key>class</key>
+	<string>Ogre Scorpion Pokémon</string>
+	<key>defense</key>
+	<integer>110</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string>Water 3</string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>228</integer>
+	</array>
+	<key>forme</key>
+	<string>Drapion</string>
+	<key>height</key>
+	<string>4'03</string>
+	<key>hp</key>
+	<integer>70</integer>
+	<key>id</key>
+	<integer>451</integer>
+	<key>ndex</key>
+	<integer>452</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Skorupi</string>
+	<key>preEvolution</key>
+	<integer>228</integer>
+	<key>spattack</key>
+	<integer>60</integer>
+	<key>spdefense</key>
+	<integer>75</integer>
+	<key>species</key>
+	<string>Drapion</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>500</integer>
+	<key>type1</key>
+	<string>Poison</string>
+	<key>type2</key>
+	<string>Dark</string>
+	<key>weight</key>
+	<string>135.6 lbs.</string>
+</dict>
+</plist>

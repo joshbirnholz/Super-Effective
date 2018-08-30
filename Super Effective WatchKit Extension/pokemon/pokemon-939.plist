@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Healer</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string></string>
+	<key>altformIDs</key>
+	<array>
+		<integer>939</integer>
+		<integer>530</integer>
+	</array>
+	<key>attack</key>
+	<integer>60</integer>
+	<key>class</key>
+	<string>Hearing Pokémon</string>
+	<key>defense</key>
+	<integer>126</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Fairy</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array/>
+	<key>forme</key>
+	<string>Audino (Mega Audino)</string>
+	<key>height</key>
+	<string>4'11</string>
+	<key>hp</key>
+	<integer>103</integer>
+	<key>id</key>
+	<integer>939</integer>
+	<key>ndex</key>
+	<integer>531</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string></string>
+	<key>spattack</key>
+	<integer>80</integer>
+	<key>spdefense</key>
+	<integer>126</integer>
+	<key>species</key>
+	<string>Audino</string>
+	<key>speed</key>
+	<integer>50</integer>
+	<key>total</key>
+	<integer>545</integer>
+	<key>type1</key>
+	<string>Normal</string>
+	<key>type2</key>
+	<string>Fairy</string>
+	<key>weight</key>
+	<string>70.5 lbs.</string>
+</dict>
+</plist>

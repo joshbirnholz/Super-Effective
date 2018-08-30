@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Sand Veil</string>
+	<key>ability2</key>
+	<string></string>
+	<key>abilityH</key>
+	<string>Sand Rush</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>27</integer>
+		<integer>819</integer>
+	</array>
+	<key>attack</key>
+	<integer>100</integer>
+	<key>class</key>
+	<string>Mouse Pokémon</string>
+	<key>defense</key>
+	<integer>110</integer>
+	<key>dex1</key>
+	<string>Although they are sharp, its claws and spikes often break off. They grow back the next day, so it is not bothered by the temporary loss.</string>
+	<key>dex2</key>
+	<string>It uses its claws to climb trees and then curls its body into a spiny ball, ready to drop onto any prey that appears.</string>
+	<key>egg-group1</key>
+	<string>Field</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>17</integer>
+		<integer>385</integer>
+	</array>
+	<key>forme</key>
+	<string>Sandslash</string>
+	<key>height</key>
+	<string>3'03</string>
+	<key>hp</key>
+	<integer>75</integer>
+	<key>id</key>
+	<integer>27</integer>
+	<key>ndex</key>
+	<integer>28</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Sandshrew</string>
+	<key>preEvolution</key>
+	<integer>17</integer>
+	<key>spattack</key>
+	<integer>45</integer>
+	<key>spdefense</key>
+	<integer>55</integer>
+	<key>species</key>
+	<string>Sandslash</string>
+	<key>speed</key>
+	<integer>65</integer>
+	<key>total</key>
+	<integer>450</integer>
+	<key>type1</key>
+	<string>Ground</string>
+	<key>type2</key>
+	<string></string>
+	<key>weight</key>
+	<string>65.0 lbs.</string>
+</dict>
+</plist>

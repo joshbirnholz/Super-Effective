@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ability1</key>
+	<string>Speed Boost</string>
+	<key>ability2</key>
+	<string>Tinted Lens</string>
+	<key>abilityH</key>
+	<string>Frisk</string>
+	<key>altformIDs</key>
+	<array>
+		<integer>468</integer>
+	</array>
+	<key>attack</key>
+	<integer>76</integer>
+	<key>class</key>
+	<string>Ogre Darner Pokémon</string>
+	<key>defense</key>
+	<integer>86</integer>
+	<key>dex1</key>
+	<string></string>
+	<key>dex2</key>
+	<string></string>
+	<key>egg-group1</key>
+	<string>Bug</string>
+	<key>egg-group2</key>
+	<string></string>
+	<key>evolutionTree</key>
+	<array>
+		<integer>239</integer>
+	</array>
+	<key>forme</key>
+	<string>Yanmega</string>
+	<key>height</key>
+	<string>6'03</string>
+	<key>hp</key>
+	<integer>86</integer>
+	<key>id</key>
+	<integer>468</integer>
+	<key>ndex</key>
+	<integer>469</integer>
+	<key>percent-female</key>
+	<real>0.5</real>
+	<key>percent-male</key>
+	<real>0.5</real>
+	<key>pre-evolution</key>
+	<string>Yanma</string>
+	<key>preEvolution</key>
+	<integer>239</integer>
+	<key>spattack</key>
+	<integer>116</integer>
+	<key>spdefense</key>
+	<integer>56</integer>
+	<key>species</key>
+	<string>Yanmega</string>
+	<key>speed</key>
+	<integer>95</integer>
+	<key>total</key>
+	<integer>515</integer>
+	<key>type1</key>
+	<string>Bug</string>
+	<key>type2</key>
+	<string>Flying</string>
+	<key>weight</key>
+	<string>113.5 lbs.</string>
+</dict>
+</plist>
