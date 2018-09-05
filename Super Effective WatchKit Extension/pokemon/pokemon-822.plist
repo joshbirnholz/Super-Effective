@@ -10,8 +10,8 @@
 	<string>Sand Force</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>822</integer>
 		<integer>49</integer>
+		<integer>822</integer>
 	</array>
 	<key>attack</key>
 	<integer>55</integer>

@@ -10,8 +10,8 @@
 	<string>Mold Breaker</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>940</integer>
 		<integer>549</integer>
+		<integer>940</integer>
 	</array>
 	<key>attack</key>
 	<integer>92</integer>

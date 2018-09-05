@@ -10,7 +10,6 @@
 	<string>RKS System</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1042</integer>
 		<integer>772</integer>
 		<integer>1026</integer>
 		<integer>1027</integer>
@@ -28,6 +27,7 @@
 		<integer>1039</integer>
 		<integer>1040</integer>
 		<integer>1041</integer>
+		<integer>1042</integer>
 	</array>
 	<key>attack</key>
 	<integer>95</integer>

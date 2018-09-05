@@ -10,8 +10,8 @@
 	<string>Harvest</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>834</integer>
 		<integer>102</integer>
+		<integer>834</integer>
 	</array>
 	<key>attack</key>
 	<integer>105</integer>

@@ -10,8 +10,8 @@
 	<string>Contrary</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1024</integer>
 		<integer>753</integer>
+		<integer>1024</integer>
 	</array>
 	<key>attack</key>
 	<integer>105</integer>

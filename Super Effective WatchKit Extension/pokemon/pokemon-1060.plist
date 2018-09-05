@@ -10,8 +10,8 @@
 	<string>Soul-Heart</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1060</integer>
 		<integer>800</integer>
+		<integer>1060</integer>
 	</array>
 	<key>attack</key>
 	<integer>95</integer>

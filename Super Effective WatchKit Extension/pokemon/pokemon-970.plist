@@ -10,7 +10,6 @@
 	<string>Friend Guard</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>970</integer>
 		<integer>665</integer>
 		<integer>961</integer>
 		<integer>962</integer>
@@ -21,6 +20,7 @@
 		<integer>967</integer>
 		<integer>968</integer>
 		<integer>969</integer>
+		<integer>970</integer>
 		<integer>971</integer>
 		<integer>972</integer>
 		<integer>973</integer>

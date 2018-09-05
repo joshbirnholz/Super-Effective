@@ -15,7 +15,7 @@ class TypeCheckerInterfaceController: WKInterfaceController {
 	@IBOutlet var type2Picker: WKInterfacePicker!
 	@IBOutlet var checkButton: WKInterfaceButton!
 	
-	let types = [Type.normal, .fighting, .flying, .poison, .ground, .rock, .bug, .ghost, .steel, .fire, .water, .grass, .electric, .psychic, .ice, .dragon, .dark, .fairy].sorted(by: { $0.rawValue < $1.rawValue })
+	let types = Type.allCases.sorted(by: { $0.rawValue < $1.rawValue })
 	
 	var type1: Type = .bug
 	var type2: Type?
@@ -69,7 +69,8 @@ class TypeCheckerInterfaceController: WKInterfaceController {
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
 		if segueIdentifier == "TypeMatchupSegue" {
-			return TypeCombination(type1, type2)
+			let combo = TypeCombination(type1, type2)
+			return [combo.description, combo]
 		} else {
 			return nil
 		}

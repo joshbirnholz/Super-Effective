@@ -10,8 +10,8 @@
 	<string>Insomnia</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1007</integer>
 		<integer>710</integer>
+		<integer>1007</integer>
 		<integer>1008</integer>
 		<integer>1009</integer>
 	</array>

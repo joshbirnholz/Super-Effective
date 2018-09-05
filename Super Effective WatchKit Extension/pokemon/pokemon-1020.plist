@@ -10,9 +10,9 @@
 	<string>Dancer</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1020</integer>
 		<integer>740</integer>
 		<integer>1019</integer>
+		<integer>1020</integer>
 		<integer>1021</integer>
 	</array>
 	<key>attack</key>

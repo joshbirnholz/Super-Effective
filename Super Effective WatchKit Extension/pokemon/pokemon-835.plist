@@ -10,8 +10,8 @@
 	<string>Rock Head</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>835</integer>
 		<integer>104</integer>
+		<integer>835</integer>
 	</array>
 	<key>attack</key>
 	<integer>80</integer>

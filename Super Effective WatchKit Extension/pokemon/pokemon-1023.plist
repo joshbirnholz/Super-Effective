@@ -10,8 +10,8 @@
 	<string>Schooling</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1023</integer>
 		<integer>745</integer>
+		<integer>1023</integer>
 	</array>
 	<key>attack</key>
 	<integer>140</integer>

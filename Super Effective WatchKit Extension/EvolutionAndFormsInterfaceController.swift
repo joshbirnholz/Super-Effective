@@ -49,19 +49,12 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 	
 	var pokémon: Pokémon!
 	var altforms = [PokémonInfo]()
-	var presenter: WKInterfaceController!
 	var evolutions = [Evolution]()
 	
 	override func awake(withContext context: Any?) {
 		super.awake(withContext: context)
 		
-		guard let presenter = (context as? [Any])?[0] as? WKInterfaceController else {
-			print("Couldn't get parent detail interface")
-			return
-		}
-		self.presenter = presenter
-		
-		guard let pokémon = (context as? [Any])?[1] as? Pokémon else {
+		guard let pokémon = context as? Pokémon else {
 			print("Couldn't read pokémon")
 			return
 		}
@@ -69,7 +62,7 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 		
 		setTitle(pokémon.name)
 		
-		altforms = pokémon.altFormIDs.flatMap { allPokémonInfo[$0] }
+		altforms = pokémon.altFormIDs.compactMap { allPokémonInfo[safe: $0] }
 		evolutions = pokémon.evolutionTree
 		
 		if evolutions.isEmpty {
@@ -172,8 +165,7 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 	
 	func changePokémon(id: Int) {
 		guard let pokémon = Pokémon.with(id: id) else { return }
-		dismiss()
-		presenter.present(pokémon: pokémon)
+		push(pokémon: pokémon)
 	}
 	
 	override func willActivate() {

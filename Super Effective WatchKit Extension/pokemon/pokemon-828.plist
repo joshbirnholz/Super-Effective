@@ -10,8 +10,8 @@
 	<string>Galvanize</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>828</integer>
 		<integer>74</integer>
+		<integer>828</integer>
 	</array>
 	<key>attack</key>
 	<integer>95</integer>

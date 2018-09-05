@@ -8,10 +8,10 @@
 
 import UIKit
 
-public enum DamageCategory: String {
-	case physical
-	case special
-	case status
+public enum DamageCategory: String, Codable {
+	case physical = "Physical"
+	case special = "Special"
+	case status = "Status"
 	
 	public var color: UIColor {
 		switch self {

@@ -9,8 +9,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>normal</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -765,8 +763,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>fire</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -1521,8 +1517,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>water</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -2277,8 +2271,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>electric</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -3033,8 +3025,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>grass</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -3789,8 +3779,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>ice</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -4545,8 +4533,6 @@
 		<real>0.5</real>
 		<key>defense-type1</key>
 		<string>fighting</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -5301,8 +5287,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>poison</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -6057,8 +6041,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>ground</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -6813,8 +6795,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>flying</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -7569,8 +7549,6 @@
 		<integer>2</integer>
 		<key>defense-type1</key>
 		<string>psychic</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -8325,8 +8303,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>bug</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -9081,8 +9057,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>rock</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -9837,8 +9811,6 @@
 		<integer>2</integer>
 		<key>defense-type1</key>
 		<string>ghost</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -10593,8 +10565,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>dragon</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>2</integer>
 		<key>electric</key>
@@ -11349,8 +11319,6 @@
 		<real>0.5</real>
 		<key>defense-type1</key>
 		<string>dark</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>1</integer>
 		<key>electric</key>
@@ -12105,8 +12073,6 @@
 		<integer>1</integer>
 		<key>defense-type1</key>
 		<string>steel</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<real>0.5</real>
 		<key>electric</key>
@@ -12861,8 +12827,6 @@
 		<real>0.5</real>
 		<key>defense-type1</key>
 		<string>fairy</string>
-		<key>defense-type2</key>
-		<string></string>
 		<key>dragon</key>
 		<integer>0</integer>
 		<key>electric</key>

@@ -10,8 +10,8 @@
 	<string>Rattled</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>825</integer>
 		<integer>52</integer>
+		<integer>825</integer>
 	</array>
 	<key>attack</key>
 	<integer>60</integer>

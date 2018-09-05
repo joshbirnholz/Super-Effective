@@ -10,8 +10,8 @@
 	<string>Disguise</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1056</integer>
 		<integer>777</integer>
+		<integer>1056</integer>
 		<integer>1057</integer>
 		<integer>1058</integer>
 	</array>

@@ -6654,7 +6654,7 @@
 	</dict>
 	<dict>
 		<key>form</key>
-		<string>Vivillon (Meadow Pattern)</string>
+		<string>Vivillon (Icy Snow Pattern)</string>
 		<key>id</key>
 		<integer>665</integer>
 		<key>name</key>
@@ -9594,6 +9594,16 @@
 	</dict>
 	<dict>
 		<key>form</key>
+		<string>Greninja (Battle Bond)</string>
+		<key>id</key>
+		<integer>959</integer>
+		<key>name</key>
+		<string>Greninja</string>
+		<key>ndex</key>
+		<integer>658</integer>
+	</dict>
+	<dict>
+		<key>form</key>
 		<string>Greninja (Ash-Greninja)</string>
 		<key>id</key>
 		<integer>960</integer>
@@ -9654,7 +9664,7 @@
 	</dict>
 	<dict>
 		<key>form</key>
-		<string>Vivillon (Icy Snow Pattern)</string>
+		<string>Vivillon (Meadow Pattern)</string>
 		<key>id</key>
 		<integer>966</integer>
 		<key>name</key>
@@ -10114,6 +10124,26 @@
 	</dict>
 	<dict>
 		<key>form</key>
+		<string>Zygarde (10% Forme)</string>
+		<key>id</key>
+		<integer>1012</integer>
+		<key>name</key>
+		<string>Zygarde</string>
+		<key>ndex</key>
+		<integer>718</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Zygarde (50% Forme)</string>
+		<key>id</key>
+		<integer>1013</integer>
+		<key>name</key>
+		<string>Zygarde</string>
+		<key>ndex</key>
+		<integer>718</integer>
+	</dict>
+	<dict>
+		<key>form</key>
 		<string>Zygarde (Complete Forme)</string>
 		<key>id</key>
 		<integer>1014</integer>
@@ -10401,6 +10431,66 @@
 		<string>Silvally</string>
 		<key>ndex</key>
 		<integer>773</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1043</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1044</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1045</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1046</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1047</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
+	</dict>
+	<dict>
+		<key>form</key>
+		<string>Minior (Meteor Form)</string>
+		<key>id</key>
+		<integer>1048</integer>
+		<key>name</key>
+		<string>Minior</string>
+		<key>ndex</key>
+		<integer>774</integer>
 	</dict>
 	<dict>
 		<key>form</key>

@@ -10,8 +10,8 @@
 	<string>Power of Alchemy</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>831</integer>
 		<integer>87</integer>
+		<integer>831</integer>
 	</array>
 	<key>attack</key>
 	<integer>80</integer>

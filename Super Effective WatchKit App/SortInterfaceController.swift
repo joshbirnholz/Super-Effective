@@ -42,14 +42,15 @@ class SortInterfaceController: WKInterfaceController {
 	                                         PokédexRange(dexNumbers: Array(386 ... 492), title: "Gen. IV"),
 	                                         PokédexRange(dexNumbers: Array(493 ... 648), title: "Gen. V"),
 	                                         PokédexRange(dexNumbers: Array(649 ... 720), title: "Gen. VI"),
-	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen. VII")
+	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen. VII"),
+											 PokédexRange(dexNumbers: Array(allPokémonInfo.indices), title: "Debug — All")
 	]
 	
 	var selectedIndex = 0
 	
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-		let items: [WKPickerItem] = ["I", "II", "III", "IV", "V", "VI", "VII"].map {
+		let items: [WKPickerItem] = ["I", "II", "III", "IV", "V", "VI", "VII", "All"].map {
 			let item = WKPickerItem()
 			item.title = $0
 			item.caption = "Gen. \($0)"
@@ -70,7 +71,7 @@ class SortInterfaceController: WKInterfaceController {
     }
 	
 	@IBAction func browseButtonPressed() {
-		presentController(withName: "PokedexList", context: generationRanges[selectedIndex])
+		pushController(withName: "PokedexList", context: generationRanges[selectedIndex])
 	}
 
 	@IBAction func searchButtonPressed() {
@@ -88,9 +89,9 @@ class SortInterfaceController: WKInterfaceController {
 					let pokémon = Pokémon.with(id: allPokémonInfo[first].id) else {
 						return
 				}
-				self.present(pokémon: pokémon)
+				self.push(pokémon: pokémon)
 			} else {
-				self.presentController(withName: "PokedexList", context: range)
+				self.pushController(withName: "PokedexList", context: range)
 			}
 			
 			
@@ -98,7 +99,7 @@ class SortInterfaceController: WKInterfaceController {
 	}
 	
 	@IBAction func recentsButtonPressed() {
-		presentController(withName: "PokedexList", context: recentsRange)
+		pushController(withName: "PokedexList", context: recentsRange)
 	}
 	
 	@IBAction func generationPickerSelected(_ value: Int) {
@@ -108,7 +109,7 @@ class SortInterfaceController: WKInterfaceController {
 	
 	func search(query: String) -> PokédexRange {
 		let query = query.lowercased().capitalized
-		let nums = allPokémonInfo.flatMap { $0 }.filter {
+		let nums = allPokémonInfo.filter {
 			$0.id <= 802 && $0.name.hasPrefix(query)
 			}.sorted { first, second in
 				first.name < second.name

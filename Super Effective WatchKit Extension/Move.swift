@@ -5,7 +5,7 @@ import Foundation
 //
 // MARK: - Data Model
 //
-public struct Move { // TODO: Rename this struct
+public struct Move: Codable { // TODO: Rename this struct
     public let accuracy: String
     public let category: DamageCategory
     public let crit: Int
@@ -17,42 +17,27 @@ public struct Move { // TODO: Rename this struct
     public let priority: Int
     public let type: Type
     public let zEffect: String
-    public init(accuracy: String, category: DamageCategory, crit: Int, description: String, id: Int, name: String, power: Int?, pp: Int, priority: Int, type: Type, zEffect: String) {
-        self.accuracy = accuracy
-        self.category = category
-        self.crit = crit
-        self.description = description
-        self.id = id
-        self.name = name
-        self.power = power
-        self.pp = pp
-        self.priority = priority
-        self.type = type
-        self.zEffect = zEffect
-    }
-    public init?(json: [String: Any]) {
-        guard let accuracy = json["accuracy"] as? String else { return nil }
-        guard let categoryString = json["category"] as? String else { return nil }
-        guard let crit = json["crit"] as? Int else { return nil }
-        guard let description = json["description"] as? String else { return nil }
-        guard let id = json["id"] as? Int else { return nil }
-        guard let move = json["move"] as? String else { return nil }
-        guard let pp = json["pp"] as? Int else { return nil }
-        guard let priority = json["priority"] as? Int else { return nil }
-        guard let typeString = json["type"] as? String else { return nil }
-        guard let zEffect = json["z-effect"] as? String else { return nil }
-		guard let type = Type(rawValue: typeString.lowercased()) else { return nil }
-		guard let category = DamageCategory(rawValue: categoryString.lowercased()) else { return nil }
-			
-        let power = json["power"] as? Int
-        self.init(accuracy: accuracy, category: category, crit: crit, description: description, id: id, name: move, power: power, pp: pp, priority: priority, type: type, zEffect: zEffect)
-    }
+	
+	enum CodingKeys: String, CodingKey {
+		case accuracy, category, crit, description, id, name = "move", power, pp, priority, type, zEffect = "z-effect"
+	}
+	
+	public init(from decoder: Decoder) throws {
+		let container = try decoder.container(keyedBy: CodingKeys.self)
+		accuracy = try container.decode(String.self, forKey: .accuracy)
+		category = try container.decode(DamageCategory.self, forKey: .category)
+		crit = try container.decode(Int.self, forKey: .crit)
+		description = try container.decode(String.self, forKey: .description)
+		id = try container.decode(Int.self, forKey: .id)
+		name = try container.decode(String.self, forKey: .name)
+		power = try? container.decode(Int.self, forKey: .power)
+		pp = try container.decode(Int.self, forKey: .pp)
+		priority = try container.decode(Int.self, forKey: .priority)
+		type = try container.decode(Type.self, forKey: .type)
+		zEffect = try container.decode(String.self, forKey: .zEffect)
+	}
 	
 	public static func with(name: String) -> Move? {
-		guard let moveURL = bundle?.url(forResource: "move-\(name)", withExtension: "plist"),
-			let dict = [String: Any].contents(of: moveURL) else {
-				return nil
-		}
-		return Move(json: dict)
+		return try? decode(Move.self, fromPropertyListWithName: "move-\(name)")
 	}
 }

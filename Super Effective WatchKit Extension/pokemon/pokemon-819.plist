@@ -10,8 +10,8 @@
 	<string>Slush Rush</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>819</integer>
 		<integer>27</integer>
+		<integer>819</integer>
 	</array>
 	<key>attack</key>
 	<integer>100</integer>

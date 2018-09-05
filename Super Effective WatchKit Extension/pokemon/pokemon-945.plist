@@ -10,8 +10,8 @@
 	<string>Serene Grace</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>945</integer>
 		<integer>585</integer>
+		<integer>945</integer>
 		<integer>946</integer>
 		<integer>947</integer>
 	</array>

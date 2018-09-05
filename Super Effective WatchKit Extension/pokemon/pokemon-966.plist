@@ -10,13 +10,13 @@
 	<string>Friend Guard</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>966</integer>
 		<integer>665</integer>
 		<integer>961</integer>
 		<integer>962</integer>
 		<integer>963</integer>
 		<integer>964</integer>
 		<integer>965</integer>
+		<integer>966</integer>
 		<integer>967</integer>
 		<integer>968</integer>
 		<integer>969</integer>

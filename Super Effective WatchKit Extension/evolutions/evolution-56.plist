@@ -9,6 +9,6 @@
 	<key>original species ID</key>
 	<integer>92</integer>
 	<key>trigger</key>
-	<string>level up</string>
+	<string>trade</string>
 </dict>
 </plist>

@@ -10,8 +10,8 @@
 	<string></string>
 	<key>altformIDs</key>
 	<array>
-		<integer>876</integer>
 		<integer>256</integer>
+		<integer>876</integer>
 	</array>
 	<key>attack</key>
 	<integer>160</integer>

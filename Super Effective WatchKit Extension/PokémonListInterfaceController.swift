@@ -19,19 +19,25 @@ class PokémonListRowController: NSObject {
 }
 
 extension WKInterfaceController {
+	
+	func push(pokémon: Pokémon) {
+		pushController(withName: "Links", context: pokémon)
+	}
+	
 	func present(pokémon: Pokémon) {
-		var namesAndContexts = [(name: String, context: AnyObject)]()
-		
-		namesAndContexts.append(("MoreInfo", pokémon as AnyObject))
-		namesAndContexts.append(("PokemonDetail", pokémon as AnyObject))
-		namesAndContexts.append(("Moveset", pokémon as AnyObject))
-		namesAndContexts.append(("Abilities", pokémon as AnyObject))
-		namesAndContexts.append(("BaseStats", pokémon as AnyObject))
-		namesAndContexts.append(("Evo", [self, pokémon] as AnyObject))
-		
-		updateRecents(withID: pokémon.id)
-		
-		presentController(withNamesAndContexts: namesAndContexts)
+//		var namesAndContexts = [(name: String, context: AnyObject)]()
+//
+//		namesAndContexts.append(("MoreInfo", pokémon as AnyObject))
+//		namesAndContexts.append(("PokemonDetail", [pokémon.name, pokémon.type] as AnyObject))
+//		namesAndContexts.append(("Moveset", pokémon as AnyObject))
+//		namesAndContexts.append(("Abilities", pokémon as AnyObject))
+//		namesAndContexts.append(("BaseStats", pokémon as AnyObject))
+//		namesAndContexts.append(("Evo", [self, pokémon] as AnyObject))
+//
+//		updateRecents(withID: pokémon.id)
+//
+//		presentController(withNamesAndContexts: namesAndContexts)
+		presentController(withName: "Links", context: pokémon)
 	}
 }
 
@@ -42,6 +48,8 @@ var favorites: [Int] {
 class PokémonListInterfaceController: WKInterfaceController {
 	
 	@IBOutlet var pokemonListTable: WKInterfaceTable!
+	
+	var isDebug: Bool = false
 	
 	var info = [PokémonInfo]() {
 		didSet {
@@ -55,8 +63,10 @@ class PokémonListInterfaceController: WKInterfaceController {
 		
 		setTitle(range.title)
 		
-		info = range.dexNumbers.flatMap {
-			allPokémonInfo[$0]
+		isDebug = range.title.lowercased().contains("debug")
+		
+		info = range.dexNumbers.compactMap {
+			allPokémonInfo[safe: $0]
 		}
 	}
 	
@@ -69,7 +79,7 @@ class PokémonListInterfaceController: WKInterfaceController {
 			
 			row.nameLabel.setText(pokémonInfo.name)
 			
-			row.numberLabel.setText("#\(String(format: "%03d", pokémonInfo.ndex))")
+			row.numberLabel.setText("#\(String(format: "%03d", pokémonInfo.ndex))" + (isDebug ? " (\(pokémonInfo.id))" : ""))
 			
 			loadImage(in: row, for: pokémonInfo)
 			
@@ -90,7 +100,7 @@ class PokémonListInterfaceController: WKInterfaceController {
 		print(#function)
 		
 		guard let pokémon = Pokémon.with(id: info[rowIndex].id) else { return }
-		present(pokémon: pokémon)
+		push(pokémon: pokémon)
 	}
 	
 	@IBAction func sortByNumberButtonPressed() {

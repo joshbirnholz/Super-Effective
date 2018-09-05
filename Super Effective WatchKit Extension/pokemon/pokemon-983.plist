@@ -10,11 +10,11 @@
 	<string>Symbiosis</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>983</integer>
 		<integer>668</integer>
 		<integer>980</integer>
 		<integer>981</integer>
 		<integer>982</integer>
+		<integer>983</integer>
 	</array>
 	<key>attack</key>
 	<integer>38</integer>

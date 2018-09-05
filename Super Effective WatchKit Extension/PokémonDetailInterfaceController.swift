@@ -25,8 +25,6 @@ class TypeRowController: NSObject {
 
 class PokémonDetailInterfaceController: WKInterfaceController {
 	
-	var pokémon: Pokémon!
-	
 	@IBOutlet var superEffectiveTable: WKInterfaceTable!
 	@IBOutlet var notVeryEffectiveTable: WKInterfaceTable!
 	@IBOutlet var noEffectTable: WKInterfaceTable!
@@ -37,22 +35,24 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 	override func awake(withContext context: Any?) {
 		super.awake(withContext: context)
 		
-		self.pokémon = context as? Pokémon
-		loadPokémonData()
+		if let pokémon = context as? Pokémon {
+			setTitle(pokémon.name)
+			load(typeCombination: pokémon.type)
+		} else if let context = context as? [Any],
+			let title = context[safe: 0] as? String,
+			let type = context[safe: 1] as? TypeCombination {
+			setTitle(title)
+			load(typeCombination: type)
+		}
 		
 	}
 	
-	func loadPokémonData() {
-		guard let pokémon = pokémon else {
-			print("Couldn't read Pokémon")
+	func load(typeCombination: TypeCombination) {
+		
+		guard let matchup = allTypeMatchups.first (where: { $0.defendingType == typeCombination }) else {
+			print("Couldn't load type matchup")
 			return
 		}
-		
-		setTitle(pokémon.name)
-		
-		
-		guard let matchupIndex = allTypeMatchups.index(where: { $0.defendingType == pokémon.type }) else { print("no matchup"); return }
-		let matchup = allTypeMatchups[matchupIndex]
 		
 		var superEffectiveTypes = [(type: Type, value: Double)]()
 		var notVeryEffectiveTypes = [(type: Type, value: Double)]()

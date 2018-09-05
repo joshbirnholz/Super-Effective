@@ -2,7 +2,7 @@
 
 import Foundation
 
-public struct Evolution: Hashable, Equatable {
+public struct Evolution: Codable, Hashable, Equatable {
 	
 	public static func == (lhs: Evolution, rhs: Evolution) -> Bool {
 		return lhs.evolutionID == rhs.evolutionID
@@ -12,11 +12,11 @@ public struct Evolution: Hashable, Equatable {
 		return evolutionID
 	}
 	
-	public enum Trigger: String {
-		case levelUp, trade, item
+	public enum Trigger: String, Codable {
+		case levelUp = "level up", trade, item = "Item"
 	}
 	
-	public enum Modifier: Double {
+	public enum Modifier: Double, Codable {
 		case superEffective = 2.0
 		case notVerEffective = 0.5
 	}
@@ -42,82 +42,32 @@ public struct Evolution: Hashable, Equatable {
 	public let triggerItem: String?
 	public var specialCondition: String?
 	
-	public init(evolutionID: Int, evolvedSpeciesID: Int, gender: String?, heldItem: String?, inVersion: String?, knownMove: String?, knownMoveType: String?, location: String?, minimumAffection: Int?, minimumHappiness: Int?, minimumLevel: Int?, originalSpeciesID: Int, partySpecies: String?, partyType: String?, relativePhysicalStats: Int?, timeOfDay: String?, tradeSpecies: String?, trigger: Trigger, triggerItem: String?, specialCondition: String?) {
-		self.evolutionID = evolutionID
-		self.evolvedSpeciesID = evolvedSpeciesID
-		self.gender = gender
-		self.heldItem = heldItem
-		self.inVersion = inVersion
-		self.knownMove = knownMove
-		self.knownMoveType = knownMoveType
-		self.location = location
-		self.minimumAffection = minimumAffection
-		self.minimumHappiness = minimumHappiness
-		self.minimumLevel = minimumLevel
-		self.originalSpeciesID = originalSpeciesID
-		self.partySpecies = partySpecies
-		self.partyType = partyType
-		self.relativePhysicalStats = relativePhysicalStats
-		self.timeOfDay = timeOfDay
-		self.tradeSpecies = tradeSpecies
-		self.trigger = trigger
-		self.triggerItem = triggerItem
-		self.specialCondition = specialCondition
+	enum CodingKeys: String, CodingKey {
+		case evolutionID = "evolution ID", evolvedSpeciesID = "evolved species ID", originalSpeciesID = "original species ID", trigger, specialCondition = "special condition", gender, heldItem = "held item", inVersion = "in version", knownMove = "known move", knownMoveType = "known move type", location, minimumAffection = "minimum affection", minimumHappiness = "minimum happiness", minimumLevel = "minimum level", partySpecies = "party species", partyType = "party type", relativePhysicalStats = "relative physical stats", timeOfDay = "time of day", tradeSpecies = "trade speceis", triggerItem = "trigger item"
 	}
 	
-	public init?(json: [String: Any]) {
-		guard let evolutionID = json["evolution ID"] as? Int else { return nil }
-		guard let evolvedSpeciesID = json["evolved species ID"] as? Int else { return nil }
-		guard let originalSpeciesID = json["original species ID"] as? Int else { return nil }
-		guard let triggerString = json["trigger"] as? String else { return nil }
-		let specialCondition = json["special condition"] as? String
-		let gender = json["gender"] as? String
-		let heldItem = json["held item"] as? String
-		let inVersion = json["in version"] as? String
-		let knownMove = json["known move"] as? String
-		let knownMoveType = json["known move type"] as? String
-		let location = json["location"] as? String
-		let minimumAffection = json["minimum affection"] as? Int
-		let minimumHappiness = json["minimum happiness"] as? Int
-		let minimumLevel = json["minimum level"] as? Int
-		let partySpecies = json["party species"] as? String
-		let partyType = json["party type"] as? String
-		let relativePhysicalStats = json["relative physical stats"] as? Int
-		let timeOfDay = json["time of day"] as? String
-		let tradeSpecies = json["trade species"] as? String
-		let triggerItem = json["trigger item"] as? String
-		
-		guard let trigger: Trigger = {
-			
-			switch triggerString.lowercased() {
-			case "level up": return .levelUp
-			case "item": return .item
-			case "trade": return .trade
-			default: return nil
-			}
-			
-			}() else { print("Invalid trigger"); return nil }
-		
-		self.init(evolutionID: evolutionID,
-		          evolvedSpeciesID: evolvedSpeciesID,
-		          gender: gender,
-		          heldItem: heldItem,
-		          inVersion: inVersion,
-		          knownMove: knownMove,
-		          knownMoveType: knownMoveType,
-		          location: location,
-		          minimumAffection: minimumAffection,
-		          minimumHappiness: minimumHappiness,
-		          minimumLevel: minimumLevel,
-		          originalSpeciesID: originalSpeciesID,
-		          partySpecies: partySpecies,
-		          partyType: partyType,
-		          relativePhysicalStats: relativePhysicalStats,
-		          timeOfDay: timeOfDay,
-		          tradeSpecies: tradeSpecies,
-		          trigger: trigger,
-		          triggerItem: triggerItem,
-		          specialCondition: specialCondition)
+	public init(from decoder: Decoder) throws {
+		let container = try decoder.container(keyedBy: CodingKeys.self)
+		evolutionID = try container.decode(Int.self, forKey: .evolutionID)
+		evolvedSpeciesID = try container.decode(Int.self, forKey: .evolvedSpeciesID)
+		gender = try? container.decode(String.self, forKey: .gender)
+		heldItem = try? container.decode(String.self, forKey: .heldItem)
+		inVersion = try? container.decode(String.self, forKey: .inVersion)
+		knownMove = try? container.decode(String.self, forKey: .knownMove)
+		knownMoveType = try? container.decode(String.self, forKey: .knownMoveType)
+		location = try? container.decode(String.self, forKey: .location)
+		minimumAffection = try? container.decode(Int.self, forKey: .minimumAffection)
+		minimumHappiness = try? container.decode(Int.self, forKey: .minimumHappiness)
+		minimumLevel = try? container.decode(Int.self, forKey: .minimumLevel)
+		originalSpeciesID = try container.decode(Int.self, forKey: .originalSpeciesID)
+		partySpecies = try? container.decode(String.self, forKey: .partySpecies)
+		partyType = try? container.decode(String.self, forKey: .partyType)
+		relativePhysicalStats = try? container.decode(Int.self, forKey: .relativePhysicalStats)
+		timeOfDay = try? container.decode(String.self, forKey: .timeOfDay)
+		tradeSpecies = try? container.decode(String.self, forKey: .tradeSpecies)
+		trigger = try container.decode(Trigger.self, forKey: .trigger)
+		triggerItem = try? container.decode(String.self, forKey: .triggerItem)
+		specialCondition = try? container.decode(String.self, forKey: .specialCondition)
 	}
 	
 	public var conditions: String {
@@ -193,11 +143,6 @@ public struct Evolution: Hashable, Equatable {
 	}
 	
 	public static func with(id: Int) -> Evolution? {
-		guard let evolutionURL = bundle?.url(forResource: "evolution-\(id)", withExtension: "plist") else { return nil }
-		if let evoDict = [String: Any].contents(of: evolutionURL) {
-			return Evolution(json: evoDict)
-		} else {
-			return nil
-		}
+		return try? decode(Evolution.self, fromPropertyListWithName: "evolution-\(id)")
 	}
 }

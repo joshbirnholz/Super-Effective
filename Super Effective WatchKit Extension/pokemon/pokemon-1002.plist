@@ -10,8 +10,8 @@
 	<string>Competitive</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1002</integer>
 		<integer>677</integer>
+		<integer>1002</integer>
 	</array>
 	<key>attack</key>
 	<integer>48</integer>

@@ -8,14 +8,8 @@
 
 import Foundation
 
-internal extension Array {
-	static func contents(of url: URL) -> [Element]? {
-		return NSArray(contentsOf: url) as? [Element]
-	}
-}
-
-internal extension Dictionary {
-	static func contents(of url: URL) -> [Key: Value]? {
-		return NSDictionary(contentsOf: url) as? [Key: Value]
+public extension Array {
+	public subscript (safe index: Index) -> Element? {
+		return indices.contains(index) ? self[index] : nil
 	}
 }

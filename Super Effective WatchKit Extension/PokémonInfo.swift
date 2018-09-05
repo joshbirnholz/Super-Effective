@@ -17,20 +17,6 @@ public struct PokémonInfo: Codable {
 	/// The national dex number of the Pokémon
 	public let ndex: Int
 	
-	public init(form: String, id: Int, name: String, ndex: Int) {
-		self.form = form
-		self.id = id
-		self.name = name
-		self.ndex = ndex
-	}
-	public init?(json: [String: Any]) {
-		guard let form = json["form"] as? String else { return nil }
-		guard let id = json["id"] as? Int else { return nil }
-		guard let name = json["name"] as? String else { return nil }
-		guard let ndex = json["ndex"] as? Int else { return nil }
-		self.init(form: form, id: id, name: name, ndex: ndex)
-	}
-	
 	public var formName: String {
 		return form.replacingOccurrences(of: name, with: "").replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "").replacingOccurrences(of: "Forme", with: "").replacingOccurrences(of: "Form", with: "") .trimmingCharacters(in: .whitespaces).replacingOccurrences(of: "  ", with: " ")
 	}

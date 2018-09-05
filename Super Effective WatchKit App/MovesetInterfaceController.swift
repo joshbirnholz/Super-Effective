@@ -51,12 +51,12 @@ class MovesetInterfaceController: WKInterfaceController {
 			}()
 			
 			row.methodLabel.setText(method)
-			row.moveNameLabel.setText(move.move)
+			row.moveNameLabel.setText(move.moveName)
 		}
 	}
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
-		return moveset.moves[rowIndex].move
+		return moveset.moves[rowIndex].moveName
 	}
 	
 }

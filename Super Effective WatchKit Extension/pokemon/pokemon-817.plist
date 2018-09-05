@@ -10,8 +10,8 @@
 	<string>Surge Surfer</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>817</integer>
 		<integer>25</integer>
+		<integer>817</integer>
 	</array>
 	<key>attack</key>
 	<integer>85</integer>

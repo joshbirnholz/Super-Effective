@@ -10,8 +10,8 @@
 	<string>Adaptability</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1017</integer>
 		<integer>734</integer>
+		<integer>1017</integer>
 	</array>
 	<key>attack</key>
 	<integer>110</integer>

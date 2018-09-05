@@ -5,7 +5,7 @@ import Foundation
 //
 // MARK: - Data Model
 //
-public struct TypeMatchup { // TODO: Rename this struct
+public struct TypeMatchup: Codable {
 	public let defendingType: TypeCombination
 	public let effectiveness: [Type : Double]
 	
@@ -14,52 +14,32 @@ public struct TypeMatchup { // TODO: Rename this struct
 		self.effectiveness = effectiveness
 	}
 	
-	public init?(json: [String: Any]) {
-		guard let defenseType1String = json["defense-type1"] as? String else { return nil }
-		guard let defenseType2String = json["defense-type2"] as? String else { return nil }
-		guard let defenseType1 = Type(rawValue: defenseType1String.lowercased()) else { return nil }
-		let defenseType2 = Type(rawValue: defenseType2String.lowercased())
+	private enum TypeMatchupCodingKeys: String, CodingKey, CaseIterable {
+		case defenseType1 = "defense-type1"
+		case defenseType2 = "defense-type2"
+		case normal, fire, fighting, water, flying, grass, poison, electric, ground, psychic, rock, ice, bug, dragon, ghost, dark, steel, fairy
+	}
+	
+	public init(from decoder: Decoder) throws {
+		let values = try decoder.container(keyedBy: TypeMatchupCodingKeys.self)
 		
-		guard let bug = json["bug"] as? Double else { return nil }
-		guard let dark = json["dark"] as? Double else { return nil }
-		guard let dragon = json["dragon"] as? Double else { return nil }
-		guard let electric = json["electric"] as? Double else { return nil }
-		guard let fairy = json["fairy"] as? Double else { return nil }
-		guard let fighting = json["fighting"] as? Double else { return nil }
-		guard let fire = json["fire"] as? Double else { return nil }
-		guard let flying = json["flying"] as? Double else { return nil }
-		guard let ghost = json["ghost"] as? Double else { return nil }
-		guard let grass = json["grass"] as? Double else { return nil }
-		guard let ground = json["ground"] as? Double else { return nil }
-		guard let ice = json["ice"] as? Double else { return nil }
-		guard let normal = json["normal"] as? Double else { return nil }
-		guard let poison = json["poison"] as? Double else { return nil }
-		guard let psychic = json["psychic"] as? Double else { return nil }
-		guard let rock = json["rock"] as? Double else { return nil }
-		guard let steel = json["steel"] as? Double else { return nil }
-		guard let water = json["water"] as? Double else { return nil }
+		let type1 = try values.decode(Type.self, forKey: .defenseType1)
+		let type2 = try? values.decode(Type.self, forKey: .defenseType2)
 		
-		var effectiveness = [Type : Double]()
-		effectiveness[.bug] = bug
-		effectiveness[.dark] = dark
-		effectiveness[.dragon] = dragon
-		effectiveness[.electric] = electric
-		effectiveness[.fairy] = fairy
-		effectiveness[.fighting] = fighting
-		effectiveness[.fire] = fire
-		effectiveness[.flying] = flying
-		effectiveness[.ghost] = ghost
-		effectiveness[.grass] = grass
-		effectiveness[.ground] = ground
-		effectiveness[.ice] = ice
-		effectiveness[.normal] = normal
-		effectiveness[.poison] = poison
-		effectiveness[.psychic] = psychic
-		effectiveness[.rock] = rock
-		effectiveness[.steel] = steel
-		effectiveness[.water] = water
+		let combination = TypeCombination(type1, type2)
 		
-		self.init(defendingType: TypeCombination(defenseType1, defenseType2), effectiveness: effectiveness)
+		var effectiveness: [Type : Double] = [:]
+		
+		for type in TypeMatchupCodingKeys.allCases where type != .defenseType1 && type != .defenseType2 {
+			guard let actualType = Type(rawValue: type.rawValue) else {
+				continue
+			}
+			let value = try values.decode(Double.self, forKey: type)
+			effectiveness[actualType] = value
+		}
+		
+		self.defendingType = combination
+		self.effectiveness = effectiveness
 	}
 	
 }

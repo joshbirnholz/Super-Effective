@@ -10,8 +10,9 @@
 	<string>Battle Bond</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>960</integer>
 		<integer>657</integer>
+		<integer>959</integer>
+		<integer>960</integer>
 	</array>
 	<key>attack</key>
 	<integer>145</integer>

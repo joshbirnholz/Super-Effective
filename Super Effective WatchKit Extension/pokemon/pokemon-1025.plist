@@ -10,8 +10,8 @@
 	<string>Oblivious</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1025</integer>
 		<integer>757</integer>
+		<integer>1025</integer>
 	</array>
 	<key>attack</key>
 	<integer>64</integer>

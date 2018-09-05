@@ -10,8 +10,13 @@
 	<string>Shields Down</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1044</integer>
 		<integer>773</integer>
+		<integer>1043</integer>
+		<integer>1044</integer>
+		<integer>1045</integer>
+		<integer>1046</integer>
+		<integer>1047</integer>
+		<integer>1048</integer>
 		<integer>1049</integer>
 		<integer>1050</integer>
 		<integer>1051</integer>

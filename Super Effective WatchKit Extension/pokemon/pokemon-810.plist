@@ -10,9 +10,9 @@
 	<string>Thick Fat</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>810</integer>
 		<integer>19</integer>
 		<integer>809</integer>
+		<integer>810</integer>
 	</array>
 	<key>attack</key>
 	<integer>71</integer>

@@ -10,9 +10,11 @@
 	<string>Power Construct</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1014</integer>
 		<integer>717</integer>
 		<integer>1011</integer>
+		<integer>1012</integer>
+		<integer>1013</integer>
+		<integer>1014</integer>
 	</array>
 	<key>attack</key>
 	<integer>100</integer>

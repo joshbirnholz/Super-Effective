@@ -10,8 +10,8 @@
 	<string>No Guard</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1022</integer>
 		<integer>744</integer>
+		<integer>1022</integer>
 	</array>
 	<key>attack</key>
 	<integer>115</integer>

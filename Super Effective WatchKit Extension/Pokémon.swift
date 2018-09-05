@@ -7,7 +7,7 @@ import UIKit
 // MARK: - Data Model
 //
 
-public struct Pokémon: Hashable, Equatable {
+public struct Pokémon: Decodable, Hashable, Equatable {
 	
 	public let species: String
 	public let ability1: String
@@ -37,73 +37,46 @@ public struct Pokémon: Hashable, Equatable {
 	public let evolutionTree: [Evolution]
 	public let altFormIDs: [Int]
 	
-	public init(species: String, ability1: String, ability2: String, abilityH: String, attack: Int, defense: Int, dex1: String, dex2: String, eggGroup1: String, eggGroup2: String, forme: String, height: String, hp: Int, id: Int, ndex: Int, percentFemale: Double?, percentMale: Double?, spattack: Int, spdefense: Int, name: String, speed: Int, total: Int, type: TypeCombination, weight: String, preEvolutionID: Int?, evolutionTree: [Evolution], altFormIDs: [Int]) {
-		self.species = species
-		self.ability1 = ability1
-		self.ability2 = ability2
-		self.abilityH = abilityH
-		self.attack = attack
-		self.defense = defense
-		self.dex1 = dex1
-		self.dex2 = dex2
-		self.eggGroup1 = eggGroup1
-		self.eggGroup2 = eggGroup2
-		self.forme = forme
-		self.height = height
-		self.hp = hp
-		self.id = id
-		self.ndex = ndex
-		self.percentFemale = percentFemale
-		self.percentMale = percentMale
-		self.spattack = spattack
-		self.spdefense = spdefense
-		self.name = name
-		self.speed = speed
-		self.total = total
-		self.type = type
-		self.weight = weight
-		self.preEvolutionID = preEvolutionID
-		self.evolutionTree = evolutionTree
-		self.altFormIDs = altFormIDs
+	private enum PokémonCodingKeys: String, CodingKey {
+		case species = "class", ability1, ability2, abilityH, attack, defense, dex1, dex2, eggGroup1 = "egg-group1", eggGroup2 = "egg-group2", forme, height, hp, id, ndex, spattack, spdefense, name = "species", speed, total, weight, type1, type2, altFormIDs = "altformIDs", percentFemale = "percent-female", percentMale = "percent-male", preEvolution, evolutionTreeIDs = "evolutionTree"
 	}
-	public init?(json: [String: Any]) {
-		guard let species = json["class"] as? String else { print("no species"); return nil }
-		guard let ability1 = json["ability1"] as? String else { print("no ability1"); return nil }
-		guard let ability2 = json["ability2"] as? String else { print("no ability2"); return nil }
-		guard let abilityH = json["abilityH"] as? String else { print("no abilityH"); return nil }
-		guard let attack = json["attack"] as? Int else { print("no attack"); return nil }
-		guard let defense = json["defense"] as? Int else { print("no defense"); return nil }
-		guard let dex1 = json["dex1"] as? String else { print("no dex1"); return nil }
-		guard let dex2 = json["dex2"] as? String else { print("no dex2"); return nil }
-		guard let eggGroup1 = json["egg-group1"] as? String else { print("no egg group 1"); return nil }
-		guard let eggGroup2 = json["egg-group2"] as? String else { print("no egg group 2"); return nil }
-		guard let forme = json["forme"] as? String else { print("no forme"); return nil }
-		guard let height = json["height"] as? String else { print("no height"); return nil }
-		guard let hp = json["hp"] as? Int else { print("no hp"); return nil }
-		guard let id = json["id"] as? Int else { print("no id"); return nil }
-		guard let ndex = json["ndex"] as? Int else { print("no ndex"); return nil }
-		guard let spattack = json["spattack"] as? Int else { print("no sp attack"); return nil }
-		guard let spdefense = json["spdefense"] as? Int else { print("no sp defense"); return nil }
-		guard let name = json["species"] as? String else { print("no species"); return nil }
-		guard let speed = json["speed"] as? Int else { print("no speed"); return nil }
-		guard let total = json["total"] as? Int else { print("no total stats"); return nil }
-		guard let weight = json["weight"] as? String else { print("no weight"); return nil }
-		guard let type1 = json["type1"] as? String else { print("no type 1"); return nil }
-		guard let type2 = json["type2"] as? String else { print("no type 2"); return nil }
-		guard let altFormIDs = json["altformIDs"] as? [Int] else { print("no altformIDs"); return nil }
+	
+	public init (from decoder: Decoder) throws {
+		let values = try decoder.container(keyedBy: PokémonCodingKeys.self)
+		species = try values.decode(String.self, forKey: .species)
+		ability1 = try values.decode(String.self, forKey: .ability1)
+		ability2 = try values.decode(String.self, forKey: .ability2)
+		abilityH = try values.decode(String.self, forKey: .abilityH)
+		attack = try values.decode(Int.self, forKey: .attack)
+		defense = try values.decode(Int.self, forKey: .defense)
+		dex1 = try values.decode(String.self, forKey: .dex1)
+		dex2 = try values.decode(String.self, forKey: .dex2)
+		eggGroup1 = try values.decode(String.self, forKey: .eggGroup1)
+		eggGroup2 = try values.decode(String.self, forKey: .eggGroup2)
+		forme = try values.decode(String.self, forKey: .forme)
+		height = try values.decode(String.self, forKey: .height)
+		hp = try values.decode(Int.self, forKey: .hp)
+		id = try values.decode(Int.self, forKey: .id)
+		ndex = try values.decode(Int.self, forKey: .ndex)
+		percentFemale = try? values.decode(Double.self, forKey: .percentFemale)
+		percentMale = try? values.decode(Double.self, forKey: .percentMale)
+		spattack = try values.decode(Int.self, forKey: .spattack)
+		spdefense = try values.decode(Int.self, forKey: .spdefense)
+		name = try values.decode(String.self, forKey: .name)
+		speed = try values.decode(Int.self, forKey: .speed)
+		total = try values.decode(Int.self, forKey: .total)
+		weight = try values.decode(String.self, forKey: .weight)
+		altFormIDs = try values.decode([Int].self, forKey: .altFormIDs)
+		preEvolutionID = try? values.decode(Int.self, forKey: .preEvolution)
 		
-		let percentFemale = json["percent-female"] as? Double
-		let percentMale = json["percent-male"] as? Double
-		let preEvolution = json["preEvolution"] as? Int
-		let evolutionTreeIDs = json["evolutionTree"] as? [Int] ?? [Int]()
-		let evolutionTree = evolutionTreeIDs.flatMap {
+		let type1 = try values.decode(Type.self, forKey: .type1)
+		let type2 = try? values.decode(Type.self, forKey: .type2)
+		
+		type = TypeCombination(type1, type2)
+		
+		evolutionTree = try values.decode([Int].self, forKey: .evolutionTreeIDs).compactMap {
 			Evolution.with(id: $0)
 		}
-		
-		guard let type1Type = Type(rawValue: type1.lowercased()) else { print("Invalid type 1"); return nil }
-		let type2Type = Type(rawValue: type2.lowercased())
-		
-		self.init(species: species, ability1: ability1, ability2: ability2, abilityH: abilityH, attack: attack, defense: defense, dex1: dex1, dex2: dex2, eggGroup1: eggGroup1, eggGroup2: eggGroup2, forme: forme, height: height, hp: hp, id: id, ndex: ndex, percentFemale: percentFemale, percentMale: percentMale, spattack: spattack, spdefense: spdefense, name: name, speed: speed, total: total, type: TypeCombination(type1Type, type2Type), weight: weight, preEvolutionID: preEvolution, evolutionTree: evolutionTree, altFormIDs: altFormIDs)
 		
 	}
 	
@@ -112,7 +85,7 @@ public struct Pokémon: Hashable, Equatable {
 	}
 	
 	public var bulbapediaURL: URL {
-		return URL(string: "http://bulbapedia.bulbagarden.net/wiki/\(name)_(Pokémon)")!
+		return URL(string: "https://bulbapedia.bulbagarden.net/wiki/\(name)_(Pokémon)")!
 	}
 	
 	public var icon: UIImage? {
@@ -131,11 +104,7 @@ public struct Pokémon: Hashable, Equatable {
 	}
 	
 	public static func with(id: Int) -> Pokémon? {
-		guard let pokemonURL = bundle?.url(forResource: "pokemon-\(id)", withExtension: "plist"),
-			let pokemonDict = [String: Any].contents(of: pokemonURL) else {
-				return nil
-		}
-		return Pokémon(json: pokemonDict)
+		return try? decode(Pokémon.self, fromPropertyListWithName: "pokemon-\(id)")
 	}
 	
 }

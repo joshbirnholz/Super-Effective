@@ -10,7 +10,6 @@
 	<string></string>
 	<key>altformIDs</key>
 	<array>
-		<integer>849</integer>
 		<integer>200</integer>
 		<integer>843</integer>
 		<integer>844</integer>
@@ -18,6 +17,7 @@
 		<integer>846</integer>
 		<integer>847</integer>
 		<integer>848</integer>
+		<integer>849</integer>
 		<integer>850</integer>
 		<integer>851</integer>
 		<integer>852</integer>

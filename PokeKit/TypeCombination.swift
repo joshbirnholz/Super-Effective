@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct TypeCombination: Equatable, CustomStringConvertible {
+public struct TypeCombination: Codable, Equatable, CustomStringConvertible {
 	public var type1: Type
 	public var type2: Type?
 	

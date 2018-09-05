@@ -10,10 +10,10 @@
 	<string>Serene Grace</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>944</integer>
 		<integer>584</integer>
 		<integer>942</integer>
 		<integer>943</integer>
+		<integer>944</integer>
 	</array>
 	<key>attack</key>
 	<integer>60</integer>

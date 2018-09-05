@@ -10,8 +10,8 @@
 	<string>Levitate</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>1018</integer>
 		<integer>737</integer>
+		<integer>1018</integer>
 	</array>
 	<key>attack</key>
 	<integer>70</integer>

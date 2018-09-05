@@ -9,7 +9,7 @@
 import UIKit
 
 /// A Pokémon's type.
-public enum Type: String {
+public enum Type: String, Codable, CodingKey, CaseIterable {
 	
 	case normal, fire, fighting, water, flying, grass, poison, electric, ground, psychic, rock, ice, bug, dragon, ghost, dark, steel, fairy
 	
@@ -34,6 +34,15 @@ public enum Type: String {
 		case .steel: return #colorLiteral(red: 0.721332252, green: 0.7196965814, blue: 0.8168616295, alpha: 1)
 		case .fairy: return #colorLiteral(red: 0.9329063296, green: 0.5999090075, blue: 0.6731309891, alpha: 1)
 		}
+	}
+	
+	public init(from decoder: Decoder) throws {
+		let container = try decoder.singleValueContainer()
+		let rawValue = try container.decode(String.self).lowercased()
 		
+		guard let value = Type(rawValue: rawValue) else {
+			throw DecodingError.dataCorruptedError(in: container, debugDescription: "The value was not a Type raw value")
+		}
+		self = value
 	}
 }

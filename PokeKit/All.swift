@@ -8,6 +8,8 @@
 
 import Foundation
 
+internal let decoder = PropertyListDecoder()
+
 internal let bundle: Bundle? = {
 	#if os(iOS)
 		return Bundle(identifier: "com.josh.birnholz.PokeKit-iOS")
@@ -18,47 +20,64 @@ internal let bundle: Bundle? = {
 	#endif
 }()
 
+enum FileLoadError: Error {
+	case couldNotLoadResource
+}
+
+internal func decode<T: Decodable>(_ type: T.Type, fromPropertyListWithName resourceName: String) throws -> T {
+	guard let url = bundle?.url(forResource: resourceName, withExtension: "plist") else {
+		throw FileLoadError.couldNotLoadResource
+	}
+	
+	let data = try Data(contentsOf: url)
+	
+	do {
+		return try decoder.decode(type, from: data)
+	} catch DecodingError.keyNotFound(let key, let context) {
+		print(key)
+		throw DecodingError.keyNotFound(key, context)
+	} catch DecodingError.typeMismatch(let type, let context) {
+		print(context.codingPath.map { $0.stringValue })
+		throw DecodingError.typeMismatch(type, context)
+	} catch {
+		print(error.localizedDescription)
+		throw error
+	}
+	
+}
+
 /// An array containing `PokémonInfo`	instances for every Pokémon form.
 public let allPokémonInfo: [PokémonInfo] = {
-	guard let namesURL = bundle?.url(forResource: "pokemonnames", withExtension: "plist"),
-		let namesArray = [[String: Any]].contents(of: namesURL) else {
-			return []
+	do {
+		return try decode([PokémonInfo].self, fromPropertyListWithName: "pokemonnames")
+	} catch {
+		return []
 	}
-	
-	var arr = [PokémonInfo?]()
-	
-	for info in namesArray {
-		let pk = PokémonInfo(json: info)
-		arr.append(pk)
-	}
-	arr.insert(nil, at: 0)
-	arr.insert(nil, at: 803)
-	
-	return arr.flatMap { $0 }
 }()
 
 /// An array containing `TypeMatchup` instances for every possible type matchup.
 public let allTypeMatchups: [TypeMatchup] = {
-	guard let typesURL = bundle?.url(forResource: "typechart", withExtension: "plist"),
-		let typesArray = [[String: Any]].contents(of: typesURL) else {
-			return []
+	do {
+		return try decode([TypeMatchup].self, fromPropertyListWithName: "typechart")
+	} catch {
+		return []
 	}
-	return typesArray.flatMap { TypeMatchup(json: $0) }
 }()
 
 /// A dictionary containing the descriptions of every ability, located by their name.
 public let allAbilityDescriptions: [String : String] = {
-	guard let abilitiesURL = bundle?.url(forResource: "abilities", withExtension: "plist") else {
+	do {
+		return try decode([String: String].self, fromPropertyListWithName: "abilities")
+	} catch {
 		return [:]
 	}
-	return [String: String].contents(of: abilitiesURL) ?? [:]
 }()
 
-public let  allMoveNames: [String] = {
+public let allMoveNames: [String] = {
 	guard var urls = bundle?.urls(forResourcesWithExtension: "plist", subdirectory: nil) else {
 		return []
 	}
-	return urls.flatMap { url in
+	return urls.compactMap { url in
 		if url.lastPathComponent.hasPrefix("move-") {
 			return url.lastPathComponent.replacingOccurrences(of: "move-", with: "").replacingOccurrences(of: ".plist", with: "")
 		} else {

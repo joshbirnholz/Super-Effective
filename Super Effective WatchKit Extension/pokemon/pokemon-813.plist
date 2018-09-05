@@ -10,10 +10,10 @@
 	<string>Lightning Rod</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>813</integer>
 		<integer>24</integer>
 		<integer>811</integer>
 		<integer>812</integer>
+		<integer>813</integer>
 		<integer>814</integer>
 		<integer>815</integer>
 		<integer>816</integer>

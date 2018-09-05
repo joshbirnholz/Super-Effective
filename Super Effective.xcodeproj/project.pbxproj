@@ -2973,7 +2973,6 @@
 		54109CBD1E0EF9BE00FA2559 /* pokemon-1060.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541094741E0EF9BA00FA2559 /* pokemon-1060.plist */; };
 		54109CBE1E0EF9BE00FA2559 /* pokemon-1060.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541094741E0EF9BA00FA2559 /* pokemon-1060.plist */; };
 		54109CC01E0F03B100FA2559 /* TypeCheckerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54109CBF1E0F03B100FA2559 /* TypeCheckerInterfaceController.swift */; };
-		54109CC21E0F302C00FA2559 /* TypeEffectivenessInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54109CC11E0F302C00FA2559 /* TypeEffectivenessInterfaceController.swift */; };
 		545C419B1DE91529009F120C /* AbilitiesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C41991DE91524009F120C /* AbilitiesInterfaceController.swift */; };
 		545C419D1DE919D5009F120C /* MoreInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C419C1DE919D5009F120C /* MoreInfoInterfaceController.swift */; };
 		545C491B1DE977EC009F120C /* MovesetInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C491A1DE977EC009F120C /* MovesetInterfaceController.swift */; };
@@ -4656,6 +4655,7 @@
 		546B82B21E0E66FB000EFB75 /* move-Zen Headbutt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5483E4EB1DEE07FA00042B19 /* move-Zen Headbutt.plist */; };
 		546B82B31E0E66FB000EFB75 /* move-Zing Zap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5483E4EC1DEE07FA00042B19 /* move-Zing Zap.plist */; };
 		547421731FF55DA0001F1F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54108B631E0EEAC900FA2559 /* Assets.xcassets */; };
+		547E314621403D1B00592971 /* PokemonLinksInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E314521403D1B00592971 /* PokemonLinksInterfaceController.swift */; };
 		548BFF331DE7FCBF009B4C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFF321DE7FCBF009B4C24 /* AppDelegate.swift */; };
 		548BFF351DE7FCBF009B4C24 /* PokemonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFF341DE7FCBF009B4C24 /* PokemonListTableViewController.swift */; };
 		548BFF381DE7FCBF009B4C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BFF361DE7FCBF009B4C24 /* Main.storyboard */; };
@@ -7911,7 +7911,6 @@
 		541094731E0EF9BA00FA2559 /* pokemon-1059.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pokemon-1059.plist"; sourceTree = "<group>"; };
 		541094741E0EF9BA00FA2559 /* pokemon-1060.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pokemon-1060.plist"; sourceTree = "<group>"; };
 		54109CBF1E0F03B100FA2559 /* TypeCheckerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCheckerInterfaceController.swift; sourceTree = "<group>"; };
-		54109CC11E0F302C00FA2559 /* TypeEffectivenessInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeEffectivenessInterfaceController.swift; sourceTree = "<group>"; };
 		544876801DEC9C690079C076 /* Evolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Evolution.swift; path = "../Super Effective WatchKit Extension/Evolution.swift"; sourceTree = "<group>"; };
 		545C41991DE91524009F120C /* AbilitiesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbilitiesInterfaceController.swift; path = "../Super Effective WatchKit App/AbilitiesInterfaceController.swift"; sourceTree = "<group>"; };
 		545C419C1DE919D5009F120C /* MoreInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreInfoInterfaceController.swift; path = "../Super Effective WatchKit App/MoreInfoInterfaceController.swift"; sourceTree = "<group>"; };
@@ -7926,6 +7925,7 @@
 		546B7A7D1E0E667F000EFB75 /* PokeKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokeKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		546B7A7F1E0E667F000EFB75 /* PokeKit-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PokeKit-iOS.h"; path = "PokeKit-iOS/PokeKit-iOS.h"; sourceTree = SOURCE_ROOT; };
 		546B7A891E0E66B4000EFB75 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		547E314521403D1B00592971 /* PokemonLinksInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonLinksInterfaceController.swift; sourceTree = "<group>"; };
 		5483E2301DEE07F300042B19 /* move-10,000,000 Volt Thunderbolt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-10,000,000 Volt Thunderbolt.plist"; sourceTree = "<group>"; };
 		5483E2311DEE07F300042B19 /* move-Absorb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-Absorb.plist"; sourceTree = "<group>"; };
 		5483E2321DEE07F300042B19 /* move-Accelerock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-Accelerock.plist"; sourceTree = "<group>"; };
@@ -12895,6 +12895,7 @@
 			isa = PBXGroup;
 			children = (
 				545D22021DEADBF700681AA5 /* Pluralize.swift */,
+				547E314521403D1B00592971 /* PokemonLinksInterfaceController.swift */,
 				545C491E1DE97F75009F120C /* MoveDetailInterfaceController.swift */,
 				545C491A1DE977EC009F120C /* MovesetInterfaceController.swift */,
 				545C5B911DEA0C7D009F120C /* EvolutionAndFormsInterfaceController.swift */,
@@ -12907,7 +12908,6 @@
 				548BFF571DE7FCBF009B4C24 /* ExtensionDelegate.swift */,
 				548BFF591DE7FCBF009B4C24 /* ComplicationController.swift */,
 				54109CBF1E0F03B100FA2559 /* TypeCheckerInterfaceController.swift */,
-				54109CC11E0F302C00FA2559 /* TypeEffectivenessInterfaceController.swift */,
 				54108B611E0EEAC100FA2559 /* Assets.xcassets */,
 				548BFF5D1DE7FCBF009B4C24 /* Info.plist */,
 			);
@@ -19630,10 +19630,10 @@
 				548BFF581DE7FCBF009B4C24 /* ExtensionDelegate.swift in Sources */,
 				54A6D7681DE8B2540010C9AD /* PokémonDetailInterfaceController.swift in Sources */,
 				545C491B1DE977EC009F120C /* MovesetInterfaceController.swift in Sources */,
-				54109CC21E0F302C00FA2559 /* TypeEffectivenessInterfaceController.swift in Sources */,
 				545D22031DEADBF700681AA5 /* Pluralize.swift in Sources */,
 				545C419B1DE91529009F120C /* AbilitiesInterfaceController.swift in Sources */,
 				545C491F1DE97F75009F120C /* MoveDetailInterfaceController.swift in Sources */,
+				547E314621403D1B00592971 /* PokemonLinksInterfaceController.swift in Sources */,
 				545C419D1DE919D5009F120C /* MoreInfoInterfaceController.swift in Sources */,
 				545C5B921DEA0C7D009F120C /* EvolutionAndFormsInterfaceController.swift in Sources */,
 				546B42201DE81E490011F9C3 /* PokémonListInterfaceController.swift in Sources */,

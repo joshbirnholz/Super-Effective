@@ -10,8 +10,8 @@
 	<string>Overcoat</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>903</integer>
 		<integer>411</integer>
+		<integer>903</integer>
 		<integer>904</integer>
 	</array>
 	<key>attack</key>

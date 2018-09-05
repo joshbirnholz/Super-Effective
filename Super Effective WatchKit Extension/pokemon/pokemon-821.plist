@@ -10,8 +10,8 @@
 	<string>Snow Warning</string>
 	<key>altformIDs</key>
 	<array>
-		<integer>821</integer>
 		<integer>37</integer>
+		<integer>821</integer>
 	</array>
 	<key>attack</key>
 	<integer>67</integer>
