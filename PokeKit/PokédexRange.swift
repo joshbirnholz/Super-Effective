@@ -11,6 +11,7 @@ import Foundation
 public struct PokédexRange {
 	public var dexNumbers: [Int]
 	public var title: String
+	public var detailText: [Int: String] = [:]
 	
 	public init(dexNumbers: [Int], title: String) {
 		self.dexNumbers = dexNumbers

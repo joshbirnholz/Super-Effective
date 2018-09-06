@@ -26,20 +26,14 @@ class MovesetInterfaceController: PokémonRepresentingInterfaceController {
 		
 		self.pokémon = context as? Pokémon
 		
-		setFavoriteMenuItem()
-		
-		guard let formeName = (context as? Pokémon)?.forme else {
-			print("Couldn't read form name")
-			return
-		}
-		
 		setTitle((context as? Pokémon)?.name)
 		
-		guard let moveset = Moveset.with(formName: formeName) else {
-			print("Couldn't read moveset")
+		do {
+			moveset = try Moveset.with(for: pokémon)
+		} catch {
+			print("Couldn't read moveset:", error.localizedDescription)
 			return
 		}
-		self.moveset = moveset
 		
 		movesetTable.setNumberOfRows(moveset.moves.count, withRowType: "MovesetRow")
 		

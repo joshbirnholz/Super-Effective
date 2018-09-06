@@ -46,8 +46,6 @@ class PokémonDetailInterfaceController: PokémonRepresentingInterfaceControlle
 			load(typeCombination: type)
 		}
 		
-		setFavoriteMenuItem()
-		
 	}
 	
 	func load(typeCombination: TypeCombination) {

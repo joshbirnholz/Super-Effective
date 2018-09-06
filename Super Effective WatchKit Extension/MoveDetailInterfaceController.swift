@@ -21,6 +21,8 @@ class MoveDetailInterfaceController: WKInterfaceController {
 	@IBOutlet var ppLabel: WKInterfaceLabel!
 	@IBOutlet var zmoveEffectLabel: WKInterfaceLabel!
 	
+	var move: Move!
+	
 	override func awake(withContext context: Any?) {
 		super.awake(withContext: context)
 		
@@ -33,6 +35,8 @@ class MoveDetailInterfaceController: WKInterfaceController {
 				print("Couldn't read plist")
 				return
 		}
+		
+		self.move = move
 		
 		setTitle(move.name)
 		typeButton.setTitle(move.type.rawValue.uppercased())
@@ -52,5 +56,37 @@ class MoveDetailInterfaceController: WKInterfaceController {
 		descriptionLabel.setText(move.description)
 		zmoveEffectLabel.setText(move.zEffect)
 		
+		addMenuItem(with: .resume, title: "Home", action: #selector(popToRoot))
+	}
+	
+	@objc func popToRoot() {
+		popToRootController()
+	}
+	
+	
+	@IBAction func pokemonWithThisMoveButtonPressed() {
+		let range = pokémonWhoKnowThisMoveRange()
+		pushController(withName: "PokedexList", context: range)
+	}
+	
+	func pokémonWhoKnowThisMoveRange() -> PokédexRange {
+		let queue = OperationQueue()
+		
+		var range = PokédexRange(dexNumbers: [], title: move.name)
+		
+		let operations: [Operation] = allPokémonInfo.map { info in
+			BlockOperation {
+				guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.with(for: pk) else { return }
+				if let moveInfo = moveset.moves.first(where: { $0.moveName == self.move.name }) {
+					range.dexNumbers.append(info.id)
+					range.detailText[info.id] = moveInfo.method
+				}
+			}
+		}
+		
+		queue.addOperations(operations, waitUntilFinished: true)
+		
+		range.dexNumbers.sort()
+		return range
 	}
 }

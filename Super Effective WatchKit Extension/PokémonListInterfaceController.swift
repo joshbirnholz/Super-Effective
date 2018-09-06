@@ -18,55 +18,53 @@ class PokémonListRowController: NSObject {
 	
 }
 
-extension WKInterfaceController {
+class PokémonListCompactRowController: NSObject {
 	
-	func push(pokémon: Pokémon) {
-		pushController(withName: "Links", context: pokémon)
-	}
+	weak var presenter: WKInterfaceController?
 	
-	func present(pokémon: Pokémon) {
-//		var namesAndContexts = [(name: String, context: AnyObject)]()
-//
-//		namesAndContexts.append(("MoreInfo", pokémon as AnyObject))
-//		namesAndContexts.append(("PokemonDetail", [pokémon.name, pokémon.type] as AnyObject))
-//		namesAndContexts.append(("Moveset", pokémon as AnyObject))
-//		namesAndContexts.append(("Abilities", pokémon as AnyObject))
-//		namesAndContexts.append(("BaseStats", pokémon as AnyObject))
-//		namesAndContexts.append(("Evo", [self, pokémon] as AnyObject))
-//
-//		updateRecents(withID: pokémon.id)
-//
-//		presentController(withNamesAndContexts: namesAndContexts)
-		presentController(withName: "Links", context: pokémon)
-	}
-	
-}
-
-class PokémonRepresentingInterfaceController: WKInterfaceController {
-	var pokémon: Pokémon!
-	
-	func setFavoriteMenuItem() {
-		clearAllMenuItems()
-		
-		guard let pokémon = pokémon else {
-			return
-		}
-		
-		if favorites.contains(pokémon.id) {
-			addMenuItem(with: #imageLiteral(resourceName: "unlike"), title: "Remove from Favorites", action: #selector(addOrRemoveFromFavorites))
-		} else {
-			addMenuItem(with: #imageLiteral(resourceName: "like"), title: "Add to Favorites", action: #selector(addOrRemoveFromFavorites))
+	var pokémon: [PokémonInfo] = [] {
+		didSet {
+			if let pk1 = pokémon[safe: 0] {
+				loadImage(in: icon1, for: pk1)
+			} else {
+				button1.setHidden(true)
+			}
+			if let pk2 = pokémon[safe: 1] {
+				loadImage(in: icon2, for: pk2)
+			} else {
+				button2.setHidden(true)
+			}
+			if let pk3 = pokémon[safe: 2] {
+				loadImage(in: icon3, for: pk3)
+			} else {
+				button3.setHidden(true)
+			}
 		}
 	}
 	
-	@objc func addOrRemoveFromFavorites() {
-		if favorites.contains(pokémon.id) {
-			favorites.removeAll { $0 == pokémon.id }
-		} else {
-			favorites.append(pokémon.id)
+	@IBOutlet private var icon1: WKInterfaceImage!
+	@IBOutlet private var icon2: WKInterfaceImage!
+	@IBOutlet private var icon3: WKInterfaceImage!
+	@IBOutlet private var button1: WKInterfaceButton!
+	@IBOutlet private var button2: WKInterfaceButton!
+	@IBOutlet private var button3: WKInterfaceButton!
+	
+	@IBAction private func button1Pressed() {
+		if let pk = pokémon[safe: 0].flatMap({ Pokémon.with(id: $0.id) }), let presenter = presenter {
+			presenter.push(pokémon: pk)
 		}
-		
-		setFavoriteMenuItem()
+	}
+	
+	@IBAction private func button2Pressed() {
+		if let pk = pokémon[safe: 1].flatMap({ Pokémon.with(id: $0.id) }), let presenter = presenter {
+			presenter.push(pokémon: pk)
+		}
+	}
+	
+	@IBAction private func button3Pressed() {
+		if let pk = pokémon[safe: 2].flatMap({ Pokémon.with(id: $0.id) }), let presenter = presenter {
+			presenter.push(pokémon: pk)
+		}
 	}
 }
 
@@ -79,21 +77,56 @@ var favorites: [Int] {
 	}
 }
 
+func loadImage(in interfaceImage: WKInterfaceImage, for info: PokémonInfo) {
+	DispatchQueue.global(qos: .background).async {
+		if let image = info.icon {
+			DispatchQueue.main.async {
+				interfaceImage.setImage(image)
+			}
+		}
+	}
+}
+
 class PokémonListInterfaceController: WKInterfaceController {
 	
 	@IBOutlet var pokemonListTable: WKInterfaceTable!
 	
 	var isDebug: Bool = false
+	var range: PokédexRange!
 	
 	var info = [PokémonInfo]() {
 		didSet {
-			loadTable()
+			displayTable()
+		}
+	}
+	
+	enum ListStyle: String {
+		case list, compact
+		
+		static var `default`: ListStyle {
+			get {
+				return UserDefaults.standard.string(forKey: #function).flatMap { ListStyle(rawValue: $0) } ?? .list
+			}
+			set {
+				UserDefaults.standard.set(newValue.rawValue, forKey: #function)
+			}
+		}
+		
+		var other: ListStyle {
+			switch self {
+			case .list: return .compact
+			case .compact: return .list
+			}
 		}
 	}
 	
 	override func awake(withContext context: Any?) {
 		super.awake(withContext: context)
-		let range = context as? PokédexRange ?? PokédexRange(dexNumbers: favorites, title: "Favorites")
+		guard let range = context as? PokédexRange else {
+			return
+		}
+		
+		self.range = range
 		
 		setTitle(range.title)
 		
@@ -113,20 +146,28 @@ class PokémonListInterfaceController: WKInterfaceController {
 			
 			row.nameLabel.setText(pokémonInfo.name)
 			
-			row.numberLabel.setText("#\(String(format: "%03d", pokémonInfo.ndex))" + (isDebug ? " (\(pokémonInfo.id))" : ""))
+			if let detailText = range.detailText[pokémonInfo.id] {
+				row.numberLabel.setText(detailText)
+			} else {
+				row.numberLabel.setText("#\(String(format: "%03d", pokémonInfo.ndex))" + (isDebug ? " (\(pokémonInfo.id))" : ""))
+			}
 			
-			loadImage(in: row, for: pokémonInfo)
+			loadImage(in: row.icon, for: pokémonInfo)
 			
 		}
 	}
 	
-	func loadImage(in row: PokémonListRowController, for info: PokémonInfo) {
-		DispatchQueue.global(qos: .background).async {
-			if let image = info.icon {
-				DispatchQueue.main.async {
-					row.icon.setImage(image)
-				}
-			}
+	func loadCompactTable() {
+		let chunks = info.chunked(by: 3)
+		
+		pokemonListTable.setNumberOfRows(chunks.count, withRowType: "PokemonCompactListRow")
+		
+		for index in 0 ..< pokemonListTable.numberOfRows {
+			let chunk = chunks[index]
+			let row = pokemonListTable.rowController(at: index) as! PokémonListCompactRowController
+			row.presenter = self
+			row.pokémon = chunk
+			
 		}
 	}
 	
@@ -151,14 +192,28 @@ class PokémonListInterfaceController: WKInterfaceController {
 			}
 		}
 		
-		loadTable()
+		displayTable()
 	}
 	
 	@IBAction func sortByNameButtonPressed() {
 		info.sort { first, second in
 			return first.name < second.name
 		}
-		loadTable()
+		displayTable()
+	}
+	
+	@IBAction func changeViewButtonPressed() {
+		ListStyle.default = ListStyle.default.other
+		displayTable()
+	}
+	
+	func displayTable() {
+		switch ListStyle.default {
+		case .compact:
+			loadCompactTable()
+		case .list:
+			loadTable()
+		}
 	}
 	
 	override func willActivate() {

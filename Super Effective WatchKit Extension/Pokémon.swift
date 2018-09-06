@@ -85,7 +85,8 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	}
 	
 	public var bulbapediaURL: URL {
-		return URL(string: "https://bulbapedia.bulbagarden.net/wiki/\(name)_(Pokémon)")!
+		let str = "https://bulbapedia.bulbagarden.net/wiki/\(name)_(Pokémon)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+		return URL(string: str)!
 	}
 	
 	public var icon: UIImage? {
@@ -113,3 +114,20 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	
 }
 
+public extension Pokémon {
+	
+	public var userActivity: NSUserActivity {
+		let activity = NSUserActivity(activityType: "com.josh.birnholz.SuperEffective.ViewPokemon")
+		activity.webpageURL = bulbapediaURL
+		activity.userInfo = [
+			"id": id,
+			"name": name,
+			"forme": forme
+		]
+		if #available(iOS 12.0, watchOSApplicationExtension 5.0, *) {
+			activity.isEligibleForPrediction = true
+		}
+		return activity
+	}
+	
+}

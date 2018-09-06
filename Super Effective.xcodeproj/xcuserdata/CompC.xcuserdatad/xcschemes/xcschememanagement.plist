@@ -7,17 +7,17 @@
 		<key>PokeKit-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>4</integer>
 		</dict>
 		<key>PokeKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>3</integer>
 		</dict>
 		<key>PokeKitTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>PokémonKit.xcscheme</key>
 		<dict>

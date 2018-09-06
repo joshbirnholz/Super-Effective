@@ -21,12 +21,19 @@ internal let bundle: Bundle? = {
 }()
 
 enum FileLoadError: Error {
-	case couldNotLoadResource
+	case couldNotLoadResource(name: String)
+	
+	var localizedDescription: String {
+		switch self {
+		case .couldNotLoadResource(let name):
+			return "The resource named \"\(name)\" does not exist."
+		}
+	}
 }
 
 internal func decode<T: Decodable>(_ type: T.Type, fromPropertyListWithName resourceName: String) throws -> T {
 	guard let url = bundle?.url(forResource: resourceName, withExtension: "plist") else {
-		throw FileLoadError.couldNotLoadResource
+		throw FileLoadError.couldNotLoadResource(name: resourceName)
 	}
 	
 	let data = try Data(contentsOf: url)

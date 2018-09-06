@@ -35,8 +35,6 @@ class AbilitiesInterfaceController: PokémonRepresentingInterfaceController {
 		
 		self.pokémon = pokémon
 		
-		setFavoriteMenuItem()
-		
 		ability1Button.setTitle(pokémon.ability1)
 		ability2Label.setTitle(pokémon.ability2)
 		hiddenAbilityButton.setTitle(pokémon.abilityH)

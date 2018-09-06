@@ -59,8 +59,6 @@ class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceControl
 		}
 		self.pokémon = pokémon
 		
-		setFavoriteMenuItem()
-		
 		setTitle(pokémon.name)
 		
 		altforms = pokémon.altFormIDs.compactMap { allPokémonInfo[safe: $0] }

@@ -32,55 +32,35 @@ var recentsRange: PokédexRange {
 	return PokédexRange(dexNumbers: recents, title: "Recents")
 }
 
-class SortInterfaceController: WKInterfaceController {
+class SimpleRowController: NSObject {
+	@IBOutlet var label: WKInterfaceLabel!
+}
 
-	@IBOutlet var generationPicker: WKInterfacePicker!
+class SortInterfaceController: WKInterfaceController {
 	
-	let generationRanges: [PokédexRange] = [PokédexRange(dexNumbers: Array(000 ... 150), title: "Gen. I"),
-	                                         PokédexRange(dexNumbers: Array(151 ... 250), title: "Gen. II"),
-	                                         PokédexRange(dexNumbers: Array(251 ... 385), title: "Gen. III"),
-	                                         PokédexRange(dexNumbers: Array(386 ... 492), title: "Gen. IV"),
-	                                         PokédexRange(dexNumbers: Array(493 ... 648), title: "Gen. V"),
-	                                         PokédexRange(dexNumbers: Array(649 ... 720), title: "Gen. VI"),
-	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen. VII"),
+	@IBOutlet var buttonsTable: WKInterfaceTable!
+	
+	let generationRanges: [PokédexRange] = [PokédexRange(dexNumbers: Array(000 ... 150), title: "Gen I"),
+	                                         PokédexRange(dexNumbers: Array(151 ... 250), title: "Gen II"),
+	                                         PokédexRange(dexNumbers: Array(251 ... 385), title: "Gen III"),
+	                                         PokédexRange(dexNumbers: Array(386 ... 492), title: "Gen IV"),
+	                                         PokédexRange(dexNumbers: Array(493 ... 648), title: "Gen V"),
+	                                         PokédexRange(dexNumbers: Array(649 ... 720), title: "Gen VI"),
+	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen VII"),
 //											 PokédexRange(dexNumbers: Array(allPokémonInfo.indices), title: "Debug — All")
 	]
-	
-	var selectedIndex = 0
-	
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-		var items: [WKPickerItem] = ["I", "II", "III", "IV", "V", "VI", "VII"].map {
-			let item = WKPickerItem()
-			item.title = $0
-			item.caption = "Gen. \($0)"
-			return item
-		}
-		items.append({
-			let item = WKPickerItem()
-			item.title = "ABC"
-			item.caption = "Alphabetical"
-			return item
-		}())
+
+	override func awake(withContext context: Any?) {
+		super.awake(withContext: context)
 		
-		generationPicker.setItems(items)
-    }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
-	
-	@IBAction func browseButtonPressed() {
-		if selectedIndex == generationRanges.count {
-			pushController(withName: "AlphabeticalList", context: nil)
-		} else {
-			pushController(withName: "PokedexList", context: generationRanges[selectedIndex])
+		buttonsTable.setNumberOfRows(generationRanges.count, withRowType: "SimpleRow")
+		
+		for index in 0 ..< buttonsTable.numberOfRows {
+			
+			let row = buttonsTable.rowController(at: index) as! SimpleRowController
+			
+			row.label.setText(generationRanges[index].title)
+			
 		}
 	}
 
@@ -104,7 +84,6 @@ class SortInterfaceController: WKInterfaceController {
 				self.pushController(withName: "PokedexList", context: range)
 			}
 			
-			
 		}
 	}
 	
@@ -125,11 +104,6 @@ class SortInterfaceController: WKInterfaceController {
 		pushController(withName: "PokedexList", context: recentsRange)
 	}
 	
-	@IBAction func generationPickerSelected(_ value: Int) {
-		selectedIndex = value
-	}
-	
-	
 	func search(query: String) -> PokédexRange {
 		let query = query.lowercased().capitalized
 		let nums = allPokémonInfo.filter {
@@ -141,6 +115,14 @@ class SortInterfaceController: WKInterfaceController {
 		}
 		
 		return PokédexRange(dexNumbers: nums, title: "\(nums.count) \("Result".pluralize(count: nums.count))")
+	}
+	
+	override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+		if segueIdentifier == "ShowList" {
+			return generationRanges[rowIndex]
+		}
+		
+		return nil
 	}
 	
 }

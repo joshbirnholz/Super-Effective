@@ -16,13 +16,13 @@ class BaseStatsInterfaceController: PokémonRepresentingInterfaceController {
 	@IBOutlet var totalStatsLabel: WKInterfaceLabel!
 	
 	override func awake(withContext context: Any?) {
+		super.awake(withContext: context)
+		
 		guard let pokémon = context as? Pokémon else { return }
 		
 		self.pokémon = pokémon
 		
 		setTitle(pokémon.name)
-		
-		setFavoriteMenuItem()
 		
 		loadBaseStatsChart()
 		totalStatsLabel.setText("Base Stat Total: \(pokémon.total)")

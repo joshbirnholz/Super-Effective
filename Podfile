@@ -22,7 +22,6 @@ target 'Super Effective WatchKit Extension' do
   use_frameworks!
 
   # Pods for Super Effective WatchKit Extension
-  pod 'SwiftyJSON'
   pod 'NKWatchChart'
 
 end

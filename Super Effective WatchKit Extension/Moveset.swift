@@ -35,7 +35,12 @@ public struct Moveset: Codable {
 		self.ndex = ndex
 	}
 	
-	public static func with(formName: String) -> Moveset? {
-		return try? decode(Moveset.self, fromPropertyListWithName: "moveset-\(formName)")
+	public static func with(for pokémon: Pokémon) throws -> Moveset {
+		do {
+			return try decode(Moveset.self, fromPropertyListWithName: "moveset-\(pokémon.forme)")
+		} catch FileLoadError.couldNotLoadResource {
+			return try decode(Moveset.self, fromPropertyListWithName: "moveset-\(pokémon.name)")
+		}
+		
 	}
 }

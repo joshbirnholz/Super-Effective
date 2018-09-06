@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.13.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy" pageOrientation="vertical">
-    <device id="watch38" orientation="portrait">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,60 +14,83 @@
             <objects>
                 <controller title="Pokédex" id="jF1-op-cXy" customClass="SortInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
-                        <group width="1" height="0.5" alignment="left" radius="0.0" id="4UH-07-KBf">
-                            <items>
-                                <button width="0.67700000000000005" height="1" alignment="left" title="Browse" id="Lj4-sM-nJL">
-                                    <connections>
-                                        <action selector="browseButtonPressed" destination="jF1-op-cXy" id="AgV-qA-d63"/>
-                                    </connections>
-                                </button>
-                                <picker width="0.32300000000000001" height="1" alignment="left" indicatorMode="shownWhileFocused" id="vnl-gb-H6q">
-                                    <connections>
-                                        <action selector="generationPickerSelected:" destination="jF1-op-cXy" id="nCm-xa-K4U"/>
-                                    </connections>
-                                </picker>
-                            </items>
-                        </group>
-                        <group width="1" alignment="left" id="e5U-Iq-oQC">
+                        <group height="80" alignment="left" spacing="3" id="e5U-Iq-oQC">
                             <items>
                                 <button alignment="left" verticalAlignment="bottom" id="Jjg-P3-ovJ">
-                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="KaV-01-2e0">
+                                    <group key="contentGroup" width="0.5" alignment="left" layout="vertical" id="KaV-01-2e0">
                                         <items>
                                             <imageView width="0.69999999999999996" height="0.69999999999999996" alignment="center" verticalAlignment="center" image="Search Icon" contentMode="scaleAspectFit" id="nU4-Gt-KEQ">
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
+                                            <label alignment="center" verticalAlignment="bottom" text="Search" id="Z7J-ta-mCd"/>
                                         </items>
                                         <color key="backgroundColor" red="0.13330727815628052" green="0.13326257467269897" blue="0.13767445087432861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="8" bottom="4"/>
                                     </group>
                                     <connections>
                                         <action selector="searchButtonPressed" destination="jF1-op-cXy" id="moH-KF-9nR"/>
                                     </connections>
                                 </button>
                                 <button alignment="left" verticalAlignment="bottom" id="fxt-em-0NR">
-                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="5CN-wW-Izk">
+                                    <group key="contentGroup" width="0.5" alignment="left" layout="vertical" id="5CN-wW-Izk">
                                         <items>
-                                            <label alignment="center" verticalAlignment="center" text="♥" id="6T8-fm-mlc">
-                                                <fontDescription key="font" type="system" pointSize="60"/>
-                                                <variation key="device=watch42mm">
-                                                    <fontDescription key="font" type="system" pointSize="65"/>
-                                                </variation>
-                                            </label>
+                                            <imageView width="0.69999999999999996" height="0.69999999999999996" alignment="center" verticalAlignment="center" image="like" contentMode="scaleAspectFit" id="uqD-qG-LA3">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label alignment="center" verticalAlignment="bottom" text="Faves" id="87y-Zq-Ra8"/>
                                         </items>
                                         <color key="backgroundColor" red="0.13330727819999999" green="0.1332625747" blue="0.13767445089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="8" bottom="4"/>
                                     </group>
                                     <connections>
                                         <action selector="favoritesButtonPressed" destination="jF1-op-cXy" id="j1w-r6-YMj"/>
                                     </connections>
                                 </button>
                             </items>
+                            <variation key="device=watch38mm" height="67"/>
                         </group>
+                        <label alignment="left" text="BROWSE" id="LMU-2X-bFA">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <table alignment="left" id="oW0-dN-5DL">
+                            <items>
+                                <tableRow identifier="SimpleRow" id="NQz-aZ-2sn" customClass="SimpleRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="GX8-V1-bHs">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Gen I" id="UDo-ed-VD0"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="UDo-ed-VD0" id="8rW-HD-HqQ"/>
+                                        <segue destination="v8h-cc-csv" kind="push" identifier="ShowList" id="lMa-H6-qqx"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button width="1" alignment="left" title="Alphabetical" id="2D1-iZ-mSL">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <segue destination="dMX-kH-adE" kind="push" id="JPA-Ny-hU4"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="UTILITIES" id="gWl-jo-82K">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <button width="1" alignment="left" title="Type Chart" id="kWy-2R-Lu1">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <segue destination="Hyn-HG-9fE" kind="push" id="Ldp-04-3gD"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="generationPicker" destination="vnl-gb-H6q" id="hm8-ce-5sf"/>
+                        <outlet property="buttonsTable" destination="oW0-dN-5DL" id="a2O-br-f8P"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="230" y="-662"/>
+            <point key="canvasLocation" x="317" y="-1017"/>
         </scene>
         <!--Alphabetical-->
         <scene sceneID="D1b-2U-haw">
@@ -247,7 +270,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="285" y="-1031"/>
+            <point key="canvasLocation" x="175" y="-486"/>
         </scene>
         <!--Type Chart-->
         <scene sceneID="Qx6-e4-5VS">
@@ -267,7 +290,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                                 </label>
-                                                <picker height="30" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="GXO-9v-8x0">
+                                                <picker height="41" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="GXO-9v-8x0">
                                                     <connections>
                                                         <action selector="type1PickerValueChanged:" destination="Hyn-HG-9fE" id="q4U-2Z-fMm"/>
                                                     </connections>
@@ -280,7 +303,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                                 </label>
-                                                <picker height="30" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="Ufz-Od-Lig">
+                                                <picker height="41" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="Ufz-Od-Lig">
                                                     <connections>
                                                         <action selector="type2PickerValueChanged:" destination="Hyn-HG-9fE" id="fzw-dX-boD"/>
                                                     </connections>
@@ -304,7 +327,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="467" y="-662"/>
+            <point key="canvasLocation" x="522" y="-686"/>
         </scene>
         <!--PokedexList-->
         <scene sceneID="bPi-dE-e6G">
@@ -342,6 +365,59 @@
                                         <segue destination="x2K-91-sd3" kind="push" id="Grh-St-baw"/>
                                     </connections>
                                 </tableRow>
+                                <tableRow identifier="PokemonCompactListRow" selectable="NO" id="qdf-6G-Ep7" customClass="PokémonListCompactRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="40" alignment="left" layout="vertical" id="JsH-qb-tvF">
+                                        <items>
+                                            <group width="1" height="107" alignment="left" spacing="3" id="m4R-Xw-SZe">
+                                                <items>
+                                                    <button alignment="left" id="mus-ss-Gdt">
+                                                        <group key="contentGroup" width="0.33333333329999998" height="1" alignment="left" id="asB-r8-9Ax">
+                                                            <items>
+                                                                <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="J5J-4U-iBD"/>
+                                                            </items>
+                                                            <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </group>
+                                                        <connections>
+                                                            <action selector="button1Pressed" destination="qdf-6G-Ep7" id="dQn-n7-NM2"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button alignment="center" id="0Zw-CH-Ear">
+                                                        <group key="contentGroup" width="0.33333333329999998" height="1" alignment="left" id="vQs-f1-8J4">
+                                                            <items>
+                                                                <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="hXt-kH-3Wo"/>
+                                                            </items>
+                                                            <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </group>
+                                                        <connections>
+                                                            <action selector="button2Pressed" destination="qdf-6G-Ep7" id="S44-z5-N61"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button alignment="right" id="aq5-mb-UdA">
+                                                        <group key="contentGroup" width="0.33333333329999998" height="1" alignment="left" id="7tN-TB-qaB">
+                                                            <items>
+                                                                <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="Jbk-GA-n95"/>
+                                                            </items>
+                                                            <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </group>
+                                                        <connections>
+                                                            <action selector="button3Pressed" destination="qdf-6G-Ep7" id="rKq-ca-kpz"/>
+                                                        </connections>
+                                                    </button>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="button1" destination="mus-ss-Gdt" id="nB3-KA-FTx"/>
+                                        <outlet property="button2" destination="0Zw-CH-Ear" id="PBF-jv-lMY"/>
+                                        <outlet property="button3" destination="aq5-mb-UdA" id="kys-j6-Zos"/>
+                                        <outlet property="icon1" destination="J5J-4U-iBD" id="VKV-Wi-YN2"/>
+                                        <outlet property="icon2" destination="hXt-kH-3Wo" id="VMw-iI-mCZ"/>
+                                        <outlet property="icon3" destination="Jbk-GA-n95" id="049-Mg-MKT"/>
+                                    </connections>
+                                </tableRow>
                             </items>
                         </table>
                     </items>
@@ -357,6 +433,11 @@
                                     <action selector="sortByNameButtonPressed" destination="v8h-cc-csv" id="mlh-Do-Ysj"/>
                                 </connections>
                             </menuItem>
+                            <menuItem title="Change View" icon="more" id="W9K-sf-h6c">
+                                <connections>
+                                    <action selector="changeViewButtonPressed" destination="v8h-cc-csv" id="h3v-mf-8mw"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                     <connections>
@@ -364,7 +445,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="627" y="-1030"/>
+            <point key="canvasLocation" x="853" y="-1049"/>
         </scene>
         <!--PokemonDetail-->
         <scene sceneID="HZ2-fh-OET">
@@ -469,7 +550,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="730" y="-48"/>
+            <point key="canvasLocation" x="483" y="-51"/>
         </scene>
         <!--Abilities-->
         <scene sceneID="G6Y-7Z-nTe">
@@ -508,7 +589,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1234" y="-51"/>
+            <point key="canvasLocation" x="1202" y="-51"/>
         </scene>
         <!--MoreInfo-->
         <scene sceneID="hyP-nG-psn">
@@ -612,7 +693,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="478" y="55"/>
+            <point key="canvasLocation" x="727" y="1"/>
         </scene>
         <!--Links-->
         <scene sceneID="8xg-ho-F1h">
@@ -742,7 +823,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="963" y="-58"/>
+            <point key="canvasLocation" x="962" y="-51"/>
         </scene>
         <!--MoveDetail-->
         <scene sceneID="Q5k-AW-iTv">
@@ -816,6 +897,11 @@
                                         <label alignment="left" text="175 Power" numberOfLines="0" id="ipT-xC-9Hw"/>
                                     </items>
                                 </group>
+                                <button width="1" alignment="left" title="Find Pokémon With This Move" id="jkB-1F-Zt7">
+                                    <connections>
+                                        <action selector="pokemonWithThisMoveButtonPressed" destination="yyu-Dp-wsm" id="eyb-fL-Yo5"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
@@ -850,7 +936,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1442" y="-58"/>
+            <point key="canvasLocation" x="1422" y="-51"/>
         </scene>
         <!--Evo-->
         <scene sceneID="DMq-8e-EB8">
@@ -1003,11 +1089,11 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1655" y="75"/>
+            <point key="canvasLocation" x="1643" y="54"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UeL-jk-7nR"/>
+        <segue reference="Zly-pd-0fD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.792156862745098" green="0.36470588235294116" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

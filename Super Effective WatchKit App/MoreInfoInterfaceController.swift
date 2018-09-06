@@ -39,8 +39,6 @@ class MoreInfoInterfaceController: PokémonRepresentingInterfaceController {
 		}
 		self.pokémon = pokémon
 		
-		setFavoriteMenuItem()
-		
 		icon.setImage(pokémon.icon)
 		
 		setTitle(pokémon.name)
@@ -103,33 +101,6 @@ class MoreInfoInterfaceController: PokémonRepresentingInterfaceController {
 			dexEntryLabel.setHidden(true)
 		}
 		
-    }
-	
-//	func loadGenderRatioChart(male: Double, female: Double) {
-//		
-//		let maleItem = NKPieChartDataItem(value: CGFloat(male), color: #colorLiteral(red: 0.1994508505, green: 0.3325499892, blue: 0.9984589219, alpha: 1), description: "Male")
-//		let femaleItem = NKPieChartDataItem(value: CGFloat(female), color: #colorLiteral(red: 0.9938328862, green: 0.465714097, blue: 0.867906034, alpha: 1), description: "Female")
-//		
-//		let items = [maleItem, femaleItem]
-//		
-//		let frame = CGRect(x: 0, y: 0, width: contentFrame.width, height: contentFrame.height)
-//		
-//		let chart = NKPieChart(frame: frame, items: items)
-//		
-//		chartImage.setImage(chart?.drawImage())
-//		
-//	}
-	
-	
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
     }
 
 }

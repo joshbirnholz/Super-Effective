@@ -9,64 +9,31 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Pods-Super Effective WatchKit App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Pods-Super Effective WatchKit Extension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Pods-Super Effective.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>SwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>239C97E7B3C84FFD63334A4E9252DD7A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2A2E489F0E8BAEBB16FA46099E31D389</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>55A154FE395696056B41567A6E00D52D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7B36549284B76EBC00D10DAF872BAFEB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8DCEE1DE99AB3F6E3C7222FF9E091CB8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

@@ -27,9 +27,7 @@ class PokemonLinksInterfaceController: PokémonRepresentingInterfaceController {
 		setTitle(pokémon.name)
 		icon.setImage(pokémon.icon)
 		
-		setFavoriteMenuItem()
-        
-        // Configure interface objects here.
+		updateRecents(withID: pokémon.id)
     }
 
     override func willActivate() {
@@ -41,10 +39,6 @@ class PokemonLinksInterfaceController: PokémonRepresentingInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-	
-	override func didAppear() {
-		updateRecents(withID: pokémon.id)
-	}
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
 		return pokémon

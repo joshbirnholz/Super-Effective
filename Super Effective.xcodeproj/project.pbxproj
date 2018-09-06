@@ -4659,6 +4659,7 @@
 		547E31492140CB4400592971 /* AlphabeticalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E31482140CB4300592971 /* AlphabeticalInterfaceController.swift */; };
 		547E31512140D7D200592971 /* PokeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E31502140D7D200592971 /* PokeKitTests.swift */; };
 		547E31532140D7D200592971 /* PokeKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546B7A7D1E0E667F000EFB75 /* PokeKit_iOS.framework */; };
+		547E315A21416F5300592971 /* PokémonRepresentingInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E315921416F5300592971 /* PokémonRepresentingInterfaceController.swift */; };
 		548BFF331DE7FCBF009B4C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFF321DE7FCBF009B4C24 /* AppDelegate.swift */; };
 		548BFF351DE7FCBF009B4C24 /* PokemonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFF341DE7FCBF009B4C24 /* PokemonListTableViewController.swift */; };
 		548BFF381DE7FCBF009B4C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BFF361DE7FCBF009B4C24 /* Main.storyboard */; };
@@ -7939,6 +7940,7 @@
 		547E314E2140D7D200592971 /* PokeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547E31502140D7D200592971 /* PokeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeKitTests.swift; sourceTree = "<group>"; };
 		547E31522140D7D200592971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547E315921416F5300592971 /* PokémonRepresentingInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PokémonRepresentingInterfaceController.swift"; sourceTree = "<group>"; };
 		5483E2301DEE07F300042B19 /* move-10,000,000 Volt Thunderbolt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-10,000,000 Volt Thunderbolt.plist"; sourceTree = "<group>"; };
 		5483E2311DEE07F300042B19 /* move-Absorb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-Absorb.plist"; sourceTree = "<group>"; };
 		5483E2321DEE07F300042B19 /* move-Accelerock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "move-Accelerock.plist"; sourceTree = "<group>"; };
@@ -12942,6 +12944,7 @@
 				54108B611E0EEAC100FA2559 /* Assets.xcassets */,
 				548BFF5D1DE7FCBF009B4C24 /* Info.plist */,
 				547E31482140CB4300592971 /* AlphabeticalInterfaceController.swift */,
+				547E315921416F5300592971 /* PokémonRepresentingInterfaceController.swift */,
 			);
 			path = "Super Effective WatchKit Extension";
 			sourceTree = "<group>";
@@ -13056,8 +13059,6 @@
 				548BFF2C1DE7FCBF009B4C24 /* Frameworks */,
 				548BFF2D1DE7FCBF009B4C24 /* Resources */,
 				548BFF671DE7FCBF009B4C24 /* Embed Watch Content */,
-				FB567E7AA234ACB0E426D9D2 /* [CP] Embed Pods Frameworks */,
-				8BA680FBFDE6F3BDE1AD8C0B /* [CP] Copy Pods Resources */,
 				546B6E291E0E643D000EFB75 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -13079,7 +13080,6 @@
 				548BFF3F1DE7FCBF009B4C24 /* Resources */,
 				548BFF631DE7FCBF009B4C24 /* Embed App Extensions */,
 				589B4D17257403CDA15FC798 /* Frameworks */,
-				C45080128613AE92C1212E4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -13100,7 +13100,6 @@
 				548BFF4D1DE7FCBF009B4C24 /* Frameworks */,
 				548BFF4E1DE7FCBF009B4C24 /* Resources */,
 				5A8749A5572D3D89B58B5815 /* [CP] Embed Pods Frameworks */,
-				DB8365D55BE4291FEB46E500 /* [CP] Copy Pods Resources */,
 				549F51731E0BA38300FE27C4 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -19538,9 +19537,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Super Effective WatchKit Extension/Pods-Super Effective WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NKWatchChart/NKWatchChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NKWatchChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -19553,43 +19555,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Super Effective-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8BA680FBFDE6F3BDE1AD8C0B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Super Effective/Pods-Super Effective-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C45080128613AE92C1212E4F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Super Effective WatchKit App/Pods-Super Effective WatchKit App-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CD5D4817C4702960B6AA9B7F /* [CP] Check Pods Manifest.lock */ = {
@@ -19598,28 +19573,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Super Effective WatchKit Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DB8365D55BE4291FEB46E500 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Super Effective WatchKit Extension/Pods-Super Effective WatchKit Extension-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F982394EB4F5B3CC95F2A5BE /* [CP] Check Pods Manifest.lock */ = {
@@ -19628,28 +19591,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Super Effective WatchKit App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FB567E7AA234ACB0E426D9D2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Super Effective/Pods-Super Effective-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -19708,6 +19659,7 @@
 				545C5B921DEA0C7D009F120C /* EvolutionAndFormsInterfaceController.swift in Sources */,
 				546B42201DE81E490011F9C3 /* PokémonListInterfaceController.swift in Sources */,
 				54A6D76D1DE8E2830010C9AD /* SortInterfaceController.swift in Sources */,
+				547E315A21416F5300592971 /* PokémonRepresentingInterfaceController.swift in Sources */,
 				548BFF5A1DE7FCBF009B4C24 /* ComplicationController.swift in Sources */,
 				54D889EB1DFB48D5002B2907 /* BaseStatsInterfaceController.swift in Sources */,
 			);
