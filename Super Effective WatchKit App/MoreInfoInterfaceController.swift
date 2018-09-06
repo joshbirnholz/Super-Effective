@@ -11,7 +11,7 @@ import Foundation
 import NKWatchChart
 import PokeKit
 
-class MoreInfoInterfaceController: WKInterfaceController {
+class MoreInfoInterfaceController: PokémonRepresentingInterfaceController {
 	@IBOutlet var icon: WKInterfaceImage!
 	@IBOutlet var speciesLabel: WKInterfaceLabel!
 	@IBOutlet var heightLabel: WKInterfaceLabel!
@@ -30,8 +30,6 @@ class MoreInfoInterfaceController: WKInterfaceController {
 	@IBOutlet var percentFemaleLabel: WKInterfaceLabel!
 	@IBOutlet var percentMaleLabel: WKInterfaceLabel!
 	
-	var pokémon: Pokémon!
-	
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -40,6 +38,8 @@ class MoreInfoInterfaceController: WKInterfaceController {
 			return
 		}
 		self.pokémon = pokémon
+		
+		setFavoriteMenuItem()
 		
 		icon.setImage(pokémon.icon)
 		

@@ -39,7 +39,7 @@ class EvolutionRowController: NSObject {
 	@IBOutlet var separator: WKInterfaceSeparator!
 }
 
-class EvolutionAndFormsInterfaceController: WKInterfaceController {
+class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceController {
 	
 	@IBOutlet var formsHeaderLabel: WKInterfaceLabel!
 	@IBOutlet var evolutionsHeaderLabel: WKInterfaceLabel!
@@ -47,7 +47,6 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 	@IBOutlet var formsListTable: WKInterfaceTable!
 	@IBOutlet var noEvolutionsLabel: WKInterfaceLabel!
 	
-	var pokémon: Pokémon!
 	var altforms = [PokémonInfo]()
 	var evolutions = [Evolution]()
 	
@@ -59,6 +58,8 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 			return
 		}
 		self.pokémon = pokémon
+		
+		setFavoriteMenuItem()
 		
 		setTitle(pokémon.name)
 		
@@ -148,8 +149,6 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 		
 	}
 	
-	
-	
 	override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
 		let info = altforms[rowIndex]
 		
@@ -164,7 +163,7 @@ class EvolutionAndFormsInterfaceController: WKInterfaceController {
 	}
 	
 	func changePokémon(id: Int) {
-		guard let pokémon = Pokémon.with(id: id) else { return }
+		guard let pokémon = Pokémon.with(id: id), id != self.pokémon.id else { return }
 		push(pokémon: pokémon)
 	}
 	

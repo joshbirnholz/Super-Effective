@@ -13,7 +13,7 @@ public struct Evolution: Codable, Hashable, Equatable {
 	}
 	
 	public enum Trigger: String, Codable {
-		case levelUp = "level up", trade, item = "Item"
+		case levelUp = "level up", trade, item = "Item", shed
 	}
 	
 	public enum Modifier: Double, Codable {

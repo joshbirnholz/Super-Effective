@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 import PokeKit
 
-class AbilitiesInterfaceController: WKInterfaceController {
+class AbilitiesInterfaceController: PokémonRepresentingInterfaceController {
 	
 	@IBOutlet var ability1Button: WKInterfaceButton!
 	
@@ -32,6 +32,10 @@ class AbilitiesInterfaceController: WKInterfaceController {
 		}
 		
 		setTitle(pokémon.name)
+		
+		self.pokémon = pokémon
+		
+		setFavoriteMenuItem()
 		
 		ability1Button.setTitle(pokémon.ability1)
 		ability2Label.setTitle(pokémon.ability2)

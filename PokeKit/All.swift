@@ -55,15 +55,6 @@ public let allPokémonInfo: [PokémonInfo] = {
 	}
 }()
 
-/// An array containing `TypeMatchup` instances for every possible type matchup.
-public let allTypeMatchups: [TypeMatchup] = {
-	do {
-		return try decode([TypeMatchup].self, fromPropertyListWithName: "typechart")
-	} catch {
-		return []
-	}
-}()
-
 /// A dictionary containing the descriptions of every ability, located by their name.
 public let allAbilityDescriptions: [String : String] = {
 	do {

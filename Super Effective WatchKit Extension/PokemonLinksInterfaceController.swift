@@ -10,11 +10,11 @@ import WatchKit
 import Foundation
 import PokeKit
 
-class PokemonLinksInterfaceController: WKInterfaceController {
-
-	var pokémon: Pokémon!
+class PokemonLinksInterfaceController: PokémonRepresentingInterfaceController {
 	
-    override func awake(withContext context: Any?) {
+	@IBOutlet var icon: WKInterfaceImage!
+	
+	override func awake(withContext context: Any?) {
         super.awake(withContext: context)
 		
 		guard let pokémon = context as? Pokémon else {
@@ -25,6 +25,9 @@ class PokemonLinksInterfaceController: WKInterfaceController {
 		self.pokémon = pokémon
 		
 		setTitle(pokémon.name)
+		icon.setImage(pokémon.icon)
+		
+		setFavoriteMenuItem()
         
         // Configure interface objects here.
     }
@@ -38,6 +41,10 @@ class PokemonLinksInterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+	
+	override func didAppear() {
+		updateRecents(withID: pokémon.id)
+	}
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
 		return pokémon

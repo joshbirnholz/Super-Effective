@@ -39,10 +39,44 @@ extension WKInterfaceController {
 //		presentController(withNamesAndContexts: namesAndContexts)
 		presentController(withName: "Links", context: pokémon)
 	}
+	
+}
+
+class PokémonRepresentingInterfaceController: WKInterfaceController {
+	var pokémon: Pokémon!
+	
+	func setFavoriteMenuItem() {
+		clearAllMenuItems()
+		
+		guard let pokémon = pokémon else {
+			return
+		}
+		
+		if favorites.contains(pokémon.id) {
+			addMenuItem(with: #imageLiteral(resourceName: "unlike"), title: "Remove from Favorites", action: #selector(addOrRemoveFromFavorites))
+		} else {
+			addMenuItem(with: #imageLiteral(resourceName: "like"), title: "Add to Favorites", action: #selector(addOrRemoveFromFavorites))
+		}
+	}
+	
+	@objc func addOrRemoveFromFavorites() {
+		if favorites.contains(pokémon.id) {
+			favorites.removeAll { $0 == pokémon.id }
+		} else {
+			favorites.append(pokémon.id)
+		}
+		
+		setFavoriteMenuItem()
+	}
 }
 
 var favorites: [Int] {
-	return (UserDefaults.standard.object(forKey: "favorites") as? [Int])?.sorted(by: <) ?? []
+	get {
+		return (UserDefaults.standard.object(forKey: "favorites") as? [Int]) ?? []
+	}
+	set {
+		UserDefaults.standard.setValue(newValue, forKey: "favorites")
+	}
 }
 
 class PokémonListInterfaceController: WKInterfaceController {
@@ -96,11 +130,16 @@ class PokémonListInterfaceController: WKInterfaceController {
 		}
 	}
 	
-	override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
-		print(#function)
-		
-		guard let pokémon = Pokémon.with(id: info[rowIndex].id) else { return }
-		push(pokémon: pokémon)
+//	override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+//		print(#function)
+//
+//		guard let pokémon = Pokémon.with(id: info[rowIndex].id) else { return }
+//		push(pokémon: pokémon)
+//	}
+	
+	override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+		guard let pokémon = Pokémon.with(id: info[rowIndex].id) else { return nil }
+		return pokémon
 	}
 	
 	@IBAction func sortByNumberButtonPressed() {

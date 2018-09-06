@@ -43,19 +43,25 @@ class SortInterfaceController: WKInterfaceController {
 	                                         PokédexRange(dexNumbers: Array(493 ... 648), title: "Gen. V"),
 	                                         PokédexRange(dexNumbers: Array(649 ... 720), title: "Gen. VI"),
 	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen. VII"),
-											 PokédexRange(dexNumbers: Array(allPokémonInfo.indices), title: "Debug — All")
+//											 PokédexRange(dexNumbers: Array(allPokémonInfo.indices), title: "Debug — All")
 	]
 	
 	var selectedIndex = 0
 	
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-		let items: [WKPickerItem] = ["I", "II", "III", "IV", "V", "VI", "VII", "All"].map {
+		var items: [WKPickerItem] = ["I", "II", "III", "IV", "V", "VI", "VII"].map {
 			let item = WKPickerItem()
 			item.title = $0
 			item.caption = "Gen. \($0)"
 			return item
 		}
+		items.append({
+			let item = WKPickerItem()
+			item.title = "ABC"
+			item.caption = "Alphabetical"
+			return item
+		}())
 		
 		generationPicker.setItems(items)
     }
@@ -71,7 +77,11 @@ class SortInterfaceController: WKInterfaceController {
     }
 	
 	@IBAction func browseButtonPressed() {
-		pushController(withName: "PokedexList", context: generationRanges[selectedIndex])
+		if selectedIndex == generationRanges.count {
+			pushController(withName: "AlphabeticalList", context: nil)
+		} else {
+			pushController(withName: "PokedexList", context: generationRanges[selectedIndex])
+		}
 	}
 
 	@IBAction func searchButtonPressed() {
@@ -96,6 +106,19 @@ class SortInterfaceController: WKInterfaceController {
 			
 			
 		}
+	}
+	
+	@IBAction func favoritesButtonPressed() {
+		guard !favorites.isEmpty else {
+			let okAction = WKAlertAction(title: "OK", style: .default, handler: { })
+			presentAlert(withTitle: "You haven't added any favorites!", message: "Press firmly on the screen while viewing a Pokémon's info to add it to your list of favorites.", preferredStyle: .alert, actions: [okAction])
+			
+			return
+		}
+		
+		let range = PokédexRange(dexNumbers: favorites, title: "Favorites")
+		
+		self.pushController(withName: "PokedexList", context: range)
 	}
 	
 	@IBAction func recentsButtonPressed() {

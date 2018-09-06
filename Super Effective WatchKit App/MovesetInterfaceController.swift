@@ -16,13 +16,17 @@ class MovesetRowController: NSObject {
 	@IBOutlet var moveNameLabel: WKInterfaceLabel!
 }
 
-class MovesetInterfaceController: WKInterfaceController {
+class MovesetInterfaceController: PokémonRepresentingInterfaceController {
 	@IBOutlet var movesetTable: WKInterfaceTable!
 	
 	var moveset: Moveset!
 	
 	override func awake(withContext context: Any?) {
 		super.awake(withContext: context)
+		
+		self.pokémon = context as? Pokémon
+		
+		setFavoriteMenuItem()
 		
 		guard let formeName = (context as? Pokémon)?.forme else {
 			print("Couldn't read form name")

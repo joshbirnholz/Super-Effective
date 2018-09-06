@@ -10,9 +10,7 @@ import WatchKit
 import NKWatchChart
 import PokeKit
 
-class BaseStatsInterfaceController: WKInterfaceController {
-	
-	var pokémon: Pokémon!
+class BaseStatsInterfaceController: PokémonRepresentingInterfaceController {
 	
 	@IBOutlet var statsChartImage: WKInterfaceImage!
 	@IBOutlet var totalStatsLabel: WKInterfaceLabel!
@@ -23,6 +21,8 @@ class BaseStatsInterfaceController: WKInterfaceController {
 		self.pokémon = pokémon
 		
 		setTitle(pokémon.name)
+		
+		setFavoriteMenuItem()
 		
 		loadBaseStatsChart()
 		totalStatsLabel.setText("Base Stat Total: \(pokémon.total)")

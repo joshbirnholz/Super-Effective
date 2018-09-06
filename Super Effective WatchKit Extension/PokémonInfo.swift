@@ -22,9 +22,13 @@ public struct PokémonInfo: Codable {
 	}
 	
 	public var icon: UIImage? {
+		if id <= 801 {
+			return UIImage(named: "\(ndex).png")
+		}
+		
 		let formName = "\(self.formName.lowercased().replacingOccurrences(of: "forme", with: "").replacingOccurrences(of: "form", with: "").trimmingCharacters(in: .whitespacesAndNewlines).replacingOccurrences(of: " ", with: "-").replacingOccurrences(of: ":", with: "-").replacingOccurrences(of: "--", with: "-"))".replacingOccurrences(of: "é", with: "e")
 		let ndexString = String(ndex)
-		let iconName = (formName == "" ? ndexString : [ndexString, formName].joined(separator: "-")) + ".png"
+		let iconName = (formName.isEmpty ? ndexString : "\(ndexString)-\(formName)") + ".png"
 		return UIImage(named: iconName)
 	}
 }

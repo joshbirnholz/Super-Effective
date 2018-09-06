@@ -23,7 +23,7 @@ class TypeRowController: NSObject {
 	}
 }
 
-class PokémonDetailInterfaceController: WKInterfaceController {
+class PokémonDetailInterfaceController: PokémonRepresentingInterfaceController {
 	
 	@IBOutlet var superEffectiveTable: WKInterfaceTable!
 	@IBOutlet var notVeryEffectiveTable: WKInterfaceTable!
@@ -36,6 +36,7 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 		super.awake(withContext: context)
 		
 		if let pokémon = context as? Pokémon {
+			self.pokémon = pokémon
 			setTitle(pokémon.name)
 			load(typeCombination: pokémon.type)
 		} else if let context = context as? [Any],
@@ -45,14 +46,13 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 			load(typeCombination: type)
 		}
 		
+		setFavoriteMenuItem()
+		
 	}
 	
 	func load(typeCombination: TypeCombination) {
 		
-		guard let matchup = allTypeMatchups.first (where: { $0.defendingType == typeCombination }) else {
-			print("Couldn't load type matchup")
-			return
-		}
+		let matchup = TypeMatchup(defendingType: typeCombination)
 		
 		var superEffectiveTypes = [(type: Type, value: Double)]()
 		var notVeryEffectiveTypes = [(type: Type, value: Double)]()
@@ -64,7 +64,7 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 				noEffectTypes.append((type: type, value: value))
 			case 2, 4:
 				superEffectiveTypes.append((type: type, value: value))
-			case 0.5, 0.125:
+			case 0.5, 0.25:
 				notVeryEffectiveTypes.append((type: type, value: value))
 			default:
 				break
@@ -102,11 +102,7 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 			}
 		}
 		
-		if superEffectiveTypes.isEmpty {
-			superEffectiveNoneLabel.setHidden(false)
-		} else {
-			superEffectiveNoneLabel.setHidden(true)
-		}
+		superEffectiveNoneLabel.setHidden(!superEffectiveTypes.isEmpty)
 		
 		// Not Very Effective
 		
@@ -121,11 +117,7 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 			}
 		}
 		
-		if notVeryEffectiveTypes.isEmpty {
-			notVeryEffectiveNoneLabel.setHidden(false)
-		} else {
-			notVeryEffectiveNoneLabel.setHidden(true)
-		}
+		notVeryEffectiveNoneLabel.setHidden(!notVeryEffectiveTypes.isEmpty)
 		
 		// No Effect
 		
@@ -136,11 +128,7 @@ class PokémonDetailInterfaceController: WKInterfaceController {
 			row.effectivenessLabel.setText("0x")
 		}
 		
-		if noEffectTypes.isEmpty {
-			noEffectNoneLabel.setHidden(false)
-		} else {
-			noEffectNoneLabel.setHidden(true)
-		}
+		noEffectNoneLabel.setHidden(!noEffectTypes.isEmpty)
 		
 	}
 	

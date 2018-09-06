@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.13.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy">
-    <device id="watch42" orientation="portrait">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.13.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy" pageOrientation="vertical">
+    <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,31 +16,51 @@
                     <items>
                         <group width="1" height="0.5" alignment="left" radius="0.0" id="4UH-07-KBf">
                             <items>
-                                <button width="0.69999999999999996" height="1" alignment="left" title="Browse by Generation" id="Lj4-sM-nJL">
+                                <button width="0.67700000000000005" height="1" alignment="left" title="Browse" id="Lj4-sM-nJL">
                                     <connections>
                                         <action selector="browseButtonPressed" destination="jF1-op-cXy" id="AgV-qA-d63"/>
                                     </connections>
                                 </button>
-                                <picker width="0.29999999999999999" height="1" alignment="left" indicatorMode="shownWhileFocused" id="vnl-gb-H6q">
+                                <picker width="0.32300000000000001" height="1" alignment="left" indicatorMode="shownWhileFocused" id="vnl-gb-H6q">
                                     <connections>
                                         <action selector="generationPickerSelected:" destination="jF1-op-cXy" id="nCm-xa-K4U"/>
                                     </connections>
                                 </picker>
                             </items>
                         </group>
-                        <button alignment="center" verticalAlignment="bottom" id="Jjg-P3-ovJ">
-                            <group key="contentGroup" width="1" height="0.5" alignment="left" id="KaV-01-2e0">
-                                <items>
-                                    <imageView width="0.80000000000000004" height="0.80000000000000004" alignment="center" verticalAlignment="center" image="Search Icon" contentMode="scaleAspectFit" id="nU4-Gt-KEQ">
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                </items>
-                                <color key="backgroundColor" red="0.13330727815628052" green="0.13326257467269897" blue="0.13767445087432861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </group>
-                            <connections>
-                                <action selector="searchButtonPressed" destination="jF1-op-cXy" id="moH-KF-9nR"/>
-                            </connections>
-                        </button>
+                        <group width="1" alignment="left" id="e5U-Iq-oQC">
+                            <items>
+                                <button alignment="left" verticalAlignment="bottom" id="Jjg-P3-ovJ">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="KaV-01-2e0">
+                                        <items>
+                                            <imageView width="0.69999999999999996" height="0.69999999999999996" alignment="center" verticalAlignment="center" image="Search Icon" contentMode="scaleAspectFit" id="nU4-Gt-KEQ">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                        <color key="backgroundColor" red="0.13330727815628052" green="0.13326257467269897" blue="0.13767445087432861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <action selector="searchButtonPressed" destination="jF1-op-cXy" id="moH-KF-9nR"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" verticalAlignment="bottom" id="fxt-em-0NR">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="5CN-wW-Izk">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="♥" id="6T8-fm-mlc">
+                                                <fontDescription key="font" type="system" pointSize="60"/>
+                                                <variation key="device=watch42mm">
+                                                    <fontDescription key="font" type="system" pointSize="65"/>
+                                                </variation>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.13330727819999999" green="0.1332625747" blue="0.13767445089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <action selector="favoritesButtonPressed" destination="jF1-op-cXy" id="j1w-r6-YMj"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="generationPicker" destination="vnl-gb-H6q" id="hm8-ce-5sf"/>
@@ -48,6 +68,186 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="230" y="-662"/>
+        </scene>
+        <!--Alphabetical-->
+        <scene sceneID="D1b-2U-haw">
+            <objects>
+                <controller identifier="AlphabeticalList" title="Alphabetical" id="dMX-kH-adE" customClass="AlphabeticalInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="2" id="Gez-sB-ARq">
+                            <items>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="QM7-55-hTi">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="A" id="RjK-Fi-WKM">
+                                            <connections>
+                                                <action selector="a" destination="dMX-kH-adE" id="fIx-Ad-9kr"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="B" id="nUo-ez-YfP">
+                                            <connections>
+                                                <action selector="b" destination="dMX-kH-adE" id="VZS-Yz-fmC"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="C" id="Vb3-2E-ggz">
+                                            <connections>
+                                                <action selector="c" destination="dMX-kH-adE" id="dQw-Ln-irZ"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="nr0-xO-9KZ">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="D" id="VKz-dc-emf">
+                                            <connections>
+                                                <action selector="d" destination="dMX-kH-adE" id="FzI-Bl-D65"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="E" id="pLW-Nc-iEn">
+                                            <connections>
+                                                <action selector="e" destination="dMX-kH-adE" id="8Ac-Qh-xhX"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="F" id="Wbz-Qw-x9l">
+                                            <connections>
+                                                <action selector="f" destination="dMX-kH-adE" id="JBZ-yY-TYM"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="YRl-do-giE">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="G" id="Wue-nc-Kqe">
+                                            <connections>
+                                                <action selector="g" destination="dMX-kH-adE" id="XCG-83-Lx0"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="H" id="Os7-E2-IO2">
+                                            <connections>
+                                                <action selector="h" destination="dMX-kH-adE" id="Iyp-2k-mHR"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="I" id="RSQ-Yv-RUY">
+                                            <connections>
+                                                <action selector="i" destination="dMX-kH-adE" id="By3-Zd-b3c"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="jaW-bf-grW">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="J" id="hBg-3s-Ywk">
+                                            <connections>
+                                                <action selector="j" destination="dMX-kH-adE" id="RU9-7e-1cj"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="K" id="EA9-v0-KpU">
+                                            <connections>
+                                                <action selector="k" destination="dMX-kH-adE" id="BYr-mH-pxP"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="L" id="1Z9-3d-Yct">
+                                            <connections>
+                                                <action selector="l" destination="dMX-kH-adE" id="IUr-ja-5yF"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="Tea-z3-B3Q">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="M" id="VKI-Lw-Zz4">
+                                            <connections>
+                                                <action selector="m" destination="dMX-kH-adE" id="jxS-aF-YKB"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="N" id="dEx-kF-uGQ">
+                                            <connections>
+                                                <action selector="n" destination="dMX-kH-adE" id="Bsw-6j-oTR"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="O" id="i31-Dj-m96">
+                                            <connections>
+                                                <action selector="o" destination="dMX-kH-adE" id="2Kz-r0-ahn"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="7Dg-LV-rPZ">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="P" id="csM-UX-soO">
+                                            <connections>
+                                                <action selector="p" destination="dMX-kH-adE" id="TKl-Tk-XKM"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="Q" id="IS4-90-PfY">
+                                            <connections>
+                                                <action selector="q" destination="dMX-kH-adE" id="eMT-HO-otC"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="R" id="iyg-4k-EtX">
+                                            <connections>
+                                                <action selector="r" destination="dMX-kH-adE" id="GZ2-wB-70S"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="dPv-hE-xZN">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="S" id="c4Q-bj-HOf">
+                                            <connections>
+                                                <action selector="s" destination="dMX-kH-adE" id="ysY-4j-1jP"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="T" id="rjN-yR-5E8">
+                                            <connections>
+                                                <action selector="t" destination="dMX-kH-adE" id="Qd3-KT-wif"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="U" id="rhh-OQ-Lnd">
+                                            <connections>
+                                                <action selector="u" destination="dMX-kH-adE" id="Mzd-WK-D5y"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="POw-Ct-zGE">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="V" id="iso-Fg-PNV">
+                                            <connections>
+                                                <action selector="v" destination="dMX-kH-adE" id="RMD-02-xiB"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="W" id="hUf-bY-639">
+                                            <connections>
+                                                <action selector="w" destination="dMX-kH-adE" id="QhH-3d-KCU"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="X" id="fGs-j9-kRK">
+                                            <connections>
+                                                <action selector="x" destination="dMX-kH-adE" id="BlE-6x-qjb"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.29999999999999999" alignment="left" id="PxZ-NO-YaO">
+                                    <items>
+                                        <button width="0.33333333329999998" alignment="left" title="Y" id="IMs-fm-PhE">
+                                            <connections>
+                                                <action selector="y" destination="dMX-kH-adE" id="WkR-mS-oVw"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33333333329999998" alignment="left" title="Z" id="uho-ve-bip">
+                                            <connections>
+                                                <action selector="z" destination="dMX-kH-adE" id="yHU-VA-NID"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="285" y="-1031"/>
         </scene>
         <!--Type Chart-->
         <scene sceneID="Qx6-e4-5VS">
@@ -111,7 +311,7 @@
             <objects>
                 <controller identifier="PokedexList" alwaysBounce="YES" id="v8h-cc-csv" customClass="PokémonListInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
-                        <table alignment="left" id="Idv-WO-dXP">
+                        <table alignment="left" pagingScroll="YES" id="Idv-WO-dXP">
                             <items>
                                 <tableRow identifier="PokemonListRow" id="wlK-Ow-cyF" customClass="PokémonListRowController" customModule="Super_Effective_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" id="wje-aO-IxY">
@@ -139,6 +339,7 @@
                                         <outlet property="icon" destination="893-Ex-0x6" id="TsO-Nr-wJe"/>
                                         <outlet property="nameLabel" destination="TEk-Q2-Wxe" id="w5U-q8-fgb"/>
                                         <outlet property="numberLabel" destination="EkS-Cz-DoN" id="PpW-LF-S6J"/>
+                                        <segue destination="x2K-91-sd3" kind="push" id="Grh-St-baw"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -163,7 +364,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="230" y="-26"/>
+            <point key="canvasLocation" x="627" y="-1030"/>
         </scene>
         <!--PokemonDetail-->
         <scene sceneID="HZ2-fh-OET">
@@ -420,13 +621,26 @@
                     <items>
                         <group width="1" height="1" alignment="left" id="ncR-U9-5ED">
                             <items>
-                                <group width="0.5" height="1" alignment="left" layout="vertical" id="O4C-Um-fza">
+                                <group width="0.495" height="1" alignment="left" layout="vertical" id="O4C-Um-fza">
                                     <items>
-                                        <button width="1" height="0.3333333" alignment="left" title="Basic Info" id="XCi-of-FaF">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                        <button alignment="left" id="XCi-of-FaF">
+                                            <group key="contentGroup" width="1" height="0.3333333" alignment="left" layout="vertical" id="csP-UJ-TQH">
+                                                <items>
+                                                    <imageView alignment="center" verticalAlignment="center" image="6-mega-x" contentMode="center" id="ZNn-zE-Jjl"/>
+                                                    <label alignment="center" verticalAlignment="bottom" text="Basic Info" id="ShV-Yx-KQ4">
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                        <variation key="device=watch42mm">
+                                                            <fontDescription key="font" type="system" pointSize="13"/>
+                                                        </variation>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <variation key="default">
+                                                    <mask key="items">
+                                                        <exclude reference="ShV-Yx-KQ4"/>
+                                                    </mask>
+                                                </variation>
+                                            </group>
                                             <connections>
                                                 <segue destination="EJy-J0-rSO" kind="push" id="23d-VP-zY2"/>
                                             </connections>
@@ -451,7 +665,7 @@
                                         </button>
                                     </items>
                                 </group>
-                                <group width="0.5" height="1" alignment="left" layout="vertical" id="o90-6w-g9s">
+                                <group width="0.495" height="1" alignment="right" layout="vertical" id="o90-6w-g9s">
                                     <items>
                                         <button width="1" height="0.3333333" alignment="right" title="Type Effect." id="FbC-kt-wMX">
                                             <fontDescription key="font" type="system" pointSize="11"/>
@@ -486,6 +700,9 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="icon" destination="ZNn-zE-Jjl" id="kW7-VH-X6k"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="853" y="-685"/>
@@ -514,7 +731,7 @@
                                     <connections>
                                         <outlet property="methodLabel" destination="ubo-Ch-JT7" id="h2b-u6-Zty"/>
                                         <outlet property="moveNameLabel" destination="HEe-gB-xyd" id="VM2-VM-6Fa"/>
-                                        <segue destination="yyu-Dp-wsm" kind="modal" id="U1H-wJ-4N0"/>
+                                        <segue destination="yyu-Dp-wsm" kind="push" id="U1H-wJ-4N0"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -601,11 +818,6 @@
                                 </group>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="OK" id="wIR-bv-lfa">
-                            <connections>
-                                <action selector="okButtonPressed" destination="yyu-Dp-wsm" id="BRw-WF-AYy"/>
-                            </connections>
-                        </button>
                     </items>
                     <connections>
                         <outlet property="accuracyLabel" destination="aJp-VY-DZc" id="Fhh-rP-9L9"/>
@@ -795,6 +1007,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zly-pd-0fD"/>
+        <segue reference="UeL-jk-7nR"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.792156862745098" green="0.36470588235294116" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

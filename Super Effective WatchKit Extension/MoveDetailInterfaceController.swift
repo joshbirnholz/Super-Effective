@@ -53,8 +53,4 @@ class MoveDetailInterfaceController: WKInterfaceController {
 		zmoveEffectLabel.setText(move.zEffect)
 		
 	}
-	
-	@IBAction func okButtonPressed() {
-		dismiss()
-	}
 }
