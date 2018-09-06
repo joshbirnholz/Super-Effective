@@ -148,8 +148,10 @@ class PokémonListInterfaceController: WKInterfaceController {
 			
 			if let detailText = range.detailText[pokémonInfo.id] {
 				row.numberLabel.setText(detailText)
-			} else {
+			} else if range.detailText.isEmpty {
 				row.numberLabel.setText("#\(String(format: "%03d", pokémonInfo.ndex))" + (isDebug ? " (\(pokémonInfo.id))" : ""))
+			} else {
+				row.numberLabel.setText("\n")
 			}
 			
 			loadImage(in: row.icon, for: pokémonInfo)
