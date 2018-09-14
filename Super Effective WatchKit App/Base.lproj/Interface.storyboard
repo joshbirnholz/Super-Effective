@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.13.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy" pageOrientation="vertical">
-    <device id="watch42" orientation="portrait">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy" pageOrientation="vertical">
+    <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.4.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
     <scenes>
         <!--Pokédex-->
@@ -53,6 +53,22 @@
                             <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                         </label>
+                        <button width="1" alignment="left" title="Recents" id="9EI-gG-WkG">
+                            <connections>
+                                <action selector="recentsButtonPressed" destination="jF1-op-cXy" id="1eb-9t-1Qc"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="By Name" id="2D1-iZ-mSL">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <segue destination="dMX-kH-adE" kind="push" id="JPA-Ny-hU4"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="By Type" id="4oo-wA-crd">
+                            <connections>
+                                <segue destination="0hT-Ub-r8X" kind="push" id="HRf-DH-hh8"/>
+                            </connections>
+                        </button>
                         <table alignment="left" id="oW0-dN-5DL">
                             <items>
                                 <tableRow identifier="SimpleRow" id="NQz-aZ-2sn" customClass="SimpleRowController" customModule="Super_Effective_WatchKit_Extension">
@@ -63,17 +79,12 @@
                                     </group>
                                     <connections>
                                         <outlet property="label" destination="UDo-ed-VD0" id="8rW-HD-HqQ"/>
+                                        <outlet property="rootGroup" destination="GX8-V1-bHs" id="WhY-sR-qUE"/>
                                         <segue destination="v8h-cc-csv" kind="push" identifier="ShowList" id="lMa-H6-qqx"/>
                                     </connections>
                                 </tableRow>
                             </items>
                         </table>
-                        <button width="1" alignment="left" title="Alphabetical" id="2D1-iZ-mSL">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                            <connections>
-                                <segue destination="dMX-kH-adE" kind="push" id="JPA-Ny-hU4"/>
-                            </connections>
-                        </button>
                         <label alignment="left" text="UTILITIES" id="gWl-jo-82K">
                             <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
@@ -92,10 +103,41 @@
             </objects>
             <point key="canvasLocation" x="317" y="-1017"/>
         </scene>
-        <!--Alphabetical-->
+        <!--Browse By Type Interface Controller-->
+        <scene sceneID="fsH-l9-g8b">
+            <objects>
+                <controller id="0hT-Ub-r8X" customClass="BrowseByTypeInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="ZeF-VE-ZJR">
+                            <items>
+                                <tableRow identifier="TypeRow" id="PmV-tQ-3Xq" customClass="SimpleRowController" customModule="Super_Effective_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="bOm-Aq-hGZ">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Gen I" id="yVL-eo-GrB"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="v8h-cc-csv" kind="push" id="pWb-ol-T1h"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="yVL-eo-GrB" id="PI5-o4-zrI"/>
+                                        <outlet property="rootGroup" destination="bOm-Aq-hGZ" id="oYh-Wg-jWZ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="ZeF-VE-ZJR" id="Mmw-sQ-ycW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="604" y="-1269"/>
+        </scene>
+        <!--Browse By Name-->
         <scene sceneID="D1b-2U-haw">
             <objects>
-                <controller identifier="AlphabeticalList" title="Alphabetical" id="dMX-kH-adE" customClass="AlphabeticalInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                <controller identifier="AlphabeticalList" title="Browse By Name" id="dMX-kH-adE" customClass="AlphabeticalInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" layout="vertical" spacing="2" id="Gez-sB-ARq">
                             <items>
@@ -275,7 +317,7 @@
         <!--Type Chart-->
         <scene sceneID="Qx6-e4-5VS">
             <objects>
-                <controller title="Type Chart" id="Hyn-HG-9fE" customClass="TypeCheckerInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                <controller title="Type Chart" fullBounds="YES" id="Hyn-HG-9fE" customClass="TypeCheckerInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" layout="vertical" spacing="0.0" id="MaU-Gm-43b">
                             <items>
@@ -445,7 +487,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="853" y="-1049"/>
+            <point key="canvasLocation" x="853" y="-1051"/>
         </scene>
         <!--PokemonDetail-->
         <scene sceneID="HZ2-fh-OET">
@@ -727,19 +769,13 @@
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="left" verticalAlignment="center" title="Moves" id="ZXD-nF-YVF">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                             <connections>
                                                 <segue destination="g7e-RQ-3fO" kind="push" id="Lih-cr-tek"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="left" verticalAlignment="bottom" title="Base Stats" id="QeF-Kb-RnB">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                             <connections>
                                                 <segue destination="qmL-1T-ELg" kind="push" id="7dZ-Ef-r4o"/>
                                             </connections>
@@ -748,29 +784,20 @@
                                 </group>
                                 <group width="0.495" height="1" alignment="right" layout="vertical" id="o90-6w-g9s">
                                     <items>
-                                        <button width="1" height="0.3333333" alignment="right" title="Type Effect." id="FbC-kt-wMX">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                        <button width="1" height="0.3333333" alignment="right" title="Type Effectiveness" id="FbC-kt-wMX">
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                             <connections>
                                                 <segue destination="Ytu-ap-tMR" kind="push" id="UeL-jk-7nR"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="right" verticalAlignment="center" title="Abilities" id="So0-yl-ChH">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                             <connections>
                                                 <segue destination="lhi-nK-w5G" kind="push" id="Wgn-dy-P3Z"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="right" verticalAlignment="bottom" title="Evolution/Forms" id="Ji2-MK-Tr3">
-                                            <fontDescription key="font" type="system" pointSize="11"/>
-                                            <variation key="device=watch42mm">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </variation>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                             <connections>
                                                 <segue destination="yWq-3m-FWb" kind="push" id="AWO-bX-vv3"/>
                                             </connections>
@@ -922,7 +949,7 @@
         <!--BaseStats-->
         <scene sceneID="b55-we-eGA">
             <objects>
-                <controller identifier="BaseStats" id="qmL-1T-ELg" customClass="BaseStatsInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                <controller identifier="BaseStats" fullBounds="YES" id="qmL-1T-ELg" customClass="BaseStatsInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
                         <imageView alignment="left" verticalAlignment="center" contentMode="scaleAspectFit" id="zEi-pa-Lgy"/>
                         <label alignment="center" verticalAlignment="bottom" text="Base Stat Total: 600" textAlignment="left" id="01h-k5-fBO">
@@ -1093,7 +1120,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zly-pd-0fD"/>
+        <segue reference="UeL-jk-7nR"/>
+        <segue reference="lMa-H6-qqx"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.792156862745098" green="0.36470588235294116" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
