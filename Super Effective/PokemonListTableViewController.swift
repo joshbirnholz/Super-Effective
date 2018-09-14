@@ -25,7 +25,7 @@ class PokemonListTableViewController: UITableViewController {
 		didSet {
 			navigationItem.title = pokedexRange.title
 			pokemon = pokedexRange.dexNumbers.compactMap { id in
-				allPokémonInfo[safe: id]
+				Pokédex.allPokémonInfo[safe: id]
 			}
 		}
 	}
@@ -40,7 +40,7 @@ class PokemonListTableViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		if pokedexRange == nil {
-			pokedexRange = PokédexRange(dexNumbers: Array(0..<802), title: "Pokédex")
+			pokedexRange = PokédexRange(dexNumbers: Array(0...Pokédex.lastUniquePokémonID), title: "Pokédex")
 		}
 		
 		searchController.searchResultsUpdater = self
