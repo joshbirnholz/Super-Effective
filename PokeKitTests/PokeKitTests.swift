@@ -11,11 +11,10 @@ import PokeKit_iOS
 
 class PokeKitTests: XCTestCase {
 
-	var allPokémon: [Pokémon] = []
+	let allPokémon: [Pokémon] = Pokédex.allPokémonInfo.compactMap { Pokémon.with(id: $0.id) }
 	
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-		allPokémon = allPokémonInfo.compactMap { Pokémon.with(id: $0.id) }
     }
 
     override func tearDown() {
@@ -23,18 +22,30 @@ class PokeKitTests: XCTestCase {
     }
 	
 	func testLoadPokémon() {
-		for info in allPokémonInfo {
+		for info in Pokédex.allPokémonInfo {
 			XCTAssertNotNil(Pokémon.with(id: info.id))
 		}
 		
-		XCTAssertEqual(allPokémon.count, allPokémonInfo.count)
+		XCTAssertEqual(allPokémon.count, Pokédex.allPokémonInfo.count)
 	}
 
-    func testMoves() {
+    func testMovesets() {
 		for pokémon in allPokémon {
-			XCTAssertNoThrow(try Moveset.with(for: pokémon), "Failed to load moves for \(pokémon.forme)")
+			XCTAssertNoThrow(try Moveset.with(for: pokémon), "Failed to load moveset for \(pokémon.forme)")
 		}
     }
+	
+	func testMoves() {
+		var movesTested: [String] = []
+		for moveset in allPokémon.compactMap({ try? Moveset.with(for: $0) }) {
+			for moveInfo in moveset.moves {
+				if !movesTested.contains(moveInfo.moveName) {
+					XCTAssertNoThrow(try Move.with(name: moveInfo.moveName), "Failed to load move for \"\(moveInfo.moveName)\"")
+					movesTested.append(moveInfo.moveName)
+				}
+			}
+		}
+	}
 	
 	func testBaseStatTotalsMatch() {
 		for pokémon in allPokémon {
@@ -42,4 +53,8 @@ class PokeKitTests: XCTestCase {
 		}
 	}
 
+	func testLastNationalDexNumberCorrect() {
+		XCTAssertEqual(allPokémon.first(where: { $0.ndex != $0.id+1 })!.id-1, Pokédex.lastUniquePokémonID)
+	}
+	
 }

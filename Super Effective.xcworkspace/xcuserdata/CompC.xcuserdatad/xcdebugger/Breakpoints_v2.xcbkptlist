@@ -16,7 +16,7 @@
             startingLineNumber = "48"
             endingLineNumber = "48"
             landmarkName = "decode(_:fromPropertyListWithName:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "45"
             endingLineNumber = "45"
             landmarkName = "decode(_:fromPropertyListWithName:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -48,7 +48,23 @@
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "decode(_:fromPropertyListWithName:)"
-            landmarkType = "9">
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Super Effective WatchKit Extension/MoveDetailInterfaceController.swift"
+            timestampString = "558565343.7391061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "awake(with:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
