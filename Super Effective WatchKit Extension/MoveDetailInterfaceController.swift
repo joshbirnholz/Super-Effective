@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 import PokeKit
 
-class MoveDetailInterfaceController: WKInterfaceController {
+class MoveDetailInterfaceController: TypedInterfaceController<String> {
 	
 	@IBOutlet var typeButton: WKInterfaceButton!
 	@IBOutlet var categoryButton: WKInterfaceGroup!
@@ -23,20 +23,13 @@ class MoveDetailInterfaceController: WKInterfaceController {
 	
 	var move: Move!
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		
-		guard let moveName = context as? String else {
-			print("Couldn't read move name")
+	override func awake(with context: String) {
+		do {
+			move = try Move.with(name: context)
+		} catch {
+			print("Error loading move:", error.localizedDescription)
 			return
 		}
-		
-		guard let move = Move.with(name: moveName) else {
-				print("Couldn't read plist")
-				return
-		}
-		
-		self.move = move
 		
 		setTitle(move.name)
 		typeButton.setTitle(move.type.rawValue.uppercased())
@@ -74,7 +67,7 @@ class MoveDetailInterfaceController: WKInterfaceController {
 		
 		var range = PokédexRange(dexNumbers: [], title: move.name)
 		
-		let operations: [Operation] = allPokémonInfo.map { info in
+		let operations: [Operation] = Pokédex.allPokémonInfo.map { info in
 			BlockOperation {
 				guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.with(for: pk) else { return }
 				if let moveInfo = moveset.moves.first(where: { $0.moveName == self.move.name }) {

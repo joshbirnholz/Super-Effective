@@ -23,13 +23,8 @@ class AbilitiesInterfaceController: PokémonRepresentingInterfaceController {
 	var ability2: String?
 	var hiddenAbility: String?
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		
-		guard let pokémon = context as? Pokémon else {
-			print("Couldn't read Pokémon")
-			return
-		}
+	override func awake(with context: Pokémon) {
+		super.awake(with: context)
 		
 		setTitle(pokémon.name)
 		
@@ -39,17 +34,17 @@ class AbilitiesInterfaceController: PokémonRepresentingInterfaceController {
 		ability2Label.setTitle(pokémon.ability2)
 		hiddenAbilityButton.setTitle(pokémon.abilityH)
 		
-		if allAbilityDescriptions.keys.contains(pokémon.ability1) {
+		if Pokédex.allAbilityDescriptions.keys.contains(pokémon.ability1) {
 			ability1 = pokémon.ability1
 		}
 		
-		if allAbilityDescriptions.keys.contains(pokémon.ability2),
+		if Pokédex.allAbilityDescriptions.keys.contains(pokémon.ability2),
 			pokémon.ability1 != pokémon.ability2 {
 			
 			ability2 = pokémon.ability2
 		}
 		
-		if allAbilityDescriptions.keys.contains(pokémon.abilityH),
+		if Pokédex.allAbilityDescriptions.keys.contains(pokémon.abilityH),
 			pokémon.abilityH != pokémon.ability1 && ((pokémon.ability1 != pokémon.ability2) || (pokémon.ability2 == "")) {
 			
 			hiddenAbility = pokémon.abilityH
@@ -72,19 +67,19 @@ class AbilitiesInterfaceController: PokémonRepresentingInterfaceController {
 	@IBAction func ability1ButtonPressed() {
 		guard let ability = ability1 else { return }
 		let okAction = WKAlertAction(title: "OK", style: .default, handler: { })
-		self.presentAlert(withTitle: ability, message: allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
+		self.presentAlert(withTitle: ability, message: Pokédex.allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
 	}
 	
 	@IBAction func ability2Pressed() {
 		guard let ability = ability2 else { return }
 		let okAction = WKAlertAction(title: "OK", style: .default, handler: { })
-		self.presentAlert(withTitle: ability, message: allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
+		self.presentAlert(withTitle: ability, message: Pokédex.allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
 	}
 	
 	@IBAction func hiddenAbilityPressed() {
 		guard let ability = hiddenAbility else { return }
 		let okAction = WKAlertAction(title: "OK", style: .default, handler: { })
-		self.presentAlert(withTitle: ability, message: allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
+		self.presentAlert(withTitle: ability, message: Pokédex.allAbilityDescriptions[ability], preferredStyle: .alert, actions: [okAction])
 	}
 	
 	override func willActivate() {

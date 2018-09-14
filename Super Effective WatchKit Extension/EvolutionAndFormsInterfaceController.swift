@@ -50,18 +50,12 @@ class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceControl
 	var altforms = [PokémonInfo]()
 	var evolutions = [Evolution]()
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		
-		guard let pokémon = context as? Pokémon else {
-			print("Couldn't read pokémon")
-			return
-		}
-		self.pokémon = pokémon
+	override func awake(with context: Pokémon) {
+		super.awake(with: context)
 		
 		setTitle(pokémon.name)
 		
-		altforms = pokémon.altFormIDs.compactMap { allPokémonInfo[safe: $0] }
+		altforms = pokémon.altFormIDs.compactMap { Pokédex.allPokémonInfo[safe: $0] }
 		evolutions = pokémon.evolutionTree
 		
 		if evolutions.isEmpty {
@@ -108,8 +102,8 @@ class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceControl
 		for (index, evolution) in evolutions.enumerated() {
 			let row = evolutionsTable.rowController(at: index) as! EvolutionRowController
 			
-			let sourcePokémonInfo = allPokémonInfo[evolution.originalSpeciesID]
-			let evolvedPokémonInfo = allPokémonInfo[evolution.evolvedSpeciesID]
+			let sourcePokémonInfo = Pokédex.allPokémonInfo[evolution.originalSpeciesID]
+			let evolvedPokémonInfo = Pokédex.allPokémonInfo[evolution.evolvedSpeciesID]
 			
 			if sourcePokémonInfo.formName == "" {
 				row.sourceForm.setHidden(true)

@@ -10,17 +10,15 @@ import WatchKit
 import Foundation
 import PokeKit
 
-class PokémonRepresentingInterfaceController: WKInterfaceController {
-	
+class PokémonRepresentingInterfaceController: TypedInterfaceController<Pokémon> {	
 	var pokémon: Pokémon! {
 		didSet {
 			setMenuItems()
 		}
 	}
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		setMenuItems()
+	override func awake(with context: Pokémon) {
+		self.pokémon = context
 	}
 	
 	func setMenuItems() {

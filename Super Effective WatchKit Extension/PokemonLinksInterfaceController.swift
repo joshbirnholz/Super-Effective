@@ -14,21 +14,11 @@ class PokemonLinksInterfaceController: PokémonRepresentingInterfaceController {
 	
 	@IBOutlet var icon: WKInterfaceImage!
 	
-	override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-		
-		guard let pokémon = context as? Pokémon else {
-			print("Didn't get Pokémon")
-			return
-		}
-		
-		self.pokémon = pokémon
-		
+	override func awake(with context: Pokémon) {
+		super.awake(with: context)
 		setTitle(pokémon.name)
 		icon.setImage(pokémon.icon)
-		
-		updateRecents(withID: pokémon.id)
-    }
+	}
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
@@ -39,6 +29,10 @@ class PokemonLinksInterfaceController: PokémonRepresentingInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+	
+	override func didAppear() {
+		updateRecents(withID: pokémon.id)
+	}
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
 		return pokémon

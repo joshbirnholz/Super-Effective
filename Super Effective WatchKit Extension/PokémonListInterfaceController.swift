@@ -87,16 +87,28 @@ func loadImage(in interfaceImage: WKInterfaceImage, for info: PokémonInfo) {
 	}
 }
 
-class PokémonListInterfaceController: WKInterfaceController {
+class PokémonListInterfaceController: TypedInterfaceController<PokédexRange> {
 	
 	@IBOutlet var pokemonListTable: WKInterfaceTable!
 	
 	var isDebug: Bool = false
-	var range: PokédexRange!
+	
+	var range: PokédexRange! {
+		didSet {
+			setTitle(range.title)
+			info = range.dexNumbers.compactMap {
+				Pokédex.allPokémonInfo[safe: $0]
+			}
+		}
+	}
 	
 	var info = [PokémonInfo]() {
 		didSet {
 			displayTable()
+			
+			if range.title == recentsRange.title {
+				recentsNeedsRedisplay = false
+			}
 		}
 	}
 	
@@ -120,21 +132,11 @@ class PokémonListInterfaceController: WKInterfaceController {
 		}
 	}
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		guard let range = context as? PokédexRange else {
-			return
-		}
-		
-		self.range = range
-		
-		setTitle(range.title)
+	override func awake(with context: PokédexRange) {
+		self.range = context
 		
 		isDebug = range.title.lowercased().contains("debug")
-		
-		info = range.dexNumbers.compactMap {
-			allPokémonInfo[safe: $0]
-		}
+
 	}
 	
 	func loadTable() {
@@ -221,11 +223,18 @@ class PokémonListInterfaceController: WKInterfaceController {
 	override func willActivate() {
 		// This method is called when watch view controller is about to be visible to user
 		super.willActivate()
+		
+		if recentsNeedsRedisplay && range.title == recentsRange.title {
+			range = recentsRange
+			recentsNeedsRedisplay = false
+		}
 	}
 	
 	override func didDeactivate() {
 		// This method is called when watch view controller is no longer visible
 		super.didDeactivate()
 	}
+	
+	
 	
 }

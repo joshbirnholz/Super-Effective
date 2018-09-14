@@ -19,21 +19,15 @@ set {
 }
 }
 
+var recentsNeedsRedisplay = false
 func updateRecents(withID id: Int) {
-	if let index = recents.index(of: id) {
-		recents.remove(at: index)
-	} else if recents.count >= 20 {
-		recents.removeLast()
-	}
 	recents.insert(id, at: 0)
+	recents = Array((NSOrderedSet(array: recents).array as! [Int]).prefix(20))
+	recentsNeedsRedisplay = true
 }
 
 var recentsRange: PokédexRange {
 	return PokédexRange(dexNumbers: recents, title: "Recents")
-}
-
-class SimpleRowController: NSObject {
-	@IBOutlet var label: WKInterfaceLabel!
 }
 
 class SortInterfaceController: WKInterfaceController {
@@ -46,7 +40,7 @@ class SortInterfaceController: WKInterfaceController {
 	                                         PokédexRange(dexNumbers: Array(386 ... 492), title: "Gen IV"),
 	                                         PokédexRange(dexNumbers: Array(493 ... 648), title: "Gen V"),
 	                                         PokédexRange(dexNumbers: Array(649 ... 720), title: "Gen VI"),
-	                                         PokédexRange(dexNumbers: Array(721 ... 801), title: "Gen VII"),
+	                                         PokédexRange(dexNumbers: Array(721 ... 806), title: "Gen VII"),
 //											 PokédexRange(dexNumbers: Array(allPokémonInfo.indices), title: "Debug — All")
 	]
 
@@ -76,7 +70,7 @@ class SortInterfaceController: WKInterfaceController {
 			
 			if range.dexNumbers.count == 1 {
 				guard let first = range.dexNumbers.first,
-					let pokémon = Pokémon.with(id: allPokémonInfo[first].id) else {
+					let pokémon = Pokémon.with(id: Pokédex.allPokémonInfo[first].id) else {
 						return
 				}
 				self.push(pokémon: pokémon)
@@ -106,8 +100,8 @@ class SortInterfaceController: WKInterfaceController {
 	
 	func search(query: String) -> PokédexRange {
 		let query = query.lowercased().capitalized
-		let nums = allPokémonInfo.filter {
-			$0.id <= 802 && $0.name.hasPrefix(query)
+		let nums = Pokédex.allPokémonInfo.filter {
+			$0.id <= Pokédex.lastUniquePokémonID && $0.name.hasPrefix(query)
 			}.sorted { first, second in
 				first.name < second.name
 			}.map {

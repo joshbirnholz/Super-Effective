@@ -14,8 +14,8 @@ class AlphabeticalInterfaceController: WKInterfaceController {
 
 	func showLetter(_ letter: String = #function) {
 		let letter = String(letter[letter.startIndex])
-		let nums = allPokémonInfo.filter {
-			$0.id <= 802 && $0.name.lowercased().hasPrefix(letter.lowercased())
+		let nums = Pokédex.allPokémonInfo.filter {
+			$0.id <= Pokédex.lastUniquePokémonID && $0.name.lowercased().hasPrefix(letter.lowercased())
 			}.sorted { first, second in
 				first.name < second.name
 			}.map {

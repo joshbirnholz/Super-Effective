@@ -21,12 +21,10 @@ class MovesetInterfaceController: PokémonRepresentingInterfaceController {
 	
 	var moveset: Moveset!
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
+	override func awake(with context: Pokémon) {
+		super.awake(with : context)
 		
-		self.pokémon = context as? Pokémon
-		
-		setTitle((context as? Pokémon)?.name)
+		setTitle(context.name)
 		
 		do {
 			moveset = try Moveset.with(for: pokémon)

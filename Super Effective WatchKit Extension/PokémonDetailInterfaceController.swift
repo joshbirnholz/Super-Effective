@@ -32,20 +32,21 @@ class PokémonDetailInterfaceController: PokémonRepresentingInterfaceControlle
 	@IBOutlet var notVeryEffectiveNoneLabel: WKInterfaceLabel!
 	@IBOutlet var noEffectNoneLabel: WKInterfaceLabel!
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
+	override func awake(with context: Pokémon) {
+		super.awake(with: context)
 		
-		if let pokémon = context as? Pokémon {
-			self.pokémon = pokémon
-			setTitle(pokémon.name)
-			load(typeCombination: pokémon.type)
-		} else if let context = context as? [Any],
+		setTitle(pokémon.name)
+		load(typeCombination: pokémon.type)
+		
+	}
+	
+	override func awake(withIncorrectContext context: Any?) {
+		if let context = context as? [Any],
 			let title = context[safe: 0] as? String,
 			let type = context[safe: 1] as? TypeCombination {
 			setTitle(title)
 			load(typeCombination: type)
 		}
-		
 	}
 	
 	func load(typeCombination: TypeCombination) {
@@ -85,7 +86,6 @@ class PokémonDetailInterfaceController: PokémonRepresentingInterfaceControlle
 		notVeryEffectiveTypes.sort { first, second in
 			return first.value < second.value
 		}
-		
 		
 		// Super Effective
 		

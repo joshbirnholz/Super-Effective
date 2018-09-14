@@ -15,12 +15,8 @@ class BaseStatsInterfaceController: PokémonRepresentingInterfaceController {
 	@IBOutlet var statsChartImage: WKInterfaceImage!
 	@IBOutlet var totalStatsLabel: WKInterfaceLabel!
 	
-	override func awake(withContext context: Any?) {
-		super.awake(withContext: context)
-		
-		guard let pokémon = context as? Pokémon else { return }
-		
-		self.pokémon = pokémon
+	override func awake(with context: Pokémon) {
+		super.awake(with: context)
 		
 		setTitle(pokémon.name)
 		

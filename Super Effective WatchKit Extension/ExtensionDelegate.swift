@@ -8,10 +8,24 @@
 
 import WatchKit
 
+
+
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
+		
+		// load() must be called manually on generic subclasses, otherwise they are not loaded when the storyboard tries to initialize them.
+		PokemonLinksInterfaceController.load()
+		MoveDetailInterfaceController.load()
+		MovesetInterfaceController.load()
+		EvolutionAndFormsInterfaceController.load()
+		AbilitiesInterfaceController.load()
+		MoreInfoInterfaceController.load()
+		BaseStatsInterfaceController.load()
+		SortInterfaceController.load()
+		PokémonListInterfaceController.load()
+		PokémonDetailInterfaceController.load()
     }
 
     func applicationDidBecomeActive() {

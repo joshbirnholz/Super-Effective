@@ -30,14 +30,8 @@ class MoreInfoInterfaceController: PokémonRepresentingInterfaceController {
 	@IBOutlet var percentFemaleLabel: WKInterfaceLabel!
 	@IBOutlet var percentMaleLabel: WKInterfaceLabel!
 	
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-        
-		guard let pokémon = context as? Pokémon else {
-			print("Couldn't read Pokémon")
-			return
-		}
-		self.pokémon = pokémon
+    override func awake(with context: Pokémon) {
+        super.awake(with: context)
 		
 		icon.setImage(pokémon.icon)
 		
