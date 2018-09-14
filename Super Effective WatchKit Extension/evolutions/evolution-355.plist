@@ -5,9 +5,9 @@
 	<key>evolution ID</key>
 	<integer>355</integer>
 	<key>evolved species ID</key>
-	<integer>992</integer>
+	<integer>997</integer>
 	<key>original species ID</key>
-	<integer>987</integer>
+	<integer>992</integer>
 	<key>trigger</key>
 	<string>Item</string>
 	<key>trigger item</key>

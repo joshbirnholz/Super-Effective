@@ -5,11 +5,11 @@
 	<key>evolution ID</key>
 	<integer>412</integer>
 	<key>evolved species ID</key>
-	<integer>825</integer>
+	<integer>830</integer>
 	<key>minimum happiness</key>
 	<integer>220</integer>
 	<key>original species ID</key>
-	<integer>824</integer>
+	<integer>829</integer>
 	<key>trigger</key>
 	<string>level up</string>
 </dict>

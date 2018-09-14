@@ -11,7 +11,7 @@
 	<key>minimum level</key>
 	<integer>20</integer>
 	<key>original species ID</key>
-	<integer>906</integer>
+	<integer>911</integer>
 	<key>trigger</key>
 	<string>level up</string>
 </dict>

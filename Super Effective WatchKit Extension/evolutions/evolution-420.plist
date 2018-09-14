@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>evolution ID</key>
-	<integer>206</integer>
+	<integer>420</integer>
 	<key>evolved species ID</key>
-	<integer>910</integer>
-	<key>gender</key>
-	<string>female</string>
+	<integer>1066</integer>
 	<key>minimum level</key>
-	<integer>20</integer>
+	<integer>25</integer>
 	<key>original species ID</key>
-	<integer>908</integer>
+	<integer>743</integer>
 	<key>trigger</key>
 	<string>level up</string>
+	<key>special condition</key>
+	<string>with the ability Own Tempo between 5 pm and 5:59 pm in-game</string>
 </dict>
 </plist>

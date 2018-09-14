@@ -5,9 +5,9 @@
 	<key>evolution ID</key>
 	<integer>344</integer>
 	<key>evolved species ID</key>
-	<integer>1009</integer>
+	<integer>1014</integer>
 	<key>original species ID</key>
-	<integer>1006</integer>
+	<integer>1011</integer>
 	<key>trigger</key>
 	<string>trade</string>
 </dict>

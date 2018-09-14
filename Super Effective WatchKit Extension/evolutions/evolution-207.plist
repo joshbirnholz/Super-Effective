@@ -5,13 +5,13 @@
 	<key>evolution ID</key>
 	<integer>207</integer>
 	<key>evolved species ID</key>
-	<integer>906</integer>
+	<integer>911</integer>
 	<key>gender</key>
 	<string>female</string>
 	<key>minimum level</key>
 	<integer>20</integer>
 	<key>original species ID</key>
-	<integer>904</integer>
+	<integer>909</integer>
 	<key>trigger</key>
 	<string>level up</string>
 </dict>
