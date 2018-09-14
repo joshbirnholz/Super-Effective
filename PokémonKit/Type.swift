@@ -9,7 +9,7 @@
 import UIKit
 
 /// A Pokémon's type.
-public enum Type: String, Codable, CodingKey, CaseIterable {
+public enum Type: String, Codable, CodingKey, CaseIterable, CustomStringConvertible {
 	
 	case normal, fire, fighting, water, flying, grass, poison, electric, ground, psychic, rock, ice, bug, dragon, ghost, dark, steel, fairy
 	
@@ -44,5 +44,9 @@ public enum Type: String, Codable, CodingKey, CaseIterable {
 			throw DecodingError.dataCorruptedError(in: container, debugDescription: "The value was not a Type raw value")
 		}
 		self = value
+	}
+	
+	public var description: String {
+		return rawValue.capitalized
 	}
 }

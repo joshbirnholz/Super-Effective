@@ -30,14 +30,22 @@ public struct Move: Codable { // TODO: Rename this struct
 		description = try container.decode(String.self, forKey: .description)
 		id = try container.decode(Int.self, forKey: .id)
 		name = try container.decode(String.self, forKey: .name)
-		power = try? container.decode(Int.self, forKey: .power)
+		do {
+			power = try container.decodeIfPresent(Int.self, forKey: .power)
+		} catch DecodingError.typeMismatch {
+			if let p = try container.decodeIfPresent(String.self, forKey: .power), p == "—" {
+				power = nil
+			} else {
+				throw DecodingError.dataCorruptedError(forKey: .power, in: container, debugDescription: "Power was incorrect")
+			}
+		}
 		pp = try container.decode(Int.self, forKey: .pp)
 		priority = try container.decode(Int.self, forKey: .priority)
 		type = try container.decode(Type.self, forKey: .type)
 		zEffect = try container.decode(String.self, forKey: .zEffect)
 	}
 	
-	public static func with(name: String) -> Move? {
-		return try? decode(Move.self, fromPropertyListWithName: "move-\(name)")
+	public static func with(name: String) throws -> Move {
+		return try Pokédex.decode(Move.self, fromPropertyListWithName: "move-\(name)")
 	}
 }

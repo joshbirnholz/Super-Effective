@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Pokédex {
+public struct Pokédex {
 
 	internal static let decoder = PropertyListDecoder()
 
@@ -85,5 +85,8 @@ public class Pokédex {
 			}
 		}
 	}()
+	
+	/// The ID of the final Pokémon in the National Dex. This should be one less than the final Pokémon's number.
+	public static let lastUniquePokémonID = 806
 
 }

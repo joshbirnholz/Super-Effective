@@ -50,24 +50,24 @@ public struct Evolution: Codable, Hashable, Equatable {
 		let container = try decoder.container(keyedBy: CodingKeys.self)
 		evolutionID = try container.decode(Int.self, forKey: .evolutionID)
 		evolvedSpeciesID = try container.decode(Int.self, forKey: .evolvedSpeciesID)
-		gender = try? container.decode(String.self, forKey: .gender)
-		heldItem = try? container.decode(String.self, forKey: .heldItem)
-		inVersion = try? container.decode(String.self, forKey: .inVersion)
-		knownMove = try? container.decode(String.self, forKey: .knownMove)
-		knownMoveType = try? container.decode(String.self, forKey: .knownMoveType)
-		location = try? container.decode(String.self, forKey: .location)
-		minimumAffection = try? container.decode(Int.self, forKey: .minimumAffection)
-		minimumHappiness = try? container.decode(Int.self, forKey: .minimumHappiness)
-		minimumLevel = try? container.decode(Int.self, forKey: .minimumLevel)
+		gender = try container.decodeIfPresent(String.self, forKey: .gender)
+		heldItem = try container.decodeIfPresent(String.self, forKey: .heldItem)
+		inVersion = try container.decodeIfPresent(String.self, forKey: .inVersion)
+		knownMove = try container.decodeIfPresent(String.self, forKey: .knownMove)
+		knownMoveType = try container.decodeIfPresent(String.self, forKey: .knownMoveType)
+		location = try container.decodeIfPresent(String.self, forKey: .location)
+		minimumAffection = try container.decodeIfPresent(Int.self, forKey: .minimumAffection)
+		minimumHappiness = try container.decodeIfPresent(Int.self, forKey: .minimumHappiness)
+		minimumLevel = try container.decodeIfPresent(Int.self, forKey: .minimumLevel)
 		originalSpeciesID = try container.decode(Int.self, forKey: .originalSpeciesID)
-		partySpecies = try? container.decode(String.self, forKey: .partySpecies)
-		partyType = try? container.decode(String.self, forKey: .partyType)
-		relativePhysicalStats = try? container.decode(Int.self, forKey: .relativePhysicalStats)
-		timeOfDay = try? container.decode(String.self, forKey: .timeOfDay)
-		tradeSpecies = try? container.decode(String.self, forKey: .tradeSpecies)
+		partySpecies = try container.decodeIfPresent(String.self, forKey: .partySpecies)
+		partyType = try container.decodeIfPresent(String.self, forKey: .partyType)
+		relativePhysicalStats = try container.decodeIfPresent(Int.self, forKey: .relativePhysicalStats)
+		timeOfDay = try container.decodeIfPresent(String.self, forKey: .timeOfDay)
+		tradeSpecies = try container.decodeIfPresent(String.self, forKey: .tradeSpecies)
 		trigger = try container.decode(Trigger.self, forKey: .trigger)
-		triggerItem = try? container.decode(String.self, forKey: .triggerItem)
-		specialCondition = try? container.decode(String.self, forKey: .specialCondition)
+		triggerItem = try container.decodeIfPresent(String.self, forKey: .triggerItem)
+		specialCondition = try container.decodeIfPresent(String.self, forKey: .specialCondition)
 	}
 	
 	public var conditions: String {
@@ -143,6 +143,6 @@ public struct Evolution: Codable, Hashable, Equatable {
 	}
 	
 	public static func with(id: Int) -> Evolution? {
-		return try? decode(Evolution.self, fromPropertyListWithName: "evolution-\(id)")
+		return try? Pokédex.decode(Evolution.self, fromPropertyListWithName: "evolution-\(id)")
 	}
 }

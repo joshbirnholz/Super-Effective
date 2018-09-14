@@ -58,8 +58,27 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 		hp = try values.decode(Int.self, forKey: .hp)
 		id = try values.decode(Int.self, forKey: .id)
 		ndex = try values.decode(Int.self, forKey: .ndex)
-		percentFemale = try? values.decode(Double.self, forKey: .percentFemale)
-		percentMale = try? values.decode(Double.self, forKey: .percentMale)
+		
+		do {
+			percentFemale = try values.decode(Double.self, forKey: .percentFemale)
+		} catch {
+			if try values.decode(String.self, forKey: .percentFemale) == "" {
+				percentFemale = nil
+			} else {
+				throw DecodingError.dataCorruptedError(forKey: .percentFemale, in: values, debugDescription: "The value was not in the correct format")
+			}
+		}
+		
+		do {
+			percentMale = try values.decode(Double.self, forKey: .percentMale)
+		} catch {
+			if try values.decode(String.self, forKey: .percentMale) == "" {
+				percentMale = nil
+			} else {
+				throw DecodingError.dataCorruptedError(forKey: .percentFemale, in: values, debugDescription: "The value was not in the correct format")
+			}
+		}
+		
 		spattack = try values.decode(Int.self, forKey: .spattack)
 		spdefense = try values.decode(Int.self, forKey: .spdefense)
 		name = try values.decode(String.self, forKey: .name)
@@ -67,7 +86,7 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 		total = try values.decode(Int.self, forKey: .total)
 		weight = try values.decode(String.self, forKey: .weight)
 		altFormIDs = try values.decode([Int].self, forKey: .altFormIDs)
-		preEvolutionID = try? values.decode(Int.self, forKey: .preEvolution)
+		preEvolutionID = try values.decodeIfPresent(Int.self, forKey: .preEvolution)
 		
 		let type1 = try values.decode(Type.self, forKey: .type1)
 		let type2 = try? values.decode(Type.self, forKey: .type2)
@@ -90,7 +109,7 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	}
 	
 	public var icon: UIImage? {
-		if id <= 801 {
+		if id <= Pokédex.lastUniquePokémonID {
 			return UIImage(named: "\(ndex).png")
 		}
 		
@@ -109,7 +128,7 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	}
 	
 	public static func with(id: Int) -> Pokémon? {
-		return try? decode(Pokémon.self, fromPropertyListWithName: "pokemon-\(id)")
+		return try? Pokédex.decode(Pokémon.self, fromPropertyListWithName: "pokemon-\(id)")
 	}
 	
 }

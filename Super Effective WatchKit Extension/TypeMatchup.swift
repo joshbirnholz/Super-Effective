@@ -5,40 +5,12 @@ import Foundation
 //
 // MARK: - Data Model
 //
-public struct TypeMatchup: Codable {
+public struct TypeMatchup {
 	public let defendingType: TypeCombination
 	public let effectiveness: [Type : Double]
 	
 	public init(defendingType: TypeCombination, effectiveness: [Type : Double]) {
 		self.defendingType = defendingType
-		self.effectiveness = effectiveness
-	}
-	
-	private enum TypeMatchupCodingKeys: String, CodingKey, CaseIterable {
-		case defenseType1 = "defense-type1"
-		case defenseType2 = "defense-type2"
-		case normal, fire, fighting, water, flying, grass, poison, electric, ground, psychic, rock, ice, bug, dragon, ghost, dark, steel, fairy
-	}
-	
-	public init(from decoder: Decoder) throws {
-		let values = try decoder.container(keyedBy: TypeMatchupCodingKeys.self)
-		
-		let type1 = try values.decode(Type.self, forKey: .defenseType1)
-		let type2 = try? values.decode(Type.self, forKey: .defenseType2)
-		
-		let combination = TypeCombination(type1, type2)
-		
-		var effectiveness: [Type : Double] = [:]
-		
-		for type in TypeMatchupCodingKeys.allCases where type != .defenseType1 && type != .defenseType2 {
-			guard let actualType = Type(rawValue: type.rawValue) else {
-				continue
-			}
-			let value = try values.decode(Double.self, forKey: type)
-			effectiveness[actualType] = value
-		}
-		
-		self.defendingType = combination
 		self.effectiveness = effectiveness
 	}
 	
