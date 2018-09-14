@@ -47,9 +47,16 @@ class PokeKitTests: XCTestCase {
 		}
 	}
 	
+	func testIcons() {
+		for pokemon in allPokémon {
+			XCTAssertNotNil(pokemon.icon, "Failed to load icon for \(pokemon.forme)")
+		}
+	}
+	
 	func testBaseStatTotalsMatch() {
 		for pokémon in allPokémon {
-			XCTAssertEqual(pokémon.total, [pokémon.attack, pokémon.defense, pokémon.spattack, pokémon.spdefense, pokémon.hp, pokémon.speed].reduce(0, +))
+			let total = [pokémon.attack, pokémon.defense, pokémon.spattack, pokémon.spdefense, pokémon.hp, pokémon.speed].reduce(0, +)
+			XCTAssertEqual(pokémon.total, total, "Incorrect total for \(pokémon.forme) (\(pokémon.id)); Should be \(total)")
 		}
 	}
 
