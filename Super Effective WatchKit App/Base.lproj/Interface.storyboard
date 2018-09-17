@@ -946,6 +946,7 @@
                         <outlet property="categoryButton" destination="NGc-QK-vax" id="aEW-TB-TeP"/>
                         <outlet property="categoryImage" destination="2Xt-hZ-ojT" id="vVl-yW-cwE"/>
                         <outlet property="descriptionLabel" destination="k8v-5M-3Za" id="orL-rD-2qg"/>
+                        <outlet property="pokemonWithThisMoveButton" destination="jkB-1F-Zt7" id="9Da-AS-amA"/>
                         <outlet property="powerLabel" destination="vmi-xb-e91" id="WjR-sl-SQ7"/>
                         <outlet property="ppLabel" destination="7yV-Nd-Yj1" id="5mA-oG-A19"/>
                         <outlet property="typeButton" destination="QLI-oc-Pjs" id="qgT-t9-zdH"/>

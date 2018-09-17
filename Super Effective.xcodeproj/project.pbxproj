@@ -3016,6 +3016,8 @@
 		5457DC7C215031AE0033D888 /* moveset-Lycanroc (Dusk Form).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5457DC7A215031AD0033D888 /* moveset-Lycanroc (Dusk Form).plist */; };
 		5457DC7E215032880033D888 /* move-Plasma Fists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5457DC7D215032870033D888 /* move-Plasma Fists.plist */; };
 		5457DC7F215032880033D888 /* move-Plasma Fists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5457DC7D215032870033D888 /* move-Plasma Fists.plist */; };
+		5457DC8421504C180033D888 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457DC8321504C180033D888 /* UserDefaults.swift */; };
+		5457DC8521504C180033D888 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457DC8321504C180033D888 /* UserDefaults.swift */; };
 		545A878C2142D742007F885C /* BrowseByTypeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A878B2142D742007F885C /* BrowseByTypeInterfaceController.swift */; };
 		545A878E2142D768007F885C /* SimpleRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A878D2142D768007F885C /* SimpleRowController.swift */; };
 		545A87902142EE51007F885C /* TypedInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A878F2142EE51007F885C /* TypedInterfaceController.swift */; };
@@ -7989,6 +7991,10 @@
 		5457DC77215030910033D888 /* moveset-Zeraora.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "moveset-Zeraora.plist"; sourceTree = "<group>"; };
 		5457DC7A215031AD0033D888 /* moveset-Lycanroc (Dusk Form).plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "moveset-Lycanroc (Dusk Form).plist"; sourceTree = "<group>"; };
 		5457DC7D215032870033D888 /* move-Plasma Fists.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "move-Plasma Fists.plist"; sourceTree = "<group>"; };
+		5457DC8021504BCB0033D888 /* Super Effective.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Super Effective.entitlements"; sourceTree = "<group>"; };
+		5457DC8121504BE20033D888 /* Super Effective WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Super Effective WatchKit App.entitlements"; sourceTree = "<group>"; };
+		5457DC8221504BE90033D888 /* Super Effective WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Super Effective WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5457DC8321504C180033D888 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		545A878B2142D742007F885C /* BrowseByTypeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseByTypeInterfaceController.swift; sourceTree = "<group>"; };
 		545A878D2142D768007F885C /* SimpleRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRowController.swift; sourceTree = "<group>"; };
 		545A878F2142EE51007F885C /* TypedInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedInterfaceController.swift; sourceTree = "<group>"; };
@@ -12994,6 +13000,7 @@
 		548BFF311DE7FCBF009B4C24 /* Super Effective */ = {
 			isa = PBXGroup;
 			children = (
+				5457DC8021504BCB0033D888 /* Super Effective.entitlements */,
 				548BFF321DE7FCBF009B4C24 /* AppDelegate.swift */,
 				548BFF341DE7FCBF009B4C24 /* PokemonListTableViewController.swift */,
 				548BFF361DE7FCBF009B4C24 /* Main.storyboard */,
@@ -13007,6 +13014,7 @@
 		548BFF451DE7FCBF009B4C24 /* Super Effective WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				5457DC8121504BE20033D888 /* Super Effective WatchKit App.entitlements */,
 				548BFF461DE7FCBF009B4C24 /* Interface.storyboard */,
 				54CB88191DE8264D00C42E68 /* Assets.xcassets */,
 				548BFF4B1DE7FCBF009B4C24 /* Info.plist */,
@@ -13017,6 +13025,7 @@
 		548BFF541DE7FCBF009B4C24 /* Super Effective WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5457DC8221504BE90033D888 /* Super Effective WatchKit Extension.entitlements */,
 				548BFF571DE7FCBF009B4C24 /* ExtensionDelegate.swift */,
 				545D22021DEADBF700681AA5 /* Pluralize.swift */,
 				547E314521403D1B00592971 /* PokemonLinksInterfaceController.swift */,
@@ -13068,6 +13077,7 @@
 				546B7A7F1E0E667F000EFB75 /* PokeKit-iOS.h */,
 				546B7A891E0E66B4000EFB75 /* Info-iOS.plist */,
 				549F5DCD1E0BAE8900FE27C4 /* Info-watchOS.plist */,
+				5457DC8321504C180033D888 /* UserDefaults.swift */,
 			);
 			path = PokeKit;
 			sourceTree = "<group>";
@@ -13249,17 +13259,32 @@
 						DevelopmentTeam = CB7D3XVLP3;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					548BFF401DE7FCBF009B4C24 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = CB7D3XVLP3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					548BFF4F1DE7FCBF009B4C24 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = CB7D3XVLP3;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					549F5DC91E0BAE8900FE27C4 = {
 						CreatedOnToolsVersion = 8.2;
@@ -19750,6 +19775,7 @@
 				546B7A911E0E66BA000EFB75 /* TypeMatchup.swift in Sources */,
 				546B7A8E1E0E66BA000EFB75 /* DamageCategory.swift in Sources */,
 				546B7A921E0E66BA000EFB75 /* Moveset.swift in Sources */,
+				5457DC8521504C180033D888 /* UserDefaults.swift in Sources */,
 				546B7A961E0E66BA000EFB75 /* Move.swift in Sources */,
 				546B7A951E0E66BA000EFB75 /* Evolution.swift in Sources */,
 				546B7A8B1E0E66BA000EFB75 /* PokédexRange.swift in Sources */,
@@ -19812,6 +19838,7 @@
 				549F5DD91E0BAE9800FE27C4 /* TypeMatchup.swift in Sources */,
 				549F5DD61E0BAE9800FE27C4 /* DamageCategory.swift in Sources */,
 				549F5DDC1E0BAE9800FE27C4 /* Evolution.swift in Sources */,
+				5457DC8421504C180033D888 /* UserDefaults.swift in Sources */,
 				549F5DDD1E0BAE9800FE27C4 /* Move.swift in Sources */,
 				549F6A231E0BB31300FE27C4 /* Extensions.swift in Sources */,
 				549F6A251E0C6B7100FE27C4 /* Pokédex.swift in Sources */,
@@ -20091,6 +20118,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective WatchKit Extension/Super Effective WatchKit Extension.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				INFOPLIST_FILE = "Super Effective WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -20111,6 +20139,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective WatchKit Extension/Super Effective WatchKit Extension.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				INFOPLIST_FILE = "Super Effective WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -20131,6 +20160,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective WatchKit App/Super Effective WatchKit App.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				IBSC_MODULE = Super_Effective_WatchKit_Extension;
 				INFOPLIST_FILE = "Super Effective WatchKit App/Info.plist";
@@ -20150,6 +20180,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective WatchKit App/Super Effective WatchKit App.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				IBSC_MODULE = Super_Effective_WatchKit_Extension;
 				INFOPLIST_FILE = "Super Effective WatchKit App/Info.plist";
@@ -20169,6 +20200,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective/Super Effective.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				INFOPLIST_FILE = "Super Effective/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -20186,6 +20218,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Super Effective/Super Effective.entitlements";
 				DEVELOPMENT_TEAM = CB7D3XVLP3;
 				INFOPLIST_FILE = "Super Effective/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;

@@ -12,10 +12,10 @@ import PokeKit
 
 var recents: [Int] {
 get {
-	return UserDefaults.standard.object(forKey: "recents") as? [Int] ?? []
+	return UserDefaults.group.object(forKey: "recents") as? [Int] ?? []
 }
 set {
-	UserDefaults.standard.set(newValue, forKey: "recents")
+	UserDefaults.group.set(newValue, forKey: "recents")
 }
 }
 

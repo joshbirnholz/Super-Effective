@@ -20,8 +20,10 @@ class MoveDetailInterfaceController: TypedInterfaceController<String> {
 	@IBOutlet var descriptionLabel: WKInterfaceLabel!
 	@IBOutlet var ppLabel: WKInterfaceLabel!
 	@IBOutlet var zmoveEffectLabel: WKInterfaceLabel!
+	@IBOutlet var pokemonWithThisMoveButton: WKInterfaceButton!
 	
 	var move: Move!
+	var otherPokémonRange: PokédexRange?
 	
 	override func awake(with context: String) {
 		do {
@@ -56,30 +58,25 @@ class MoveDetailInterfaceController: TypedInterfaceController<String> {
 		popToRootController()
 	}
 	
-	
 	@IBAction func pokemonWithThisMoveButtonPressed() {
-		let range = pokémonWhoKnowThisMoveRange()
-		pushController(withName: "PokedexList", context: range)
-	}
-	
-	func pokémonWhoKnowThisMoveRange() -> PokédexRange {
-		let queue = OperationQueue()
-		
-		var range = PokédexRange(dexNumbers: [], title: move.name)
-		
-		let operations: [Operation] = Pokédex.allPokémonInfo.map { info in
-			BlockOperation {
-				guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.moveset(for: pk) else { return }
-				if let moveInfo = moveset.moves.first(where: { $0.moveName == self.move.name }) {
-					range.dexNumbers.append(info.id)
-					range.detailText[info.id] = moveInfo.method
-				}
-			}
+		if let range = otherPokémonRange {
+			pushController(withName: "PokedexList", context: range)
+			return
 		}
 		
-		queue.addOperations(operations, waitUntilFinished: true)
+		Pokédex.allPokémon(learning: move, completion: { [weak self] range in
+			guard let strongSelf = self else { return }
+			
+			self?.otherPokémonRange = range
+			strongSelf.pushController(withName: "PokedexList", context: range)
+			strongSelf.pokemonWithThisMoveButton.setEnabled(true)
+			strongSelf.pokemonWithThisMoveButton.setTitle("\(range.dexNumbers.count) Pokémon With This Move")
+		}) { [weak self] completed, total in
+			let str = String(format: "%.0f%%", (Double(completed)/Double(total))*100)
+			self?.pokemonWithThisMoveButton.setTitle("Searching…\n\(str)")
+		}
 		
-		range.dexNumbers.sort()
-		return range
+		pokemonWithThisMoveButton.setEnabled(false)
+		
 	}
 }

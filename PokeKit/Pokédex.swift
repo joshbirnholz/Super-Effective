@@ -86,6 +86,40 @@ public struct Pokédex {
 		}
 	}()
 	
+	public static func allPokémon(learning move: Move, completion: @escaping (PokédexRange) -> (), progressCallback: @escaping (Int, Int) -> ()) {
+		DispatchQueue.global(qos: .userInitiated).async {
+			let queue = OperationQueue()
+			
+			var range = PokédexRange(dexNumbers: [], title: move.name)
+			
+			let total = Pokédex.allPokémonInfo.count
+			
+			let operations: [Operation] = Pokédex.allPokémonInfo.map { info in
+				BlockOperation {
+					defer {
+						DispatchQueue.main.async {
+							progressCallback(total - queue.operationCount, total)
+						}
+					}
+					guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.moveset(for: pk) else { return }
+					if let moveInfo = moveset.moves.first(where: { $0.moveName == move.name }) {
+						range.dexNumbers.append(info.id)
+						range.detailText[info.id] = moveInfo.method
+					}
+				}
+			}
+			
+			queue.addOperations(operations, waitUntilFinished: true)
+			
+			range.dexNumbers.sort()
+			
+			DispatchQueue.main.async {
+				completion(range)
+			}
+		}
+		
+	}
+	
 	/// The ID of the final Pokémon in the National Dex. This should be one less than the final Pokémon's number.
 	public static let lastUniquePokémonID = 806
 

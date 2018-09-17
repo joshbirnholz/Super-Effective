@@ -70,10 +70,10 @@ class PokémonListCompactRowController: NSObject {
 
 var favorites: [Int] {
 	get {
-		return (UserDefaults.standard.object(forKey: "favorites") as? [Int]) ?? []
+		return (UserDefaults.group.object(forKey: "favorites") as? [Int]) ?? []
 	}
 	set {
-		UserDefaults.standard.setValue(newValue, forKey: "favorites")
+		UserDefaults.group.setValue(newValue, forKey: "favorites")
 	}
 }
 
