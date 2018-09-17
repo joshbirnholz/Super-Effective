@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jF1-op-cXy" pageOrientation="vertical">
-    <device id="watch44" orientation="portrait">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -769,13 +769,13 @@
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="left" verticalAlignment="center" title="Moves" id="ZXD-nF-YVF">
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
                                             <connections>
                                                 <segue destination="g7e-RQ-3fO" kind="push" id="Lih-cr-tek"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="left" verticalAlignment="bottom" title="Base Stats" id="QeF-Kb-RnB">
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
                                             <connections>
                                                 <segue destination="qmL-1T-ELg" kind="push" id="7dZ-Ef-r4o"/>
                                             </connections>
@@ -784,20 +784,29 @@
                                 </group>
                                 <group width="0.495" height="1" alignment="right" layout="vertical" id="o90-6w-g9s">
                                     <items>
-                                        <button width="1" height="0.3333333" alignment="right" title="Type Effectiveness" id="FbC-kt-wMX">
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                        <button width="1" height="0.3333333" alignment="right" title="Damage Taken" id="FbC-kt-wMX">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </variation>
                                             <connections>
                                                 <segue destination="Ytu-ap-tMR" kind="push" id="UeL-jk-7nR"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="right" verticalAlignment="center" title="Abilities" id="So0-yl-ChH">
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </variation>
                                             <connections>
                                                 <segue destination="lhi-nK-w5G" kind="push" id="Wgn-dy-P3Z"/>
                                             </connections>
                                         </button>
                                         <button width="1" height="0.3333333" alignment="right" verticalAlignment="bottom" title="Evolution/Forms" id="Ji2-MK-Tr3">
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            <variation key="device=watch38mm" title="Evo./Forms">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            </variation>
                                             <connections>
                                                 <segue destination="yWq-3m-FWb" kind="push" id="AWO-bX-vv3"/>
                                             </connections>

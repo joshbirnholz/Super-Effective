@@ -31,25 +31,19 @@ class PokeKitTests: XCTestCase {
 
     func testMovesets() {
 		for pokémon in allPokémon {
-			XCTAssertNoThrow(try Moveset.with(for: pokémon), "Failed to load moveset for \(pokémon.forme)")
+			XCTAssertNoThrow(try Moveset.moveset(for: pokémon), "(\(pokémon.forme))")
 		}
     }
 	
 	func testMoves() {
 		var movesTested: [String] = []
-		for moveset in allPokémon.compactMap({ try? Moveset.with(for: $0) }) {
+		for moveset in allPokémon.compactMap({ try? Moveset.moveset(for: $0) }) {
 			for moveInfo in moveset.moves {
 				if !movesTested.contains(moveInfo.moveName) {
-					XCTAssertNoThrow(try Move.with(name: moveInfo.moveName), "Failed to load move for \"\(moveInfo.moveName)\"")
+					XCTAssertNoThrow(try Move.with(name: moveInfo.moveName), "(\(moveset.forme))")
 					movesTested.append(moveInfo.moveName)
 				}
 			}
-		}
-	}
-	
-	func testIcons() {
-		for pokemon in allPokémon {
-			XCTAssertNotNil(pokemon.icon, "Failed to load icon for \(pokemon.forme)")
 		}
 	}
 	

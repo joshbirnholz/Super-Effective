@@ -27,7 +27,7 @@ class MovesetInterfaceController: PokémonRepresentingInterfaceController {
 		setTitle(context.name)
 		
 		do {
-			moveset = try Moveset.with(for: pokémon)
+			moveset = try Moveset.moveset(for: pokémon)
 		} catch {
 			print("Couldn't read moveset:", error.localizedDescription)
 			return

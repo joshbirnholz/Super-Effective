@@ -69,7 +69,7 @@ class MoveDetailInterfaceController: TypedInterfaceController<String> {
 		
 		let operations: [Operation] = Pokédex.allPokémonInfo.map { info in
 			BlockOperation {
-				guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.with(for: pk) else { return }
+				guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.moveset(for: pk) else { return }
 				if let moveInfo = moveset.moves.first(where: { $0.moveName == self.move.name }) {
 					range.dexNumbers.append(info.id)
 					range.detailText[info.id] = moveInfo.method
