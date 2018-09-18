@@ -68,9 +68,9 @@ class SortInterfaceController: WKInterfaceController {
 			
 			let range = self.search(query: text)
 			
-			if range.dexNumbers.count == 1 {
-				guard let first = range.dexNumbers.first,
-					let pokémon = Pokémon.with(id: Pokédex.allPokémonInfo[first].id) else {
+			if range.ids.count == 1 {
+				guard let first = range.ids.first,
+					let pokémon = Pokémon.with(id: first) else {
 						return
 				}
 				self.push(pokémon: pokémon)
@@ -100,7 +100,7 @@ class SortInterfaceController: WKInterfaceController {
 	
 	func search(query: String) -> PokédexRange {
 		let query = query.lowercased().capitalized
-		let nums = Pokédex.allPokémonInfo.filter {
+		let nums = Pokédex.allPokémonInfo.values.filter {
 			$0.id <= Pokédex.lastUniquePokémonID && $0.name.hasPrefix(query)
 			}.sorted { first, second in
 				first.name < second.name

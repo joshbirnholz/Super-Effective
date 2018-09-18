@@ -70,7 +70,7 @@ class MoveDetailInterfaceController: TypedInterfaceController<String> {
 			self?.otherPokémonRange = range
 			strongSelf.pushController(withName: "PokedexList", context: range)
 			strongSelf.pokemonWithThisMoveButton.setEnabled(true)
-			strongSelf.pokemonWithThisMoveButton.setTitle("\(range.dexNumbers.count) Pokémon With This Move")
+			strongSelf.pokemonWithThisMoveButton.setTitle("\(range.ids.count) Pokémon With This Move")
 		}) { [weak self] completed, total in
 			let str = String(format: "%.0f%%", (Double(completed)/Double(total))*100)
 			self?.pokemonWithThisMoveButton.setTitle("Searching…\n\(str)")

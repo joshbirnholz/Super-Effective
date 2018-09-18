@@ -55,7 +55,7 @@ class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceControl
 		
 		setTitle(pokémon.name)
 		
-		altforms = pokémon.altFormIDs.compactMap { Pokédex.allPokémonInfo[safe: $0] }
+		altforms = pokémon.altFormIDs.compactMap { Pokédex.allPokémonInfo[$0] }
 		evolutions = pokémon.evolutionTree
 		
 		if evolutions.isEmpty {
@@ -102,8 +102,10 @@ class EvolutionAndFormsInterfaceController: PokémonRepresentingInterfaceControl
 		for (index, evolution) in evolutions.enumerated() {
 			let row = evolutionsTable.rowController(at: index) as! EvolutionRowController
 			
-			let sourcePokémonInfo = Pokédex.allPokémonInfo[evolution.originalSpeciesID]
-			let evolvedPokémonInfo = Pokédex.allPokémonInfo[evolution.evolvedSpeciesID]
+			guard let sourcePokémonInfo = Pokédex.allPokémonInfo[evolution.originalSpeciesID],
+				let evolvedPokémonInfo = Pokédex.allPokémonInfo[evolution.evolvedSpeciesID] else {
+					continue
+			}
 			
 			if sourcePokémonInfo.formName == "" {
 				row.sourceForm.setHidden(true)

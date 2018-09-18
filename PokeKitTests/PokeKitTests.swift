@@ -11,7 +11,7 @@ import PokeKit_iOS
 
 class PokeKitTests: XCTestCase {
 
-	let allPokémon: [Pokémon] = Pokédex.allPokémonInfo.compactMap { Pokémon.with(id: $0.id) }
+	let allPokémon: [Pokémon] = Pokédex.allPokémonInfo.values.compactMap { Pokémon.with(id: $0.id) }.sorted { $0.id < $1.id }
 	
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,8 +22,8 @@ class PokeKitTests: XCTestCase {
     }
 	
 	func testLoadPokémon() {
-		for info in Pokédex.allPokémonInfo {
-			XCTAssertNotNil(Pokémon.with(id: info.id))
+		for (id, _) in Pokédex.allPokémonInfo {
+			XCTAssertNotNil(Pokémon.with(id: id))
 		}
 		
 		XCTAssertEqual(allPokémon.count, Pokédex.allPokémonInfo.count)

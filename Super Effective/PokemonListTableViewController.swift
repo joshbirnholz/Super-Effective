@@ -24,8 +24,8 @@ class PokemonListTableViewController: UITableViewController {
 	var pokedexRange: PokédexRange! {
 		didSet {
 			navigationItem.title = pokedexRange.title
-			pokemon = pokedexRange.dexNumbers.compactMap { id in
-				Pokédex.allPokémonInfo[safe: id]
+			pokemon = pokedexRange.ids.compactMap { id in
+				Pokédex.allPokémonInfo[id]
 			}
 		}
 	}

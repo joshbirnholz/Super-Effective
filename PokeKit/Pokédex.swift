@@ -55,12 +55,18 @@ public struct Pokédex {
 		
 	}
 
-	/// An array containing `PokémonInfo`	instances for every Pokémon form.
-	public static let allPokémonInfo: [PokémonInfo] = {
+	/// An array containing `PokémonInfo` instances for every Pokémon form.
+	public static let allPokémonInfo: [Int: PokémonInfo] = {
 		do {
-			return try decode([PokémonInfo].self, fromPropertyListWithName: "pokemonnames")
+			let arr = try decode([PokémonInfo].self, fromPropertyListWithName: "pokemonnames")
+			let dict = Dictionary(grouping: arr, by: {
+				return $0.id
+			}).filter({ _, values in
+				return values.count == 1
+			}).mapValues({ $0.first! })
+			return dict
 		} catch {
-			return []
+			return [:]
 		}
 	}()
 
@@ -86,24 +92,30 @@ public struct Pokédex {
 		}
 	}()
 	
-	public static func allPokémon(learning move: Move, completion: @escaping (PokédexRange) -> (), progressCallback: @escaping (Int, Int) -> ()) {
+	/// The completion handler will be called with a `PokédexRange` of all the Pokémon who can learn the specified move.
+	/// The range's detail text will contain the method that Pokémon learns the move.
+	///
+	/// - Parameters:
+	///   - move: The move in question
+	///   - completion: Takes a `PokédexRange` containing the Pokémon who learn the move
+	///   - progressCallback: Has two `Int` parameters, the number of Pokémon searched and the total number of Pokémon to search through
+	public static func allPokémon(learning move: Move, completion: @escaping (PokédexRange) -> (), progressCallback: ((Int, Int) -> ())? = nil) {
 		DispatchQueue.global(qos: .userInitiated).async {
 			let queue = OperationQueue()
 			
 			var range = PokédexRange(dexNumbers: [], title: move.name)
 			
 			let total = Pokédex.allPokémonInfo.count
-			
-			let operations: [Operation] = Pokédex.allPokémonInfo.map { info in
+			let operations: [Operation] = Pokédex.allPokémonInfo.values.map { (info) in
 				BlockOperation {
 					defer {
 						DispatchQueue.main.async {
-							progressCallback(total - queue.operationCount, total)
+							progressCallback?(total - queue.operationCount, total)
 						}
 					}
 					guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.moveset(for: pk) else { return }
 					if let moveInfo = moveset.moves.first(where: { $0.moveName == move.name }) {
-						range.dexNumbers.append(info.id)
+						range.ids.append(info.id)
 						range.detailText[info.id] = moveInfo.method
 					}
 				}
@@ -111,7 +123,7 @@ public struct Pokédex {
 			
 			queue.addOperations(operations, waitUntilFinished: true)
 			
-			range.dexNumbers.sort()
+			range.ids.sort()
 			
 			DispatchQueue.main.async {
 				completion(range)

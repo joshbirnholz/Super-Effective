@@ -96,8 +96,8 @@ class PokémonListInterfaceController: TypedInterfaceController<PokédexRange> 
 	var range: PokédexRange! {
 		didSet {
 			setTitle(range.title)
-			info = range.dexNumbers.compactMap {
-				Pokédex.allPokémonInfo[safe: $0]
+			info = range.ids.compactMap {
+				Pokédex.allPokémonInfo[$0]
 			}
 		}
 	}

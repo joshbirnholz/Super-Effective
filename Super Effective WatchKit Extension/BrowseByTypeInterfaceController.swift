@@ -30,10 +30,15 @@ class BrowseByTypeInterfaceController: WKInterfaceController {
 		
 		let type = types[rowIndex]
 		
-		let nums = Pokédex.allPokémonInfo.prefix(Pokédex.lastUniquePokémonID+1)
-			.compactMap { Pokémon.with(id: $0.id) }
-			.filter { $0.type.type1 == type || $0.type.type2 == type }
-			.map { $0.id }
+		let nums = Pokédex.allPokémonInfo.values.filter {
+			$0.id <= Pokédex.lastUniquePokémonID
+			}.compactMap {
+				Pokémon.with(id: $0.id)
+			}.filter {
+				$0.type.type1 == type || $0.type.type2 == type
+			}.map {
+				$0.id
+		}
 		
 		let range = PokédexRange(dexNumbers: nums, title: type.description)
 		
