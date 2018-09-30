@@ -19,3 +19,9 @@ public extension Array {
 		}
 	}
 }
+
+public extension Array where Element == URLQueryItem {
+	subscript(_ name: String) -> String? {
+		return first { $0.name == name }?.value
+	}
+}

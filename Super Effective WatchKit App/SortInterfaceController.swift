@@ -66,7 +66,7 @@ class SortInterfaceController: WKInterfaceController {
 				return
 			}
 			
-			let range = self.search(query: text)
+			let range = Pokédex.search(query: text)
 			
 			if range.ids.count == 1 {
 				guard let first = range.ids.first,
@@ -96,19 +96,6 @@ class SortInterfaceController: WKInterfaceController {
 	
 	@IBAction func recentsButtonPressed() {
 		pushController(withName: "PokedexList", context: recentsRange)
-	}
-	
-	func search(query: String) -> PokédexRange {
-		let query = query.lowercased().capitalized
-		let nums = Pokédex.allPokémonInfo.values.filter {
-			$0.id <= Pokédex.lastUniquePokémonID && $0.name.hasPrefix(query)
-			}.sorted { first, second in
-				first.name < second.name
-			}.map {
-				$0.id
-		}
-		
-		return PokédexRange(dexNumbers: nums, title: "\(nums.count) \("Result".pluralize(count: nums.count))")
 	}
 	
 	override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {

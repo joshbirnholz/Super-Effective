@@ -19,6 +19,8 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	public let dex2: String
 	public let eggGroup1: String
 	public let eggGroup2: String
+	
+	/// The entire name of the forme of this Pokémon, like "Venosaur (Mega Venosaur)" or "Oricorio (Baile Style)"
 	public let forme: String
 	public let height: String
 	public let hp: Int
@@ -28,6 +30,8 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 	public let percentMale: Double?
 	public let spattack: Int
 	public let spdefense: Int
+	
+	/// Just the name of the species, like "Venosaur" or "Oricorio"
 	public let name: String
 	public let speed: Int
 	public let total: Int
@@ -99,6 +103,7 @@ public struct Pokémon: Decodable, Hashable, Equatable {
 		
 	}
 	
+	/// Just the name of the Pokémon's form, like "Mega", "Altered", "Disguised", or "Baile Style"
 	public var formName: String {
 		return forme.replacingOccurrences(of: name, with: "").replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "").replacingOccurrences(of: "Forme", with: "").replacingOccurrences(of: "Form", with: "") .trimmingCharacters(in: .whitespaces).replacingOccurrences(of: "  ", with: " ")
 	}
@@ -143,9 +148,15 @@ public extension Pokémon {
 			"name": name,
 			"forme": forme
 		]
+		
+		activity.title = "View \(self.forme)"
+		activity.requiredUserInfoKeys = ["id"]
+		
 		if #available(iOS 12.0, watchOSApplicationExtension 5.0, *) {
 			activity.isEligibleForPrediction = true
+			activity.persistentIdentifier = NSUserActivityPersistentIdentifier(id)
 		}
+		
 		return activity
 	}
 	

@@ -58,4 +58,16 @@ class PokeKitTests: XCTestCase {
 		XCTAssertEqual(allPokémon.first(where: { $0.ndex != $0.id+1 })!.id-1, Pokédex.lastUniquePokémonID)
 	}
 	
+	// This generates the JSON to be used in the Siri Shortcut to check Pokémon names.
+	func testPokemonNames() {
+		var dict = [String: String]()
+		for pk in Pokédex.allPokémonInfo.values.sorted(by: {$0.id < $1.id}) {
+			dict[String(pk.id)] = pk.name.lowercased()
+		}
+		
+		let json = try! JSONSerialization.data(withJSONObject: dict, options: [])
+		let str = String(data: json, encoding: .utf8)!
+		print(str)
+	}
+	
 }

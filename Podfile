@@ -6,6 +6,7 @@ target 'Super Effective' do
   use_frameworks!
 
   # Pods for Super Effective
+  pod 'MBProgressHUD', '~> 1.1.0'
 
 end
 

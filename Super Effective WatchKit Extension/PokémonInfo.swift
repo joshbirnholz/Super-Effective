@@ -4,7 +4,7 @@ import Foundation
 import UIKit
 
 /// Represents some information about a Pokémon, but not all. 
-public struct PokémonInfo: Codable {
+public struct PokémonInfo: Codable, Equatable {
 	/// The name of the Pokémon's form
 	public let form: String
 	
@@ -30,5 +30,9 @@ public struct PokémonInfo: Codable {
 		let ndexString = String(ndex)
 		let iconName = (formName.isEmpty ? ndexString : "\(ndexString)-\(formName)") + ".png"
 		return UIImage(named: iconName)
+	}
+	
+	public static func == (lhs: PokémonInfo, rhs: PokémonInfo) -> Bool {
+		return lhs.id == rhs.id
 	}
 }

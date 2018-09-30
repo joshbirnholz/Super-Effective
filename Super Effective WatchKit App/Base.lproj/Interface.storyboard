@@ -49,15 +49,15 @@
                             </items>
                             <variation key="device=watch38mm" height="67"/>
                         </group>
-                        <label alignment="left" text="BROWSE" id="LMU-2X-bFA">
-                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
-                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
-                        </label>
                         <button width="1" alignment="left" title="Recents" id="9EI-gG-WkG">
                             <connections>
                                 <action selector="recentsButtonPressed" destination="jF1-op-cXy" id="1eb-9t-1Qc"/>
                             </connections>
                         </button>
+                        <label alignment="left" text="BROWSE" id="LMU-2X-bFA">
+                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
                         <button width="1" alignment="left" title="By Name" id="2D1-iZ-mSL">
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                             <connections>
@@ -74,7 +74,7 @@
                                 <tableRow identifier="SimpleRow" id="NQz-aZ-2sn" customClass="SimpleRowController" customModule="Super_Effective_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="GX8-V1-bHs">
                                         <items>
-                                            <label alignment="center" verticalAlignment="center" text="Gen I" id="UDo-ed-VD0"/>
+                                            <label alignment="center" verticalAlignment="center" text="Gen I" textAlignment="center" id="UDo-ed-VD0"/>
                                         </items>
                                     </group>
                                     <connections>
@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="317" y="-1017"/>
         </scene>
-        <!--Browse By Type Interface Controller-->
+        <!--By Type-->
         <scene sceneID="fsH-l9-g8b">
             <objects>
-                <controller id="0hT-Ub-r8X" customClass="BrowseByTypeInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                <controller title="By Type" id="0hT-Ub-r8X" customClass="BrowseByTypeInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="ZeF-VE-ZJR">
                             <items>
@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="604" y="-1269"/>
         </scene>
-        <!--Browse By Name-->
+        <!--By Name-->
         <scene sceneID="D1b-2U-haw">
             <objects>
-                <controller identifier="AlphabeticalList" title="Browse By Name" id="dMX-kH-adE" customClass="AlphabeticalInterfaceController" customModule="Super_Effective_WatchKit_Extension">
+                <controller identifier="AlphabeticalList" title="By Name" id="dMX-kH-adE" customClass="AlphabeticalInterfaceController" customModule="Super_Effective_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" layout="vertical" spacing="2" id="Gez-sB-ARq">
                             <items>
@@ -1130,8 +1130,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UeL-jk-7nR"/>
-        <segue reference="lMa-H6-qqx"/>
+        <segue reference="Zly-pd-0fD"/>
+        <segue reference="pWb-ol-T1h"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.792156862745098" green="0.36470588235294116" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

@@ -64,7 +64,7 @@ class MoveDetailInterfaceController: TypedInterfaceController<String> {
 			return
 		}
 		
-		Pokédex.allPokémon(learning: move, completion: { [weak self] range in
+		Pokédex.findAllPokémon(whoKnow: move, completion: { [weak self] range in
 			guard let strongSelf = self else { return }
 			
 			self?.otherPokémonRange = range

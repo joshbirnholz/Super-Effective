@@ -99,14 +99,16 @@ public struct Pokédex {
 	///   - move: The move in question
 	///   - completion: Takes a `PokédexRange` containing the Pokémon who learn the move
 	///   - progressCallback: Has two `Int` parameters, the number of Pokémon searched and the total number of Pokémon to search through
-	public static func allPokémon(learning move: Move, completion: @escaping (PokédexRange) -> (), progressCallback: ((Int, Int) -> ())? = nil) {
+	public static func findAllPokémon(whoKnow move: Move, completion: @escaping (PokédexRange) -> (), progressCallback: ((Int, Int) -> ())? = nil) {
 		DispatchQueue.global(qos: .userInitiated).async {
 			let queue = OperationQueue()
 			
 			var range = PokédexRange(dexNumbers: [], title: move.name)
 			
 			let total = Pokédex.allPokémonInfo.count
-			let operations: [Operation] = Pokédex.allPokémonInfo.values.map { (info) in
+			let moveQueue = DispatchQueue(label: "movequeue")
+			
+			let operations: [Operation] = Pokédex.allPokémonInfo.values.sorted { $0.name < $1.name }.map { (info) in
 				BlockOperation {
 					defer {
 						DispatchQueue.main.async {
@@ -115,8 +117,10 @@ public struct Pokédex {
 					}
 					guard let pk = Pokémon.with(id: info.id), let moveset = try? Moveset.moveset(for: pk) else { return }
 					if let moveInfo = moveset.moves.first(where: { $0.moveName == move.name }) {
-						range.ids.append(info.id)
-						range.detailText[info.id] = moveInfo.method
+						moveQueue.sync {
+							range.ids.append(info.id)
+							range.detailText[info.id] = moveInfo.method
+						}
 					}
 				}
 			}
@@ -134,5 +138,27 @@ public struct Pokédex {
 	
 	/// The ID of the final Pokémon in the National Dex. This should be one less than the final Pokémon's number.
 	public static let lastUniquePokémonID = 806
+	
+	public static func search(query: String) -> PokédexRange {
+		let query = query.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+		let queryNum = Int(query)
+		let nums = Pokédex.allPokémonInfo.values.filter {
+			$0.id <= Pokédex.lastUniquePokémonID && ($0.name.lowercased().contains(query) || String($0.ndex).hasPrefix(query))
+			}.sorted { first, second in
+				if let queryNum = queryNum {
+					if first.ndex == queryNum {
+						return true
+					} else if second.ndex == queryNum {
+						return false
+					}
+				}
+				 
+				return first.name < second.name
+			}.map {
+				$0.id
+		}
+		
+		return PokédexRange(dexNumbers: nums, title: "\(nums.count) \("Result".pluralize(count: nums.count))")
+	}
 
 }
