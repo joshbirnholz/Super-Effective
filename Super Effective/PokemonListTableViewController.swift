@@ -15,6 +15,7 @@ class PokemonListCell: UITableViewCell {
 	@IBOutlet weak var iconImageView: UIImageView!
 	@IBOutlet weak var nameLabel: UILabel!
 	@IBOutlet weak var numberLabel: UILabel!
+	@IBOutlet weak var detailLabel: UILabel!
 	
 }
 
@@ -194,6 +195,13 @@ class PokemonListTableViewController: UITableViewController {
 			cell.numberLabel.text = String(format: "#%03d", info.ndex)
 			cell.numberLabel.font = UIFont.monospacedDigitSystemFont(ofSize: cell.numberLabel.font.pointSize, weight: UIFont.Weight.regular)
 			
+			if let detailText = pokedexRange.detailText[info.id] {
+				cell.detailTextLabel?.text = detailText
+				cell.detailTextLabel?.isHidden = false
+			} else {
+				cell.detailTextLabel?.isHidden = true
+			}
+			
 			return cell
 		default:
 			return UITableViewCell()
@@ -361,24 +369,6 @@ class PokemonListTableViewController: UITableViewController {
 		
 		return false
 		
-	}
-	
-	@discardableResult func showEvolutions(for pokémon: Pokémon, speak: Bool) -> Bool {
-		guard speak else { return true }
-		var evolutions = pokémon.evolutionTree.filter { $0.originalSpeciesID == pokémon.id }.map { "into \(Pokédex.allPokémonInfo[$0.evolvedSpeciesID]?.form ?? "???") \($0.conditions)" }
-		
-		switch evolutions.count {
-		case 0:
-			siriSpeak("\(pokémon.forme) doesn't evolve.")
-		case 1:
-			siriSpeak("\(pokémon.forme) evolves \(evolutions[0]).")
-		default:
-			evolutions.insert("and", at: evolutions.count-1)
-			let str = "\(pokémon.forme) evolves \(evolutions.joined(separator: ", ").replacingOccurrences(of: "and,", with: "and"))"
-			siriSpeak(str)
-		}
-		
-		return true
 	}
 	
 	@IBAction func unwindToList(segue: UIStoryboardSegue) { }

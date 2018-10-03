@@ -145,56 +145,60 @@ class DamageTakenTableViewController: UITableViewController, PokémonRepresentin
 		super.updateUserActivityState(activity)
 	}
 	
-	enum Section: Int {
-		case superEffective
-		case notVeryEffective
-		case noEffect
-		
-		init?(focus: Focus) {
-			switch focus {
-			case .superEffective:
-				self = .superEffective
-			case .notVeryEffective:
-				self = .notVeryEffective
-			case .noEffect:
-				self = .noEffect
-			default:
-				return nil
-			}
-		}
-	}
 	
-	@discardableResult func focus(on section: Section, speak: Bool) -> Bool {
-		var types = [superEffectiveTypes, notVeryEffectiveTypes, noEffectTypes][section.rawValue].map { $0.type.description.capitalized + "-" }
-		
-		tableView.scrollToRow(at: IndexPath(row: types.isEmpty ? NSNotFound : 0, section: section.rawValue), at: .top, animated: true)
-		
-		let ending: String = {
-			switch section {
-			case .superEffective:
-				return "are super effective"
-			case .notVeryEffective:
-				return "are not very effective"
-			case .noEffect:
-				return "have no effect"
+	func focus(on focus: Focus, speak: Bool) -> Bool {
+		switch focus {
+		case .damageTaken:
+			tableView.setContentOffset(.zero, animated: true)
+			if speak {
+				siriSpeak("Here's the type effectiveness for \(pokémon.forme).")
 			}
-		}()
-		
-		guard !types.isEmpty else {
-			siriSpeak("There are no types that \(ending) against \(pokémon.forme).")
 			return true
-		}
+		case .superEffective, .notVeryEffective, .noEffect:
+			let section: Int = {
+				switch focus {
+				case .superEffective: return 0
+				case .notVeryEffective: return 1
+				case .noEffect: return 2
+				default: return 0
+				}
+			}()
 			
-		if types.count > 1 {
-			types.insert("and", at: types.count-1)
-		}
-		
-		let str = types.joined(separator: ",").replacingOccurrences(of: "and,", with: "and")
+			var types = [superEffectiveTypes, notVeryEffectiveTypes, noEffectTypes][section].map { $0.type.description.capitalized + "-" }
 			
-		siriSpeak("\(str)type moves \(ending) against \(pokémon.forme).")
-		
-		return true
-		
+			tableView.scrollToRow(at: IndexPath(row: types.isEmpty ? NSNotFound : 0, section: section), at: .top, animated: true)
+			
+			let ending: String = {
+				switch focus {
+				case .superEffective:
+					return "are super effective"
+				case .notVeryEffective:
+					return "are not very effective"
+				case .noEffect:
+					return "have no effect"
+				default:
+					// This should never happen
+					return ""
+				}
+			}()
+			
+			guard !types.isEmpty else {
+				siriSpeak("There are no types that \(ending) against \(pokémon.forme).")
+				return true
+			}
+			
+			if types.count > 1 {
+				types.insert("and", at: types.count-1)
+			}
+			
+			let str = types.joined(separator: ",").replacingOccurrences(of: "and,", with: "and")
+			
+			siriSpeak("\(str)type moves \(ending) against \(pokémon.forme).")
+			
+			return true
+		default:
+			return false
+		}
 	}
 	
 }

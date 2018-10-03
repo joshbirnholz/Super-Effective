@@ -79,6 +79,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lv. 42" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5v6-Pi-LK1">
+                                                    <rect key="frame" x="333" y="0.0" width="0.0" height="49.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </stackView>
                                     </subviews>
@@ -91,6 +97,7 @@
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="53" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
+                                    <outlet property="detailLabel" destination="5v6-Pi-LK1" id="hqr-LH-cxR"/>
                                     <outlet property="iconImageView" destination="xgs-Bs-JF1" id="w33-QV-I1N"/>
                                     <outlet property="nameLabel" destination="qbU-KH-tiN" id="wID-Ky-eeN"/>
                                     <outlet property="numberLabel" destination="PRz-I6-FEI" id="XVI-4Z-C0V"/>
@@ -157,6 +164,7 @@
                         <segue destination="0oJ-9I-q6S" kind="relationship" relationship="viewControllers" id="zoZ-iS-qfs"/>
                         <segue destination="2IU-8Y-9ed" kind="relationship" relationship="viewControllers" id="c5O-EN-wjw"/>
                         <segue destination="s66-ne-fVu" kind="relationship" relationship="viewControllers" id="byn-8c-vcm"/>
+                        <segue destination="TSK-76-qUz" kind="relationship" relationship="viewControllers" id="A9y-17-HAS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7qa-SV-Kt9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -237,7 +245,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MVI-ps-f05" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1420" y="49"/>
+            <point key="canvasLocation" x="2262" y="-331"/>
         </scene>
         <!--Moves-->
         <scene sceneID="cUD-f0-eY3">
@@ -282,7 +290,52 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFu-Dd-vIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2329" y="-442"/>
+            <point key="canvasLocation" x="2985" y="-770"/>
+        </scene>
+        <!--Evolution-->
+        <scene sceneID="dcs-p8-HIp">
+            <objects>
+                <tableViewController id="TSK-76-qUz" customClass="EvolutionTableViewController" customModule="Super_Effective" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="cE8-Qe-ZyA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="evoCell" textLabel="X2v-qc-7Jk" detailTextLabel="Igi-fQ-nE2" style="IBUITableViewCellStyleSubtitle" id="awX-NP-o9K">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="awX-NP-o9K" id="l4l-IQ-krO">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X2v-qc-7Jk">
+                                            <rect key="frame" x="16" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Igi-fQ-nE2">
+                                            <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="TSK-76-qUz" id="xl6-Y6-WhP"/>
+                            <outlet property="delegate" destination="TSK-76-qUz" id="kD4-Pt-NIh"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Evolution" id="iQ8-ul-kdx"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYx-eI-NR3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="42"/>
         </scene>
         <!--Pokemon Basic Info Table View Controller-->
         <scene sceneID="yTa-2m-SBB">
@@ -671,7 +724,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXd-NC-TGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2329" y="-1149"/>
+            <point key="canvasLocation" x="2263" y="-1165"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Np-0Y-TcK">

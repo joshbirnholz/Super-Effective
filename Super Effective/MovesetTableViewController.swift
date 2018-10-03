@@ -40,6 +40,10 @@ class MovesetTableViewController: UITableViewController, PokémonRepresentingCon
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return moveset?.moves.count ?? 0
     }
+	
+	override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+		return "Moves"
+	}
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MoveInfoCell", for: indexPath)
@@ -68,76 +72,75 @@ class MovesetTableViewController: UITableViewController, PokémonRepresentingCon
 		super.updateUserActivityState(activity)
 	}
 	
-	/// Highlights a given a move to the user, optionally verbally confirming the learn methods
-	///
-	/// - Parameters:
-	///   - moveName: The name of the move to find
-	///   - speak: If true, speaks the learn methods of the moves
-	///   - animated: Whether or not to animate the scroll
-	/// - Returns: `true` if the move was found, `false` if it was not
-	@discardableResult func focus(on moveName: String, speak: Bool, animated: Bool) -> Bool {
-		if let index = moveset?.moves.firstIndex(where: { $0.moveName.lowercased() == moveName.lowercased() }) {
-			let indexPath = IndexPath(row: index, section: 0)
-			if animated {
+	func focus(on focus: Focus, speak: Bool) -> Bool {
+		switch focus {
+		case .moveset:
+			tableView.setContentOffset(.zero, animated: true)
+			if speak {
+				siriSpeak("Here is \(pokémon.forme)'s moveset.")
+			}
+			return true
+		case .move(let moveName):
+			if let index = moveset?.moves.firstIndex(where: { $0.moveName.lowercased() == moveName.lowercased() }) {
+				let indexPath = IndexPath(row: index, section: 0)
 				DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
 					self.tableView.deselectRow(at: indexPath, animated: true)
 					self.tableView.selectRow(at: indexPath, animated: true, scrollPosition: .middle)
-				
+					
 					DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
 						self.tableView.deselectRow(at: indexPath, animated: true)
 					}
 				}
 				
-			} else {
-				tableView.scrollToRow(at: indexPath, at: .middle, animated: false)
-			}
-			
-			if speak {
-				let moveInfo = moveset!.moves.filter { $0.moveName.lowercased() == moveName.lowercased() }
-				
-				func verbalRepresentation(for method: String) -> String {
-					if method.hasPrefix("L") {
-						return "at level \(method[method.index(after: method.startIndex)...])"
-					} else if method == "Start" {
-						return "from the start"
-					} else if method.hasPrefix("TM") {
-						return "with \(method)"
-					} else if method == "Egg" {
-						return "through breeding"
-					} else {
-						return "through \(method)"
-					}
-				}
-				
-				let str: String
-				
-				switch moveInfo.count {
-				case 1:
-					str = "\(pokémon.forme) learns \(moveName) \(verbalRepresentation(for: moveInfo.first!.method))"
-				default:
-					var verbalRepresentations = moveInfo.map { verbalRepresentation(for: $0.method) }
-					verbalRepresentations.insert("and", at: verbalRepresentations.count-1)
-					let methods = verbalRepresentations.joined(separator: ", ").replacingOccurrences(of: "and,", with: "and")
+				if speak {
+					let moveInfo = moveset!.moves.filter { $0.moveName.lowercased() == moveName.lowercased() }
 					
-					str = "\(pokémon.forme) learns \(moveName) \(methods)."
+					func verbalRepresentation(for method: String) -> String {
+						if method.hasPrefix("L") {
+							return "at level \(method[method.index(after: method.startIndex)...])"
+						} else if method == "Start" {
+							return "from the start"
+						} else if method.hasPrefix("TM") {
+							return "with \(method)"
+						} else if method == "Egg" {
+							return "through breeding"
+						} else {
+							return "through \(method)"
+						}
+					}
+					
+					let str: String
+					
+					switch moveInfo.count {
+					case 1:
+						str = "\(pokémon.forme) learns \(moveName) \(verbalRepresentation(for: moveInfo.first!.method))"
+					default:
+						var verbalRepresentations = moveInfo.map { verbalRepresentation(for: $0.method) }
+						verbalRepresentations.insert("and", at: verbalRepresentations.count-1)
+						let methods = verbalRepresentations.joined(separator: ", ").replacingOccurrences(of: "and,", with: "and")
+						
+						str = "\(pokémon.forme) learns \(moveName) \(methods)."
+					}
+					
+					siriSpeak(str)
 				}
 				
-				siriSpeak(str)
+				return true
+			} else if speak {
+				if Pokédex.allMoveNames.contains(where: { $0.lowercased() == moveName }) {
+					let utterance = AVSpeechUtterance(string: "\(pokémon.forme) can't learn \(moveName).")
+					
+					let synthesizer = AVSpeechSynthesizer()
+					synthesizer.speak(utterance)
+				} else {
+					siriSpeak("\(moveName) isn't a move.")
+				}
 			}
 			
-			return true
-		} else if speak {
-			if Pokédex.allMoveNames.contains(where: { $0.lowercased() == moveName }) {
-				let utterance = AVSpeechUtterance(string: "\(pokémon.forme) can't learn \(moveName).")
-				
-				let synthesizer = AVSpeechSynthesizer()
-				synthesizer.speak(utterance)
-			} else {
-				siriSpeak("\(moveName) isn't a move.")
-			}
+			return false
+		default:
+			return false
 		}
-		
-		return false
 	}
 
 }

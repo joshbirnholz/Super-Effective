@@ -119,17 +119,17 @@ class PokemonTabBarController: UITabBarController, PokémonRepresentingControlle
 			activity.addUserInfoEntries(from: ["speak": false])
 			
 			if let focus = (activity.userInfo?["focus"] as? String).flatMap(Focus.init) {
-				selectedIndex = focus.tabIndex
-				
-				if case Focus.move(let name) = focus {
-					(viewControllers?[focus.tabIndex] as? MovesetTableViewController)?.focus(on: name, speak: speak, animated: true)
-				} else if let section = DamageTakenTableViewController.Section(focus: focus) {
-					(viewControllers?[focus.tabIndex] as? DamageTakenTableViewController)?.focus(on: section, speak: true)
-				}
+				self.focus(on: focus, speak: speak)
 			}
 		default:
 			break
 		}
+	}
+	
+	@discardableResult func focus(on focus: Focus, speak: Bool) -> Bool {
+		selectedIndex = focus.tabIndex
+		
+		return (viewControllers?[focus.tabIndex] as? PokémonRepresentingController)?.focus(on: focus, speak: speak) ?? false
 	}
 	
 	override func updateUserActivityState(_ activity: NSUserActivity) {
@@ -154,6 +154,8 @@ fileprivate extension Focus {
 			return 1
 		case .damageTaken, .superEffective, .notVeryEffective, .noEffect:
 			return 2
+		case .evolution:
+			return 3
 		}
 	}
 }

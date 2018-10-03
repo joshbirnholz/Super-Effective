@@ -13,6 +13,7 @@ protocol PokémonRepresentingController: class {
 	var pokémon: Pokémon! { get }
 	
 	func didUpdatePokémon()
+	func focus(on focus: Focus, speak: Bool) -> Bool
 }
 
 extension PokémonRepresentingController {

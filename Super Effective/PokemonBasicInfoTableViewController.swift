@@ -95,6 +95,19 @@ class PokemonBasicInfoTableViewController: UITableViewController, PokémonRepres
 		updateFavoritesLabelText()
 	}
 	
+	@discardableResult func focus(on focus: Focus, speak: Bool) -> Bool {
+		switch focus {
+		case .basicDetail:
+			tableView.setContentOffset(.zero, animated: true)
+			if speak {
+				siriSpeak("\(pokémon.forme).\n\n\(pokémon.dex1)\n\n\(pokémon.dex2)")
+			}
+			return true
+		default:
+			return false
+		}
+	}
+	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		switch indexPath.section {
 		case Sections.abilities.rawValue, Sections.hiddenAbility.rawValue:

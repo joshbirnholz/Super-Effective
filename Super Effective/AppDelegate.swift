@@ -18,6 +18,8 @@ extension UIViewController {
 		let synthesizer = AVSpeechSynthesizer()
 		synthesizer.speak(utterance)
 		
+		print("Speaking:", text)
+		
 //		let hud = MBProgressHUD.showAdded(to: view, animated: true)
 //		hud.mode = .text
 //		hud.label.text = text
@@ -26,7 +28,7 @@ extension UIViewController {
 	}
 }
 
-enum Focus: RawRepresentable {
+enum Focus: RawRepresentable, Equatable {
 	typealias RawValue = String
 	
 	case damageTaken
@@ -35,6 +37,7 @@ enum Focus: RawRepresentable {
 	case noEffect
 	case moveset
 	case basicDetail
+	case evolution
 	case move(name: String)
 	
 	init?(rawValue: String) {
@@ -54,6 +57,8 @@ enum Focus: RawRepresentable {
 			self = .notVeryEffective
 		case "noEffect":
 			self = .noEffect
+		case "evolution":
+			self = .evolution
 		default:
 			return nil
 		}
@@ -68,6 +73,7 @@ enum Focus: RawRepresentable {
 		case .moveset: return "moveset"
 		case .basicDetail: return "basicDetail"
 		case .move(let name): return "moveName-\(name)"
+		case .evolution: return "evolution"
 		}
 	}
 }
@@ -154,10 +160,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		case "move":
 			if let moveName = components.queryItems?["name"] {
 				return masterTableVC?.showMove(named: moveName, speak: speak) ?? false
-			}
-		case "evolution":
-			if let pokémon = pokémon {
-				return masterTableVC?.showEvolutions(for: pokémon, speak: speak) ?? false
 			}
 		default:
 			break
